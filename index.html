@@ -1,20 +1,26 @@
 <script>
     function generar() {
-        const cli = document.getElementById('f-cliente').value.trim();
+        const cli = document.getElementById('f-cliente').value;
         const fec = document.getElementById('f-fecha').value;
         if(!cli || !fec) return alert("Selecciona fecha y cliente");
 
         const inicioDia = new Date(fec + 'T00:00:00').getTime() / 1000;
         const finDia = new Date(fec + 'T23:59:59').getTime() / 1000;
 
-        Papa.parse('B_Maestra.csv', {
+        // Le añadimos ?v=XXX para que no use la versión vieja guardada en memoria
+        const urlArchivo = 'B_Maestra.csv?v=' + Date.now();
+
+        Papa.parse(urlArchivo, {
             download: true, 
             header: true, 
             skipEmptyLines: true,
-            transformHeader: h => h.trim(), // Elimina espacios invisibles en los nombres de columnas
             complete: function(res) {
-                // Filtrar datos ignorando mayúsculas/minúsculas y espacios
-                const dataCli = res.data.filter(r => r.Grupo_1 && r.Grupo_1.trim().toUpperCase() === cli.toUpperCase());
+                if (res.data.length === 0) {
+                    alert("¡El archivo está vacío! Revisa tu n8n.");
+                    return;
+                }
+
+                const dataCli = res.data.filter(r => r.Grupo_1 === cli);
 
                 let ant = dataCli.reduce((acc, r) => {
                     let ts = parseInt(r.Timestamp);
@@ -38,7 +44,9 @@
                 document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:20px;">Sin movimientos este día</td></tr>';
                 document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
             },
-            error: function(err) { alert("Error cargando el archivo: " + err); }
+            error: function(err) {
+                alert("ERROR CRÍTICO: No se pudo leer B_Maestra.csv. Verifica que el archivo esté en tu GitHub con ese nombre exacto.");
+            }
         });
     }
 </script>
