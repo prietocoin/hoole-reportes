@@ -1,41 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOOLE - Reportes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+        :root { --b: #000; --g: #27ae60; --f: #f4f7f6; }
+        body { font-family: sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; }
+        .controles { background: white; padding: 20px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        select, input, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; box-sizing: border-box; }
+        button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
+        #reporte { background: white; width: 380px; padding: 25px; box-sizing: border-box; }
+        .header { border-bottom: 4px solid var(--b); text-align: center; margin-bottom: 10px; }
+        .saldo-box { background: #eee; padding: 10px; display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; font-size: 12px; }
+        th { border-bottom: 2px solid #000; text-align: left; padding: 5px; }
+        td { padding: 8px 5px; border-bottom: 1px solid #eee; }
+    </style>
+</head>
+<body>
+
+<div class="controles">
+    <input type="date" id="f-fecha">
+    <select id="f-cliente">
+        <option value="">-- Selecciona Cliente --</option>
+        <option value="FUNDDA">FUNDDA</option>
+        <option value="ELIS">ELIS</option>
+        <option value="CHASAN">CHASAN</option>
+        </select>
+    <button onclick="generar()">GENERAR REPORTE</button>
+</div>
+
+<div id="reporte">
+    <div class="header"><h1>HOOLE</h1></div>
+    <div class="meta" style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:10px;">
+        <span id="out-cli">---</span>
+        <span id="out-fec">---</span>
+    </div>
+    <div class="saldo-box">
+        <span>Saldo Anterior:</span>
+        <span id="out-ant">0.00</span>
+    </div>
+    <table>
+        <thead><tr><th>DESC.</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
+        <tbody id="out-tabla"></tbody>
+    </table>
+    <div style="text-align:right; margin-top:15px; border-top:3px solid #000;">
+        <small>SALDO FINAL:</small><br>
+        <strong style="font-size:24px;" id="out-fin">0.00</strong>
+    </div>
+</div>
+
 <script>
     function generar() {
         const cli = document.getElementById('f-cliente').value;
         const fec = document.getElementById('f-fecha').value;
-        if(!cli || !fec) return alert("Selecciona fecha y cliente");
+        if(!cli || !fec) return alert("Falta fecha o cliente");
 
-        // El v= lo usamos para que no se quede pegada la versión vieja
         Papa.parse('B_Maestra.csv?v=' + Date.now(), {
-            download: true,
-            header: true,
-            skipEmptyLines: true,
+            download: true, header: true, skipEmptyLines: true,
             complete: function(res) {
                 const inicio = new Date(fec + 'T00:00:00').getTime() / 1000;
                 const fin = new Date(fec + 'T23:59:59').getTime() / 1000;
+                const data = res.data.filter(r => r.Grupo_1 && r.Grupo_1.trim() === cli);
 
-                const dataCli = res.data.filter(r => r.Grupo_1 && r.Grupo_1.trim() === cli);
-
-                let ant = dataCli.reduce((acc, r) => {
-                    return parseInt(r.Timestamp) < inicio ? acc + parseFloat(r.Saldo_1 || 0) : acc;
-                }, 0);
-
-                let movs = dataCli.filter(r => {
-                    let ts = parseInt(r.Timestamp);
-                    return ts >= inicio && ts <= fin;
-                });
+                let ant = data.reduce((acc, r) => parseInt(r.Timestamp) < inicio ? acc + parseFloat(r.Saldo_1 || 0) : acc, 0);
+                let movs = data.filter(r => { let ts = parseInt(r.Timestamp); return ts >= inicio && ts <= fin; });
 
                 document.getElementById('out-cli').innerText = cli;
                 document.getElementById('out-fec').innerText = fec;
-                document.getElementById('out-ant').innerText = ant.toLocaleString('en-US', {minimumFractionDigits:2});
+                document.getElementById('out-ant').innerText = ant.toFixed(2);
                 
                 let h = "", ac = ant;
                 movs.forEach(m => {
                     let v = parseFloat(m.Saldo_1 || 0); ac += v;
-                    h += `<tr><td>${m.Operacion || 'PAGO'}</td><td style="text-align:right"><b>${v.toLocaleString('en-US', {minimumFractionDigits:2})}</b></td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
+                    h += `<tr><td>${m.Operacion || 'PAGO'}</td><td style="text-align:right">${v.toFixed(2)}</td><td style="text-align:right">${ac.toFixed(2)}</td></tr>`;
                 });
-                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:20px;">Sin movimientos</td></tr>';
-                document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
+                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center">Sin movimientos</td></tr>';
+                document.getElementById('out-fin').innerText = ac.toFixed(2);
             }
         });
     }
 </script>
+</body>
+</html>
