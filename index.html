@@ -1,89 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOOLE - Reportes Oficiales</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-    <style>
-        :root { --b: #000; --g: #27ae60; --f: #f4f7f6; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; }
-        .controles { background: white; padding: 20px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); margin-bottom: 20px; box-sizing: border-box; }
-        label { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; margin: 10px 0 5px 0; display: block; }
-        select, input, button { width: 100%; padding: 14px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 16px; box-sizing: border-box; }
-        button { background: var(--b); color: white; font-weight: 800; cursor: pointer; border: none; text-transform: uppercase; }
-        
-        #reporte { background: white; width: 380px; padding: 30px; box-sizing: border-box; color: #1a1a1a; }
-        .header { border-bottom: 5px solid var(--b); text-align: center; margin-bottom: 15px; padding-bottom: 10px; }
-        .header h1 { margin: 0; font-size: 38px; letter-spacing: 4px; font-weight: 900; }
-        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-bottom: 10px; }
-        .saldo-box { background: #f9f9f9; padding: 12px; border-left: 6px solid var(--g); margin-bottom: 15px; font-size: 15px; font-weight: 800; display: flex; justify-content: space-between; }
-        table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        th { text-align: left; padding: 8px; border-bottom: 2px solid var(--b); color: #777; }
-        td { padding: 10px 8px; border-bottom: 1px solid #f2f2f2; }
-        .monto { text-align: right; font-weight: 800; }
-        .total-box { margin-top: 15px; border-top: 5px solid var(--b); padding-top: 10px; text-align: right; }
-        .total-val { font-size: 26px; font-weight: 900; }
-    </style>
-</head>
-<body>
-
-<div class="controles">
-    <h3 style="text-align:center; margin:0 0 15px 0;">HOOLE SYSTEM</h3>
-    <label>1. Selecciona la Fecha</label>
-    <input type="date" id="f-fecha">
-    
-    <label>2. Lista de Clientes</label>
-    <select id="f-cliente">
-        <option value="">-- Toca para elegir --</option>
-        <option value="ADA">ADA</option><option value="AIDA">AIDA</option><option value="ALEJANDRA">ALEJANDRA</option>
-        <option value="ALEJANDRO">ALEJANDRO</option><option value="AL MAYOR">AL MAYOR</option><option value="ANGEL">ANGEL</option>
-        <option value="ANGI">ANGI</option><option value="ARACELIS">ARACELIS</option><option value="ARGENIS">ARGENIS</option>
-        <option value="BEATRIZ">BEATRIZ</option><option value="CARLA">CARLA</option><option value="CHASAN">CHASAN</option>
-        <option value="CINDY">CINDY</option><option value="COMPRA">COMPRA</option><option value="CORREGIR">CORREGIR</option>
-        <option value="EDGAR">EDGAR</option><option value="EDWIN">EDWIN</option><option value="ELIS">ELIS</option>
-        <option value="EMILY">EMILY</option><option value="ENZO">ENZO</option><option value="FUNDDA">FUNDDA</option>
-        <option value="HEIDI">HEIDI</option><option value="INES">INES</option><option value="IRIS">IRIS</option>
-        <option value="JAIDELIS">JAIDELIS</option><option value="JAIPY">JAIPY</option><option value="JAIRIS">JAIRIS</option>
-        <option value="JAVIER">JAVIER</option><option value="JOHANA">JOHANA</option><option value="JOHN">JOHN</option>
-        <option value="JOSEM">JOSEM</option><option value="JUAN">JUAN</option><option value="JUNIOR">JUNIOR</option>
-        <option value="KARLA">KARLA</option><option value="LUIS">LUIS</option><option value="LUISANY">LUISANY</option>
-        <option value="MARIANNYS">MARIANNYS</option><option value="MAURO">MAURO</option><option value="MERLI">MERLI</option>
-        <option value="MICHEL">MICHEL</option><option value="NAUPAR">NAUPAR</option><option value="NELSY">NELSY</option>
-        <option value="OMAR">OMAR</option><option value="RENE">RENE</option><option value="RICARDO">RICARDO</option>
-        <option value="ROSANGEL">ROSANGEL</option><option value="ROSIMAR">ROSIMAR</option><option value="SUBERO">SUBERO</option>
-        <option value="VICTOR">VICTOR</option><option value="YAIR">YAIR</option><option value="YARELIS">YARELIS</option>
-    </select>
-
-    <button onclick="generar()">GENERAR REPORTE</button>
-</div>
-
-<div id="reporte">
-    <div class="header"><h1>HOOLE</h1></div>
-    <div class="meta">
-        <span>CLIENTE: <span id="out-cli">---</span></span>
-        <span>FECHA: <span id="out-fec">---</span></span>
-    </div>
-    <div class="saldo-box">
-        <span>Saldo Anterior:</span>
-        <span id="out-ant">0.00</span>
-    </div>
-    <table>
-        <thead><tr><th>DESCRIPCIÓN / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
-        <tbody id="out-tabla"></tbody>
-    </table>
-    <div class="total-box">
-        <span style="font-size:10px; font-weight:bold;">SALDO FINAL:</span><br>
-        <div class="total-val" id="out-fin">0.00</div>
-    </div>
-</div>
-
-<button onclick="compartir()" style="background: var(--g); width: 380px; margin-top: 15px; color:white; border:none; padding:15px; border-radius:10px; font-weight:800; cursor:pointer;">📸 DESCARGAR IMAGEN</button>
-
 <script>
     function generar() {
-        const cli = document.getElementById('f-cliente').value;
+        const cli = document.getElementById('f-cliente').value.trim();
         const fec = document.getElementById('f-fecha').value;
         if(!cli || !fec) return alert("Selecciona fecha y cliente");
 
@@ -91,17 +8,19 @@
         const finDia = new Date(fec + 'T23:59:59').getTime() / 1000;
 
         Papa.parse('B_Maestra.csv', {
-            download: true, header: true, skipEmptyLines: true,
+            download: true, 
+            header: true, 
+            skipEmptyLines: true,
+            transformHeader: h => h.trim(), // Elimina espacios invisibles en los nombres de columnas
             complete: function(res) {
-                // Filtrar todo lo de este cliente
-                const dataCli = res.data.filter(r => r.Grupo_1 === cli);
+                // Filtrar datos ignorando mayúsculas/minúsculas y espacios
+                const dataCli = res.data.filter(r => r.Grupo_1 && r.Grupo_1.trim().toUpperCase() === cli.toUpperCase());
 
-                // Saldo Anterior
                 let ant = dataCli.reduce((acc, r) => {
-                    return parseInt(r.Timestamp) < inicioDia ? acc + parseFloat(r.Saldo_1 || 0) : acc;
+                    let ts = parseInt(r.Timestamp);
+                    return ts < inicioDia ? acc + parseFloat(r.Saldo_1 || 0) : acc;
                 }, 0);
 
-                // Movimientos del día
                 let movs = dataCli.filter(r => {
                     let ts = parseInt(r.Timestamp);
                     return ts >= inicioDia && ts <= finDia;
@@ -116,18 +35,10 @@
                     let v = parseFloat(m.Saldo_1 || 0); ac += v;
                     h += `<tr><td>${m.Operacion || 'PAGO'}<br><small style="color:#aaa">${m.Hash_Corto || ''}</small></td><td class="monto">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
                 });
-                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center">Sin movimientos este día</td></tr>';
+                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:20px;">Sin movimientos este día</td></tr>';
                 document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
-            }
+            },
+            error: function(err) { alert("Error cargando el archivo: " + err); }
         });
     }
-    async function compartir() {
-        const canvas = await html2canvas(document.getElementById('reporte'), {scale:3});
-        const link = document.createElement('a');
-        link.download = `Reporte_${document.getElementById('out-cli').innerText}.jpg`;
-        link.href = canvas.toDataURL("image/jpeg", 0.9);
-        link.click();
-    }
 </script>
-</body>
-</html>
