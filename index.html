@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOOLE Pro - Reportes</title>
+    <title>HOOLE Pro - Reportes Automáticos</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
-        :root { --b: #000; --g: #27ae60; --f: #f4f4f4; }
-        body { font-family: 'Segoe UI', sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; }
-        .controles { background: white; padding: 20px; border-radius: 12px; width: 100%; max-width: 400px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; box-sizing: border-box;}
-        label { font-size: 12px; font-weight: bold; color: #666; margin-left: 5px; }
-        input, button { width: 100%; padding: 14px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; font-size: 16px; box-sizing: border-box; }
-        button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; transition: 0.3s; }
-        button:active { transform: scale(0.98); }
+        :root { --b: #000; --g: #27ae60; --f: #f8f9fa; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; color: #333; }
+        .controles { background: white; padding: 25px; border-radius: 16px; width: 100%; max-width: 420px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); margin-bottom: 20px; box-sizing: border-box; }
+        h2 { text-align: center; font-size: 18px; margin-bottom: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+        label { font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; margin-left: 2px; }
+        input, button, select { width: 100%; padding: 14px; margin: 8px 0 18px 0; border: 1px solid #e0e0e0; border-radius: 10px; font-size: 16px; box-sizing: border-box; outline: none; }
+        input:focus { border-color: var(--b); }
+        button { background: var(--b); color: white; font-weight: 800; cursor: pointer; border: none; transition: all 0.2s; text-transform: uppercase; }
+        button:active { transform: scale(0.96); }
         
-        #reporte { background: white; width: 380px; padding: 30px; box-sizing: border-box; color: #1a1a1a; }
-        .header { border-bottom: 4px solid var(--b); text-align: center; margin-bottom: 15px; padding-bottom: 10px; }
-        .header h1 { margin: 0; font-size: 35px; letter-spacing: 3px; font-weight: 900; }
-        .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-        .saldo-box { background: #f9f9f9; padding: 15px; border-left: 6px solid var(--g); margin-bottom: 15px; font-size: 15px; font-weight: bold; display: flex; justify-content: space-between; }
+        #reporte { background: white; width: 380px; padding: 35px; box-sizing: border-box; color: #1a1a1a; position: relative; }
+        .header { border-bottom: 5px solid var(--b); text-align: center; margin-bottom: 20px; padding-bottom: 15px; }
+        .header h1 { margin: 0; font-size: 40px; letter-spacing: 4px; font-weight: 900; }
+        .header p { margin: 5px 0 0 0; font-size: 10px; font-weight: 700; color: #666; letter-spacing: 1px; }
+        .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+        .saldo-box { background: #f4f4f4; padding: 15px; border-left: 6px solid var(--g); margin-bottom: 20px; font-size: 16px; font-weight: 800; display: flex; justify-content: space-between; }
         
         table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        th { text-align: left; padding: 10px; border-bottom: 2px solid var(--b); background: #fafafa; }
-        td { padding: 10px; border-bottom: 1px solid #eee; }
-        .monto { text-align: right; font-weight: bold; }
-        .total-area { margin-top: 15px; padding-top: 10px; border-top: 4px solid var(--b); text-align: right; }
-        .total-label { font-size: 12px; font-weight: bold; }
-        .total-val { font-size: 24px; font-weight: 900; color: var(--b); }
+        th { text-align: left; padding: 10px; border-bottom: 2px solid var(--b); color: #888; }
+        td { padding: 12px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+        .monto { text-align: right; font-weight: 800; }
+        .total-area { margin-top: 20px; padding-top: 15px; border-top: 5px solid var(--b); text-align: right; }
+        .total-val { font-size: 28px; font-weight: 900; color: var(--b); }
+        .footer-text { font-size: 8px; color: #ccc; text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
 
 <div class="controles">
-    <label>FECHA DE REPORTE</label>
+    <h2>Generador de Reportes</h2>
+    
+    <label>Fecha de Operación</label>
     <input type="date" id="f-fecha">
     
-    <label>SELECCIONAR CLIENTE</label>
-    <input type="text" id="f-cliente" list="lista-clientes" placeholder="Escribe o selecciona...">
-    <datalist id="lista-clientes">
+    <label>Seleccionar Cliente</label>
+    <input type="text" id="f-cliente" list="clientes-list" placeholder="Toca para ver la lista...">
+    <datalist id="clientes-list">
         <option value="OMAR"><option value="YARELIS"><option value="JOSEM"><option value="CHASAN">
         <option value="NELSY"><option value="MARIANNYS"><option value="ADA"><option value="IRIS">
         <option value="MICHEL"><option value="ELIS"><option value="EDWIN"><option value="ARGENIS">
@@ -54,27 +59,31 @@
         <option value="JUAN"><option value="RICARDO"><option value="NAUPAR">
     </datalist>
 
-    <button onclick="generar()">GENERAR REPORTE</button>
+    <button onclick="generar()">Cargar Datos y Filtrar</button>
 </div>
 
 <div id="reporte">
-    <div class="header"><h1>HOOLE</h1></div>
+    <div class="header">
+        <h1>HOOLE</h1>
+        <p>COMPROBANTE DIARIO DE OPERACIONES</p>
+    </div>
     <div class="meta">
         <span>CLIENTE: <span id="out-cli">---</span></span>
         <span>FECHA: <span id="out-fec">---</span></span>
     </div>
     <div class="saldo-box">
-        <span>Saldo Anterior:</span>
+        <span>Saldo Anterior (Arrastre):</span>
         <span id="out-ant">0.00</span>
     </div>
     <table>
-        <thead><tr><th>OPERACIÓN / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
+        <thead><tr><th>DESCRIPCIÓN / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
     <div class="total-area">
-        <span class="total-label">SALDO FINAL:</span><br>
+        <span style="font-size: 11px; font-weight: 800;">SALDO FINAL AL CIERRE:</span><br>
         <span class="total-val" id="out-fin">0.00</span>
     </div>
+    <p class="footer-text">Documento oficial generado por Hoole System</p>
 </div>
 
 <button onclick="compartir()" style="background: var(--g); width: 380px; margin-top: 15px; font-size: 18px;">📸 COMPARTIR REPORTE</button>
@@ -83,46 +92,52 @@
     function generar() {
         const cli = document.getElementById('f-cliente').value.toUpperCase().trim();
         const fec = document.getElementById('f-fecha').value;
-        if(!cli || !fec) return alert("Selecciona fecha y cliente");
+        if(!cli || !fec) return alert("Por favor selecciona fecha y cliente");
 
+        // Convertir fecha a timestamp de inicio y fin de día
         const inicioDia = new Date(fec + 'T00:00:00').getTime() / 1000;
         const finDia = new Date(fec + 'T23:59:59').getTime() / 1000;
 
         Papa.parse('B_Maestra.csv', {
             download: true, header: true, skipEmptyLines: true,
             complete: function(res) {
-                // 1. Saldo Anterior
+                // 1. Saldo Anterior (Suma de todo lo anterior al día elegido)
                 let ant = res.data.reduce((acc, r) => {
                     if(r.Grupo_1 === cli && parseInt(r.Timestamp) < inicioDia) return acc + parseFloat(r.Saldo_1 || 0);
                     return acc;
                 }, 0);
 
-                // 2. Movimientos del día (Max 10)
+                // 2. Movimientos del día
                 let movs = res.data.filter(r => {
                     let ts = parseInt(r.Timestamp);
                     return r.Grupo_1 === cli && ts >= inicioDia && ts <= finDia;
-                }).slice(0, 10);
+                }).slice(0, 15); // Mostramos hasta 15 para que quepa en la imagen
 
-                // 3. Render
+                // 3. Renderizado
                 document.getElementById('out-cli').innerText = cli;
                 document.getElementById('out-fec').innerText = fec;
                 document.getElementById('out-ant').innerText = ant.toLocaleString('en-US', {minimumFractionDigits:2});
                 
-                let h = "", ac = ant;
+                let html = "", acum = ant;
                 movs.forEach(m => {
-                    let v = parseFloat(m.Saldo_1 || 0); ac += v;
-                    h += `<tr><td>${m.Operacion || 'Remesa'} <br><small style="color:#999; font-size:9px">${m.Hash_Corto || ''}</small></td><td class="monto">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
+                    let v = parseFloat(m.Saldo_1 || 0); acum += v;
+                    html += `<tr>
+                        <td>${m.Operacion || 'Remesa'} <br><small style="color:#999; font-size:9px">${m.Hash_Corto || ''}</small></td>
+                        <td class="monto">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td>
+                        <td style="text-align:right; color:#888">${acum.toLocaleString('en-US', {minimumFractionDigits:2})}</td>
+                    </tr>`;
                 });
-                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center">Sin movimientos este día</td></tr>';
-                document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
+                document.getElementById('out-tabla').innerHTML = html || '<tr><td colspan="3" style="text-align:center; padding: 20px;">No hay movimientos registrados hoy.</td></tr>';
+                document.getElementById('out-fin').innerText = acum.toLocaleString('en-US', {minimumFractionDigits:2});
             }
         });
     }
 
     async function compartir() {
-        const canvas = await html2canvas(document.getElementById('reporte'), {scale:3});
+        const node = document.getElementById('reporte');
+        const canvas = await html2canvas(node, {scale:3, backgroundColor: "#ffffff"});
         const link = document.createElement('a');
-        link.download = `Reporte_${document.getElementById('out-cli').innerText}_${document.getElementById('out-fec').innerText}.jpg`;
+        link.download = `Reporte_${document.getElementById('out-cli').innerText}.jpg`;
         link.href = canvas.toDataURL("image/jpeg", 0.9);
         link.click();
     }
