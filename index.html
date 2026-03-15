@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOOLE - Sistema de Reportes</title>
+    <title>HOOLE - Reportes Oficiales</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
         :root { --b: #000; --g: #27ae60; --f: #f4f7f6; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; }
-        .controles { background: white; padding: 25px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); margin-bottom: 20px; box-sizing: border-box; }
-        h2 { text-align: center; font-size: 18px; margin-top: 0; color: var(--b); text-transform: uppercase; letter-spacing: 1px; }
-        label { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; margin-bottom: 5px; display: block; }
-        select, input, button { width: 100%; padding: 14px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 16px; box-sizing: border-box; background: #fff; }
-        button { background: var(--b); color: white; font-weight: 800; cursor: pointer; border: none; text-transform: uppercase; margin-bottom: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--f); padding: 15px; display: flex; flex-direction: column; align-items: center; }
+        .controles { background: white; padding: 20px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); margin-bottom: 20px; box-sizing: border-box; }
+        label { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; margin: 10px 0 5px 0; display: block; }
+        select, input, button { width: 100%; padding: 14px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 10px; font-size: 16px; box-sizing: border-box; }
+        button { background: var(--b); color: white; font-weight: 800; cursor: pointer; border: none; text-transform: uppercase; }
         
-        #reporte { background: white; width: 380px; padding: 30px; box-sizing: border-box; color: #1a1a1a; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        #reporte { background: white; width: 380px; padding: 30px; box-sizing: border-box; color: #1a1a1a; }
         .header { border-bottom: 5px solid var(--b); text-align: center; margin-bottom: 15px; padding-bottom: 10px; }
         .header h1 { margin: 0; font-size: 38px; letter-spacing: 4px; font-weight: 900; }
-        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-bottom: 10px; }
         .saldo-box { background: #f9f9f9; padding: 12px; border-left: 6px solid var(--g); margin-bottom: 15px; font-size: 15px; font-weight: 800; display: flex; justify-content: space-between; }
-        
         table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        th { text-align: left; padding: 10px; border-bottom: 2px solid var(--b); color: #777; }
-        td { padding: 10px; border-bottom: 1px solid #f2f2f2; }
+        th { text-align: left; padding: 8px; border-bottom: 2px solid var(--b); color: #777; }
+        td { padding: 10px 8px; border-bottom: 1px solid #f2f2f2; }
+        .monto { text-align: right; font-weight: 800; }
         .total-box { margin-top: 15px; border-top: 5px solid var(--b); padding-top: 10px; text-align: right; }
-        .total-box span { font-size: 10px; font-weight: 800; }
-        .total-box div { font-size: 26px; font-weight: 900; }
+        .total-val { font-size: 26px; font-weight: 900; }
     </style>
 </head>
 <body>
 
 <div class="controles">
-    <h2>Generador de Reportes</h2>
-    <label>Fecha</label>
+    <h3 style="text-align:center; margin:0 0 15px 0;">HOOLE SYSTEM</h3>
+    <label>1. Selecciona la Fecha</label>
     <input type="date" id="f-fecha">
     
-    <label>Lista de Clientes</label>
+    <label>2. Lista de Clientes</label>
     <select id="f-cliente">
-        <option value="">Selecciona un cliente...</option>
+        <option value="">-- Toca para elegir --</option>
         <option value="ADA">ADA</option><option value="AIDA">AIDA</option><option value="ALEJANDRA">ALEJANDRA</option>
         <option value="ALEJANDRO">ALEJANDRO</option><option value="AL MAYOR">AL MAYOR</option><option value="ANGEL">ANGEL</option>
         <option value="ANGI">ANGI</option><option value="ARACELIS">ARACELIS</option><option value="ARGENIS">ARGENIS</option>
@@ -72,16 +70,16 @@
         <span id="out-ant">0.00</span>
     </div>
     <table>
-        <thead><tr><th>DESCRIPCIÓN</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
+        <thead><tr><th>DESCRIPCIÓN / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">SALDO</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
     <div class="total-box">
-        <span>SALDO FINAL AL CIERRE:</span>
-        <div id="out-fin">0.00</div>
+        <span style="font-size:10px; font-weight:bold;">SALDO FINAL:</span><br>
+        <div class="total-val" id="out-fin">0.00</div>
     </div>
 </div>
 
-<button onclick="compartir()" style="background: var(--g); width: 380px; margin-top: 15px; color:white; border:none; padding:15px; border-radius:10px; font-weight:800; cursor:pointer;">📸 DESCARGAR PARA WHATSAPP</button>
+<button onclick="compartir()" style="background: var(--g); width: 380px; margin-top: 15px; color:white; border:none; padding:15px; border-radius:10px; font-weight:800; cursor:pointer;">📸 DESCARGAR IMAGEN</button>
 
 <script>
     function generar() {
@@ -95,49 +93,34 @@
         Papa.parse('B_Maestra.csv', {
             download: true, header: true, skipEmptyLines: true,
             complete: function(res) {
-                // Función para encontrar columnas sin importar el nombre exacto
-                const getVal = (r, keyPart) => {
-                    const key = Object.keys(r).find(k => k.toLowerCase().includes(keyPart.toLowerCase()));
-                    return key ? r[key] : null;
-                };
+                // Filtrar todo lo de este cliente
+                const dataCli = res.data.filter(r => r.Grupo_1 === cli);
 
-                // 1. Filtrar por cliente
-                const todoCliente = res.data.filter(r => {
-                    const nombre = getVal(r, 'Grupo') || getVal(r, 'Cliente') || Object.values(r)[10]; // Intenta columna 11
-                    return nombre && nombre.trim().toUpperCase() === cli.toUpperCase();
-                });
-
-                // 2. Saldo Anterior
-                let ant = todoCliente.reduce((acc, r) => {
-                    const ts = parseInt(getVal(r, 'Timestamp') || Object.values(r)[4]);
-                    const monto = parseFloat(getVal(r, 'Saldo') || getVal(r, 'Monto') || Object.values(r)[9] || 0);
-                    return ts < inicioDia ? acc + monto : acc;
+                // Saldo Anterior
+                let ant = dataCli.reduce((acc, r) => {
+                    return parseInt(r.Timestamp) < inicioDia ? acc + parseFloat(r.Saldo_1 || 0) : acc;
                 }, 0);
 
-                // 3. Movimientos del día
-                let movs = todoCliente.filter(r => {
-                    const ts = parseInt(getVal(r, 'Timestamp') || Object.values(r)[4]);
+                // Movimientos del día
+                let movs = dataCli.filter(r => {
+                    let ts = parseInt(r.Timestamp);
                     return ts >= inicioDia && ts <= finDia;
                 });
 
-                // 4. Render
                 document.getElementById('out-cli').innerText = cli;
                 document.getElementById('out-fec').innerText = fec;
                 document.getElementById('out-ant').innerText = ant.toLocaleString('en-US', {minimumFractionDigits:2});
                 
                 let h = "", ac = ant;
                 movs.forEach(m => {
-                    const v = parseFloat(getVal(m, 'Saldo') || getVal(m, 'Monto') || Object.values(m)[9] || 0);
-                    const desc = getVal(m, 'Operacion') || Object.values(m)[0] || 'Remesa';
-                    ac += v;
-                    h += `<tr><td>${desc}</td><td style="text-align:right; font-weight:bold">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
+                    let v = parseFloat(m.Saldo_1 || 0); ac += v;
+                    h += `<tr><td>${m.Operacion || 'PAGO'}<br><small style="color:#aaa">${m.Hash_Corto || ''}</small></td><td class="monto">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
                 });
-                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center">Sin movimientos</td></tr>';
+                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center">Sin movimientos este día</td></tr>';
                 document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
             }
         });
     }
-
     async function compartir() {
         const canvas = await html2canvas(document.getElementById('reporte'), {scale:3});
         const link = document.createElement('a');
