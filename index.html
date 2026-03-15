@@ -1,36 +1,22 @@
 <script>
     function generar() {
-        const cli = document.getElementById('f-cliente').value.trim();
+        const cli = document.getElementById('f-cliente').value;
         const fec = document.getElementById('f-fecha').value;
-        if(!cli || !fec) return alert("Por favor, selecciona fecha y cliente.");
+        if(!cli || !fec) return alert("Selecciona fecha y cliente");
 
-        const url = 'B_Maestra.csv?v=' + Date.now(); // Fuerza a GitHub a no usar la versión vieja
-
-        Papa.parse(url, {
+        // El v= lo usamos para que no se quede pegada la versión vieja
+        Papa.parse('B_Maestra.csv?v=' + Date.now(), {
             download: true,
             header: true,
             skipEmptyLines: true,
             complete: function(res) {
-                if (res.data.length === 0) return alert("El archivo está vacío o no se leyó bien.");
-                
-                // DIAGNÓSTICO: Esto te dirá en la consola qué columnas encontró
-                console.log("Columnas detectadas:", Object.keys(res.data[0]));
-
                 const inicio = new Date(fec + 'T00:00:00').getTime() / 1000;
                 const fin = new Date(fec + 'T23:59:59').getTime() / 1000;
 
-                // Filtro ultra-seguro
-                const dataCli = res.data.filter(r => 
-                    r.Grupo_1 && r.Grupo_1.toString().trim().toUpperCase() === cli.toUpperCase()
-                );
-
-                if (dataCli.length === 0) {
-                    alert("No se encontró ningún dato para el cliente: " + cli + ". Revisa que el nombre sea idéntico en el Excel.");
-                }
+                const dataCli = res.data.filter(r => r.Grupo_1 && r.Grupo_1.trim() === cli);
 
                 let ant = dataCli.reduce((acc, r) => {
-                    let ts = parseInt(r.Timestamp);
-                    return ts < inicio ? acc + parseFloat(r.Saldo_1 || 0) : acc;
+                    return parseInt(r.Timestamp) < inicio ? acc + parseFloat(r.Saldo_1 || 0) : acc;
                 }, 0);
 
                 let movs = dataCli.filter(r => {
@@ -45,13 +31,10 @@
                 let h = "", ac = ant;
                 movs.forEach(m => {
                     let v = parseFloat(m.Saldo_1 || 0); ac += v;
-                    h += `<tr><td>${m.Operacion || 'PAGO'}<br><small style="color:#aaa">${m.Hash_Corto || ''}</small></td><td class="monto">${v.toLocaleString('en-US', {minimumFractionDigits:2})}</td><td style="text-align:right">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
+                    h += `<tr><td>${m.Operacion || 'PAGO'}</td><td style="text-align:right"><b>${v.toLocaleString('en-US', {minimumFractionDigits:2})}</b></td><td style="text-align:right; color:#888">${ac.toLocaleString('en-US', {minimumFractionDigits:2})}</td></tr>`;
                 });
-                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:20px;">Sin movimientos este día</td></tr>';
+                document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:20px;">Sin movimientos</td></tr>';
                 document.getElementById('out-fin').innerText = ac.toLocaleString('en-US', {minimumFractionDigits:2});
-            },
-            error: function() {
-                alert("ERROR 404: GitHub aún no ha publicado el archivo B_Maestra.csv. Espera 1 minuto y recarga.");
             }
         });
     }
