@@ -3,143 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoole - Reportes Inteligentes</title>
+    <title>HOOLE - Sistema de Reportes</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
-        :root { --primary: #1a1a1a; --accent: #27ae60; }
-        body { font-family: 'Inter', sans-serif; background: #ececec; margin: 0; padding: 10px; display: flex; flex-direction: column; align-items: center; }
-        .controles { background: white; padding: 20px; border-radius: 12px; width: 100%; max-width: 400px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        input, select, button { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
-        button { background: var(--primary); color: white; border: none; font-weight: bold; cursor: pointer; }
+        :root { --primary: #121212; --accent: #2ecc71; --text: #333; }
+        body { font-family: 'Segoe UI', Roboto, sans-serif; background: #f0f2f5; margin: 0; padding: 15px; display: flex; flex-direction: column; align-items: center; }
         
-        /* DISEÑO DEL REPORTE (Lo que se exporta) */
-        #reporte-export { background: white; width: 380px; padding: 25px; border-radius: 4px; position: relative; color: #333; }
-        .brand { text-align: center; font-weight: 900; font-size: 24px; letter-spacing: -1px; margin-bottom: 5px; }
-        .meta-info { display: flex; justify-content: space-between; font-size: 11px; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
-        .saldo-arrastre { background: #f9f9f9; padding: 10px; border-radius: 6px; font-size: 13px; margin-bottom: 15px; border-left: 5px solid var(--accent); }
+        /* Interfaz de la App */
+        .panel-control { background: white; padding: 20px; border-radius: 15px; width: 100%; max-width: 400px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .panel-control h2 { margin: 0 0 15px 0; font-size: 18px; text-align: center; color: var(--primary); }
+        input, button { width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; font-size: 14px; }
+        button { background: var(--primary); color: white; border: none; font-weight: bold; cursor: pointer; transition: 0.3s; }
+        button:hover { opacity: 0.9; }
+        .btn-share { background: var(--accent); margin-top: 10px; }
+
+        /* EL REPORTE (Lo que se convierte en imagen) */
+        #reporte-canvas { background: white; width: 380px; padding: 25px; border-radius: 2px; color: var(--text); position: relative; }
+        .header { text-align: center; border-bottom: 2px solid var(--primary); margin-bottom: 15px; padding-bottom: 10px; }
+        .header h1 { margin: 0; font-size: 28px; letter-spacing: 2px; }
+        .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: bold; margin-bottom: 15px; text-transform: uppercase; }
+        
+        .saldo-previo { background: #f8f9fa; padding: 10px; border-left: 4px solid var(--accent); margin-bottom: 15px; font-size: 13px; }
         
         table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        th { text-align: left; padding: 8px; border-bottom: 2px solid #333; }
-        td { padding: 8px; border-bottom: 1px solid #eee; vertical-align: top; }
-        .monto-col { text-align: right; font-weight: bold; }
-        .total-box { margin-top: 15px; text-align: right; border-top: 2px solid var(--primary); padding-top: 10px; font-size: 16px; font-weight: bold; }
-        .paginacion-aviso { font-size: 9px; color: #999; text-align: center; margin-top: 10px; }
+        th { text-align: left; padding: 8px; border-bottom: 1px solid #eee; color: #777; }
+        td { padding: 8px; border-bottom: 1px solid #f9f9f9; line-height: 1.4; }
+        .monto { text-align: right; font-weight: bold; }
+        .saldo-linea { text-align: right; color: #999; }
+
+        .footer { margin-top: 20px; padding-top: 10px; border-top: 2px solid var(--primary); text-align: right; }
+        .footer .total { font-size: 18px; font-weight: bold; }
+        .page-info { font-size: 9px; color: #ccc; text-align: center; margin-top: 15px; }
     </style>
 </head>
 <body>
 
-<div class="controles">
-    <h3 style="margin-top:0">Filtros Hoole</h3>
-    <input type="date" id="f-fecha">
-    <input type="text" id="f-cliente" placeholder="Nombre del Cliente">
-    <input type="text" id="f-hash" placeholder="Hash Corto (Opcional)">
-    <button onclick="generarReporte()">Generar Reporte</button>
+<div class="panel-control">
+    <h2>Generador de Reportes</h2>
+    <input type="date" id="fecha-filtro">
+    <input type="text" id="cliente-filtro" placeholder="Nombre del Cliente (Ej: FUNDDA)">
+    <input type="text" id="hash-filtro" placeholder="Hash Corto (Opcional)">
+    <button onclick="ejecutarSistema()">Cargar Datos y Filtrar</button>
 </div>
 
-<div id="reporte-export">
-    <div class="brand">HOOLE</div>
-    <div class="meta-info">
-        <span id="res-cliente">CLIENTE: ---</span>
-        <span id="res-fecha">FECHA: ---</span>
+<div id="reporte-canvas">
+    <div class="header">
+        <h1>HOOLE</h1>
+        <div style="font-size: 10px; color: #666;">COMPROBANTE DIARIO DE OPERACIONES</div>
     </div>
 
-    <div class="saldo-arrastre">
-        Saldo Anterior Arrastrado: <b id="res-anterior">0.00</b>
+    <div class="meta">
+        <span>CLIENTE: <span id="out-cliente">---</span></span>
+        <span>FECHA: <span id="out-fecha">---</span></span>
+    </div>
+
+    <div class="saldo-previo">
+        Saldo Anterior (Arrastre): <span id="out-saldo-ant" style="float:right; font-weight:bold;">0.00</span>
     </div>
 
     <table>
         <thead>
             <tr>
-                <th>Operación / Hash</th>
-                <th style="text-align:right">Monto</th>
-                <th style="text-align:right">Saldo</th>
+                <th>DESCRIPCIÓN / HASH</th>
+                <th style="text-align:right">MONTO</th>
+                <th style="text-align:right">SALDO</th>
             </tr>
         </thead>
-        <tbody id="tabla-body">
+        <tbody id="tabla-filas">
             </tbody>
     </table>
 
-    <div class="total-box">
-        Saldo Final: <span id="res-final">0.00</span>
+    <div class="footer">
+        <span style="font-size: 12px; color: #666;">SALDO FINAL AL CIERRE:</span><br>
+        <span class="total" id="out-saldo-fin">0.00</span>
     </div>
-    <div class="paginacion-aviso">Hoole System - Máx. 10 líneas por hoja</div>
+    
+    <div class="page-info">Documento oficial generado por Hoole System</div>
 </div>
 
-<button style="margin-top:20px; max-width:400px; background:var(--accent)" onclick="compartirImagen()">Compartir como Imagen</button>
+<button class="btn-share" onclick="descargarReporte()">COMPARTIR COMO IMAGEN (JPG)</button>
 
 <script>
-    // URL de tu CSV en Google Drive (debe estar público para leerse directamente)
-    const CSV_URL = 'B_Maestra.csv'; 
+    const ARCHIVO_CSV = 'B_Maestra.csv'; // Nombre exacto de tu archivo en GitHub
 
-    async function generarReporte() {
-        const cliente = document.getElementById('f-cliente').value.trim().toUpperCase();
-        const fecha = document.getElementById('f-fecha').value;
-        const hash = document.getElementById('f-hash').value.trim();
+    function ejecutarSistema() {
+        const cliente = document.getElementById('cliente-filtro').value.trim().toUpperCase();
+        const fechaInput = document.getElementById('fecha-filtro').value;
+        const hashFiltro = document.getElementById('hash-filtro').value.trim();
 
-        // 1. Cargar datos del CSV
-        Papa.parse(CSV_URL, {
+        if(!cliente || !fechaInput) {
+            alert("Por favor indica Cliente y Fecha");
+            return;
+        }
+
+        // Formatear fecha para comparar con tu CSV (asumiendo formato d-mmm o similar)
+        // Adaptaremos la lógica para buscar por el Timestamp que es más exacto
+        const fechaSeleccionada = new Date(fechaInput);
+        const inicioDelDia = fechaSeleccionada.setHours(0,0,0,0) / 1000;
+        const finDelDia = fechaSeleccionada.setHours(23,59,59,999) / 1000;
+
+        Papa.parse(ARCHIVO_CSV, {
             download: true,
             header: true,
             complete: function(results) {
                 const data = results.data;
                 
-                // Lógica de Saldo Anterior (Todo lo previo a la fecha)
+                // 1. CALCULAR SALDO ANTERIOR (Memoria de la App)
                 let saldoAnterior = 0;
                 data.forEach(row => {
-                    if(row.Grupo_1 === cliente && row.Timestamp < new Date(fecha).getTime()/1000) {
+                    const ts = parseInt(row.Timestamp);
+                    if(row.Grupo_1 === cliente && ts < inicioDelDia) {
                         saldoAnterior += parseFloat(row.Saldo_1 || 0);
                     }
                 });
 
-                // Filtrar movimientos del día actual
+                // 2. FILTRAR MOVIMIENTOS DEL DÍA
                 let movimientos = data.filter(row => {
-                    let coincide = row.Grupo_1 === cliente;
-                    if(hash) coincide = coincide && row.Hash_Corto === hash;
-                    // Aquí compararías la fecha según el formato de tu CSV (ej: "15-mar")
-                    return coincide; 
+                    const ts = parseInt(row.Timestamp);
+                    let cumple = (row.Grupo_1 === cliente && ts >= inicioDelDia && ts <= finDelDia);
+                    if(hashFiltro) cumple = cumple && row.Hash_Corto === hashFiltro;
+                    return cumple;
                 });
 
                 // REGLA: 10 líneas máximo
-                const paginado = movimientos.slice(0, 10);
+                const listaAMostrar = movimientos.slice(0, 10);
 
-                renderizar(paginado, saldoAnterior, cliente, fecha);
+                renderizar(listaAMostrar, saldoAnterior, cliente, fechaInput);
             }
         });
     }
 
     function renderizar(filas, anterior, cliente, fecha) {
-        document.getElementById('res-cliente').innerText = `CLIENTE: ${cliente}`;
-        document.getElementById('res-fecha').innerText = `FECHA: ${fecha}`;
-        document.getElementById('res-anterior').innerText = anterior.toFixed(2);
+        document.getElementById('out-cliente').innerText = cliente;
+        document.getElementById('out-fecha').innerText = fecha;
+        document.getElementById('out-saldo-ant').innerText = anterior.toLocaleString('en-US', {minimumFractionDigits: 2});
         
-        let html = "";
-        let saldoAcumulado = anterior;
-        
+        const tabla = document.getElementById('tabla-filas');
+        tabla.innerHTML = "";
+        let acumulado = anterior;
+
         filas.forEach(f => {
-            let monto = parseFloat(f.Saldo_1 || 0);
-            saldoAcumulado += monto;
-            html += `<tr>
-                <td>[${f.Hash_Corto}] ${f.Operacion || 'Remesa'}</td>
-                <td class="monto-col">${monto.toFixed(2)}</td>
-                <td class="monto-col" style="color:#888">${saldoAcumulado.toFixed(2)}</td>
-            </tr>`;
+            const monto = parseFloat(f.Saldo_1 || 0);
+            acumulado += monto;
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>[${f.Hash_Corto}] ${f.Operacion || 'TRANSACCIÓN'}</td>
+                <td class="monto">${monto >= 0 ? '+' : ''}${monto.toFixed(2)}</td>
+                <td class="saldo-linea">${acumulado.toFixed(2)}</td>
+            `;
+            tabla.appendChild(tr);
         });
-        
-        document.getElementById('tabla-body').innerHTML = html;
-        document.getElementById('res-final').innerText = saldoAcumulado.toFixed(2);
+
+        document.getElementById('out-saldo-fin').innerText = acumulado.toLocaleString('en-US', {minimumFractionDigits: 2});
     }
 
-    async function compartirImagen() {
-        const area = document.getElementById('reporte-export');
-        const canvas = await html2canvas(area, { scale: 3 });
-        const imgData = canvas.toDataURL("image/png");
+    async function descargarReporte() {
+        const elemento = document.getElementById('reporte-canvas');
+        const canvas = await html2canvas(elemento, { scale: 3 });
+        const img = canvas.toDataURL("image/jpeg", 0.9);
         
         const link = document.createElement('a');
-        link.download = `Reporte_Hoole.png`;
-        link.href = imgData;
+        link.download = `Reporte_Hoole_${document.getElementById('out-cliente').innerText}.jpg`;
+        link.href = img;
         link.click();
     }
 </script>
+
 </body>
 </html>
