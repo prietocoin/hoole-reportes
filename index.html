@@ -1,26 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOOLE | Reporte VET</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <style>
+        :root { --b: #000; --g: #25D366; --f: #f4f7f6; }
+        body { font-family: 'Inter', sans-serif; background: #111; padding: 10px; display: flex; flex-direction: column; align-items: center; }
+        .controles { background: white; padding: 20px; border-radius: 12px; width: 100%; max-width: 400px; margin-bottom: 20px; box-sizing: border-box; }
+        input, select, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; }
+        button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
+        
+        #reporte { background: white; width: 400px; padding: 30px; box-sizing: border-box; color: #333; }
+        .header { border-bottom: 6px solid var(--b); margin-bottom: 20px; text-align: center; }
+        .header h1 { margin: 0; font-size: 45px; letter-spacing: -2px; font-weight: 900; }
+        .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px;}
+        
+        .saldo-box { background: #f8f8f8; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #ccc; margin-bottom: 20px; }
+        .saldo-box span { font-size: 12px; color: #666; font-weight: bold; }
+        .saldo-box strong { font-size: 18px; font-weight: 900; }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th { text-align: left; font-size: 9px; text-transform: uppercase; color: #999; border-bottom: 2px solid #000; padding: 5px; }
+        td { padding: 10px 5px; border-bottom: 1px solid #eee; font-size: 11px; vertical-align: top; }
+        
+        /* DESCRIPCIÓN MÁS PEQUEÑA */
+        .desc-celda { font-size: 10px; line-height: 1.2; color: #555; max-width: 190px; word-break: break-word; }
+        .monto-celda { text-align: right; font-weight: 800; font-size: 12px; white-space: nowrap; }
+        
+        .footer { border-top: 6px solid var(--b); padding-top: 15px; text-align: right; }
+        .footer small { font-weight: 800; font-size: 11px; color: #999; }
+        .footer .total { font-size: 36px; font-weight: 900; color: #000; letter-spacing: -1px; }
+    </style>
+</head>
+<body>
+
+<div class="controles">
+    <input type="date" id="f-fecha">
+    <select id="f-cliente"><option value="">-- SELECCIONAR CLIENTE --</option></select>
+    <button onclick="generar()">GENERAR REPORTE</button>
+</div>
+
+<div id="reporte">
+    <div class="header"><h1>HOOLE</h1></div>
+    <div class="meta">
+        <span id="out-cli">---</span>
+        <span id="out-fec">---</span>
+    </div>
+    <div class="saldo-box">
+        <span>SALDO ANTERIOR (VET)</span>
+        <strong id="out-ant">0.00</strong>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>DESCRIPCIÓN / REF</th>
+                <th style="text-align:right">MONTO</th>
+                <th style="text-align:right">BALANCE</th>
+            </tr>
+        </thead>
+        <tbody id="out-tabla"></tbody>
+    </table>
+    <div class="footer">
+        <small>SALDO FINAL AL CIERRE (VET)</small>
+        <div class="total" id="out-fin">0.00</div>
+    </div>
+</div>
+
+<button onclick="compartir()" style="background:var(--g); width:400px; margin-top:15px; padding:18px; border-radius:12px; color:white; font-weight:bold; border:none; display:flex; align-items:center; justify-content:center; gap:10px;">
+    <span>📲 COMPARTIR REPORTE</span>
+</button>
+
 <script>
     let rawData = [];
 
     async function init() {
-        const status = document.getElementById('status');
         try {
             const res = await fetch('B_Maestra.csv?v=' + Date.now());
             const text = await res.text();
             Papa.parse(text, {
-                header: true,
-                skipEmptyLines: true,
-                dynamicTyping: true, // ESTO CONVIERTE NÚMEROS AUTOMÁTICAMENTE
+                header: true, skipEmptyLines: true, dynamicTyping: true,
                 complete: function(results) {
                     rawData = results.data;
                     const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
                     const select = document.getElementById('f-cliente');
-                    select.innerHTML = '<option value="">-- SELECCIONAR CLIENTE --</option>';
+                    select.innerHTML = '<option value="">-- CLIENTE --</option>';
                     clientes.forEach(c => select.innerHTML += `<option value="${c}">${c}</option>`);
-                    document.getElementById('f-fecha').valueAsDate = new Date();
-                    status.innerText = "✅ CONECTADO: " + clientes.length + " CLIENTES";
+                    
+                    // Fecha hoy en Venezuela (GMT-4)
+                    const hoyVET = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Caracas"}));
+                    document.getElementById('f-fecha').value = hoyVET.toISOString().split('T')[0];
                 }
             });
-        } catch (e) { status.innerText = "❌ ERROR"; }
+        } catch (e) { console.error("Error cargando CSV"); }
     }
 
     function generar() {
@@ -28,57 +102,65 @@
         const fec = document.getElementById('f-fecha').value;
         if(!cli || !fec) return;
 
-        // Convertir fecha seleccionada a segundos (Timestamp)
-        const inicioDia = new Date(fec + 'T00:00:00').getTime() / 1000;
-        const finDia = inicioDia + 86400;
+        // Forzar inicio de día en hora Venezuela (VET es GMT-4)
+        const inicioVET = new Date(fec + "T00:00:00-04:00").getTime() / 1000;
+        const finVET = inicioVET + 86400;
 
         const dataCli = rawData.filter(r => String(r.Grupo_1) === cli);
-        
-        // Cálculo de Saldo Anterior (Todo lo que sea menor al inicio del día)
-        let saldoAnterior = 0;
-        dataCli.forEach(r => {
-            if (Number(r.Timestamp) < inicioDia) {
-                saldoAnterior += Number(r.Saldo_1 || 0);
-            }
-        });
 
-        // Filtrar movimientos del día elegido
+        // Cálculo Saldo Anterior Estricto
+        let ant = dataCli.reduce((acc, r) => Number(r.Timestamp) < inicioVET ? acc + Number(r.Saldo_1 || 0) : acc, 0);
+        
+        // Movimientos del día
         let movs = dataCli.filter(r => {
             let ts = Number(r.Timestamp);
-            return ts >= inicioDia && ts < finDia;
+            return ts >= inicioVET && ts < finVET;
         });
 
-        // Dibujar en pantalla
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fec;
-        document.getElementById('out-ant').innerText = saldoAnterior.toLocaleString('en-US', {minimumFractionDigits:2});
+        document.getElementById('out-ant').innerText = ant.toLocaleString('en-US',{minimumFractionDigits:2});
         
-        let htmlTabla = "", acumulado = saldoAnterior;
-        
+        let h = "", ac = ant;
         movs.forEach(m => {
-            let monto = Number(m.Saldo_1 || 0);
-            acumulado += monto;
-            
-            // Limpiar descripción de saltos de línea para que no se vea "mal"
-            let descripcion = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' / ');
-            
-            htmlTabla += `<tr>
-                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong><br>${descripcion}</td>
-                <td class="monto-celda">${monto.toLocaleString('en-US', {minimumFractionDigits:2})}</td>
-                <td class="monto-celda" style="color:#666">${acumulado.toLocaleString('en-US', {minimumFractionDigits:2})}</td>
+            let v = Number(m.Saldo_1 || 0); ac += v;
+            let desc = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' / ');
+            h += `<tr>
+                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong><br>${desc}</td>
+                <td class="monto-celda">${v.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
+                <td class="monto-celda" style="color:#888">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
         });
-
-        document.getElementById('out-tabla').innerHTML = htmlTabla || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN MOVIMIENTOS EN ESTA FECHA</td></tr>';
-        document.getElementById('out-fin').innerText = acumulado.toLocaleString('en-US', {minimumFractionDigits:2});
+        document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN ACTIVIDAD VET</td></tr>';
+        document.getElementById('out-fin').innerText = ac.toLocaleString('en-US',{minimumFractionDigits:2});
     }
 
-    async function descargar() {
-        const canvas = await html2canvas(document.getElementById('reporte'), {scale: 3});
-        const link = document.createElement('a');
-        link.download = `HOOLE_${document.getElementById('f-cliente').value}.jpg`;
-        link.href = canvas.toDataURL("image/jpeg", 1.0);
-        link.click();
+    async function compartir() {
+        const reporte = document.getElementById('reporte');
+        const canvas = await html2canvas(reporte, { scale: 3, useCORS: true });
+        
+        canvas.toBlob(async (blob) => {
+            const file = new File([blob], `Reporte_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
+            
+            if (navigator.share && navigator.canShare({ files: [file] })) {
+                try {
+                    await navigator.share({
+                        files: [file],
+                        title: 'Reporte Hoole',
+                        text: 'Adjunto reporte de cuenta generado.'
+                    });
+                } catch (err) { console.error("Error al compartir", err); }
+            } else {
+                // Fallback si el navegador no soporta compartir archivos (ej: PC)
+                const link = document.createElement('a');
+                link.download = file.name;
+                link.href = URL.createObjectURL(blob);
+                link.click();
+            }
+        }, 'image/png');
     }
+
     window.onload = init;
 </script>
+</body>
+</html>
