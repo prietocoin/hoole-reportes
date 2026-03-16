@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOOLE | Reporte VET</title>
+    <title>HOOLE | Reporte Directo</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
-        :root { --b: #000; --g: #25D366; --f: #f4f7f6; }
-        body { font-family: 'Inter', sans-serif; background: #111; padding: 10px; display: flex; flex-direction: column; align-items: center; }
+        :root { --b: #000; --g: #25D366; }
+        body { font-family: sans-serif; background: #000; padding: 10px; display: flex; flex-direction: column; align-items: center; }
         .controles { background: white; padding: 20px; border-radius: 12px; width: 100%; max-width: 400px; margin-bottom: 20px; box-sizing: border-box; }
         input, select, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
@@ -18,148 +18,119 @@
         .header h1 { margin: 0; font-size: 45px; letter-spacing: -2px; font-weight: 900; }
         .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px;}
         
-        .saldo-box { background: #f8f8f8; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #ccc; margin-bottom: 20px; }
-        .saldo-box span { font-size: 12px; color: #666; font-weight: bold; }
+        .saldo-box { background: #f1f1f1; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #000; margin-bottom: 20px; }
+        .saldo-box span { font-size: 11px; color: #666; font-weight: bold; }
         .saldo-box strong { font-size: 18px; font-weight: 900; }
 
         table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
         th { text-align: left; font-size: 9px; text-transform: uppercase; color: #999; border-bottom: 2px solid #000; padding: 5px; }
         td { padding: 10px 5px; border-bottom: 1px solid #eee; font-size: 11px; vertical-align: top; }
         
-        /* DESCRIPCIÓN MÁS PEQUEÑA */
-        .desc-celda { font-size: 10px; line-height: 1.2; color: #555; max-width: 190px; word-break: break-word; }
-        .monto-celda { text-align: right; font-weight: 800; font-size: 12px; white-space: nowrap; }
+        .desc-celda { font-size: 9px; line-height: 1.2; color: #444; max-width: 180px; word-break: break-word; }
+        .monto-celda { text-align: right; font-weight: 800; font-size: 11px; }
         
         .footer { border-top: 6px solid var(--b); padding-top: 15px; text-align: right; }
-        .footer small { font-weight: 800; font-size: 11px; color: #999; }
         .footer .total { font-size: 36px; font-weight: 900; color: #000; letter-spacing: -1px; }
     </style>
 </head>
 <body>
 
 <div class="controles">
-    <input type="date" id="f-fecha">
-    <select id="f-cliente"><option value="">-- SELECCIONAR CLIENTE --</option></select>
+    <input type="text" id="f-fecha" placeholder="Ej: 15-mar o 1-ene">
+    <select id="f-cliente"><option value="">-- CLIENTE --</option></select>
     <button onclick="generar()">GENERAR REPORTE</button>
 </div>
 
 <div id="reporte">
     <div class="header"><h1>HOOLE</h1></div>
-    <div class="meta">
-        <span id="out-cli">---</span>
-        <span id="out-fec">---</span>
-    </div>
-    <div class="saldo-box">
-        <span>SALDO ANTERIOR (VET)</span>
-        <strong id="out-ant">0.00</strong>
-    </div>
+    <div class="meta"><span id="out-cli">---</span><span id="out-fec">---</span></div>
+    <div class="saldo-box"><span>SALDO ANTERIOR</span><strong id="out-ant">0.00</strong></div>
     <table>
-        <thead>
-            <tr>
-                <th>DESCRIPCIÓN / REF</th>
-                <th style="text-align:right">MONTO</th>
-                <th style="text-align:right">BALANCE</th>
-            </tr>
-        </thead>
+        <thead><tr><th>DETALLE</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
     <div class="footer">
-        <small>SALDO FINAL AL CIERRE (VET)</small>
+        <small style="font-weight:bold; color:#999">SALDO FINAL</small>
         <div class="total" id="out-fin">0.00</div>
     </div>
 </div>
 
-<button onclick="compartir()" style="background:var(--g); width:400px; margin-top:15px; padding:18px; border-radius:12px; color:white; font-weight:bold; border:none; display:flex; align-items:center; justify-content:center; gap:10px;">
-    <span>📲 COMPARTIR REPORTE</span>
-</button>
+<button onclick="compartir()" style="background:var(--g); width:400px; margin-top:15px; padding:18px; border-radius:12px; color:white; font-weight:bold; border:none;">📲 ENVIAR POR WHATSAPP</button>
 
 <script>
     let rawData = [];
 
     async function init() {
-        try {
-            const res = await fetch('B_Maestra.csv?v=' + Date.now());
-            const text = await res.text();
-            Papa.parse(text, {
-                header: true, skipEmptyLines: true, dynamicTyping: true,
-                complete: function(results) {
-                    rawData = results.data;
-                    const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
-                    const select = document.getElementById('f-cliente');
-                    select.innerHTML = '<option value="">-- CLIENTE --</option>';
-                    clientes.forEach(c => select.innerHTML += `<option value="${c}">${c}</option>`);
-                    
-                    // Fecha hoy en Venezuela (GMT-4)
-                    const hoyVET = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Caracas"}));
-                    document.getElementById('f-fecha').value = hoyVET.toISOString().split('T')[0];
-                }
-            });
-        } catch (e) { console.error("Error cargando CSV"); }
+        const res = await fetch('B_Maestra.csv?v=' + Date.now());
+        const text = await res.text();
+        Papa.parse(text, {
+            header: true, skipEmptyLines: true, dynamicTyping: true,
+            complete: function(results) {
+                rawData = results.data;
+                const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
+                const select = document.getElementById('f-cliente');
+                clientes.forEach(c => select.innerHTML += `<option value="${c}">${c}</option>`);
+                
+                // Poner la fecha de hoy en el formato de tu CSV (ej: 15-mar)
+                const meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+                const hoy = new Date();
+                document.getElementById('f-fecha').value = hoy.getDate() + "-" + meses[hoy.getMonth()];
+            }
+        });
     }
 
     function generar() {
         const cli = document.getElementById('f-cliente').value;
-        const fec = document.getElementById('f-fecha').value;
+        const fec = document.getElementById('f-fecha').value; // Ejemplo: "15-mar"
         if(!cli || !fec) return;
 
-        // Forzar inicio de día en hora Venezuela (VET es GMT-4)
-        const inicioVET = new Date(fec + "T00:00:00-04:00").getTime() / 1000;
-        const finVET = inicioVET + 86400;
-
         const dataCli = rawData.filter(r => String(r.Grupo_1) === cli);
-
-        // Cálculo Saldo Anterior Estricto
-        let ant = dataCli.reduce((acc, r) => Number(r.Timestamp) < inicioVET ? acc + Number(r.Saldo_1 || 0) : acc, 0);
         
-        // Movimientos del día
-        let movs = dataCli.filter(r => {
-            let ts = Number(r.Timestamp);
-            return ts >= inicioVET && ts < finVET;
+        // El Saldo Anterior es la suma de todo lo que NO sea la fecha seleccionada y esté antes en la lista
+        let ant = 0;
+        let encontradoHoy = false;
+        
+        // Filtramos movimientos de "Hoy" y calculamos el anterior por posición en la lista
+        let movsHoy = [];
+        dataCli.forEach(r => {
+            if (String(r.Fecha_Hora).toLowerCase().includes(fec.toLowerCase())) {
+                movsHoy.push(r);
+                encontradoHoy = true;
+            } else if (!encontradoHoy) {
+                ant += Number(r.Saldo_1 || 0);
+            }
         });
 
         document.getElementById('out-cli').innerText = cli;
-        document.getElementById('out-fec').innerText = fec;
+        document.getElementById('out-fec').innerText = fec.toUpperCase();
         document.getElementById('out-ant').innerText = ant.toLocaleString('en-US',{minimumFractionDigits:2});
         
         let h = "", ac = ant;
-        movs.forEach(m => {
+        movsHoy.forEach(m => {
             let v = Number(m.Saldo_1 || 0); ac += v;
-            let desc = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' / ');
+            let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             h += `<tr>
-                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong><br>${desc}</td>
+                <td class="desc-celda"><strong>${m.Operacion || 'PAGO'}</strong><br>${d}</td>
                 <td class="monto-celda">${v.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
-                <td class="monto-celda" style="color:#888">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
+                <td class="monto-celda" style="color:#999">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
         });
-        document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN ACTIVIDAD VET</td></tr>';
+        document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN ACTIVIDAD</td></tr>';
         document.getElementById('out-fin').innerText = ac.toLocaleString('en-US',{minimumFractionDigits:2});
     }
 
     async function compartir() {
-        const reporte = document.getElementById('reporte');
-        const canvas = await html2canvas(reporte, { scale: 3, useCORS: true });
-        
+        const canvas = await html2canvas(document.getElementById('reporte'), { scale: 3 });
         canvas.toBlob(async (blob) => {
-            const file = new File([blob], `Reporte_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
-            
-            if (navigator.share && navigator.canShare({ files: [file] })) {
-                try {
-                    await navigator.share({
-                        files: [file],
-                        title: 'Reporte Hoole',
-                        text: 'Adjunto reporte de cuenta generado.'
-                    });
-                } catch (err) { console.error("Error al compartir", err); }
+            const file = new File([blob], `Hoole_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
+            if (navigator.share) {
+                await navigator.share({ files: [file], title: 'Reporte Hoole' });
             } else {
-                // Fallback si el navegador no soporta compartir archivos (ej: PC)
-                const link = document.createElement('a');
-                link.download = file.name;
-                link.href = URL.createObjectURL(blob);
-                link.click();
+                const link = document.createElement('a'); link.download = file.name;
+                link.href = URL.createObjectURL(blob); link.click();
             }
-        }, 'image/png');
+        });
     }
-
     window.onload = init;
 </script>
 </body>
