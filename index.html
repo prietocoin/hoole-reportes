@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE AVANZADO</title>
+    <title>REPORTE HOOLE</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -19,8 +19,7 @@
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
         .header { border-bottom: 2px solid var(--b); margin-bottom: 10px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
-        .meta { display: grid; grid-template-columns: 1fr 1fr; font-size: 9px; font-weight: 700; color: #888; margin-bottom: 8px; gap: 4px; }
-        .meta span { border-bottom: 1px solid #f2f2f2; padding-bottom: 2px; }
+        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; color: #000; margin-bottom: 10px; text-transform: uppercase; }
         
         .saldo-box { border-top: 1px solid #eee; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .saldo-box span { font-size: 9px; color: #aaa; font-weight: bold; }
@@ -56,8 +55,8 @@
         </div>
     </div>
     <div class="grid-filtros">
-        <div><label>Buscar Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
-        <div><label>Filtro Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
+        <div><label>Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
+        <div><label>Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
     </div>
     <button onclick="generar()">GENERAR REPORTE</button>
 </div>
@@ -65,8 +64,6 @@
 <div id="reporte">
     <div class="header"><h1>REPORTE DEL DIA</h1></div>
     <div class="meta">
-        <span id="out-g1">G1: ---</span>
-        <span id="out-g2">G2: ---</span>
         <span id="out-cli">CLIENTE: ---</span>
         <span id="out-fec">FECHA: ---</span>
     </div>
@@ -107,12 +104,9 @@
                 header: true, skipEmptyLines: true, dynamicTyping: true,
                 complete: function(results) {
                     rawData = results.data;
-                    
-                    // Extraer clientes únicos de AMBAS columnas (Grupo_1 y Grupo_2)
                     let g1 = rawData.map(r => r.Grupo_1).filter(Boolean);
                     let g2 = rawData.map(r => r.Grupo_2).filter(Boolean);
                     const clientesUnicos = [...new Set([...g1, ...g2])].sort();
-                    
                     const s = document.getElementById('f-cliente');
                     s.innerHTML = '<option value="">-- SELECCIONAR --</option>';
                     clientesUnicos.forEach(c => s.innerHTML += `<option value="${c}">${c}</option>`);
@@ -123,7 +117,7 @@
                     document.getElementById('f-mes').value = m[h.getMonth()];
                 }
             });
-        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error data</option>'; }
+        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error</option>'; }
     }
 
     function cargarHashes() {
@@ -131,13 +125,10 @@
         const dia = document.getElementById('f-dia').value;
         const mes = document.getElementById('f-mes').value;
         const fBusq = `${dia}-${mes}`;
-        
         const hashes = [...new Set(rawData
             .filter(r => (String(r.Grupo_1) === cli || String(r.Grupo_2) === cli) && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
-            .map(r => r.Hash_Corto)
-            .filter(Boolean)
+            .map(r => r.Hash_Corto).filter(Boolean)
         )];
-        
         const hSel = document.getElementById('f-hash');
         hSel.innerHTML = '<option value="">TODOS</option>';
         hashes.forEach(h => hSel.innerHTML += `<option value="${h}">${h}</option>`);
@@ -149,10 +140,8 @@
         const dia = document.getElementById('f-dia').value;
         const mes = document.getElementById('f-mes').value;
         const fBusq = `${dia}-${mes}`;
-        
         if(!cli) return;
 
-        // BÚSQUEDA EN AMBAS COLUMNAS
         movsFiltrados = rawData.filter(r => {
             const matchCli = String(r.Grupo_1) === cli || String(r.Grupo_2) === cli;
             const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
@@ -160,12 +149,8 @@
             return matchCli && matchFec && matchHash;
         });
 
-        const primerMov = movsFiltrados[0] || {};
-        document.getElementById('out-g1').innerText = "G1: " + (primerMov.Grupo_1 || "---");
-        document.getElementById('out-g2').innerText = "G2: " + (primerMov.Grupo_2 || "---");
-        document.getElementById('out-cli').innerText = "CLIENTE: " + cli;
-        document.getElementById('out-fec').innerText = "FECHA: " + fBusq.toUpperCase();
-        
+        document.getElementById('out-cli').innerText = cli;
+        document.getElementById('out-fec').innerText = fBusq.toUpperCase();
         recalcularTotal();
     }
 
@@ -175,20 +160,15 @@
         let html = "", ac = saldoAnterior;
 
         movsFiltrados.forEach(m => {
-            // Decidir qué saldo usar dependiendo de en qué columna está el cliente
-            let v = 0;
-            if (String(m.Grupo_1) === cli) v = Number(m.Saldo_1 || 0);
-            else if (String(m.Grupo_2) === cli) v = Number(m.Saldo_2 || 0);
-            
+            let v = (String(m.Grupo_1) === cli) ? Number(m.Saldo_1 || 0) : Number(m.Saldo_2 || 0);
             ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
-                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong> [${m.Hash_Corto || ''}]<br>${d}</td>
+                <td class="desc-celda"><strong>${m.Operacion || 'PAGO'}</strong> [${m.Hash_Corto || ''}]<br>${d}</td>
                 <td class="monto-celda">${v.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
                 <td class="monto-celda" style="color:#aaa">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
         });
-
         document.getElementById('out-tabla').innerHTML = html || '<tr><td colspan="3" style="text-align:center; padding:20px;">SIN ACTIVIDAD</td></tr>';
         document.getElementById('out-fin').innerText = ac.toLocaleString('en-US',{minimumFractionDigits:2});
     }
