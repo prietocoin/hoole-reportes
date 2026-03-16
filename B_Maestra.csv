@@ -8888,7 +8888,7 @@ Banco: BANESCO, Moneda: VES, Tasa(T088): 612 ","[P-q8EurCx] Monto: 7550, Titular
 Banco: BANESCO, Moneda: VES, Tasa(T088): 0.169 ",12.33,44674.55,,
 2979,COMPLETADO,6cef7a05bc56fc6591b01eab54fb7c019ead5ed55181bce0c6b647b433579032,pPA1nXb,15-mar,1773603484,T088,COP,NEQUI,CARMEN,200000,ROSIMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/pPA1nXb,584125868185@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3638,-3586,"[P-pPA1nXb] Monto: 200000, Titular: CARMEN
 Banco: NEQUI, Moneda: COP, Tasa(T088): 3638 ","[P-pPA1nXb] Monto: 200000, Titular: CARMEN
-Banco: NEQUI, Moneda: COP, Tasa(T088): 3586 ",54.97,-55.77,,
+Banco: NEQUI, Moneda: COP, Tasa(T088): 3586 ",54.97,-55.77,,-55.77
 2980,COMPLETADO,2ecf3309ca5830a79c8dee525749c61fff3a394e24f243d92e9786052c286fbd,b6cbrco,15-mar,1773603814,T088,PEN,YAPE,KENDRIANY,70,CHASAN,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/b6cbrco,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.591,3.5,"[D-b6cbrco] Monto: 70, Titular: KENDRIANY
 Banco: YAPE, Moneda: PEN, Tasa(T088): 3.591 ","[D-b6cbrco] Monto: 70, Titular: KENDRIANY
 Banco: YAPE, Moneda: PEN, Tasa(T088): 3.5 ",19.49,20,,
@@ -8903,7 +8903,7 @@ Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ","[A-q6vjb5V] Monto: 394.32, Titula
 Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ",394.32,394.32,394.32,394.32
 2984,COMPLETADO,1e5e875a64d9da73b631ac3abc4d227643f5e8ed2ff22e89693cb1f0203826b8,7cuvz60,16-mar,1773663477,T088,USDT,BINANCE,JOSEM,55.77,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/7cuvz60,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-7cuvz60] Monto: 55.77, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ","[A-7cuvz60] Monto: 55.77, Titular: JOSEM
-Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ",55.77,55.77,55.77,450.09
+Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ",55.77,55.77,0,450.09
 2985,COMPLETADO,a37d54573154ba9a2faa0e8a9877706422d7b03bdcb1f1063140ff4b63ca0d2e,CLDM6lF,16-mar,1773663258,T088,USDT,BINANCE,ELIS,228.94,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/CLDM6lF,554191581015@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-CLDM6lF] Monto: 228.94, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ","[A-CLDM6lF] Monto: 228.94, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T088): 1 ",228.94,228.94,0,623.26
