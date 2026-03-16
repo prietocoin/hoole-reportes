@@ -13,7 +13,7 @@
         .controles { background: white; padding: 15px; border-radius: 10px; width: 100%; max-width: 400px; margin-bottom: 20px; box-sizing: border-box; }
         .grid-fecha { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
         label { font-size: 9px; font-weight: bold; color: #999; text-transform: uppercase; margin-bottom: 3px; display: block; }
-        select, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; }
+        select, input, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; box-sizing: border-box; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
         
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
@@ -21,10 +21,11 @@
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
         .meta { display: flex; justify-content: space-between; font-size: 9px; font-weight: 700; color: #888; margin-bottom: 10px; }
         
-        /* SALDO ANTERIOR MÁS PEQUEÑO */
-        .saldo-box { border-top: 1px solid #eee; padding: 5px 0; display: flex; justify-content: space-between; margin-bottom: 10px; }
+        /* SALDO ANTERIOR EDITABLE */
+        .saldo-box { border-top: 1px solid #eee; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .saldo-box span { font-size: 9px; color: #aaa; font-weight: bold; }
-        .saldo-box strong { font-size: 11px; font-weight: 800; color: #444; }
+        .edit-saldo { border: none; background: #f9f9f9; text-align: right; font-size: 11px; font-weight: 800; color: #444; width: 80px; padding: 2px 5px; border-radius: 4px; }
+        .edit-saldo:focus { outline: 1px solid #ccc; background: #fff; }
 
         table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
         th { text-align: left; font-size: 8px; text-transform: uppercase; color: #bbb; border-bottom: 1px solid #000; padding-bottom: 3px; }
@@ -66,7 +67,7 @@
     
     <div class="saldo-box">
         <span>SALDO ANTERIOR</span>
-        <strong id="out-ant">0.00</strong>
+        <input type="number" step="0.01" id="out-ant" class="edit-saldo" value="0.00" oninput="recalcularTotal()">
     </div>
 
     <table>
@@ -84,7 +85,9 @@
 
 <script>
     let rawData = [];
+    let movsDelDia = [];
 
+    // Llenar select de días
     const dSel = document.getElementById('f-dia');
     for(let i=1; i<=31; i++) {
         let o = document.createElement('option'); o.value = i; o.innerText = i;
@@ -93,9 +96,7 @@
 
     async function init() {
         try {
-            // Buscamos el archivo en el mismo directorio de la nueva URL
             const res = await fetch('./B_Maestra.csv?v=' + Date.now());
-            if (!res.ok) throw new Error();
             const text = await res.text();
             Papa.parse(text, {
                 header: true, skipEmptyLines: true, dynamicTyping: true,
@@ -112,7 +113,7 @@
                     document.getElementById('f-mes').value = m[h.getMonth()];
                 }
             });
-        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error: No se halló B_Maestra.csv</option>'; }
+        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error: No se halló data</option>'; }
     }
 
     function generar() {
@@ -122,18 +123,25 @@
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        const movsHoy = rawData.filter(r => 
+        // Filtrar movimientos del día
+        movsDelDia = rawData.filter(r => 
             String(r.Grupo_1) === cli && 
             String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq
         );
 
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fBusq.toUpperCase();
-        document.getElementById('out-ant').innerText = "0.00";
         
-        let html = "", ac = 0;
-        movsHoy.forEach(m => {
-            let v = Number(m.Saldo_1 || 0); ac += v;
+        recalcularTotal();
+    }
+
+    function recalcularTotal() {
+        const saldoAnterior = parseFloat(document.getElementById('out-ant').value) || 0;
+        let html = "", ac = saldoAnterior;
+
+        movsDelDia.forEach(m => {
+            let v = Number(m.Saldo_1 || 0);
+            ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
                 <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong><br>${d}</td>
@@ -149,7 +157,7 @@
     async function compartir() {
         const c = await html2canvas(document.getElementById('reporte'), { scale: 3 });
         c.toBlob(async (b) => {
-            const f = new File([b], `Hoole_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
+            const f = new File([b], `Reporte_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
             if (navigator.share) { await navigator.share({ files: [f] }); }
             else { const l = document.createElement('a'); l.download = f.name; l.href = URL.createObjectURL(b); l.click(); }
         });
