@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE DEL DIA</title>
+    <title>REPORTE AVANZADO HOOLE</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
         :root { --b: #000; --g: #25D366; }
         body { font-family: 'Inter', sans-serif; background: #000; padding: 10px; display: flex; flex-direction: column; align-items: center; }
         
-        .controles { background: white; padding: 15px; border-radius: 10px; width: 100%; max-width: 400px; margin-bottom: 20px; box-sizing: border-box; }
-        .grid-fecha { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
+        .controles { background: white; padding: 15px; border-radius: 10px; width: 100%; max-width: 450px; margin-bottom: 20px; box-sizing: border-box; }
+        .grid-filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         label { font-size: 9px; font-weight: bold; color: #999; text-transform: uppercase; margin-bottom: 3px; display: block; }
-        select, input, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 14px; box-sizing: border-box; }
+        select, input, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 13px; box-sizing: border-box; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
         
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
         .header { border-bottom: 2px solid var(--b); margin-bottom: 10px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
-        .meta { display: flex; justify-content: space-between; font-size: 9px; font-weight: 700; color: #888; margin-bottom: 10px; }
+        .meta { display: grid; grid-template-columns: 1fr 1fr; font-size: 9px; font-weight: 700; color: #888; margin-bottom: 8px; gap: 4px; }
+        .meta span { border-bottom: 1px solid #f2f2f2; padding-bottom: 2px; }
         
-        /* SALDO ANTERIOR EDITABLE */
         .saldo-box { border-top: 1px solid #eee; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .saldo-box span { font-size: 9px; color: #aaa; font-weight: bold; }
         .edit-saldo { border: none; background: #f9f9f9; text-align: right; font-size: 11px; font-weight: 800; color: #444; width: 80px; padding: 2px 5px; border-radius: 4px; }
-        .edit-saldo:focus { outline: 1px solid #ccc; background: #fff; }
 
         table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
         th { text-align: left; font-size: 8px; text-transform: uppercase; color: #bbb; border-bottom: 1px solid #000; padding-bottom: 3px; }
@@ -42,7 +41,7 @@
 <body>
 
 <div class="controles">
-    <div class="grid-fecha">
+    <div class="grid-filtros">
         <div><label>Día</label><select id="f-dia"></select></div>
         <div>
             <label>Mes</label>
@@ -56,14 +55,21 @@
             </select>
         </div>
     </div>
-    <label>Cliente</label>
-    <select id="f-cliente"><option value="">Cargando datos...</option></select>
+    <div class="grid-filtros">
+        <div><label>Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
+        <div><label>Filtro Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
+    </div>
     <button onclick="generar()">GENERAR REPORTE</button>
 </div>
 
 <div id="reporte">
     <div class="header"><h1>REPORTE DEL DIA</h1></div>
-    <div class="meta"><span id="out-cli">---</span><span id="out-fec">---</span></div>
+    <div class="meta">
+        <span id="out-g1">G1: ---</span>
+        <span id="out-g2">G2: ---</span>
+        <span id="out-cli">CLIENTE: ---</span>
+        <span id="out-fec">FECHA: ---</span>
+    </div>
     
     <div class="saldo-box">
         <span>SALDO ANTERIOR</span>
@@ -71,7 +77,7 @@
     </div>
 
     <table>
-        <thead><tr><th>DETALLE</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
+        <thead><tr><th>DETALLE / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
 
@@ -85,9 +91,8 @@
 
 <script>
     let rawData = [];
-    let movsDelDia = [];
+    let movsFiltrados = [];
 
-    // Llenar select de días
     const dSel = document.getElementById('f-dia');
     for(let i=1; i<=31; i++) {
         let o = document.createElement('option'); o.value = i; o.innerText = i;
@@ -113,24 +118,49 @@
                     document.getElementById('f-mes').value = m[h.getMonth()];
                 }
             });
-        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error: No se halló data</option>'; }
+        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error data</option>'; }
     }
 
-    function generar() {
+    function cargarHashes() {
         const cli = document.getElementById('f-cliente').value;
         const dia = document.getElementById('f-dia').value;
         const mes = document.getElementById('f-mes').value;
         const fBusq = `${dia}-${mes}`;
+        
+        const hashes = [...new Set(rawData
+            .filter(r => String(r.Grupo_1) === cli && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
+            .map(r => r.Hash_Corto)
+            .filter(Boolean)
+        )];
+        
+        const hSel = document.getElementById('f-hash');
+        hSel.innerHTML = '<option value="">TODOS</option>';
+        hashes.forEach(h => hSel.innerHTML += `<option value="${h}">${h}</option>`);
+    }
+
+    function generar() {
+        const cli = document.getElementById('f-cliente').value;
+        const hash = document.getElementById('f-hash').value;
+        const dia = document.getElementById('f-dia').value;
+        const mes = document.getElementById('f-mes').value;
+        const fBusq = `${dia}-${mes}`;
+        
         if(!cli) return;
 
-        // Filtrar movimientos del día
-        movsDelDia = rawData.filter(r => 
-            String(r.Grupo_1) === cli && 
-            String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq
-        );
+        // Filtrado dinámico por Cliente, Fecha y opcionalmente Hash
+        movsFiltrados = rawData.filter(r => {
+            const matchCli = String(r.Grupo_1) === cli;
+            const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
+            const matchHash = hash === "" || r.Hash_Corto === hash;
+            return matchCli && matchFec && matchHash;
+        });
 
-        document.getElementById('out-cli').innerText = cli;
-        document.getElementById('out-fec').innerText = fBusq.toUpperCase();
+        // Obtener Grupo 2 del primer movimiento encontrado
+        const primerMov = movsFiltrados[0] || {};
+        document.getElementById('out-g1').innerText = "G1: " + (primerMov.Grupo_1 || "---");
+        document.getElementById('out-g2').innerText = "G2: " + (primerMov.Grupo_2 || "---");
+        document.getElementById('out-cli').innerText = "CLIENTE: " + cli;
+        document.getElementById('out-fec').innerText = "FECHA: " + fBusq.toUpperCase();
         
         recalcularTotal();
     }
@@ -139,12 +169,12 @@
         const saldoAnterior = parseFloat(document.getElementById('out-ant').value) || 0;
         let html = "", ac = saldoAnterior;
 
-        movsDelDia.forEach(m => {
+        movsFiltrados.forEach(m => {
             let v = Number(m.Saldo_1 || 0);
             ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
-                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong><br>${d}</td>
+                <td class="desc-celda"><strong>${m.Operacion || 'MOV'}</strong> [${m.Hash_Corto || ''}]<br>${d}</td>
                 <td class="monto-celda">${v.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
                 <td class="monto-celda" style="color:#aaa">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
@@ -157,7 +187,7 @@
     async function compartir() {
         const c = await html2canvas(document.getElementById('reporte'), { scale: 3 });
         c.toBlob(async (b) => {
-            const f = new File([b], `Reporte_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
+            const f = new File([b], `Hoole_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
             if (navigator.share) { await navigator.share({ files: [f] }); }
             else { const l = document.createElement('a'); l.download = f.name; l.href = URL.createObjectURL(b); l.click(); }
         });
