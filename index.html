@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE</title>
+    <title>REPORTE HOOLE - CORTE HASH</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -56,7 +56,7 @@
     </div>
     <div class="grid-filtros">
         <div><label>Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
-        <div><label>Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
+        <div><label>Corte desde Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
     </div>
     <button onclick="generar()">GENERAR REPORTE</button>
 </div>
@@ -88,7 +88,7 @@
 
 <script>
     let rawData = [];
-    let movsFiltrados = [];
+    let movsParaTabla = [];
 
     const dSel = document.getElementById('f-dia');
     for(let i=1; i<=31; i++) {
@@ -136,18 +136,30 @@
 
     function generar() {
         const cli = document.getElementById('f-cliente').value;
-        const hash = document.getElementById('f-hash').value;
+        const hashCorte = document.getElementById('f-hash').value;
         const dia = document.getElementById('f-dia').value;
         const mes = document.getElementById('f-mes').value;
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        movsFiltrados = rawData.filter(r => {
+        // 1. Filtramos todos los del día para ese cliente
+        let movsDelDia = rawData.filter(r => {
             const matchCli = String(r.Grupo_1) === cli || String(r.Grupo_2) === cli;
             const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
-            const matchHash = hash === "" || r.Hash_Corto === hash;
-            return matchCli && matchFec && matchHash;
+            return matchCli && matchFec;
         });
+
+        // 2. Lógica de "Cortador": si hay hash, buscamos su posición y cortamos el array
+        if (hashCorte !== "") {
+            const indiceCorte = movsDelDia.findIndex(m => m.Hash_Corto === hashCorte);
+            if (indiceCorte !== -1) {
+                movsParaTabla = movsDelDia.slice(indiceCorte);
+            } else {
+                movsParaTabla = movsDelDia;
+            }
+        } else {
+            movsParaTabla = movsDelDia;
+        }
 
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fBusq.toUpperCase();
@@ -159,7 +171,7 @@
         const saldoAnterior = parseFloat(document.getElementById('out-ant').value) || 0;
         let html = "", ac = saldoAnterior;
 
-        movsFiltrados.forEach(m => {
+        movsParaTabla.forEach(m => {
             let v = (String(m.Grupo_1) === cli) ? Number(m.Saldo_1 || 0) : Number(m.Saldo_2 || 0);
             ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
