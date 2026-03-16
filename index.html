@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE AVANZADO HOOLE</title>
+    <title>REPORTE HOOLE AVANZADO</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -56,7 +56,7 @@
         </div>
     </div>
     <div class="grid-filtros">
-        <div><label>Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
+        <div><label>Buscar Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
         <div><label>Filtro Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
     </div>
     <button onclick="generar()">GENERAR REPORTE</button>
@@ -107,10 +107,15 @@
                 header: true, skipEmptyLines: true, dynamicTyping: true,
                 complete: function(results) {
                     rawData = results.data;
-                    const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
+                    
+                    // Extraer clientes únicos de AMBAS columnas (Grupo_1 y Grupo_2)
+                    let g1 = rawData.map(r => r.Grupo_1).filter(Boolean);
+                    let g2 = rawData.map(r => r.Grupo_2).filter(Boolean);
+                    const clientesUnicos = [...new Set([...g1, ...g2])].sort();
+                    
                     const s = document.getElementById('f-cliente');
                     s.innerHTML = '<option value="">-- SELECCIONAR --</option>';
-                    clientes.forEach(c => s.innerHTML += `<option value="${c}">${c}</option>`);
+                    clientesUnicos.forEach(c => s.innerHTML += `<option value="${c}">${c}</option>`);
                     
                     const h = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Caracas"}));
                     const m = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
@@ -128,7 +133,7 @@
         const fBusq = `${dia}-${mes}`;
         
         const hashes = [...new Set(rawData
-            .filter(r => String(r.Grupo_1) === cli && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
+            .filter(r => (String(r.Grupo_1) === cli || String(r.Grupo_2) === cli) && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
             .map(r => r.Hash_Corto)
             .filter(Boolean)
         )];
@@ -147,15 +152,14 @@
         
         if(!cli) return;
 
-        // Filtrado dinámico por Cliente, Fecha y opcionalmente Hash
+        // BÚSQUEDA EN AMBAS COLUMNAS
         movsFiltrados = rawData.filter(r => {
-            const matchCli = String(r.Grupo_1) === cli;
+            const matchCli = String(r.Grupo_1) === cli || String(r.Grupo_2) === cli;
             const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
             const matchHash = hash === "" || r.Hash_Corto === hash;
             return matchCli && matchFec && matchHash;
         });
 
-        // Obtener Grupo 2 del primer movimiento encontrado
         const primerMov = movsFiltrados[0] || {};
         document.getElementById('out-g1').innerText = "G1: " + (primerMov.Grupo_1 || "---");
         document.getElementById('out-g2').innerText = "G2: " + (primerMov.Grupo_2 || "---");
@@ -166,11 +170,16 @@
     }
 
     function recalcularTotal() {
+        const cli = document.getElementById('f-cliente').value;
         const saldoAnterior = parseFloat(document.getElementById('out-ant').value) || 0;
         let html = "", ac = saldoAnterior;
 
         movsFiltrados.forEach(m => {
-            let v = Number(m.Saldo_1 || 0);
+            // Decidir qué saldo usar dependiendo de en qué columna está el cliente
+            let v = 0;
+            if (String(m.Grupo_1) === cli) v = Number(m.Saldo_1 || 0);
+            else if (String(m.Grupo_2) === cli) v = Number(m.Saldo_2 || 0);
+            
             ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
