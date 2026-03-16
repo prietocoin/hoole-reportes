@@ -3,52 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE | BALANCE AUTO</title>
+    <title>REPORTE HOOLE | BALANCE REAL</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
         :root { --b: #000; --g: #25D366; }
         body { font-family: 'Inter', sans-serif; background: #000; padding: 10px; display: flex; flex-direction: column; align-items: center; }
-        
         .controles { background: white; padding: 15px; border-radius: 10px; width: 100%; max-width: 450px; margin-bottom: 20px; box-sizing: border-box; }
         .grid-filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         label { font-size: 9px; font-weight: bold; color: #999; text-transform: uppercase; margin-bottom: 3px; display: block; }
         select, input, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 13px; box-sizing: border-box; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
-        
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
         .header { border-bottom: 2px solid var(--b); margin-bottom: 12px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
         .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
-        
-        .saldo-box { 
-            border-top: 1px solid #eee; 
-            padding: 12px 0; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            margin-bottom: 15px; 
-        }
+        .saldo-box { border-top: 1px solid #eee; padding: 12px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
         .saldo-box span { font-size: 8px; color: #bbb; font-weight: bold; letter-spacing: 0.5px; }
-        .edit-saldo { 
-            border: 1px solid #f0f0f0; 
-            background: #fdfdfd; 
-            text-align: right; 
-            font-size: 10px; 
-            font-weight: 800; 
-            color: #444; 
-            width: 100px; 
-            padding: 4px 6px; 
-            border-radius: 4px; 
-        }
-
+        .edit-saldo { border: 1px solid #f0f0f0; background: #fdfdfd; text-align: right; font-size: 11px; font-weight: 800; color: #000; width: 100px; padding: 4px 6px; border-radius: 4px; }
         table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
         th { text-align: left; font-size: 8px; text-transform: uppercase; color: #bbb; border-bottom: 1px solid #000; padding-bottom: 3px; }
         td { padding: 6px 4px; border-bottom: 1px solid #f9f9f9; font-size: 9px; vertical-align: top; }
-        
         .desc-celda { line-height: 1.1; color: #555; max-width: 185px; word-break: break-word; font-size: 9px; }
         .monto-celda { text-align: right; font-weight: 700; font-size: 10px; }
-        
         .footer { border-top: 2px solid var(--b); padding-top: 10px; text-align: right; }
         .footer small { font-weight: 800; font-size: 9px; color: #999; }
         .footer .total { font-size: 22px; font-weight: 900; color: #000; margin-top: -2px; }
@@ -77,21 +54,15 @@
 
 <div id="reporte">
     <div class="header"><h1>REPORTE DEL DIA</h1></div>
-    <div class="meta">
-        <span id="out-cli">---</span>
-        <span id="out-fec">---</span>
-    </div>
-    
+    <div class="meta"><span id="out-cli">---</span><span id="out-fec">---</span></div>
     <div class="saldo-box">
-        <span>SALDO ANTERIOR</span>
+        <span>SALDO ANTERIOR (BALANCE)</span>
         <input type="number" step="0.01" id="out-ant" class="edit-saldo" value="0.00" oninput="recalcularTotal()">
     </div>
-
     <table>
         <thead><tr><th>DETALLE / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
-
     <div class="footer">
         <small>SALDO FINAL</small>
         <div class="total" id="out-fin">0.00</div>
@@ -156,13 +127,13 @@
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        // 1. Historial COMPLETO de este cliente (Cruza ambas columnas)
+        // 1. Historial COMPLETO cronológico del cliente
         let historialCompletoCli = rawData.filter(r => 
             String(r.Grupo_1).toUpperCase() === cli.toUpperCase() || 
             String(r.Grupo_2).toUpperCase() === cli.toUpperCase()
         );
 
-        // 2. Movimientos del día
+        // 2. Movimientos del día seleccionado
         let movsDelDia = historialCompletoCli.filter(r => 
             String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq
         );
@@ -174,19 +145,21 @@
             movsParaTabla = movsDelDia;
         }
 
-        // --- LÓGICA DE SALDO ANTERIOR AUTOMÁTICO ---
+        // --- LÓGICA DE SALDO ANTERIOR (BALANCE HISTÓRICO) ---
         let saldoAuto = 0;
         if (movsParaTabla.length > 0) {
-            const primerMov = movsParaTabla[0];
-            const idxH = historialCompletoCli.indexOf(primerMov);
+            const primerMovAMostrar = movsParaTabla[0];
+            const idxEnHistorial = historialCompletoCli.indexOf(primerMovAMostrar);
             
-            if (idxH > 0) {
-                const previo = historialCompletoCli[idxH - 1];
-                // Busca el balance en la columna donde estaba el cliente
-                if (String(previo.Grupo_1).toUpperCase() === cli.toUpperCase()) {
-                    saldoAuto = parseFloat(previo.Balance_1) || 0;
+            // Buscamos el balance en el registro inmediatamente anterior de ese cliente
+            if (idxEnHistorial > 0) {
+                const registroAnterior = historialCompletoCli[idxEnHistorial - 1];
+                
+                // Si el cliente estaba en G1 usamos Balance_1, si estaba en G2 usamos Balance_2
+                if (String(registroAnterior.Grupo_1).toUpperCase() === cli.toUpperCase()) {
+                    saldoAuto = parseFloat(registroAnterior.Balance_1) || 0;
                 } else {
-                    saldoAuto = parseFloat(previo.Balance_2) || 0;
+                    saldoAuto = parseFloat(registroAnterior.Balance_2) || 0;
                 }
             }
         }
@@ -205,7 +178,7 @@
 
         movsParaTabla.forEach(m => {
             let v = (String(m.Grupo_1).toUpperCase() === cli.toUpperCase()) ? Number(m.Saldo_1 || 0) : Number(m.Saldo_2 || 0);
-            ac += v;
+            ac = Math.round((ac + v) * 100) / 100; // Redondeo para evitar errores de JS
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
                 <td class="desc-celda"><strong>${m.Operacion || 'PAGO'}</strong> [${m.Hash_Corto || ''}]<br>${d}</td>
@@ -220,7 +193,7 @@
     async function compartir() {
         const c = await html2canvas(document.getElementById('reporte'), { scale: 3 });
         c.toBlob(async (b) => {
-            const f = new File([b], `Hoole_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
+            const f = new File([b], `Reporte_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
             if (navigator.share) { await navigator.share({ files: [f] }); }
             else { const l = document.createElement('a'); l.download = f.name; l.href = URL.createObjectURL(b); l.click(); }
         });
