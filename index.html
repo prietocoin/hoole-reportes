@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE | BALANCE AUTO FIX</title>
+    <title>REPORTE HOOLE | BALANCE FIJO</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -14,18 +14,22 @@
         label { font-size: 9px; font-weight: bold; color: #999; text-transform: uppercase; margin-bottom: 3px; display: block; }
         select, input, button { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 13px; box-sizing: border-box; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
+        
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
         .header { border-bottom: 2px solid var(--b); margin-bottom: 12px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
-        .meta { display: flex; justify-content: space-between; font-size: 9px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
+        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
+        
         .saldo-box { border-top: 1px solid #eee; padding: 12px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
         .saldo-box span { font-size: 8px; color: #bbb; font-weight: bold; letter-spacing: 0.5px; }
         .edit-saldo { border: 1px solid #f0f0f0; background: #fdfdfd; text-align: right; font-size: 11px; font-weight: 800; color: #000; width: 110px; padding: 4px 6px; border-radius: 4px; }
+
         table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
         th { text-align: left; font-size: 8px; text-transform: uppercase; color: #bbb; border-bottom: 1px solid #000; padding-bottom: 3px; }
         td { padding: 6px 4px; border-bottom: 1px solid #f9f9f9; font-size: 9px; vertical-align: top; }
         .desc-celda { line-height: 1.1; color: #555; max-width: 185px; word-break: break-word; font-size: 9px; }
         .monto-celda { text-align: right; font-weight: 700; font-size: 10px; }
+        
         .footer { border-top: 2px solid var(--b); padding-top: 10px; text-align: right; }
         .footer small { font-weight: 800; font-size: 9px; color: #999; }
         .footer .total { font-size: 22px; font-weight: 900; color: #000; margin-top: -2px; }
@@ -55,14 +59,17 @@
 <div id="reporte">
     <div class="header"><h1>REPORTE DEL DIA</h1></div>
     <div class="meta"><span id="out-cli">---</span><span id="out-fec">---</span></div>
+    
     <div class="saldo-box">
         <span>SALDO ANTERIOR (BALANCE)</span>
         <input type="number" step="0.01" id="out-ant" class="edit-saldo" value="0.00" oninput="recalcularTotal()">
     </div>
+
     <table>
         <thead><tr><th>DETALLE / HASH</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
         <tbody id="out-tabla"></tbody>
     </table>
+
     <div class="footer">
         <small>SALDO FINAL</small>
         <div class="total" id="out-fin">0.00</div>
@@ -83,19 +90,14 @@
 
     async function init() {
         try {
-            // v=Date.now() evita que el navegador use una version vieja del CSV
             const res = await fetch('./B_Maestra.csv?v=' + Date.now());
             const text = await res.text();
             Papa.parse(text, {
                 header: true, skipEmptyLines: true, dynamicTyping: true,
                 complete: function(results) {
-                    // Ordenamos por row_number para que la busqueda inversa sea fiable
+                    // Ordenar por row_number para que el final del array sea lo más reciente
                     rawData = results.data.sort((a, b) => Number(a.row_number) - Number(b.row_number));
-                    
-                    let g1 = rawData.map(r => r.Grupo_1).filter(Boolean);
-                    let g2 = rawData.map(r => r.Grupo_2).filter(Boolean);
-                    const clientesUnicos = [...new Set([...g1, ...g2])].sort();
-                    
+                    const clientesUnicos = [...new Set([...rawData.map(r => r.Grupo_1), ...rawData.map(r => r.Grupo_2)])].filter(Boolean).sort();
                     const s = document.getElementById('f-cliente');
                     s.innerHTML = '<option value="">-- SELECCIONAR --</option>';
                     clientesUnicos.forEach(c => s.innerHTML += `<option value="${c}">${c}</option>`);
@@ -131,49 +133,42 @@
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        // 1. Filtrar toda la historia del cliente
-        let historialCompletoCli = rawData.filter(r => 
+        // 1. Filtrar TODA la historia del cliente para buscar el último balance registrado
+        let historiaSocio = rawData.filter(r => 
             String(r.Grupo_1).toUpperCase() === cli.toUpperCase() || 
             String(r.Grupo_2).toUpperCase() === cli.toUpperCase()
         );
 
-        // 2. Movimientos del dia
-        let movsDelDia = historialCompletoCli.filter(r => 
-            String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq
-        );
+        // 2. Movimientos del día seleccionado
+        let movsHoy = historiaSocio.filter(r => String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq);
 
+        // 3. Aplicar corte de Hash si existe
         if (hashCorte !== "") {
-            const idx = movsDelDia.findIndex(m => m.Hash_Corto === hashCorte);
-            movsParaTabla = (idx !== -1) ? movsDelDia.slice(idx) : movsDelDia;
+            const idx = movsHoy.findIndex(m => m.Hash_Corto === hashCorte);
+            movsParaTabla = (idx !== -1) ? movsHoy.slice(idx) : movsHoy;
         } else {
-            movsParaTabla = movsDelDia;
+            movsParaTabla = movsHoy;
         }
 
-        // --- LÓGICA DE SALDO ANTERIOR ULTRA RESISTENTE ---
-        let saldoAuto = 0;
+        // --- LÓGICA DE SALDO ANTERIOR (Búsqueda global) ---
+        let saldoCalculado = 0;
+        
+        // Si hay movimientos hoy, buscamos justo antes del primero de hoy
         if (movsParaTabla.length > 0) {
-            const primerMovAMostrar = movsParaTabla[0];
-            const idxEnHistorial = historialCompletoCli.indexOf(primerMovAMostrar);
-            
-            // Buscamos hacia atras hasta encontrar un balance que no sea 0 o vacio
-            for (let i = idxEnHistorial - 1; i >= 0; i--) {
-                const registroPrevio = historialCompletoCli[i];
-                let balanceEncontrado = 0;
-
-                if (String(registroPrevio.Grupo_1).toUpperCase() === cli.toUpperCase()) {
-                    balanceEncontrado = parseFloat(registroPrevio.Balance_1);
-                } else {
-                    balanceEncontrado = parseFloat(registroPrevio.Balance_2);
-                }
-
-                if (!isNaN(balanceEncontrado) && balanceEncontrado !== 0) {
-                    saldoAuto = balanceEncontrado;
-                    break; // Ya encontramos el ultimo balance real
-                }
+            const primerId = movsParaTabla[0].row_number;
+            const previo = historiaSocio.filter(r => Number(r.row_number) < Number(primerId)).pop();
+            if (previo) {
+                saldoCalculado = (String(previo.Grupo_1).toUpperCase() === cli.toUpperCase()) ? parseFloat(previo.Balance_1) : parseFloat(previo.Balance_2);
+            }
+        } else {
+            // SI NO HAY MOVIMIENTOS HOY: Buscamos el último balance de TODA su historia
+            const ultimoRegistro = historiaSocio[historiaSocio.length - 1];
+            if (ultimoRegistro) {
+                saldoCalculado = (String(ultimoRegistro.Grupo_1).toUpperCase() === cli.toUpperCase()) ? parseFloat(ultimoRegistro.Balance_1) : parseFloat(ultimoRegistro.Balance_2);
             }
         }
 
-        document.getElementById('out-ant').value = saldoAuto.toFixed(2);
+        document.getElementById('out-ant').value = (saldoCalculado || 0).toFixed(2);
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fBusq.toUpperCase();
         recalcularTotal();
@@ -194,7 +189,7 @@
                 <td class="monto-celda" style="color:#aaa">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
         });
-        document.getElementById('out-tabla').innerHTML = html || '<tr><td colspan="3" style="text-align:center; padding:20px;">SIN ACTIVIDAD</td></tr>';
+        document.getElementById('out-tabla').innerHTML = html || '<tr><td colspan="3" style="text-align:center; padding:20px; color:#999">SIN ACTIVIDAD ESTE DÍA</td></tr>';
         document.getElementById('out-fin').innerText = ac.toLocaleString('en-US',{minimumFractionDigits:2});
     }
 
