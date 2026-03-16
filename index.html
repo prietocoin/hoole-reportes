@@ -3,131 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOOLE | Reporte Directo</title>
+    <title>HOOLE | Reporte Contable</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
-        :root { --b: #000; --g: #25D366; }
-        body { font-family: sans-serif; background: #000; padding: 10px; display: flex; flex-direction: column; align-items: center; }
+        :root { --b: #000; --g: #25D366; --f: #f4f7f6; }
+        body { font-family: 'Inter', sans-serif; background: #000; padding: 10px; display: flex; flex-direction: column; align-items: center; }
         .controles { background: white; padding: 20px; border-radius: 12px; width: 100%; max-width: 400px; margin-bottom: 20px; box-sizing: border-box; }
-        input, select, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; }
+        .grid-fecha { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
+        label { font-size: 10px; font-weight: bold; color: #999; text-transform: uppercase; }
+        select, button { width: 100%; padding: 12px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; }
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
         
         #reporte { background: white; width: 400px; padding: 30px; box-sizing: border-box; color: #333; }
-        .header { border-bottom: 6px solid var(--b); margin-bottom: 20px; text-align: center; }
+        .header { border-bottom: 6px solid var(--b); margin-bottom: 15px; text-align: center; }
         .header h1 { margin: 0; font-size: 45px; letter-spacing: -2px; font-weight: 900; }
         .meta { display: flex; justify-content: space-between; font-size: 11px; font-weight: 800; text-transform: uppercase; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px;}
         
-        .saldo-box { background: #f1f1f1; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #000; margin-bottom: 20px; }
+        .saldo-box { background: #f1f1f1; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-left: 5px solid #000; margin-bottom: 15px; }
         .saldo-box span { font-size: 11px; color: #666; font-weight: bold; }
         .saldo-box strong { font-size: 18px; font-weight: 900; }
 
         table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
         th { text-align: left; font-size: 9px; text-transform: uppercase; color: #999; border-bottom: 2px solid #000; padding: 5px; }
-        td { padding: 10px 5px; border-bottom: 1px solid #eee; font-size: 11px; vertical-align: top; }
+        td { padding: 8px 5px; border-bottom: 1px solid #eee; font-size: 11px; vertical-align: top; }
         
-        .desc-celda { font-size: 9px; line-height: 1.2; color: #444; max-width: 180px; word-break: break-word; }
+        /* DESCRIPCIÓN MINI PARA QUE SE VEA BIEN */
+        .desc-celda { font-size: 9px; line-height: 1.1; color: #555; max-width: 180px; word-break: break-word; }
         .monto-celda { text-align: right; font-weight: 800; font-size: 11px; }
         
-        .footer { border-top: 6px solid var(--b); padding-top: 15px; text-align: right; }
-        .footer .total { font-size: 36px; font-weight: 900; color: #000; letter-spacing: -1px; }
+        .footer { border-top: 6px solid var(--b); padding-top: 10px; text-align: right; }
+        .footer .total { font-size: 38px; font-weight: 900; color: #000; letter-spacing: -1px; margin-top: -5px; }
     </style>
 </head>
 <body>
 
 <div class="controles">
-    <input type="text" id="f-fecha" placeholder="Ej: 15-mar o 1-ene">
-    <select id="f-cliente"><option value="">-- CLIENTE --</option></select>
-    <button onclick="generar()">GENERAR REPORTE</button>
+    <div class="grid-fecha">
+        <div>
+            <label>Día</label>
+            <select id="f-dia"></select>
+        </div>
+        <div>
+            <label>Mes</label>
+            <select id="f-mes">
+                <option value="ene">Enero</option>
+                <option value="feb">Febrero</option>
+                <option value="mar">Marzo</option>
+                <option value="abr">Abril</option>
+                <option value="may">Mayo</option>
+                <option value="jun">Junio</option>
+                <option value="jul">Julio</option>
+                <option value="ago">Agosto</option>
+                <option value="sep">Septiembre</option>
+                <option value="oct">Octubre</option>
+                <option value="nov">Noviembre</option>
+                <option value="dic">Diciembre</option>
+            </select>
+        </div>
+    </div>
+    <label>Cliente</label>
+    <select id="f-cliente"><option value="">Cargando...</option></select>
+    <button onclick="generar()">GENERAR REPORTE VET</button>
 </div>
 
 <div id="reporte">
     <div class="header"><h1>HOOLE</h1></div>
-    <div class="meta"><span id="out-cli">---</span><span id="out-fec">---</span></div>
-    <div class="saldo-box"><span>SALDO ANTERIOR</span><strong id="out-ant">0.00</strong></div>
+    <div class="meta">
+        <span id="out-cli">---</span>
+        <span id="out-fec">---</span>
+    </div>
+    <div class="saldo-box">
+        <span>SALDO ANTERIOR</span>
+        <strong id="out-ant">0.00</strong>
+    </div>
     <table>
-        <thead><tr><th>DETALLE</th><th style="text-align:right">MONTO</th><th style="text-align:right">BALANCE</th></tr></thead>
+        <thead>
+            <tr>
+                <th>DETALLE / REFERENCIA</th>
+                <th style="text-align:right">MONTO</th>
+                <th style="text-align:right">BALANCE</th>
+            </tr>
+        </thead>
         <tbody id="out-tabla"></tbody>
     </table>
     <div class="footer">
-        <small style="font-weight:bold; color:#999">SALDO FINAL</small>
+        <small style="font-weight:bold; color:#999">SALDO FINAL AL CIERRE</small>
         <div class="total" id="out-fin">0.00</div>
     </div>
 </div>
 
-<button onclick="compartir()" style="background:var(--g); width:400px; margin-top:15px; padding:18px; border-radius:12px; color:white; font-weight:bold; border:none;">📲 ENVIAR POR WHATSAPP</button>
+<button onclick="compartir()" style="background:var(--g); width:400px; margin-top:15px; padding:18px; border-radius:12px; color:white; font-weight:bold; border:none; display:flex; align-items:center; justify-content:center; gap:10px;">
+    <span>📲 COMPARTIR EN WHATSAPP</span>
+</button>
 
 <script>
     let rawData = [];
 
+    // Cargar días del 1 al 31
+    const diaSel = document.getElementById('f-dia');
+    for(let i=1; i<=31; i++) {
+        let opt = document.createElement('option');
+        opt.value = i; opt.innerText = i;
+        diaSel.appendChild(opt);
+    }
+
     async function init() {
-        const res = await fetch('B_Maestra.csv?v=' + Date.now());
-        const text = await res.text();
-        Papa.parse(text, {
-            header: true, skipEmptyLines: true, dynamicTyping: true,
-            complete: function(results) {
-                rawData = results.data;
-                const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
-                const select = document.getElementById('f-cliente');
-                clientes.forEach(c => select.innerHTML += `<option value="${c}">${c}</option>`);
-                
-                // Poner la fecha de hoy en el formato de tu CSV (ej: 15-mar)
-                const meses = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
-                const hoy = new Date();
-                document.getElementById('f-fecha').value = hoy.getDate() + "-" + meses[hoy.getMonth()];
-            }
-        });
+        try {
+            const res = await fetch('B_Maestra.csv?v=' + Date.now());
+            const text = await res.text();
+            Papa.parse(text, {
+                header: true, skipEmptyLines: true, dynamicTyping: true,
+                complete: function(results) {
+                    rawData = results.data;
+                    const clientes = [...new Set(rawData.map(r => r.Grupo_1).filter(Boolean))].sort();
+                    const select = document.getElementById('f-cliente');
+                    select.innerHTML = '<option value="">-- SELECCIONAR --</option>';
+                    clientes.forEach(c => select.innerHTML += `<option value="${c}">${c}</option>`);
+                    
+                    // Pre-seleccionar fecha hoy VET
+                    const meses = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"];
+                    const hoy = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Caracas"}));
+                    document.getElementById('f-dia').value = hoy.getDate();
+                    document.getElementById('f-mes').value = meses[hoy.getMonth()];
+                }
+            });
+        } catch (e) { alert("Error de base de datos"); }
     }
 
     function generar() {
         const cli = document.getElementById('f-cliente').value;
-        const fec = document.getElementById('f-fecha').value; // Ejemplo: "15-mar"
-        if(!cli || !fec) return;
+        const dia = document.getElementById('f-dia').value;
+        const mes = document.getElementById('f-mes').value;
+        const fechaBuscada = `${dia}-${mes}`;
+        
+        if(!cli) return alert("Selecciona un cliente");
 
+        // Filtrar data del cliente y calcular saldo anterior por orden de fila
         const dataCli = rawData.filter(r => String(r.Grupo_1) === cli);
         
-        // El Saldo Anterior es la suma de todo lo que NO sea la fecha seleccionada y esté antes en la lista
         let ant = 0;
-        let encontradoHoy = false;
-        
-        // Filtramos movimientos de "Hoy" y calculamos el anterior por posición en la lista
         let movsHoy = [];
+        let encontroFecha = false;
+
         dataCli.forEach(r => {
-            if (String(r.Fecha_Hora).toLowerCase().includes(fec.toLowerCase())) {
+            const fechaFila = String(r.Fecha_Hora).toLowerCase().trim();
+            if (fechaFila === fechaBuscada.toLowerCase()) {
                 movsHoy.push(r);
-                encontradoHoy = true;
-            } else if (!encontradoHoy) {
+                encontroFecha = true;
+            } else if (!encontroFecha) {
+                // Si aún no hemos llegado a la fecha de hoy en el archivo, sumamos al anterior
                 ant += Number(r.Saldo_1 || 0);
             }
         });
 
         document.getElementById('out-cli').innerText = cli;
-        document.getElementById('out-fec').innerText = fec.toUpperCase();
+        document.getElementById('out-fec').innerText = fechaBuscada.toUpperCase();
         document.getElementById('out-ant').innerText = ant.toLocaleString('en-US',{minimumFractionDigits:2});
         
         let h = "", ac = ant;
         movsHoy.forEach(m => {
             let v = Number(m.Saldo_1 || 0); ac += v;
-            let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
+            let desc = (m.Descripcion_1 || m.Operacion || 'MOV').replace(/\n/g, ' / ');
             h += `<tr>
-                <td class="desc-celda"><strong>${m.Operacion || 'PAGO'}</strong><br>${d}</td>
+                <td class="desc-celda"><strong>${m.Operacion || 'PAGO'}</strong><br>${desc}</td>
                 <td class="monto-celda">${v.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
                 <td class="monto-celda" style="color:#999">${ac.toLocaleString('en-US',{minimumFractionDigits:2})}</td>
             </tr>`;
         });
-        document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN ACTIVIDAD</td></tr>';
+        document.getElementById('out-tabla').innerHTML = h || '<tr><td colspan="3" style="text-align:center; padding:30px;">SIN ACTIVIDAD ESTA FECHA</td></tr>';
         document.getElementById('out-fin').innerText = ac.toLocaleString('en-US',{minimumFractionDigits:2});
     }
 
     async function compartir() {
-        const canvas = await html2canvas(document.getElementById('reporte'), { scale: 3 });
+        const reporte = document.getElementById('reporte');
+        const canvas = await html2canvas(reporte, { scale: 3, useCORS: true });
         canvas.toBlob(async (blob) => {
             const file = new File([blob], `Hoole_${document.getElementById('f-cliente').value}.png`, { type: 'image/png' });
-            if (navigator.share) {
+            if (navigator.share && navigator.canShare({ files: [file] })) {
                 await navigator.share({ files: [file], title: 'Reporte Hoole' });
             } else {
-                const link = document.createElement('a'); link.download = file.name;
-                link.href = URL.createObjectURL(blob); link.click();
+                const link = document.createElement('a');
+                link.download = file.name;
+                link.href = URL.createObjectURL(blob);
+                link.click();
             }
         });
     }
