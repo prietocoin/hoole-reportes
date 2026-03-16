@@ -9003,7 +9003,9 @@ Banco: COPEC PAY, Moneda: CLP, Tasa(T089): 1.015 ",254.84,-68965.51,393.62,-1326
 3019,COMPLETADO,32b64dc6e96a5a239cd8bce0e4f3ffcceafd57712b42b57ceb3ef20be30682d9,c1zF6aL,16-mar,1773687304,T089,MXN,OXXO,YARELIS,935,ALEJANDRA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/c1zF6aL,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.613,-18.71,"[D-c1zF6aL] Monto: 935, Titular: YARELIS
 Banco: OXXO, Moneda: MXN, Tasa(T089): 5.613 ","[D-c1zF6aL] Monto: 935, Titular: YARELIS
 Banco: OXXO, Moneda: MXN, Tasa(T089): 18.71 ",166.57,-49.97,166.57,-118.89
-3020,PENDIENTE,77f04c1c005196d87aa69e873a0b9430f67935cfc279ba2c8665a88bbd47fbd1,srlMyt6,31-dic,,,COP,NEQUI,INES JUSAYU,305000,IRIS,,,,,https://link.jairokov.com/i/srlMyt6,573248071414@s.whatsapp.net,,,,,,,,,,,
+3020,COMPLETADO,77f04c1c005196d87aa69e873a0b9430f67935cfc279ba2c8665a88bbd47fbd1,srlMyt6,16-mar,1773691608,T089,COP,NEQUI,INES JUSAYU,305000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/srlMyt6,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3586,"[P-srlMyt6] Monto: 305000, Titular: INES JUSAYU
+Banco: NEQUI, Moneda: COP, Tasa(T089): 0.99 ","[P-srlMyt6] Monto: 305000, Titular: INES JUSAYU
+Banco: NEQUI, Moneda: COP, Tasa(T089): 3586 ",308080.8,-85.05,-13500.51,-118.51
 3021,COMPLETADO,28e0c4d97e6611e4e09a33e6b42f1d3badf9f1295d3954b3c73f2a9c4466e738,9GZyFlF,16-mar,1773687816,T089,MXN,OXXO,EMILY,1000,ARGENIS,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/9GZyFlF,573004369059@s.whatsapp.net,573248071414@s.whatsapp.net,,,19.12,-18.71,"[D-9GZyFlF] Monto: 1000, Titular: EMILY
 Banco: OXXO, Moneda: MXN, Tasa(T089): 19.12 ","[D-9GZyFlF] Monto: 1000, Titular: EMILY
 Banco: OXXO, Moneda: MXN, Tasa(T089): 18.71 ",52.3,-53.44,52.3,-172.33
