@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE</title>
+    <title>REPORTE HOOLE | BALANCE AUTO</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -19,12 +19,11 @@
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
         .header { border-bottom: 2px solid var(--b); margin-bottom: 12px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
-        .meta { display: flex; justify-content: space-between; font-size: 9px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
+        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
         
-        /* AJUSTE SALDO ANTERIOR: MÁS ESPACIO Y LETRA PEQUEÑA */
         .saldo-box { 
             border-top: 1px solid #eee; 
-            padding: 12px 0; /* Más espacio arriba y abajo */
+            padding: 12px 0; 
             display: flex; 
             justify-content: space-between; 
             align-items: center; 
@@ -38,7 +37,7 @@
             font-size: 10px; 
             font-weight: 800; 
             color: #444; 
-            width: 90px; 
+            width: 100px; 
             padding: 4px 6px; 
             border-radius: 4px; 
         }
@@ -132,7 +131,7 @@
                     document.getElementById('f-mes').value = m[h.getMonth()];
                 }
             });
-        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error</option>'; }
+        } catch (e) { document.getElementById('f-cliente').innerHTML = '<option>Error CSV</option>'; }
     }
 
     function cargarHashes() {
@@ -141,7 +140,7 @@
         const mes = document.getElementById('f-mes').value;
         const fBusq = `${dia}-${mes}`;
         const hashes = [...new Set(rawData
-            .filter(r => (String(r.Grupo_1) === cli || String(r.Grupo_2) === cli) && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
+            .filter(r => (String(r.Grupo_1).toUpperCase() === cli.toUpperCase() || String(r.Grupo_2).toUpperCase() === cli.toUpperCase()) && String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq)
             .map(r => r.Hash_Corto).filter(Boolean)
         )];
         const hSel = document.getElementById('f-hash');
@@ -157,23 +156,42 @@
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        let movsDelDia = rawData.filter(r => {
-            const matchCli = String(r.Grupo_1) === cli || String(r.Grupo_2) === cli;
-            const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
-            return matchCli && matchFec;
-        });
+        // 1. Historial COMPLETO de este cliente (Cruza ambas columnas)
+        let historialCompletoCli = rawData.filter(r => 
+            String(r.Grupo_1).toUpperCase() === cli.toUpperCase() || 
+            String(r.Grupo_2).toUpperCase() === cli.toUpperCase()
+        );
+
+        // 2. Movimientos del día
+        let movsDelDia = historialCompletoCli.filter(r => 
+            String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq
+        );
 
         if (hashCorte !== "") {
-            const indiceCorte = movsDelDia.findIndex(m => m.Hash_Corto === hashCorte);
-            movsParaTabla = (indiceCorte !== -1) ? movsDelDia.slice(indiceCorte) : movsDelDia;
+            const indexCorte = movsDelDia.findIndex(m => m.Hash_Corto === hashCorte);
+            movsParaTabla = (indexCorte !== -1) ? movsDelDia.slice(indexCorte) : movsDelDia;
         } else {
             movsParaTabla = movsDelDia;
         }
 
-        // VARIABLE PARA CALCULAR SALDO (Ahora en 0 por tu pedido, pero lista para usar)
-        let saldoCalculado = 0.00; 
+        // --- LÓGICA DE SALDO ANTERIOR AUTOMÁTICO ---
+        let saldoAuto = 0;
+        if (movsParaTabla.length > 0) {
+            const primerMov = movsParaTabla[0];
+            const idxH = historialCompletoCli.indexOf(primerMov);
+            
+            if (idxH > 0) {
+                const previo = historialCompletoCli[idxH - 1];
+                // Busca el balance en la columna donde estaba el cliente
+                if (String(previo.Grupo_1).toUpperCase() === cli.toUpperCase()) {
+                    saldoAuto = parseFloat(previo.Balance_1) || 0;
+                } else {
+                    saldoAuto = parseFloat(previo.Balance_2) || 0;
+                }
+            }
+        }
 
-        document.getElementById('out-ant').value = saldoCalculado.toFixed(2);
+        document.getElementById('out-ant').value = saldoAuto.toFixed(2);
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fBusq.toUpperCase();
         
@@ -186,7 +204,7 @@
         let html = "", ac = saldoAnterior;
 
         movsParaTabla.forEach(m => {
-            let v = (String(m.Grupo_1) === cli) ? Number(m.Saldo_1 || 0) : Number(m.Saldo_2 || 0);
+            let v = (String(m.Grupo_1).toUpperCase() === cli.toUpperCase()) ? Number(m.Saldo_1 || 0) : Number(m.Saldo_2 || 0);
             ac += v;
             let d = (m.Descripcion_1 || m.Operacion || 'PAGO').replace(/\n/g, ' ');
             html += `<tr>
