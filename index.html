@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPORTE HOOLE - CORTE HASH</title>
+    <title>REPORTE HOOLE</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <style>
@@ -17,13 +17,31 @@
         button { background: var(--b); color: white; font-weight: bold; cursor: pointer; border: none; }
         
         #reporte { background: white; width: 400px; padding: 25px; box-sizing: border-box; color: #333; }
-        .header { border-bottom: 2px solid var(--b); margin-bottom: 10px; padding-bottom: 5px; }
+        .header { border-bottom: 2px solid var(--b); margin-bottom: 12px; padding-bottom: 5px; }
         .header h1 { margin: 0; font-size: 18px; font-weight: 900; text-transform: uppercase; }
-        .meta { display: flex; justify-content: space-between; font-size: 10px; font-weight: 800; color: #000; margin-bottom: 10px; text-transform: uppercase; }
+        .meta { display: flex; justify-content: space-between; font-size: 9px; font-weight: 800; color: #000; margin-bottom: 15px; text-transform: uppercase; }
         
-        .saldo-box { border-top: 1px solid #eee; padding: 5px 0; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-        .saldo-box span { font-size: 9px; color: #aaa; font-weight: bold; }
-        .edit-saldo { border: none; background: #f9f9f9; text-align: right; font-size: 11px; font-weight: 800; color: #444; width: 80px; padding: 2px 5px; border-radius: 4px; }
+        /* AJUSTE SALDO ANTERIOR: MÁS ESPACIO Y LETRA PEQUEÑA */
+        .saldo-box { 
+            border-top: 1px solid #eee; 
+            padding: 12px 0; /* Más espacio arriba y abajo */
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 15px; 
+        }
+        .saldo-box span { font-size: 8px; color: #bbb; font-weight: bold; letter-spacing: 0.5px; }
+        .edit-saldo { 
+            border: 1px solid #f0f0f0; 
+            background: #fdfdfd; 
+            text-align: right; 
+            font-size: 10px; 
+            font-weight: 800; 
+            color: #444; 
+            width: 90px; 
+            padding: 4px 6px; 
+            border-radius: 4px; 
+        }
 
         table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
         th { text-align: left; font-size: 8px; text-transform: uppercase; color: #bbb; border-bottom: 1px solid #000; padding-bottom: 3px; }
@@ -32,7 +50,7 @@
         .desc-celda { line-height: 1.1; color: #555; max-width: 185px; word-break: break-word; font-size: 9px; }
         .monto-celda { text-align: right; font-weight: 700; font-size: 10px; }
         
-        .footer { border-top: 2px solid var(--b); padding-top: 8px; text-align: right; }
+        .footer { border-top: 2px solid var(--b); padding-top: 10px; text-align: right; }
         .footer small { font-weight: 800; font-size: 9px; color: #999; }
         .footer .total { font-size: 22px; font-weight: 900; color: #000; margin-top: -2px; }
     </style>
@@ -42,21 +60,18 @@
 <div class="controles">
     <div class="grid-filtros">
         <div><label>Día</label><select id="f-dia"></select></div>
-        <div>
-            <label>Mes</label>
-            <select id="f-mes">
-                <option value="ene">Enero</option><option value="feb">Febrero</option>
-                <option value="mar">Marzo</option><option value="abr">Abril</option>
-                <option value="may">Mayo</option><option value="jun">Junio</option>
-                <option value="jul">Julio</option><option value="ago">Agosto</option>
-                <option value="sep">Septiembre</option><option value="oct">Octubre</option>
-                <option value="nov">Noviembre</option><option value="dic">Diciembre</option>
-            </select>
-        </div>
+        <div><label>Mes</label><select id="f-mes">
+            <option value="ene">Enero</option><option value="feb">Febrero</option>
+            <option value="mar">Marzo</option><option value="abr">Abril</option>
+            <option value="may">Mayo</option><option value="jun">Junio</option>
+            <option value="jul">Julio</option><option value="ago">Agosto</option>
+            <option value="sep">Septiembre</option><option value="oct">Octubre</option>
+            <option value="nov">Noviembre</option><option value="dic">Diciembre</option>
+        </select></div>
     </div>
     <div class="grid-filtros">
         <div><label>Cliente</label><select id="f-cliente" onchange="cargarHashes()"><option value="">Cargando...</option></select></div>
-        <div><label>Corte desde Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
+        <div><label>Desde Hash</label><select id="f-hash"><option value="">TODOS</option></select></div>
     </div>
     <button onclick="generar()">GENERAR REPORTE</button>
 </div>
@@ -64,8 +79,8 @@
 <div id="reporte">
     <div class="header"><h1>REPORTE DEL DIA</h1></div>
     <div class="meta">
-        <span id="out-cli">CLIENTE: ---</span>
-        <span id="out-fec">FECHA: ---</span>
+        <span id="out-cli">---</span>
+        <span id="out-fec">---</span>
     </div>
     
     <div class="saldo-box">
@@ -142,27 +157,26 @@
         const fBusq = `${dia}-${mes}`;
         if(!cli) return;
 
-        // 1. Filtramos todos los del día para ese cliente
         let movsDelDia = rawData.filter(r => {
             const matchCli = String(r.Grupo_1) === cli || String(r.Grupo_2) === cli;
             const matchFec = String(r.Fecha_Hora || "").toLowerCase().trim() === fBusq;
             return matchCli && matchFec;
         });
 
-        // 2. Lógica de "Cortador": si hay hash, buscamos su posición y cortamos el array
         if (hashCorte !== "") {
             const indiceCorte = movsDelDia.findIndex(m => m.Hash_Corto === hashCorte);
-            if (indiceCorte !== -1) {
-                movsParaTabla = movsDelDia.slice(indiceCorte);
-            } else {
-                movsParaTabla = movsDelDia;
-            }
+            movsParaTabla = (indiceCorte !== -1) ? movsDelDia.slice(indiceCorte) : movsDelDia;
         } else {
             movsParaTabla = movsDelDia;
         }
 
+        // VARIABLE PARA CALCULAR SALDO (Ahora en 0 por tu pedido, pero lista para usar)
+        let saldoCalculado = 0.00; 
+
+        document.getElementById('out-ant').value = saldoCalculado.toFixed(2);
         document.getElementById('out-cli').innerText = cli;
         document.getElementById('out-fec').innerText = fBusq.toUpperCase();
+        
         recalcularTotal();
     }
 
