@@ -7874,7 +7874,7 @@ Banco: BINANCE, Moneda: USDT, Tasa(T080): 1 ","[A-WOcWoRN] Monto: 54.08, Titular
 Banco: BINANCE, Moneda: USDT, Tasa(T080): 1 ",54.08,54.08,,
 2641,COMPLETADO,c3235a2ceb528e25a2f62a4b3634bb152cd625a884432ddc72dd9566f622329c,KgWnHLO,8-mar,1772976661,T080,USD,ZELLE,ROSELYN,170,NELSY,ADA,D,,DEPOSITO,https://link.jairokov.com/i/KgWnHLO,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.092,-1.041,"[D-KgWnHLO] Monto: 170, Titular: ROSELYN
 Banco: ZELLE, Moneda: USD, Tasa(T080): 1.092 ","[D-KgWnHLO] Monto: 170, Titular: ROSELYN
-Banco: ZELLE, Moneda: USD, Tasa(T080): 1.041 ",155.67,-163.3,,
+Banco: ZELLE, Moneda: USD, Tasa(T080): 1.041 ",155.67,-163.3,,-334.24
 2642,COMPLETADO,2126dbc4efcd0a7775c8a496a6dae63e3af278c24c8b8d1c4a1d2752a1d82dc0,7RoSs7n,8-mar,1772980774,T080,VES,VENEZUELA,ARBENIS,5173,JAIPY,JOSEM,P,,PAGO,https://link.jairokov.com/i/7RoSs7n,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,600,-585,"[P-7RoSs7n] Monto: 5173, Titular: ARBENIS
 Banco: VENEZUELA, Moneda: VES, Tasa(T080): 600 ","[P-7RoSs7n] Monto: 5173, Titular: ARBENIS
 Banco: VENEZUELA, Moneda: VES, Tasa(T080): 585 ",8.62,-8.84,,
@@ -8823,24 +8823,24 @@ Banco: BCP, Moneda: PEN, Tasa(T087): 3.386 ",18.96,-19.43,,
 2957,COMPLETADO,5d79034be25e3f666b4e87971fa623bf8a08343bd5fcb4db7b67a971bb64736f,maffwuq,14-mar,1773534179,T087,COP,NEQUI,MERY,50000,MERLI,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/maffwuq,51928344275@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1110,-1.01,"[D-maffwuq] Monto: 50000, Titular: MERY
 Banco: NEQUI, Moneda: COP, Tasa(T087): 1110 ","[D-maffwuq] Monto: 50000, Titular: MERY
 Banco: NEQUI, Moneda: COP, Tasa(T087): 1.01 ",45.04,-49504.95,,
-2958,COMPLETADO,27b96e4ea4184ebe134dfaa748b67999400b462e8c998f216566d9e823d87a2c,9q1XqXe,14-mar,1773534491,T087,COP,NEQUI,JOSE,140760,IRIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/9q1XqXe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3591,"[P-9q1XqXe] Monto: 140760, Titular: JOSE
-Banco: NEQUI, Moneda: COP, Tasa(T087): 0.99 ","[P-9q1XqXe] Monto: 140760, Titular: JOSE
-Banco: NEQUI, Moneda: COP, Tasa(T087): 3591 ",142181.81,-39.19,,
-2959,COMPLETADO,199154f9e81b0efe10ed435cf1e131ade0e934da53cf550c9aea2f594de8f036,63TKpf1,14-mar,1773534580,T087,VES,BANESCO,14777214,5000,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/63TKpf1,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,609,-172.49,"[P-63TKpf1] Monto: 5000, Titular: 14777214
+2958,COMPLETADO,199154f9e81b0efe10ed435cf1e131ade0e934da53cf550c9aea2f594de8f036,63TKpf1,14-mar,1773534580,T087,VES,BANESCO,14777214,5000,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/63TKpf1,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,609,-172.49,"[P-63TKpf1] Monto: 5000, Titular: 14777214
 Banco: BANESCO, Moneda: VES, Tasa(T087): 609 ","[P-63TKpf1] Monto: 5000, Titular: 14777214
 Banco: BANESCO, Moneda: VES, Tasa(T087): 172.49 ",8.21,-28.98,,
-2960,COMPLETADO,65016cac163476e0eefaa385ad1c9823959e4f2f274656e4db7149f9a5159970,nWZGiTo,14-mar,1773534910,T087,VES,BANESCO,11199907,7500,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/nWZGiTo,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,609,-172.49,"[P-nWZGiTo] Monto: 7500, Titular: 11199907
+2959,COMPLETADO,65016cac163476e0eefaa385ad1c9823959e4f2f274656e4db7149f9a5159970,nWZGiTo,14-mar,1773534910,T087,VES,BANESCO,11199907,7500,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/nWZGiTo,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,609,-172.49,"[P-nWZGiTo] Monto: 7500, Titular: 11199907
 Banco: BANESCO, Moneda: VES, Tasa(T087): 609 ","[P-nWZGiTo] Monto: 7500, Titular: 11199907
 Banco: BANESCO, Moneda: VES, Tasa(T087): 172.49 ",12.31,-43.48,,
-2961,COMPLETADO,d7a0fe71a4e9fe60aee22b9350b592ef4242eaf1f4b42102b019ffeaeef02a16,P8cmItI,14-mar,1773535535,T087,COP,BANCOLOMBIA,ISAMAR,50000,YAIR,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/P8cmItI,573025846261@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3680,"[D-P8cmItI] Monto: 50000, Titular: ISAMAR
+2960,COMPLETADO,d7a0fe71a4e9fe60aee22b9350b592ef4242eaf1f4b42102b019ffeaeef02a16,P8cmItI,14-mar,1773535535,T087,COP,BANCOLOMBIA,ISAMAR,50000,YAIR,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/P8cmItI,573025846261@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3680,"[D-P8cmItI] Monto: 50000, Titular: ISAMAR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T087): 1 ","[D-P8cmItI] Monto: 50000, Titular: ISAMAR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T087): 3680 ",50000,13.58,,
-2962,COMPLETADO,302034972c9f481a05074b4a38de4eee8891dd53a100abdedc16bf3f4e5205b3,bpy9m8m,15-mar,1773576533,T087,USDT,BINANCE,JOSEM,26.79,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bpy9m8m,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-bpy9m8m] Monto: 26.79, Titular: JOSEM
+2961,COMPLETADO,302034972c9f481a05074b4a38de4eee8891dd53a100abdedc16bf3f4e5205b3,bpy9m8m,15-mar,1773576533,T087,USDT,BINANCE,JOSEM,26.79,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bpy9m8m,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-bpy9m8m] Monto: 26.79, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T087): 1 ","[A-bpy9m8m] Monto: 26.79, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T087): 1 ",26.79,26.79,,
-2963,COMPLETADO,314a33b8229b81d8b998e7d12ff7dd812916a06a57d3740e096ac2186bb87aab,bGFduvZ,15-mar,1773576571,T087,USDT,BINANCE,CHASAN,1290.76,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bGFduvZ,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-bGFduvZ] Monto: 1290.76, Titular: CHASAN
+2962,COMPLETADO,314a33b8229b81d8b998e7d12ff7dd812916a06a57d3740e096ac2186bb87aab,bGFduvZ,14-mar,1773534491,T087,USDT,BINANCE,CHASAN,1290.76,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bGFduvZ,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-bGFduvZ] Monto: 1290.76, Titular: CHASAN
 Banco: BINANCE, Moneda: USDT, Tasa(T087): 1 ","[A-bGFduvZ] Monto: 1290.76, Titular: CHASAN
 Banco: BINANCE, Moneda: USDT, Tasa(T087): 1 ",1290.76,1290.76,,
+2963,COMPLETADO,27b96e4ea4184ebe134dfaa748b67999400b462e8c998f216566d9e823d87a2c,9q1XqXe,15-mar,1773576533,T087,COP,NEQUI,JOSE,140760,IRIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/9q1XqXe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3591,"[P-9q1XqXe] Monto: 140760, Titular: JOSE
+Banco: NEQUI, Moneda: COP, Tasa(T087): 0.99 ","[P-9q1XqXe] Monto: 140760, Titular: JOSE
+Banco: NEQUI, Moneda: COP, Tasa(T087): 3591 ",142181.81,-39.19,,-39.19
 2964,COMPLETADO,5d6e9707edc7bf89eea5875331e75b53837848e85408aac2db086bc1fac45b69,m9E8xXI,15-mar,1773581174,T088,VES,BNC,23474929,7500,ROSIMAR,YAIR,P,,PAGO,https://link.jairokov.com/i/m9E8xXI,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,612,0.169,"[P-m9E8xXI] Monto: 7500, Titular: 23474929
 Banco: BNC, Moneda: VES, Tasa(T088): 612 ","[P-m9E8xXI] Monto: 7500, Titular: 23474929
 Banco: BNC, Moneda: VES, Tasa(T088): 0.169 ",12.25,44378.69,,
@@ -8891,7 +8891,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T088): 3638 ","[P-pPA1nXb] Monto: 200000, Titula
 Banco: NEQUI, Moneda: COP, Tasa(T088): 3586 ",54.97,-55.77,,-55.77
 2980,COMPLETADO,2ecf3309ca5830a79c8dee525749c61fff3a394e24f243d92e9786052c286fbd,b6cbrco,15-mar,1773603814,T088,PEN,YAPE,KENDRIANY,70,CHASAN,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/b6cbrco,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.591,3.5,"[D-b6cbrco] Monto: 70, Titular: KENDRIANY
 Banco: YAPE, Moneda: PEN, Tasa(T088): 3.591 ","[D-b6cbrco] Monto: 70, Titular: KENDRIANY
-Banco: YAPE, Moneda: PEN, Tasa(T088): 3.5 ",19.49,20,,
+Banco: YAPE, Moneda: PEN, Tasa(T088): 3.5 ",19.49,20,-19.7,20
 2981,COMPLETADO,5f6eb081e269e5333887c696e7770c0db5c812a2c99ab0b9f68c956fd40d3b86,mD3ykOC,15-mar,1773606130,T088,PEN,INTERBANK,ARACELI,338.35,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/mD3ykOC,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.5,-3.416,"[P-mD3ykOC] Monto: 338.35, Titular: ARACELI
 Banco: INTERBANK, Moneda: PEN, Tasa(T088): 3.5 ","[P-mD3ykOC] Monto: 338.35, Titular: ARACELI
 Banco: INTERBANK, Moneda: PEN, Tasa(T088): 3.416 ",96.67,-99.04,,
@@ -8947,3 +8947,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T089): 3.48 ",56.02,57.47,56.02,57.47
 3019,VALIDAR,32b64dc6e96a5a239cd8bce0e4f3ffcceafd57712b42b57ceb3ef20be30682d9,c1zF6aL,16-mar,1773687304,T089,MXN,SPIN BY OXXO,🤷‍♂️,947,ALEJANDRA,CHASAN,,,,https://link.jairokov.com/i/c1zF6aL,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3020,PENDIENTE,77f04c1c005196d87aa69e873a0b9430f67935cfc279ba2c8665a88bbd47fbd1,srlMyt6,31-dic,,,COP,NEQUI,INES JUSAYU,305000,IRIS,,,,,https://link.jairokov.com/i/srlMyt6,573248071414@s.whatsapp.net,,,,,,,,,,,
 3021,VALIDAR,28e0c4d97e6611e4e09a33e6b42f1d3badf9f1295d3954b3c73f2a9c4466e738,9GZyFlF,16-mar,1773687816,T089,MXN,SPIN BY OXXO,🤷‍♂️,1000,ARGENIS,CHASAN,,,,https://link.jairokov.com/i/9GZyFlF,573004369059@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3022,VALIDAR,5c857e2426e5f9d592ffe0a379df0768199cf6e3586bcf7fbd79ce0be712e280,lWg9Gy9,16-mar,1773688612,T089,PEN,INTERBANK,YOHANA D ROJAS S,109.6,FUNDDA,YARELIS,,,,https://link.jairokov.com/i/lWg9Gy9,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+3023,VALIDAR,a666251e67d2b63a192ef3240fc1f6456002280b6a2715509143c8eb4ced9470,DspOB0J,16-mar,1773689169,T089,PEN,BANCO DE CRÉDITO DEL PERÚ,🤷‍♂️,48.5,AIDA,JAIPY,,,,https://link.jairokov.com/i/DspOB0J,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3024,VALIDAR,71a265c28ab18a497f54a54705475fe3cf71fe354a39b054bfa4462c2a0ef560,qWFdPI3,16-mar,1773689051,T089,PEN,INTERBANK,DAVID J PERALES R,160,FUNDDA,YARELIS,,,,https://link.jairokov.com/i/qWFdPI3,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
