@@ -9069,7 +9069,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T089): 3675 ",94.69,27.21,138.33,268.41
 3039,COMPLETADO,8bb4da4dc5576aba4c6aa7e8a67cf5c69509bfeba55fdcac8da3ddbb28523f87,x7YJG7X,16-mar,1773703440,T089,VES,VENEZUELA,15497404,15200,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/x7YJG7X,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,618,180.45,"[P-x7YJG7X] Monto: 15200, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T089): 618 ","[P-x7YJG7X] Monto: 15200, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T089): 180.45 ",24.59,84.23,-326.77,84.23
-3040,PENDIENTE,51a16225cd7a01ddcb9e6ef87bf579e8dc69de2e1e3b3593cc6696a3a8fd3091,jm8CRvm,31-dic,,,PEN,YAPE,ARMANDO JESUS DO TANQUE LEON,343,DESCONOCIDO,,,,,https://link.jairokov.com/i/jm8CRvm,595991712966@s.whatsapp.net,,,,,,,,,,,
+3040,COMPLETADO,51a16225cd7a01ddcb9e6ef87bf579e8dc69de2e1e3b3593cc6696a3a8fd3091,jm8CRvm,16-mar,1773710257,T089,PEN,YAPE,ARMANDO,343,JAIPY,JAVIER,P,,PAGO,https://link.jairokov.com/i/jm8CRvm,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.48,-3.396,"[P-jm8CRvm] Monto: 343, Titular: ARMANDO
+Banco: YAPE, Moneda: PEN, Tasa(T089): 3.48 ","[P-jm8CRvm] Monto: 343, Titular: ARMANDO
+Banco: YAPE, Moneda: PEN, Tasa(T089): 3.396 ",98.56,-101,366.97,-101
 3041,COMPLETADO,4e48070ff041ebcf0a80e86b8f3da0fb05a51ba633487e32055a48209010c0c5,iyTRPfg,16-mar,1773705777,T089,USDT,BINANCE,OMAR,195.04,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/iyTRPfg,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-iyTRPfg] Monto: 195.04, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T089): 1 ","[A-iyTRPfg] Monto: 195.04, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T089): 1 ",195.04,195.04,51.02,788.09
