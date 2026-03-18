@@ -9230,7 +9230,9 @@ Banco: BANESCO, Moneda: VES, Tasa(T091): 0.177 ",21.23,76768.36,21.23,284131.99
 Banco: NEQUI, Moneda: COP, Tasa(T091): 3633 ","[P-dvuJhUK] Monto: 213500, Titular: AMINTA RODRIGUEZ
 Banco: NEQUI, Moneda: COP, Tasa(T091): 3581 ",58.76,-59.62,-66.36,-6.09
 3094,VALIDAR,cfde6a1e62635402517fc4c64c7b25fef0c28999f74326ca854bd8fd3a28e146,,,1773849510,T091,,,,,,YAIR,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
-3095,COMPLETADO,b199766648bddd67e842addefbb20bb784620b65d4f20d46751f2d8902f0a90a,G75nwfJ,18-mar,1773871130,T091,COP,BANCOLOMBIA,DIANA,80000,IRIS,FUNDDA,,,,https://link.jairokov.com/i/G75nwfJ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3095,COMPLETADO,b199766648bddd67e842addefbb20bb784620b65d4f20d46751f2d8902f0a90a,G75nwfJ,18-mar,1773871130,T091,COP,BANCOLOMBIA,DIANA,80000,IRIS,FUNDDA,P,,PAGO,https://link.jairokov.com/i/G75nwfJ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,3670,"[P-G75nwfJ] Monto: 80000, Titular: DIANA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T091): 0.99 ","[P-G75nwfJ] Monto: 80000, Titular: DIANA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T091): 3670 ",80808.08,21.79,-87555.59,1424.4
 3096,COMPLETADO,460e4252b33cbea250c4e67e2e5f27faede6069115ee7c29b792f3dc02071f50,gBXVuPs,18-mar,1773849955,T091,USDT,BINANCE,FUNDDA,-525.28,FUNDDA,SUBERO,A,,ABONO,https://link.jairokov.com/i/gBXVuPs,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-gBXVuPs] Monto: -525.28, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T091): 1 ","[A-gBXVuPs] Monto: -525.28, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T091): 1 ",-525.28,-525.28,877.33,-0.01
@@ -9302,7 +9304,9 @@ Banco: BANESCO, Moneda: VES, Tasa(T091): 640 ","[P-Kw8mOgr] Monto: 9480, Titular
 Banco: BANESCO, Moneda: VES, Tasa(T091): 188.4 ",14.81,50.31,110.23,190.98
 3119,VALIDAR,395734abd39ff68f8f0e481e73eed6db92721973a283e98f72c152f86337cd5d,dB1Lu2k,18-mar,1773867728,T091,MXN,COMPRAPAGO S.A. DE C.V.,🤷‍♂️,500,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/dB1Lu2k,584125945319@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3120,PENDIENTE,7ac57f5ced9cc682a3f29141c442614fa68e14ed01f98c3e3433f43137189b3c,t6ZYK5M,31-dic,,,MXN,SPIN BY OXXO,🤷‍♂️,512,NAUPAR,,,,,https://link.jairokov.com/i/t6ZYK5M,584125945319@s.whatsapp.net,,,,,,,,,,,
-3121,VALIDAR,4a72d9e6f29d36ae805ab1a82aeba6cbecd27df69a3f747b6eac6e91844c012b,hEydZ2L,18-mar,1773868571,T091,USD,🤷‍♂️,DIOMAR GRANADO,50,NELSY,JOHN,,,,https://link.jairokov.com/i/hEydZ2L,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3121,COMPLETADO,4a72d9e6f29d36ae805ab1a82aeba6cbecd27df69a3f747b6eac6e91844c012b,hEydZ2L,18-mar,1773868571,T091,USD,ZELLE,ROSELYN,50,NELSY,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/hEydZ2L,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.087,-1.063,"[D-hEydZ2L] Monto: 50, Titular: ROSELYN
+Banco: ZELLE, Moneda: USD, Tasa(T091): 1.087 ","[D-hEydZ2L] Monto: 50, Titular: ROSELYN
+Banco: ZELLE, Moneda: USD, Tasa(T091): 1.063 ",45.99,-47.03,156.22,-84.65
 3122,COMPLETADO,17c2ca9b994b465bdc0da8df68f14280fcde7dc80bfd175bf8a9dadfaa44549b,5DkNkM0,18-mar,1773869296,T091,ARS,NARANJA,RICARDO,120175,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/5DkNkM0,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1432,-1406,"[P-5DkNkM0] Monto: 120175, Titular: RICARDO
 Banco: NARANJA, Moneda: ARS, Tasa(T091): 1432 ","[P-5DkNkM0] Monto: 120175, Titular: RICARDO
 Banco: NARANJA, Moneda: ARS, Tasa(T091): 1406 ",83.92,-85.47,83.92,-85.48
