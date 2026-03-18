@@ -9302,7 +9302,9 @@ Banco: MERCADO PAGO, Moneda: BRL, Tasa(T091): 4.978 ",301.94,-307.95,284.91,-307
 3118,COMPLETADO,c42be7c554405a08a0abb3606e95f01fcd82a5303d2d50a13c221735a258eac6,Kw8mOgr,18-mar,1773865880,T091,VES,BANESCO,26179155,9480,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/Kw8mOgr,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,640,188.4,"[P-Kw8mOgr] Monto: 9480, Titular: 26179155
 Banco: BANESCO, Moneda: VES, Tasa(T091): 640 ","[P-Kw8mOgr] Monto: 9480, Titular: 26179155
 Banco: BANESCO, Moneda: VES, Tasa(T091): 188.4 ",14.81,50.31,110.23,190.98
-3119,VALIDAR,395734abd39ff68f8f0e481e73eed6db92721973a283e98f72c152f86337cd5d,dB1Lu2k,18-mar,1773871765,T091,MXN,COMPRAPAGO S.A. DE C.V.,🤷‍♂️,500,NAUPAR,CORREGIR,,,,https://link.jairokov.com/i/dB1Lu2k,584125945319@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3119,COMPLETADO,395734abd39ff68f8f0e481e73eed6db92721973a283e98f72c152f86337cd5d,dB1Lu2k,18-mar,1773871765,T091,MXN,OXXO,NAUPAR,500,NAUPAR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/dB1Lu2k,584125945319@s.whatsapp.net,573248071414@s.whatsapp.net,,,18.91,-18.51,"[D-dB1Lu2k] Monto: 500, Titular: NAUPAR
+Banco: OXXO, Moneda: MXN, Tasa(T091): 18.91 ","[D-dB1Lu2k] Monto: 500, Titular: NAUPAR
+Banco: OXXO, Moneda: MXN, Tasa(T091): 18.51 ",26.44,-27.01,26.44,-106.47
 3120,PENDIENTE,7ac57f5ced9cc682a3f29141c442614fa68e14ed01f98c3e3433f43137189b3c,t6ZYK5M,31-dic,,,MXN,SPIN BY OXXO,🤷‍♂️,512,NAUPAR,,,,,https://link.jairokov.com/i/t6ZYK5M,584125945319@s.whatsapp.net,,,,,,,,,,,
 3121,COMPLETADO,4a72d9e6f29d36ae805ab1a82aeba6cbecd27df69a3f747b6eac6e91844c012b,hEydZ2L,18-mar,1773868571,T091,USD,ZELLE,ROSELYN,50,NELSY,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/hEydZ2L,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.087,-1.063,"[D-hEydZ2L] Monto: 50, Titular: ROSELYN
 Banco: ZELLE, Moneda: USD, Tasa(T091): 1.087 ","[D-hEydZ2L] Monto: 50, Titular: ROSELYN
