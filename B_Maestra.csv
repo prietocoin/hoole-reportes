@@ -9165,7 +9165,9 @@ Banco: MERCADO PAGO, Moneda: CLP, Tasa(T090): 1.015 ",11,-9852.21,11,30797.53
 3071,COMPLETADO,2451c005ba8b120280627643266f7ac95560d58204ffebedfc68d57ba3fa01e9,8BYbZwm,17-mar,1773782805,T090,COP,NEQUI,DUVAN PENATE,150060,ROSIMAR,OMAR,P,,PAGO,https://link.jairokov.com/i/8BYbZwm,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3633,-3581,"[P-8BYbZwm] Monto: 150060, Titular: DUVAN PENATE
 Banco: NEQUI, Moneda: COP, Tasa(T090): 3633 ","[P-8BYbZwm] Monto: 150060, Titular: DUVAN PENATE
 Banco: NEQUI, Moneda: COP, Tasa(T090): 3581 ",41.3,-41.9,-158.7,-203.09
-3072,VALIDAR,5475a806790f2a642d4c9a51cd6b138c9f909d3ec61e6abeb23dbd3e29e8a147,k1JwlFt,17-mar,1773783135,T090,USD,🤷‍♂️,🤷‍♂️,40,CINDY,JOHN,,,,https://link.jairokov.com/i/k1JwlFt,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3072,COMPLETADO,5475a806790f2a642d4c9a51cd6b138c9f909d3ec61e6abeb23dbd3e29e8a147,k1JwlFt,17-mar,1773783135,T090,USD,ZELLE,ERIC,40,CINDY,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/k1JwlFt,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,0,-1.063,"[D-k1JwlFt] Monto: 40, Titular: ERIC
+Banco: ZELLE, Moneda: USD, Tasa(T090): 0 ","[D-k1JwlFt] Monto: 40, Titular: ERIC
+Banco: ZELLE, Moneda: USD, Tasa(T090): 1.063 ",40,-37.62,40,-37.62
 3073,COMPLETADO,daa64e51db846c686ccb15ecd8afc3a6cd459c40d0a31d5b04475fd005ff9a4f,PQBS8e6,17-mar,1773784036,T090,PEN,YAPE,LUIS,50,NELSY,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/PQBS8e6,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.56,3.47,"[D-PQBS8e6] Monto: 50, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T090): 3.56 ","[D-PQBS8e6] Monto: 50, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T090): 3.47 ",14.04,14.4,104.43,739.34
@@ -9187,4 +9189,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T090): 1 ",38.38,133.19,934.35,997.22
 3079,COMPLETADO,60e126a6cebf501c64e770aca37a92b5466971368409327d2b913b64e4b68d7c,mYkDVah,17-mar,1773789913,T090,PEN,INTERBANK,CARLOS,33.3,FUNDDA,JESUS,P,,PAGO,https://link.jairokov.com/i/mYkDVah,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.47,3.47,"[P-mYkDVah] Monto: 33.29, Titular: CARLOS
 Banco: INTERBANK, Moneda: PEN, Tasa(T090): 3.47 ","[P-mYkDVah] Monto: 33.29, Titular: CARLOS
 Banco: INTERBANK, Moneda: PEN, Tasa(T090): 3.47 ",9.59,9.59,943.94,9.59
-3080,VALIDAR,4d788c631e56d7f04fa5807d761033135e9fc9706afae89692ce063f44fe4a51,imZ6qZQ,17-mar,1773796176,T090,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,171.59,LUIS,FUNDDA,,,,https://link.jairokov.com/i/imZ6qZQ,51927731127@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3080,COMPLETADO,4d788c631e56d7f04fa5807d761033135e9fc9706afae89692ce063f44fe4a51,imZ6qZQ,17-mar,1773796176,T090,PEN,YAPE,LUIS,171.59,LUIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/imZ6qZQ,51927731127@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,3.47,"[D-imZ6qZQ] Monto: 171.59, Titular: LUIS
+Banco: YAPE, Moneda: PEN, Tasa(T090): 1 ","[D-imZ6qZQ] Monto: 171.59, Titular: LUIS
+Banco: YAPE, Moneda: PEN, Tasa(T090): 3.47 ",171.59,49.44,337.62,993.38
