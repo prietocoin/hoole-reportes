@@ -9450,8 +9450,12 @@ Banco: BINANCE, Moneda: USDT, Tasa(T092): 1 ",316.54,316.54,193.51,2958.58
 3166,COMPLETADO,8cdcd0abc04603cbba59fb16059d219bd1250dbe585aa9d7eb3f8d8862e24f6b,xoYyJEw,19-mar,1773968709,T092,PEN,INTERBANK,ALEJANDRA,80.03,ALEJANDRA,FUNDDA,A,,ABONO,https://link.jairokov.com/i/xoYyJEw,51917606346@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,3.46,"[A-xoYyJEw] Monto: 80.03, Titular: ALEJANDRA
 Banco: INTERBANK, Moneda: PEN, Tasa(T092): 1 ","[A-xoYyJEw] Monto: 80.03, Titular: ALEJANDRA
 Banco: INTERBANK, Moneda: PEN, Tasa(T092): 3.46 ",80.03,23.13,1046.88,2981.71
-3167,VALIDAR,714efe1bbc5fca27a26ec53a8d4de8d14b0849ca1c3b2f74d79c6d7ce356bf8c,qRSffVN,20-mar,1774032701,T093,USD,BINANCE,JAIRO,225.75,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/qRSffVN,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-3168,VALIDAR,22932b5dfec1b1ce3a556727acb87353a8f5fcf0bdf668cd2969c4c6f857a98e,8ck4ekP,20-mar,1774032722,T093,USD,BINANCE,FUNDABLOCK,50.46,SUBERO,FUNDDA,,,,https://link.jairokov.com/i/8ck4ekP,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3167,COMPLETADO,714efe1bbc5fca27a26ec53a8d4de8d14b0849ca1c3b2f74d79c6d7ce356bf8c,qRSffVN,20-mar,1774032701,T093,USDT,BINANCE,JOSEM,225.75,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/qRSffVN,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-qRSffVN] Monto: 225.75, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T093): 1 ","[A-qRSffVN] Monto: 225.75, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T093): 1 ",225.75,225.75,0,3207.46
+3168,COMPLETADO,22932b5dfec1b1ce3a556727acb87353a8f5fcf0bdf668cd2969c4c6f857a98e,8ck4ekP,20-mar,1774032722,T093,USDT,BINANCE,SUBERO,50.46,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/8ck4ekP,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-8ck4ekP] Monto: 50.46, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T093): 1 ","[A-8ck4ekP] Monto: 50.46, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T093): 1 ",50.46,50.46,-0.01,3257.92
 3169,COMPLETADO,ad99679c02d2258d5f815b4939ceec4cbfc14583b90fb4ad4270c861227ad78f,Fah380o,20-mar,1774007992,T092,USDT,BINANCE,FUNDDA,-300,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/Fah380o,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-Fah380o] Monto: -300, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T092): 1 ","[A-Fah380o] Monto: -300, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T092): 1 ",-300,-300,2681.71,-207.21
