@@ -9600,5 +9600,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T094): 1.01 ",38.72,-144752.47,309.48,14211.51
 3222,COMPLETADO,f1e2c2b58d4f4d794d5681f98457fca7ac1dbbe5e2f366212631cdcf1fc823a4,Vmel5RO,21-mar,1774110351,T094,PEN,YAPE,MERLI,258.52,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/Vmel5RO,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.5,"[A-Vmel5RO] Monto: 258.52, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T094): 1 ","[A-Vmel5RO] Monto: 258.52, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T094): 3.5 ",258.52,73.86,25.99,153.99
-3223,VALIDAR,bf083dffbbdb04738eabfe70ac6b032676df605fffc2fc14c641874623047b49,JizJdhV,21-mar,1774110462,T094,COP,NEQUI,ROXIBEL IBARRA,42000,IRIS,JOSEM,,,,https://link.jairokov.com/i/JizJdhV,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3223,COMPLETADO,bf083dffbbdb04738eabfe70ac6b032676df605fffc2fc14c641874623047b49,JizJdhV,21-mar,1774110462,T094,COP,NEQUI,ROXIBEL IBARRA,42000,IRIS,JOSEM,P,,PAGO,https://link.jairokov.com/i/JizJdhV,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3591,"[P-JizJdhV] Monto: 42000, Titular: ROXIBEL IBARRA
+Banco: NEQUI, Moneda: COP, Tasa(T094): 0.99 ","[P-JizJdhV] Monto: 42000, Titular: ROXIBEL IBARRA
+Banco: NEQUI, Moneda: COP, Tasa(T094): 3591 ",42424.24,-11.69,56635.75,-119.08
 3224,PENDIENTE,eb51b1f818066d3a3204dd53b3b6f14efdfb234d664814dac314bce5e6da8cfd,TNGCNXz,31-dic,,,🤷‍♂️,🤷‍♂️,BORIS JAVIER VILLEGAS ALVARADO,50002,OMAR,,,,,https://link.jairokov.com/i/TNGCNXz,595991712966@s.whatsapp.net,,,,,,,,,,,
