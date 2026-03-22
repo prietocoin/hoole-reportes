@@ -9704,4 +9704,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T094): 3.5 ",220,62.85,1217.22,62.85
 3256,COMPLETADO,39551c79910c1af00cf5bbf15aeae56e7a4e1c5e2a7517fc6a6335f988fd3f31,dAUj5Xh,21-mar,1774136678,T094,PEN,YAPE,MARIANGIS LOPEZ,397,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/dAUj5Xh,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.5,-3.416,"[P-dAUj5Xh] Monto: 397, Titular: MARIANGIS LOPEZ
 Banco: YAPE, Moneda: PEN, Tasa(T094): 3.5 ","[P-dAUj5Xh] Monto: 397, Titular: MARIANGIS LOPEZ
 Banco: YAPE, Moneda: PEN, Tasa(T094): 3.416 ",113.42,-116.21,176.27,-176.14
-3257,VALIDAR,0a436b76a8cc4deca8ae889883de4bfff7e9e1f05d2302c3bc1f4d631918c3f2,2qTmM1j,21-mar,1774138037,T094,MXN,SPIN BY OXXO,🤷‍♂️,312,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/2qTmM1j,584122830430@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+3257,COMPLETADO,0a436b76a8cc4deca8ae889883de4bfff7e9e1f05d2302c3bc1f4d631918c3f2,2qTmM1j,21-mar,1774138037,T094,MXN,OXXO,NAUPER,300,NAUPAR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/2qTmM1j,584122830430@s.whatsapp.net,5491177171331@s.whatsapp.net,,,19.19,-18.78,"[D-2qTmM1j] Monto: 300, Titular: NAUPER
+Banco: OXXO, Moneda: MXN, Tasa(T094): 19.19 ","[D-2qTmM1j] Monto: 300, Titular: NAUPER
+Banco: OXXO, Moneda: MXN, Tasa(T094): 18.78 ",15.63,-15.97,42.07,-192.11
