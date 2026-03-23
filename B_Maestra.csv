@@ -9870,7 +9870,7 @@ Banco: YAPE, Moneda: PEN, Tasa(T096): 1 ",58.51,207.73,58.51,1210.67
 3312,COMPLETADO,941fb2c216882f9e5ccbf37524b285026c6d3ddb773f21a51f781b827b244065,z7JqjEq,23-mar,1774295664,T096,PEN,INTERBANK,BEATRIZ,50,BEATRIZ,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/z7JqjEq,5492993274287@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.55,"[D-z7JqjEq] Monto: 50, Titular: BEATRIZ
 Banco: INTERBANK, Moneda: PEN, Tasa(T096): 1 ","[D-z7JqjEq] Monto: 50, Titular: BEATRIZ
 Banco: INTERBANK, Moneda: PEN, Tasa(T096): 3.55 ",50,14.08,1459.17,72.59
-3313,PENDIENTE,9c8c9f68769ae2f79d2c7fa0f39e367204e8b8edeebcf92dd8ba786ec890b317,B7BvTlQ,31-dic,,,COP,NEQUI,MILEIDI ASENCIO,45350,BEATRIZ,,,,,https://link.jairokov.com/i/B7BvTlQ,573248071414@s.whatsapp.net,,,,,,,,,,,
+3313,VALIDAR,9c8c9f68769ae2f79d2c7fa0f39e367204e8b8edeebcf92dd8ba786ec890b317,B7BvTlQ,23-mar,1774299444,T096,COP,NEQUI,MILEIDI ASENCIO,45350,BEATRIZ,CORREGIR,,,,https://link.jairokov.com/i/B7BvTlQ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3314,COMPLETADO,099dfa3de620d17cc1e1be9cd535942dab124ba99967d4fd8bbf7a16ebe5eb87,2hohvNf,23-mar,1774298108,T096,USDT,BINANCE,JOSEM,73.9,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/2hohvNf,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-2hohvNf] Monto: 73.9, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ","[A-2hohvNf] Monto: 73.9, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ",73.9,73.9,0,146.49
