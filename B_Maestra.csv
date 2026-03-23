@@ -9896,4 +9896,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T096): 3.464 ",88.79,-90.99,385.69,-90.99
 3320,COMPLETADO,15a14dc1c32be4ac63517e00ed55f015a8d1a7454982cd3eb9ad5a8b5de71914,580uJ2T,23-mar,1774303106,T096,BRL,PIX,ENMARY PÉREZ,300,ALEJANDRA,OMAR,D,,DEPOSITO,https://link.jairokov.com/i/580uJ2T,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,1.61,-5.422,"[D-580uJ2T] Monto: 300, Titular: ENMARY PÉREZ
 Banco: PIX, Moneda: BRL, Tasa(T096): 1.61 ","[D-580uJ2T] Monto: 300, Titular: ENMARY PÉREZ
 Banco: PIX, Moneda: BRL, Tasa(T096): 5.422 ",186.33,-55.33,1233.21,-119.88
-3321,VALIDAR,b260bd06830ee6ac125ae24fb3243237bf163f27fe5bfda3e9508a0fce82f07c,GiwVW1o,23-mar,1774307925,T096,USDT,BINANCE,🤷‍♂️,73.48,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/GiwVW1o,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3321,COMPLETADO,b260bd06830ee6ac125ae24fb3243237bf163f27fe5bfda3e9508a0fce82f07c,GiwVW1o,23-mar,1774307925,T096,USDT,BINANCE,EDWIN,73.48,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/GiwVW1o,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-GiwVW1o] Monto: 73.48, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ","[A-GiwVW1o] Monto: 73.48, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ",73.48,73.48,325.33,459.17
