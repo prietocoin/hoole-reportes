@@ -9785,4 +9785,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T095): 3743 ",13.28,-13.35,13.28,-79.83
 3283,COMPLETADO,9973a0fc4dbe3f60d7822769fdbbc7c63766fd0d179c49ede5d42f104b160973,Ao3VusY,23-mar,1774273458,T096,COP,NEQUI,YALIMAR LINARES,61000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/Ao3VusY,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3601,"[P-Ao3VusY] Monto: 61000, Titular: YALIMAR LINARES
 Banco: NEQUI, Moneda: COP, Tasa(T096): 0.99 ","[P-Ao3VusY] Monto: 61000, Titular: YALIMAR LINARES
 Banco: NEQUI, Moneda: COP, Tasa(T096): 3601 ",61616.16,-16.93,6360980.83,366.75
-3284,PENDIENTE,9e4efb5a1250e4b6bfa5b1d8c9cd0a842b0daccd059f993bc3297acbef16ceb5,Bxt5Nf7,31-dic,,,COP,BANCOLOMBIA,🤷‍♂️,30000,YAIR,,,,,https://link.jairokov.com/i/Bxt5Nf7,573025846261@s.whatsapp.net,,,,,,,,,,,
+3284,COMPLETADO,9e4efb5a1250e4b6bfa5b1d8c9cd0a842b0daccd059f993bc3297acbef16ceb5,Bxt5Nf7,23-mar,1774274880,T096,COP,BANCOLOMBIA,ISAMAR,30000,YAIR,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/Bxt5Nf7,573025846261@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3690,"[D-Bxt5Nf7] Monto: 30000, Titular: ISAMAR
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T096): 1 ","[D-Bxt5Nf7] Monto: 30000, Titular: ISAMAR
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T096): 3690 ",30000,8.13,119265.53,311.63
