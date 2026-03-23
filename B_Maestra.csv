@@ -9766,5 +9766,10 @@ Banco: NEQUI, Moneda: COP, Tasa(T095): 1.01 ",125.12,-128712.87,1191.71,6299364.
 3276,COMPLETADO,3ef08088e4fd34f18b35025b5619cc9b0e84103726ea5ac424947077bee6e6f0,eVlfWhF,22-mar,1774221827,T095,PEN,YAPE,LUIS,140,NELSY,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/eVlfWhF,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.621,3.53,"[D-eVlfWhF] Monto: 140, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T095): 3.621 ","[D-eVlfWhF] Monto: 140, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T095): 3.53 ",38.66,39.66,357,231.25
-3277,VALIDAR,3be8ce618c924bf1ccddc7a3f30d1ef449530ff20f256218959b0839ab338327,ecNgfDB,22-mar,1774222306,T095,USDT,BINANCE,🤷‍♂️,426.14,OMAR,FUNDDA,,,,https://link.jairokov.com/i/ecNgfDB,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-3278,VALIDAR,54cac22b07b9d899f909994c6c3b0260dffd8c69b94b6a867d8bdf0b07e536dd,k6CxBNz,22-mar,1774222298,T095,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,🤷‍♂️,20280,NELSY,AIDA,,,,https://link.jairokov.com/i/k6CxBNz,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3277,COMPLETADO,3be8ce618c924bf1ccddc7a3f30d1ef449530ff20f256218959b0839ab338327,ecNgfDB,22-mar,1774222306,T095,USDT,BINANCE,OMAR,426.14,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/ecNgfDB,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-ecNgfDB] Monto: 426.14, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T095): 1 ","[A-ecNgfDB] Monto: 426.14, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T095): 1 ",426.14,426.14,383.68,657.39
+3278,COMPLETADO,54cac22b07b9d899f909994c6c3b0260dffd8c69b94b6a867d8bdf0b07e536dd,k6CxBNz,22-mar,1774222298,T095,VES,BNC,15497405,20280,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/k6CxBNz,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,635,182.71,"[P-k6CxBNz] Monto: 20280, Titular: 15497405
+Banco: BNC, Moneda: VES, Tasa(T095): 635 ","[P-k6CxBNz] Monto: 20280, Titular: 15497405
+Banco: BNC, Moneda: VES, Tasa(T095): 182.71 ",31.93,110.99,388.93,1302.7
+3279,PENDIENTE,d6a8e3ec2fe0f75a8a044170881ae1ee78f3484c3a53c47f996680e3cd4a6ad7,OTWX1Lt,31-dic,,,USD,BINANCE,🤷‍♂️,36.05,SUBERO,,,,,https://link.jairokov.com/i/OTWX1Lt,34627629613@s.whatsapp.net,,,,,,,,,,,
