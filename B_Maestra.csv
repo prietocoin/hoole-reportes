@@ -9911,8 +9911,14 @@ Banco: PIX, Moneda: BRL, Tasa(T096): 5.007 ",19.15,-19.53,291.57,1024.48
 3325,COMPLETADO,c00ba0d2e02aaf6f325d7371fc20d679adc588ecbf84c1709732dc5b836a9360,JxtjD0e,24-mar,1774347781,T096,PEN,INTERBANK,FUNDDA,186.33,FUNDDA,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/JxtjD0e,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.55,-1,"[P-JxtjD0e] Monto: 186.33, Titular: FUNDDA
 Banco: INTERBANK, Moneda: PEN, Tasa(T096): 3.55 ","[P-JxtjD0e] Monto: 186.33, Titular: FUNDDA
 Banco: INTERBANK, Moneda: PEN, Tasa(T096): 1 ",52.48,-186.33,903.95,1046.88
-3326,VALIDAR,ae3dd14df5212b0ebeb340fd562cf62df88621bbd431a147555f05961d24ad02,FjIt8C1,24-mar,1774351019,T096,USD,🤷‍♂️,REMESASVICMARJIREH,75.67,FUNDDA,VICTOR,,,,https://link.jairokov.com/i/FjIt8C1,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+3326,COMPLETADO,ae3dd14df5212b0ebeb340fd562cf62df88621bbd431a147555f05961d24ad02,FjIt8C1,24-mar,1774351019,T096,USDT,BINANCE,FUNDDA,-75.67,FUNDDA,VICTOR,A,,ABONO,https://link.jairokov.com/i/FjIt8C1,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-FjIt8C1] Monto: -75.67, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ","[A-FjIt8C1] Monto: -75.67, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ",-75.67,-75.67,828.28,0
 3327,VALIDAR,993596fb1005ea0cf1f55cf412fd6265ad0b913f75527e54444b035245689f70,,,1774351210,T096,,,,,,ELIS,,,,,,595991712966@s.whatsapp.net,,,,,,,,,,
-3328,VALIDAR,0b99f6ffa21ab51a6ccc0783fcddf8a6588902326f607c59f925c7ec43273009,2Kz3ujD,24-mar,1774351308,T096,USD,🤷‍♂️,🤷‍♂️,109.82,FUNDDA,HEIDI,,,,https://link.jairokov.com/i/2Kz3ujD,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-3329,VALIDAR,0b9b68bbdb5c9d137633b6dd1be160762e37fb2bd1ed6dba253f6fc16d4d6a0a,2KEckrR,24-mar,1774351484,T096,USD,BINANCE,NELSY,579.58,FUNDDA,NELSY,,,,https://link.jairokov.com/i/2KEckrR,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+3328,COMPLETADO,0b99f6ffa21ab51a6ccc0783fcddf8a6588902326f607c59f925c7ec43273009,2Kz3ujD,24-mar,1774351308,T096,USDT,BINANCE,FUNDDA,-109.82,FUNDDA,HEIDI,A,,ABONO,https://link.jairokov.com/i/2Kz3ujD,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-2Kz3ujD] Monto: -109.82, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ","[A-2Kz3ujD] Monto: -109.82, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ",-109.82,-109.82,718.46,0
+3329,COMPLETADO,0b9b68bbdb5c9d137633b6dd1be160762e37fb2bd1ed6dba253f6fc16d4d6a0a,2KEckrR,24-mar,1774351484,T096,USDT,BINANCE,NELSY,-579.58,FUNDDA,NELSY,A,,ABONO,https://link.jairokov.com/i/2KEckrR,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-2KEckrR] Monto: -579.58, Titular: NELSY
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ","[A-2KEckrR] Monto: -579.58, Titular: NELSY
+Banco: BINANCE, Moneda: USDT, Tasa(T096): 1 ",-579.58,-579.58,138.88,-217.65
 3330,VALIDAR,349ad9a54f3c1549ce5f1060b38f5cba6ba988dfb4904f20b75683cb61d67329,ctoYdmi,24-mar,1774351633,T096,USDT,🤷‍♂️,🤷‍♂️,100,FUNDDA,ROSIMAR,,,,https://link.jairokov.com/i/ctoYdmi,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
