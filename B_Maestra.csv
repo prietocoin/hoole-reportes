@@ -9924,7 +9924,7 @@ Banco: MERCADO PAGO, Moneda: ARS, Tasa(T097): 1500 ",11.09,-11.33,69.49,-228.98
 3324,COMPLETADO,b674797c8be19c8c9ff154b331acfd3096b681b410d0b20e475ca2b408ae4c85,HgtkyAh,24-mar,1774360506,T097,PEN,YAPE,KARLA,145.5,KARLA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/HgtkyAh,51927348852@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.53,"[D-HgtkyAh] Monto: 145.5, Titular: KARLA
 Banco: YAPE, Moneda: PEN, Tasa(T097): 1 ","[D-HgtkyAh] Monto: 145.5, Titular: KARLA
 Banco: YAPE, Moneda: PEN, Tasa(T097): 3.53 ",145.5,41.21,358.1,-932.5
-3325,PENDIENTE,b3feae41c5003c2550d00f940f99edf6ed1677eb864744de31aac3f13684984a,GGiQp6E,31-dic,,,COP,🤷‍♂️,🤷‍♂️,45500,IRIS,,,,,https://link.jairokov.com/i/GGiQp6E,573248071414@s.whatsapp.net,,,,,,,,,,,
+3325,VALIDAR,b3feae41c5003c2550d00f940f99edf6ed1677eb864744de31aac3f13684984a,GGiQp6E,24-mar,1774371105,T097,COP,🤷‍♂️,🤷‍♂️,45500,IRIS,CORREGIR,,,,https://link.jairokov.com/i/GGiQp6E,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3326,COMPLETADO,0d31dd5e39a2fdce6d91d5e337a3b5f3cee469d293138fc6ac9d32a062d6da5f,37Zs1qL,24-mar,1774363200,T097,COP,NEQUI,JENNIFER CALDERA,72750,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/37Zs1qL,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3591,"[P-37Zs1qL] Monto: 72750, Titular: JENNIFER CALDERA
 Banco: NEQUI, Moneda: COP, Tasa(T097): 0.99 ","[P-37Zs1qL] Monto: 72750, Titular: JENNIFER CALDERA
 Banco: NEQUI, Moneda: COP, Tasa(T097): 3591 ",73484.84,-20.25,73484.84,271.32
