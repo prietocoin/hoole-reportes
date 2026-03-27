@@ -10320,7 +10320,7 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T101): 181.24 ",12.38,-44.14,-625.21,-44.14
 3458,COMPLETADO,c797ffbf5ded5a88ed416c7aa94dc117d2e0b0156719ea7b031e6a9987b2b4c9,LkrQroV,27-mar,1774644057,T101,COP,NEQUI,JULIAN,610000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/LkrQroV,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3655,-3567,"[P-LkrQroV] Monto: 610000, Titular: JULIAN
 Banco: NEQUI, Moneda: COP, Tasa(T101): 3655 ","[P-LkrQroV] Monto: 610000, Titular: JULIAN
 Banco: NEQUI, Moneda: COP, Tasa(T101): 3567 ",166.89,-171.01,406.23,-285.72
-3459,PENDIENTE,668aa7807650c4e84544ae1ccdf24be505d300ec235ef6c8abb66e4908ecc0e4,ojzQfEt,31-dic,,,PEN,INTERBANK,LUZ N MENDOZA D,152.1,YARELIS,,,,,https://link.jairokov.com/i/ojzQfEt,5491177171331@s.whatsapp.net,,,,,,,,,,,
+3459,VALIDAR,668aa7807650c4e84544ae1ccdf24be505d300ec235ef6c8abb66e4908ecc0e4,ojzQfEt,27-mar,1774655805,T101,PEN,INTERBANK,LUZ N MENDOZA D,152.1,YARELIS,FUNDDA,,,,https://link.jairokov.com/i/ojzQfEt,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 3460,COMPLETADO,a1c26c13c973d20bedd3e20a50e58a754017b8ce43dc0bfba2651e9d4058a8f4,CmcJhOU,27-mar,1774645034,T101,MXN,OXXO,RETIRO,900,CHASAN,VICTOR,P,,PAGO,https://link.jairokov.com/i/CmcJhOU,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,17.71,-17.03,"[P-CmcJhOU] Monto: 900, Titular: RETIRO
 Banco: OXXO, Moneda: MXN, Tasa(T101): 17.71 ","[P-CmcJhOU] Monto: 900, Titular: RETIRO
 Banco: OXXO, Moneda: MXN, Tasa(T101): 17.03 ",50.81,-52.84,-231.38,-52.84
