@@ -10343,4 +10343,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T101): 3.5 ",27.84,28.57,-243.39,58.5
 3471,COMPLETADO,,ajukVQb,25-mar,1774475037,T098,ECU,PICHINCHA,PLASTIK,100,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/ajukVQb,,,,,0.98,-0.94,"[P-ajukVQb] Monto: 100, Titular: PLASTIK
 Banco: PICHINCHA, Moneda: ECU, Tasa(T098): 0.98 ","[P-ajukVQb] Monto: 100, Titular: PLASTIK
 Banco: PICHINCHA, Moneda: ECU, Tasa(T098): 0.94 ",102.04,-106.38,102.04,-337.76
-3472,PENDIENTE,a90d6d6a3f99d830f1e030110ab6c9de78dae1f8295b3dedf5c3f5d6933f1441,E5qvUhz,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,500,FUNDDA,,,,,https://link.jairokov.com/i/E5qvUhz,5491127574905@s.whatsapp.net,,,,,,,,,,,
+3472,COMPLETADO,a90d6d6a3f99d830f1e030110ab6c9de78dae1f8295b3dedf5c3f5d6933f1441,E5qvUhz,27-mar,1774656111,T101,PEN,YAPE,EFRAIN,500,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/E5qvUhz,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.591,3.5,"[D-E5qvUhz] Monto: 500, Titular: EFRAIN
+Banco: YAPE, Moneda: PEN, Tasa(T101): 3.591 ","[D-E5qvUhz] Monto: 500, Titular: EFRAIN
+Banco: YAPE, Moneda: PEN, Tasa(T101): 3.5 ",139.23,142.85,241.27,142.85
