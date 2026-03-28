@@ -10326,7 +10326,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T101): 3.416 ",43.45,-44.52,181.94,-240.56
 3460,COMPLETADO,a1c26c13c973d20bedd3e20a50e58a754017b8ce43dc0bfba2651e9d4058a8f4,CmcJhOU,27-mar,1774645034,T101,MXN,OXXO,RETIRO,900,CHASAN,VICTOR,P,,PAGO,https://link.jairokov.com/i/CmcJhOU,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,17.71,-17.03,"[P-CmcJhOU] Monto: 900, Titular: RETIRO
 Banco: OXXO, Moneda: MXN, Tasa(T101): 17.71 ","[P-CmcJhOU] Monto: 900, Titular: RETIRO
 Banco: OXXO, Moneda: MXN, Tasa(T101): 17.03 ",50.81,-52.84,-231.38,-52.84
-3461,VALIDAR,01e9abd77d6606bd6c942b1fa1b884daf85586c48c6478185cdb7158bb1b390c,s7yuFkm,27-mar,1774657027,T101,ARS,NARANJA X,NELSY MAYNAP ALDANA MORILLO,113000,NELSY,FUNDDA,,,,https://link.jairokov.com/i/s7yuFkm,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3461,COMPLETADO,01e9abd77d6606bd6c942b1fa1b884daf85586c48c6478185cdb7158bb1b390c,s7yuFkm,27-mar,1774657027,T101,ARS,NARANJA X,RICARDO,113000,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/s7yuFkm,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1419,-1392,"[P-s7yuFkm] Monto: 113000, Titular: RICARDO
+Banco: NARANJA X, Moneda: ARS, Tasa(T101): 1419 ","[P-s7yuFkm] Monto: 113000, Titular: RICARDO
+Banco: NARANJA X, Moneda: ARS, Tasa(T101): 1392 ",79.63,-81.17,-545.58,-163.16
 3462,VALIDAR,627bc67f81960bd5b839696fda50e90110c7f7120acb8846da89844946a8f692,nlUJVkP,27-mar,1774645574,T101,🤷‍♂️,🤷‍♂️,JS_MULTISERVICIOS,59.68,FUNDDA,SUBERO,,,,https://link.jairokov.com/i/nlUJVkP,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 3463,COMPLETADO,9098a353d82146ac7f47ed4f70bd1ee889f34d77c625aa09b545025d38f25072,yhRVuUA,27-mar,1774648116,T101,PEN,INTERBANK,YOHANA,104.78,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/yhRVuUA,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.5,-3.416,"[P-yhRVuUA] Monto: 104.78, Titular: YOHANA
 Banco: INTERBANK, Moneda: PEN, Tasa(T101): 3.5 ","[P-yhRVuUA] Monto: 104.78, Titular: YOHANA
@@ -10339,7 +10341,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T101): 3.591 ","[D-5rKV6zs] Monto: 100, Titular: 
 Banco: YAPE, Moneda: PEN, Tasa(T101): 3.5 ",27.84,28.57,-243.39,58.5
 3468,PENDIENTE,fa22d2c1d77db1b498f14bf2908fcfa4a7f8df26ec14abfa3c35138d5fdf85a0,XjwGVWz,31-dic,,,PEN,INTERBANK,EFRAIN IGDALIA ROJAS ANE,100,FUNDDA,,,,,https://link.jairokov.com/i/XjwGVWz,5491177171331@s.whatsapp.net,,,,,,,,,,,
 3469,PENDIENTE,ff31e9445cdf975dd114a9ade6322bfb84dacd5b64287f5838da320ee726b474,YvU4jn1,31-dic,,,USDT,BINANCE,🤷‍♂️,85.15,EDWIN,,,,,https://link.jairokov.com/i/YvU4jn1,554191071791@s.whatsapp.net,,,,,,,,,,,
-3470,VALIDAR,b54aed469a92f8a080cff14b9ca95fbd792d0d08043e6a1bfbf49c44d4c084d6,GZnRwn0,27-mar,1774654535,T101,ARS,GALICIA,NELSY MAYNAP ALDANA MORILLO,50000,VICTOR,NELSY,,,,https://link.jairokov.com/i/GZnRwn0,573105981346@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+3470,COMPLETADO,b54aed469a92f8a080cff14b9ca95fbd792d0d08043e6a1bfbf49c44d4c084d6,GZnRwn0,27-mar,1774654535,T101,ARS,GALICIA,MARIA,50000,VICTOR,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/GZnRwn0,573105981346@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1508,-1476,"[D-GZnRwn0] Monto: 50000, Titular: MARIA
+Banco: GALICIA, Moneda: ARS, Tasa(T101): 1508 ","[D-GZnRwn0] Monto: 50000, Titular: MARIA
+Banco: GALICIA, Moneda: ARS, Tasa(T101): 1476 ",33.15,-33.87,-19.69,-579.45
 3471,COMPLETADO,,ajukVQb,25-mar,1774475037,T098,ECU,PICHINCHA,PLASTIK,100,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/ajukVQb,,,,,0.98,-0.94,"[P-ajukVQb] Monto: 100, Titular: PLASTIK
 Banco: PICHINCHA, Moneda: ECU, Tasa(T098): 0.98 ","[P-ajukVQb] Monto: 100, Titular: PLASTIK
 Banco: PICHINCHA, Moneda: ECU, Tasa(T098): 0.94 ",102.04,-106.38,102.04,-337.76
