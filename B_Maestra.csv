@@ -10482,4 +10482,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T102): 3.435 ",29.85,-30.59,29.85,174.17
 3512,COMPLETADO,8e77c66cd76c2f2b3ae9f264ccd6384a5a34787a946334de4a66ff4726fde0e9,xMzQOWa,28-mar,1774733425,T102,PEN,YAPE,ROSANGEL VILLAFRANCA,84.8,FUNDDA,ROSANGEL,P,,PAGO,https://link.jairokov.com/i/xMzQOWa,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.52,1,"[P-xMzQOWa] Monto: 84.8, Titular: ROSANGEL VILLAFRANCA
 Banco: YAPE, Moneda: PEN, Tasa(T102): 3.52 ","[P-xMzQOWa] Monto: 84.8, Titular: ROSANGEL VILLAFRANCA
 Banco: YAPE, Moneda: PEN, Tasa(T102): 1 ",24.09,84.8,53.94,2112.91
-3513,PENDIENTE,9e8c0f9cfd2b124df9865caca46aea49feda31add5b392a23b3933fdfda885ff,BAYzI0H,31-dic,,,MXN,SPIN BY OXXO,ANA ROSA GONZALES MACHADO,800,AIDA,,,,,https://link.jairokov.com/i/BAYzI0H,51929501071@s.whatsapp.net,,,,,,,,,,,
+3513,COMPLETADO,9e8c0f9cfd2b124df9865caca46aea49feda31add5b392a23b3933fdfda885ff,BAYzI0H,28-mar,1774735227,T102,MXN,OXXO,ANA,800,AIDA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/BAYzI0H,51929501071@s.whatsapp.net,5491127574905@s.whatsapp.net,,,5.207,-19.08,"[D-BAYzI0H] Monto: 800, Titular: ANA
+Banco: OXXO, Moneda: MXN, Tasa(T102): 5.207 ","[D-BAYzI0H] Monto: 800, Titular: ANA
+Banco: OXXO, Moneda: MXN, Tasa(T102): 19.08 ",153.63,-41.92,267.55,-599.01
