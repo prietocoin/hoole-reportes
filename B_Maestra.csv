@@ -10354,5 +10354,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T101): 3.5 ",139.23,142.85,241.27,142.85
 3472,COMPLETADO,b05fb200d0ec98913916fcf148f2d2f297ab6d178c08b76958578c769a87d561,FP49QLo,27-mar,1774657591,T101,BRL,PIX,NATASHA,168,OMAR,CHASAN,P,,PAGO,https://link.jairokov.com/i/FP49QLo,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,5.097,-4.997,"[P-FP49QLo] Monto: 168, Titular: NATASHA
 Banco: PIX, Moneda: BRL, Tasa(T101): 5.097 ","[P-FP49QLo] Monto: 168, Titular: NATASHA
 Banco: PIX, Moneda: BRL, Tasa(T101): 4.997 ",32.96,-33.62,-252.76,-371.38
-3473,VALIDAR,16d95b366f5c3383090795b1eb28243d0eaa52263b1eec22a0446ab2db72c6ef,5pVBSie,27-mar,1774660351,T101,PEN,BCP,🤷‍♂️,73.3,AIDA,FUNDDA,,,,https://link.jairokov.com/i/5pVBSie,51929501071@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
-3474,PENDIENTE,e25234f5f5ea9dfb1d976f5c7006ee1f15e7ef7ca26201833b5689c36e5c69a1,RFoFAaW,31-dic,,,USDT,BINANCE,JAIRO,136.49,JOSEM,,,,,https://link.jairokov.com/i/RFoFAaW,56990683872@s.whatsapp.net,,,,,,,,,,,
+3473,COMPLETADO,16d95b366f5c3383090795b1eb28243d0eaa52263b1eec22a0446ab2db72c6ef,5pVBSie,27-mar,1774660351,T101,PEN,BCP,AIDA,73.3,AIDA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/5pVBSie,51929501071@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,3.5,"[D-5pVBSie] Monto: 73.3, Titular: AIDA
+Banco: BCP, Moneda: PEN, Tasa(T101): 1 ","[D-5pVBSie] Monto: 73.3, Titular: AIDA
+Banco: BCP, Moneda: PEN, Tasa(T101): 3.5 ",73.3,20.94,15.06,163.79
+3474,COMPLETADO,e25234f5f5ea9dfb1d976f5c7006ee1f15e7ef7ca26201833b5689c36e5c69a1,RFoFAaW,27-mar,1774660390,T101,USDT,BINANCE,JOSEM,136.49,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/RFoFAaW,56990683872@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-RFoFAaW] Monto: 136.49, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T101): 1 ","[A-RFoFAaW] Monto: 136.49, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T101): 1 ",136.49,136.49,0,300.28
