@@ -10560,7 +10560,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T103): 3723 ",13.35,-13.43,26.63,25.49
 3536,COMPLETADO,3bfe7dce1f02deee2eed6a6c428675bd78ed93ae914f9e8dcb5f48eebe8c9361,ee2tw62,29-mar,1774797904,T103,PEN,BBVA,RUTH,100,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/ee2tw62,554191581015@s.whatsapp.net,554191581015@s.whatsapp.net,,,3.611,3.52,"[D-ee2tw62] Monto: 100, Titular: RUTH
 Banco: BBVA, Moneda: PEN, Tasa(T103): 3.611 ","[D-ee2tw62] Monto: 100, Titular: RUTH
 Banco: BBVA, Moneda: PEN, Tasa(T103): 3.52 ",27.69,28.4,-990.04,178.8
-3537,VALIDAR,fe29f54bc1a6b33de8665506873e1edf23f2f2bfcdd7967e831c2fef0a85cd87,YgKdGuJ,29-mar,1774802728,T103,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,48.5,ENZO,FUNDDA,,,,https://link.jairokov.com/i/YgKdGuJ,51917122096@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3537,COMPLETADO,fe29f54bc1a6b33de8665506873e1edf23f2f2bfcdd7967e831c2fef0a85cd87,YgKdGuJ,29-mar,1774802728,T103,PEN,YAPE,ENZO,48.5,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/YgKdGuJ,51917122096@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,3.52,"[D-YgKdGuJ] Monto: 48.5, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T103): 1 ","[D-YgKdGuJ] Monto: 48.5, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T103): 3.52 ",48.5,13.77,266.8,192.57
 3538,COMPLETADO,bc871aecffe2e736da262e7231b655c7b59a0a05cccbd7fc1c5d487a3e6bbf93,IHKQVWJ,29-mar,1774802314,T103,COP,NEQUI,RICHARD,45250,JAIPY,ENZO,P,,PAGO,https://link.jairokov.com/i/IHKQVWJ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3650,1036,"[P-IHKQVWJ] Monto: 45250, Titular: RICHARD
 Banco: NEQUI, Moneda: COP, Tasa(T103): 3650 ","[P-IHKQVWJ] Monto: 45250, Titular: RICHARD
 Banco: NEQUI, Moneda: COP, Tasa(T103): 1036 ",12.39,43.67,322.83,43.67
