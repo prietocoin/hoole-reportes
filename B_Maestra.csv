@@ -10547,5 +10547,9 @@ Banco: BANESCO, Moneda: VES, Tasa(T102): 187.5 ",44.96,158.29,310.44,744.51
 Banco: OXXO, Moneda: MXN, Tasa(T102): 19.5 ","[D-S1D407S] Monto: 300, Titular: VICTOR
 Banco: OXXO, Moneda: MXN, Tasa(T102): 19.08 ",15.38,-15.72,15.36,-131.27
 3533,VALIDAR,994615b87cc0c26ca1db3594f329dad8acdc609ade2255aadde48e143a19f4ed,AlrL8na,29-mar,1774786201,T102,USDT,BINANCE,🤷‍♂️,71.52,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/AlrL8na,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-3534,PENDIENTE,ddf8d78c123477661bf077c98d039ac227f0664679116e5ec232a519bf77dbe6,QDslD46,31-dic,,,USDT,BINANCE,JAIRO,209.98,JOSEM,,,,,https://link.jairokov.com/i/QDslD46,56990683872@s.whatsapp.net,,,,,,,,,,,
-3535,PENDIENTE,e13dee26a2485c212f31b84e3d055f0f87421d64145040487d8167810fd577d1,RpwWnOM,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,150.4,JOHN,,,,,https://link.jairokov.com/i/RpwWnOM,573212916929@s.whatsapp.net,,,,,,,,,,,
+3534,COMPLETADO,ddf8d78c123477661bf077c98d039ac227f0664679116e5ec232a519bf77dbe6,QDslD46,29-mar,1774786343,T102,USDT,BINANCE,JOSEM,209.98,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/QDslD46,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-QDslD46] Monto: 209.98, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ","[A-QDslD46] Monto: 209.98, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ",209.98,209.98,0,209.98
+3535,COMPLETADO,e13dee26a2485c212f31b84e3d055f0f87421d64145040487d8167810fd577d1,RpwWnOM,29-mar,1774786214,T102,USDT,BINANCE,JHON,150.4,JOHN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/RpwWnOM,573212916929@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-RpwWnOM] Monto: 150.4, Titular: JHON
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ","[A-RpwWnOM] Monto: 150.4, Titular: JHON
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ",150.4,150.4,178.52,150.4
