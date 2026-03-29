@@ -10536,10 +10536,16 @@ Banco: OXXO, Moneda: MXN, Tasa(T102): 19.08 ",192.04,-52.41,586.22,-115.55
 3528,COMPLETADO,cbe17781bf94b8a4db66a2a441d5314d4713ffc38091c6d5ed9ec1d213bd12f7,MltyVPi,28-mar,1774745897,T102,USDT,BINANCE,JAVIER,19,JAVIER,FUNDDA,A,,ABONO,https://link.jairokov.com/i/MltyVPi,556281395914@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-MltyVPi] Monto: 19, Titular: JAVIER
 Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ","[A-MltyVPi] Monto: 19, Titular: JAVIER
 Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ",19,19,47.29,107.8
-3529,PENDIENTE,2f6e5eafdf4098a24c3f2253d864d80f62dd8f1974aa5f4ddb3825b778648f23,bfkW8r1,31-dic,,,COP,NEQUI,🤷‍♂️,64026,JAIPY,,,,,https://link.jairokov.com/i/bfkW8r1,595991712966@s.whatsapp.net,,,,,,,,,,,
-3530,VALIDAR,632b0250c90bd6161d2a39fdea820db98a2ff7161dc5c2eb30791720c6d8f5ef,nvYGKjF,28-mar,1774748072,T102,VES,BANESCO,YENNESYS ELIAXNYS MORENO JIMENO,29680,JAIPY,AIDA,,,,https://link.jairokov.com/i/nvYGKjF,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+3529,COMPLETADO,2f6e5eafdf4098a24c3f2253d864d80f62dd8f1974aa5f4ddb3825b778648f23,bfkW8r1,29-mar,1774786173,T102,COP,NEQUI,NATALIA,64026,JAIPY,JOSEM,P,,PAGO,https://link.jairokov.com/i/bfkW8r1,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3645,-3557,"[P-bfkW8r1] Monto: 64026, Titular: NATALIA
+Banco: NEQUI, Moneda: COP, Tasa(T102): 3645 ","[P-bfkW8r1] Monto: 64026, Titular: NATALIA
+Banco: NEQUI, Moneda: COP, Tasa(T102): 3557 ",17.56,-18,265.48,-209.98
+3530,COMPLETADO,632b0250c90bd6161d2a39fdea820db98a2ff7161dc5c2eb30791720c6d8f5ef,nvYGKjF,28-mar,1774748072,T102,VES,BANESCO,YENNESYS,29680,JAIPY,AIDA,P,,PAGO,https://link.jairokov.com/i/nvYGKjF,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,660,187.5,"[P-nvYGKjF] Monto: 29680, Titular: YENNESYS
+Banco: BANESCO, Moneda: VES, Tasa(T102): 660 ","[P-nvYGKjF] Monto: 29680, Titular: YENNESYS
+Banco: BANESCO, Moneda: VES, Tasa(T102): 187.5 ",44.96,158.29,310.44,744.51
 3531,PENDIENTE,34201d149b407f4b9403db2e8f3ac0059ce18e15c491c9ceaba4f099d81f164a,cmlWIDE,31-dic,,,🤷‍♂️,BINANCE,🤷‍♂️,0.55,SUBERO,,,,,https://link.jairokov.com/i/cmlWIDE,34627629613@s.whatsapp.net,,,,,,,,,,,
-3532,VALIDAR,e3d552d853eff5aba9e802495f62ff80fb51405bb006badecd562d82a6acc6f8,S1D407S,28-mar,1774748368,T102,MXN,SPIN BY OXXO,🤷‍♂️,300,VICTOR,CHASAN,,,,https://link.jairokov.com/i/S1D407S,573105981346@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-3533,PENDIENTE,994615b87cc0c26ca1db3594f329dad8acdc609ade2255aadde48e143a19f4ed,AlrL8na,31-dic,,,USDT,BINANCE,🤷‍♂️,71.52,EDWIN,,,,,https://link.jairokov.com/i/AlrL8na,554191071791@s.whatsapp.net,,,,,,,,,,,
+3532,COMPLETADO,e3d552d853eff5aba9e802495f62ff80fb51405bb006badecd562d82a6acc6f8,S1D407S,28-mar,1774748368,T102,MXN,OXXO,VICTOR,300,VICTOR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/S1D407S,573105981346@s.whatsapp.net,595991712966@s.whatsapp.net,,,19.5,-19.08,"[D-S1D407S] Monto: 300, Titular: VICTOR
+Banco: OXXO, Moneda: MXN, Tasa(T102): 19.5 ","[D-S1D407S] Monto: 300, Titular: VICTOR
+Banco: OXXO, Moneda: MXN, Tasa(T102): 19.08 ",15.38,-15.72,15.36,-131.27
+3533,VALIDAR,994615b87cc0c26ca1db3594f329dad8acdc609ade2255aadde48e143a19f4ed,AlrL8na,29-mar,1774786201,T102,USDT,BINANCE,🤷‍♂️,71.52,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/AlrL8na,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 3534,PENDIENTE,ddf8d78c123477661bf077c98d039ac227f0664679116e5ec232a519bf77dbe6,QDslD46,31-dic,,,USDT,BINANCE,JAIRO,209.98,JOSEM,,,,,https://link.jairokov.com/i/QDslD46,56990683872@s.whatsapp.net,,,,,,,,,,,
 3535,PENDIENTE,e13dee26a2485c212f31b84e3d055f0f87421d64145040487d8167810fd577d1,RpwWnOM,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,150.4,JOHN,,,,,https://link.jairokov.com/i/RpwWnOM,573212916929@s.whatsapp.net,,,,,,,,,,,
