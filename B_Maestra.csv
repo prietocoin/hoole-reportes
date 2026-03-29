@@ -10545,7 +10545,9 @@ Banco: BANESCO, Moneda: VES, Tasa(T102): 187.5 ",44.96,158.29,310.44,744.51
 3531,COMPLETADO,e3d552d853eff5aba9e802495f62ff80fb51405bb006badecd562d82a6acc6f8,S1D407S,28-mar,1774748368,T102,MXN,OXXO,VICTOR,300,VICTOR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/S1D407S,573105981346@s.whatsapp.net,595991712966@s.whatsapp.net,,,19.5,-19.08,"[D-S1D407S] Monto: 300, Titular: VICTOR
 Banco: OXXO, Moneda: MXN, Tasa(T102): 19.5 ","[D-S1D407S] Monto: 300, Titular: VICTOR
 Banco: OXXO, Moneda: MXN, Tasa(T102): 19.08 ",15.38,-15.72,15.36,-131.27
-3532,COMPLETADO,994615b87cc0c26ca1db3594f329dad8acdc609ade2255aadde48e143a19f4ed,AlrL8na,29-mar,1774786201,T102,USDT,BINANCE,EDWIN,71.52,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/AlrL8na,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3532,COMPLETADO,994615b87cc0c26ca1db3594f329dad8acdc609ade2255aadde48e143a19f4ed,AlrL8na,29-mar,1774786201,T102,USDT,BINANCE,EDWIN,71.52,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/AlrL8na,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-AlrL8na] Monto: 71.52, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ","[A-AlrL8na] Monto: 71.52, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ",71.52,71.52,548.78,179.32
 3533,COMPLETADO,ddf8d78c123477661bf077c98d039ac227f0664679116e5ec232a519bf77dbe6,QDslD46,29-mar,1774786343,T102,USDT,BINANCE,JOSEM,209.98,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/QDslD46,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-QDslD46] Monto: 209.98, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ","[A-QDslD46] Monto: 209.98, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T102): 1 ",209.98,209.98,0,209.98
