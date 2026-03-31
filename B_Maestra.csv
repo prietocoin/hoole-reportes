@@ -10794,7 +10794,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T105): 3.51 ","[P-VbQbmSM] Monto: 128.75, Ti
 Banco: INTERBANK, Moneda: PEN, Tasa(T105): 1 ",36.68,128.75,112.66,710.34
 3615,VALIDAR,14f3c1d84b485a3f72d5f6f9050abe1c2443d7d67bda441fc2f135389b064c8e,4Y2ymaC,31-mar,1774980574,T105,MXN,SPIN BY OXXO,JOSÉ CARRILLO,1075,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/4Y2ymaC,584122830430@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 3616,PENDIENTE,23464a2344e41a173f76e216f3a5f66deb0fa77cd43faa06d215ba8b037bde38,8mBR37I,31-dic,,,COP,NEQUI,JOSBELK VILLEGAS,45350,MERLI,,,,,https://link.jairokov.com/i/8mBR37I,573248071414@s.whatsapp.net,,,,,,,,,,,
-3617,VALIDAR,a499e68e622ba3a96c22870e35c96b9f37c1f8185ba15a03dfa19a636d3bb28f,D1Z2pXs,31-mar,1774970282,T105,PEN,BBVA,🤷‍♂️,66,ELIS,FUNDDA,,,,https://link.jairokov.com/i/D1Z2pXs,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3617,COMPLETADO,a499e68e622ba3a96c22870e35c96b9f37c1f8185ba15a03dfa19a636d3bb28f,D1Z2pXs,31-mar,1774970282,T105,PEN,PLIN,RUTH,66,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/D1Z2pXs,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.601,3.51,"[D-D1Z2pXs] Monto: 66, Titular: RUTH
+Banco: PLIN, Moneda: PEN, Tasa(T105): 3.601 ","[D-D1Z2pXs] Monto: 66, Titular: RUTH
+Banco: PLIN, Moneda: PEN, Tasa(T105): 3.51 ",18.32,18.8,-979.94,131.46
 3618,PENDIENTE,0eb13a23b1e593292b8ac983146bd4db8550e4677e5b52c05864ca1753ce34ce,3u0tCRz,31-dic,,,COP,NEQUI,DANILO GARCIA,37820,OMAR,,,,,https://link.jairokov.com/i/3u0tCRz,573248071414@s.whatsapp.net,,,,,,,,,,,
 3619,PENDIENTE,47b7106d56255d2156a6f1a6e8f65b7785b84b08da1be395d78d7ff550d23260,h0mw33o,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,424,MERLI,,,,,https://link.jairokov.com/i/h0mw33o,51928344275@s.whatsapp.net,,,,,,,,,,,
 3620,VALIDAR,2b30f10908eb92053959185b0a6b1e090d8b50466806f0b5158f3e9e85f1161d,af05uSc,31-mar,1774972524,T105,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,45.12,MERLI,FUNDDA,,,,https://link.jairokov.com/i/af05uSc,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
@@ -10808,4 +10810,4 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T105): 1 ",36.68,128.75,112.66,710.34
 3628,VALIDAR,dd444e5fefcfd4c44ffb7a16c9fcc27b347007aea49a5de564a0d08bf47542b5,Qt5wiep,31-mar,1774980018,T105,COP,NEQUI,NEYVIMAR ALCALA,93000,OMAR,IRIS,,,,https://link.jairokov.com/i/Qt5wiep,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3629,VALIDAR,08c1c4c16edec14f482b308067b26aa06e1da9b047a0ed2e9f7cf0fbf1dce9a3,24KbT75,31-mar,1774980370,T105,COP,NEQUI,JUAN AYALA,61000,IRIS,OMAR,,,,https://link.jairokov.com/i/24KbT75,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 3630,VALIDAR,a2ba83e21b146d8211111a9df0955232d5d309768d479bc8e40ed2a2bd381d44,CAs6Dm0,31-mar,1774981390,T105,COP,NEQUI,STEFANY SOSA,34500,IRIS,JOSEM,,,,https://link.jairokov.com/i/CAs6Dm0,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-3631,PENDIENTE,98d8f3a20b95bff3ece58be3d4bc31b6f64b601a459df2250c10401f6d889770,AfbaKyu,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,🤷‍♂️,JAIPY,,,,,https://link.jairokov.com/i/AfbaKyu,595991712966@s.whatsapp.net,,,,,,,,,,,
+3631,VALIDAR,98d8f3a20b95bff3ece58be3d4bc31b6f64b601a459df2250c10401f6d889770,AfbaKyu,31-mar,1774982679,T105,🤷‍♂️,🤷‍♂️,🤷‍♂️,🤷‍♂️,JAIPY,CHASAN,,,,https://link.jairokov.com/i/AfbaKyu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
