@@ -11350,9 +11350,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T109): 3.5 ",90,25.71,887.37,144.18
 3800,COMPLETADO,d0434ea4ad4722c07e83921a6b05fd8beab1e9592f092ab07f854f5183e38e2b,NnU3WyT,4-abr,1775338208,T109,CLP,MERCADO PAGO,JESÚS,80000,JESUS,MICHEL,D,,DEPOSITO,https://link.jairokov.com/i/NnU3WyT,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,929,-1.015,"[D-NnU3WyT] Monto: 80000, Titular: JESÚS
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T109): 929 ","[D-NnU3WyT] Monto: 80000, Titular: JESÚS
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T109): 1.015 ",86.11,-78817.73,126.6,-142603.46
-3801,COMPLETADO,588540d539b0c433f79bf78e51839ac9e1fcab93821ce2f120b0f5a6d33f91ba,kZrbbb6,4-abr,1775316693,T109,VES,VENEZUELA,AGNIS,51200,JAIPY,JESUS,P,,PAGO,https://link.jairokov.com/i/kZrbbb6,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,626,-1.015,"[P-kZrbbb6] Monto: 51200, Titular: AGNIS
+3801,COMPLETADO,588540d539b0c433f79bf78e51839ac9e1fcab93821ce2f120b0f5a6d33f91ba,kZrbbb6,4-abr,1775316693,T109,VES,VENEZUELA,AGNIS,51200,JAIPY,JESUS,P,,PAGO,https://link.jairokov.com/i/kZrbbb6,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,626,626,"[P-kZrbbb6] Monto: 51200, Titular: AGNIS
 Banco: VENEZUELA, Moneda: VES, Tasa(T109): 626 ","[P-kZrbbb6] Monto: 51200, Titular: AGNIS
-Banco: VENEZUELA, Moneda: VES, Tasa(T109): 1.015 ",81.78,-50443.34,318.49,-50443.34
+Banco: VENEZUELA, Moneda: VES, Tasa(T109): 626 ",81.78,81.78,318.49,208.38
 3802,COMPLETADO,de0a4f0236b8b7eed75c1f7149e64655efa496b7c60008e3a1d2e4c3bd1c16c0,QEsxAD2,4-abr,1775317644,T109,USDT,BINANCE,FUNDDA,-200,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/QEsxAD2,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-QEsxAD2] Monto: -200, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-QEsxAD2] Monto: -200, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",-200,-200,-55.82,-5.19
@@ -11414,3 +11414,4 @@ Banco: NEQUI, Moneda: COP, Tasa(T109): 1005 ",12.58,-45.12,62.26,-92.81
 3822,COMPLETADO,be11bc45a0a857f53c46e73b7a1693e975d100f99d2cf57130f81706b23a5bbf,J4q031I,4-abr,1775334529,T109,USDT,BINANCE,FUNDDA,-26.15,FUNDDA,ARGENIS,A,,ABONO,https://link.jairokov.com/i/J4q031I,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-J4q031I] Monto: -26.15, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-J4q031I] Monto: -26.15, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",-26.15,-26.15,125.35,52.29
+3823,PENDIENTE,22f07f95fc83c1fe3e3b3bf88298a2aea2ef2d8ec888a5eddf5abf0a558d16e1,8hGnFat,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,496.09,CHASAN,,,,,https://link.jairokov.com/i/8hGnFat,5215647886474@s.whatsapp.net,,,,,,,,,,,
