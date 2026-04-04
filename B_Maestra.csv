@@ -11329,7 +11329,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T108): 1 ",543.28,543.28,86.97,543.28
 3793,COMPLETADO,77dd26a16cbc7ec24712357fcbc9c21971393b7483ae52c77d5c4ddf4c40024d,sqfBLKJ,4-abr,1775312147,T109,USDT,BINANCE,JOSEM,184.41,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/sqfBLKJ,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-sqfBLKJ] Monto: 184.41, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-sqfBLKJ] Monto: 184.41, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",184.41,184.41,0,727.69
-3794,VALIDAR,de9fed99fed5189941b654bc050d5f115e81228f4df87e3b672b31070217aeb2,QN3hNnH,4-abr,1775335720,T109,🤷‍♂️,🤷‍♂️,🤷‍♂️,177.22,ELIS,FUNDDA,,,,https://link.jairokov.com/i/QN3hNnH,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3794,COMPLETADO,de9fed99fed5189941b654bc050d5f115e81228f4df87e3b672b31070217aeb2,QN3hNnH,4-abr,1775335720,T109,USDT,BINANCE,ELIS,177.22,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/QN3hNnH,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-QN3hNnH] Monto: 177.22, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-QN3hNnH] Monto: 177.22, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",177.22,177.22,-32.65,904.91
 3795,COMPLETADO,295c5878548db165a471f88fe1ee3d22648ac6e331bd4c00380e1de1aa08b5a2,9O5zC8l,4-abr,1775311702,T109,USDT,BINANCE,SUBERO,89.9,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/9O5zC8l,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-9O5zC8l] Monto: 89.9, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-9O5zC8l] Monto: 89.9, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",89.9,89.9,53.83,89.9
@@ -11368,7 +11370,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T109): 1.01 ",139.42,-143564.35,435.37,-18342.13
 3808,COMPLETADO,190eff0c79f3e4c7beffaa8a3c443f7553aab139ac95bb7151b89b6a69b5583d,5WpFktN,4-abr,1775320595,T109,PEN,INTERBANK,OSCARINA RENGEL,133.27,FUNDDA,ARACELIS,P,,PAGO,https://link.jairokov.com/i/5WpFktN,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.5,1,"[P-5WpFktN] Monto: 133.27, Titular: OSCARINA RENGEL
 Banco: INTERBANK, Moneda: PEN, Tasa(T109): 3.5 ","[P-5WpFktN] Monto: 133.27, Titular: OSCARINA RENGEL
 Banco: INTERBANK, Moneda: PEN, Tasa(T109): 1 ",38.07,133.27,-17.75,568.64
-3809,PENDIENTE,20af6fee6d16f4c0561c368d4142d746fb5e07eb4d872ffc1823ea0fbc41a50b,7KxER9j,31-dic,,,USDT,BINANCE,🤷‍♂️,17.98,SUBERO,,,,,https://link.jairokov.com/i/7KxER9j,34627629613@s.whatsapp.net,,,,,,,,,,,
+3809,COMPLETADO,20af6fee6d16f4c0561c368d4142d746fb5e07eb4d872ffc1823ea0fbc41a50b,7KxER9j,4-abr,1775335758,T109,USDT,BINANCE,SUBERO,17.98,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/7KxER9j,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-7KxER9j] Monto: 17.98, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-7KxER9j] Monto: 17.98, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",17.98,17.98,-18.16,0.23
 3810,COMPLETADO,66ee714995dec2532e9c984f42e114d0d85d58c3c62a8c58264beddaad592d2c,opj9Dvh,4-abr,1775321970,T109,ARS,MERCADO PAGO,RICARDO,25300,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/opj9Dvh,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1432,-1406,"[P-opj9Dvh] Monto: 25300, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T109): 1432 ","[P-opj9Dvh] Monto: 25300, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T109): 1406 ",17.66,-17.99,17.66,-17.99
@@ -11392,7 +11396,9 @@ Banco: BCP, Moneda: PEN, Tasa(T109): 3.5 ",18,18,748.57,566.78
 3818,COMPLETADO,62ed07730783319dfce83adc39bb6c49e55e7aca63e487baccfa276d5c77e28d,nspZY73,4-abr,1775329431,T109,PEN,YAPE,ENZO,67.9,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/nspZY73,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.5,"[D-nspZY73] Monto: 67.9, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T109): 1 ","[D-nspZY73] Monto: 67.9, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T109): 3.5 ",67.9,19.4,1033.29,151.5
-3819,PENDIENTE,c382b6ba2790fc1daa15fbb0ee44430e42ea660ebeb144970d7db8e73b178c2e,KmpVQxB,31-dic,,,USDT,BINANCE,🤷‍♂️,18.44,EDWIN,,,,,https://link.jairokov.com/i/KmpVQxB,554191071791@s.whatsapp.net,,,,,,,,,,,
+3819,COMPLETADO,c382b6ba2790fc1daa15fbb0ee44430e42ea660ebeb144970d7db8e73b178c2e,KmpVQxB,4-abr,1775335791,T109,USDT,BINANCE,EDWIN,18.44,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/KmpVQxB,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-KmpVQxB] Monto: 18.44, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ","[A-KmpVQxB] Monto: 18.44, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T109): 1 ",18.44,18.44,585.22,169.94
 3820,COMPLETADO,2da7821c3c573a7cc73ae85bfd6f442d804f359395bd512ee975b474235272f2,aPdkghC,4-abr,1775330426,T109,COP,NEQUI,RICHARDSON CALDERON,63490,ROSIMAR,ENZO,P,,PAGO,https://link.jairokov.com/i/aPdkghC,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3603,1040,"[P-aPdkghC] Monto: 63490, Titular: RICHARDSON CALDERON
 Banco: NEQUI, Moneda: COP, Tasa(T109): 3603 ","[P-aPdkghC] Monto: 63490, Titular: RICHARDSON CALDERON
 Banco: NEQUI, Moneda: COP, Tasa(T109): 1040 ",17.62,61.04,49.68,1094.33
