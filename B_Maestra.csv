@@ -11466,4 +11466,5 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T110): 3.5 ",40.1,41.14,97.63,790.67
 3838,COMPLETADO,8cb570a1eca4e6de03fe61c0b29e8e81e54c61fe86f03a70d6a6dcf2ede7429b,xmImdV7,5-abr,1775406153,T110,COP,NEQUI,JAIPY,100000,JAIDELIS,ROSIMAR,D,,DEPOSITO,https://link.jairokov.com/i/xmImdV7,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3724,-3702,"[D-xmImdV7] Monto: 100000, Titular: JAIPY
 Banco: NEQUI, Moneda: COP, Tasa(T110): 3724 ","[D-xmImdV7] Monto: 100000, Titular: JAIPY
 Banco: NEQUI, Moneda: COP, Tasa(T110): 3702 ",26.85,-27.01,80.29,35.25
-3839,VALIDAR,7179ae8b19f52bd9d05477775645773b6689d3a7d98b9fb58efd5e94af89db14,qUkfnJE,5-abr,1775406386,T110,PEN,BCP,MATA RUIZ ROMMEL J.,106,JAIPY,EDWIN,,,,https://link.jairokov.com/i/qUkfnJE,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+3839,COMPLETADO,7179ae8b19f52bd9d05477775645773b6689d3a7d98b9fb58efd5e94af89db14,qUkfnJE,5-abr,1775406386,T110,PEN,BCP,MATA,106,JAIPY,EDWIN,,,,https://link.jairokov.com/i/qUkfnJE,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+3840,PENDIENTE,a74d5923807a2752c398371cabdc0eb102384ada10f8d2c89a5ba0e7eb5fbd06,DFH3kxR,31-dic,,,PEN,INTERBANK,JORGE L ZAMBRANO B,35,CHASAN,,,,,https://link.jairokov.com/i/DFH3kxR,5491177171331@s.whatsapp.net,,,,,,,,,,,
