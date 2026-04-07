@@ -11827,7 +11827,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T112): 3547 ",92424.24,-25.79,-1597534.57,-51.58
 3965,COMPLETADO,514d665e66fed0208edcae6c28e2b845320b1a39e9045ac198abdb65c23c4307,jhjAy0j,7-abr,1775586047,T112,PEN,YAPE,YULEISY TOVAR,100,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/jhjAy0j,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.45,-3.367,"[P-jhjAy0j] Monto: 100, Titular: YULEISY TOVAR
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.45 ","[P-jhjAy0j] Monto: 100, Titular: YULEISY TOVAR
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.367 ",28.98,-29.7,28.98,31.1
-3966,VALIDAR,41070188d695975c4f96a2f3663a1e3adf74fb0edcc3456d79a7932c7ca33fa5,fq2rKAb,7-abr,1775586923,T112,USD,ADV PLUS BANKING,🤷‍♂️,50,AIDA,JOHN,,,,https://link.jairokov.com/i/fq2rKAb,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+3966,COMPLETADO,41070188d695975c4f96a2f3663a1e3adf74fb0edcc3456d79a7932c7ca33fa5,fq2rKAb,7-abr,1775586923,T112,USD,ZELLE,ELVIS,50,AIDA,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/fq2rKAb,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.289,-1.063,"[D-fq2rKAb] Monto: 50, Titular: ELVIS
+Banco: ZELLE, Moneda: USD, Tasa(T112): 0.289 ","[D-fq2rKAb] Monto: 50, Titular: ELVIS
+Banco: ZELLE, Moneda: USD, Tasa(T112): 1.063 ",173.01,-47.03,293.95,441.85
 3967,COMPLETADO,68e66d6dc108ef7616650b3f57ce28eb7f91c92e3c2b86f536671e0b69424c21,oSfG2iE,7-abr,1775587534,T112,PEN,INTERBANK,ALEJANDRA,94.39,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/oSfG2iE,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.45,-3.367,"[P-oSfG2iE] Monto: 94.39, Titular: ALEJANDRA
 Banco: INTERBANK, Moneda: PEN, Tasa(T112): 3.45 ","[P-oSfG2iE] Monto: 94.39, Titular: ALEJANDRA
 Banco: INTERBANK, Moneda: PEN, Tasa(T112): 3.367 ",27.35,-28.03,56.33,-88.85
