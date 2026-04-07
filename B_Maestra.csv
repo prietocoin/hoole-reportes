@@ -11717,4 +11717,6 @@ Banco: MERCADO PAGO, Moneda: CLP, Tasa(T111): 888 ",49.72,-50.67,-56.98,-66.43
 3925,COMPLETADO,c4b73e288c4028e1e155e0c3ff7f76c153e9622dd31d827d4b45c5cc8d4e4466,KE8v8t1,6-abr,1775521654,T111,PEN,INTERBANK,JORGE,52.5,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/KE8v8t1,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.5,-3.416,"[P-KE8v8t1] Monto: 52.5, Titular: JORGE
 Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.5 ","[P-KE8v8t1] Monto: 52.5, Titular: JORGE
 Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.416 ",15,-15.36,976.68,-72.34
-3926,PENDIENTE,6adf4350b5b2014ec52c327c98165d7bef8fe47927fa16f4b3578ef748b0bbcc,plfecZe,31-dic,,,PEN,INTERBANK,JORGE L ZAMBRANO B,104.1,FUNDDA,,,,,https://link.jairokov.com/i/plfecZe,5491177171331@s.whatsapp.net,,,,,,,,,,,
+3926,COMPLETADO,6adf4350b5b2014ec52c327c98165d7bef8fe47927fa16f4b3578ef748b0bbcc,plfecZe,6-abr,1775522359,T111,PEN,INTERBANK,JORGE,104.1,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/plfecZe,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.5,-3.416,"[P-plfecZe] Monto: 104.1, Titular: JORGE
+Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.5 ","[P-plfecZe] Monto: 104.1, Titular: JORGE
+Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.416 ",29.74,-30.47,1006.42,-102.81
