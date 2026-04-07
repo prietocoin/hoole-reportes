@@ -11719,4 +11719,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.416 ",15,-15.36,976.68,-72.34
 3925,COMPLETADO,6adf4350b5b2014ec52c327c98165d7bef8fe47927fa16f4b3578ef748b0bbcc,plfecZe,6-abr,1775522359,T111,PEN,INTERBANK,JORGE,104.1,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/plfecZe,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.5,-3.416,"[P-plfecZe] Monto: 104.1, Titular: JORGE
 Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.5 ","[P-plfecZe] Monto: 104.1, Titular: JORGE
 Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.416 ",29.74,-30.47,1006.42,-102.81
-3926,VALIDAR,4e037b79cb9ad145ba09f9a1cad80562fadca078fcc3d62ddc5bc9dd777d7034,iuXNGfI,6-abr,1775525442,T111,PEN,INTERBANK,JAIROKOV,493.64,FUNDDA,ALEJANDRA,,,,https://link.jairokov.com/i/iuXNGfI,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+3926,COMPLETADO,4e037b79cb9ad145ba09f9a1cad80562fadca078fcc3d62ddc5bc9dd777d7034,iuXNGfI,6-abr,1775525442,T111,PEN,INTERBANK,FUNDDA,493.64,FUNDDA,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/iuXNGfI,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.5,-1,"[P-iuXNGfI] Monto: 493.64, Titular: FUNDDA
+Banco: INTERBANK, Moneda: PEN, Tasa(T111): 3.5 ","[P-iuXNGfI] Monto: 493.64, Titular: FUNDDA
+Banco: INTERBANK, Moneda: PEN, Tasa(T111): 1 ",141.04,-493.64,1147.46,1523.79
