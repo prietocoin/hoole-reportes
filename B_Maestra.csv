@@ -11725,4 +11725,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T111): 1 ",141.04,-493.64,1147.46,1523.79
 3927,COMPLETADO,93e612d7c02ee15a122d2ca05b88104cce2e1aaa798f0192b32f937d1e00ea0f,z4qf10M,6-abr,1775528743,T111,PEN,BCP,GONZALES,174,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/z4qf10M,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.5,-3.416,"[P-z4qf10M] Monto: 174, Titular: GONZALES
 Banco: BCP, Moneda: PEN, Tasa(T111): 3.5 ","[P-z4qf10M] Monto: 174, Titular: GONZALES
 Banco: BCP, Moneda: PEN, Tasa(T111): 3.416 ",49.71,-50.93,399,-153.74
-3928,VALIDAR,b1fe3906c5c245939ca37a6ef1fd2ff2bcf263a90a2e96c0ac98e4b1572fc692,GcS9uyX,6-abr,1775531566,T111,USDT,BINANCE,JAIRO,130.56,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/GcS9uyX,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+3928,COMPLETADO,b1fe3906c5c245939ca37a6ef1fd2ff2bcf263a90a2e96c0ac98e4b1572fc692,GcS9uyX,6-abr,1775531566,T111,USDT,BINANCE,JOSEM,130.56,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/GcS9uyX,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-GcS9uyX] Monto: 130.56, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T111): 1 ","[A-GcS9uyX] Monto: 130.56, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T111): 1 ",130.56,130.56,0,1278.02
