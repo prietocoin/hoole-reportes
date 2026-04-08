@@ -12080,5 +12080,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T114): 3533 ",25761.61,-7.21,-1214965.67,-7.21
 4050,COMPLETADO,24a91f1b5fd4d186402f2e79dfc700704eefb7173db0afb833a613fd71191d6b,8GZie4L,8-abr,1775690188,T114,USDT,BINANCE,ELIS,153.55,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/8GZie4L,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-8GZie4L] Monto: 153.55, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ","[A-8GZie4L] Monto: 153.55, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ",153.55,153.55,18.28,368.15
-4051,PENDIENTE,1f884a6c8b7f2f01011f50a93d3304fa1bd0ef2ef636ea3b1fad134bc4a7dfbe,7tAJUrG,31-dic,,,COP,NEQUI,ANYI BALLESTEROS,30000,MERLI,,,,,https://link.jairokov.com/i/7tAJUrG,573248071414@s.whatsapp.net,,,,,,,,,,,
-4052,VALIDAR,b8cc4a63a17f1bd9ea7293de217631adf72296fee1a8ab4ecbfa9c8374bbae5a,HOV4LeV,8-abr,1775691033,T114,PEN,BCP,IDROBO BRICEÑO DAYANA A.,220.11,JAIPY,YARELIS,,,,https://link.jairokov.com/i/HOV4LeV,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+4051,COMPLETADO,1f884a6c8b7f2f01011f50a93d3304fa1bd0ef2ef636ea3b1fad134bc4a7dfbe,7tAJUrG,8-abr,1775691284,T114,COP,NEQUI,ANYI,30000,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/7tAJUrG,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-1026,"[P-7tAJUrG] Monto: 30000, Titular: ANYI
+Banco: NEQUI, Moneda: COP, Tasa(T114): 0.99 ","[P-7tAJUrG] Monto: 30000, Titular: ANYI
+Banco: NEQUI, Moneda: COP, Tasa(T114): 1026 ",30303.03,-29.23,-1184662.64,82.92
+4052,COMPLETADO,b8cc4a63a17f1bd9ea7293de217631adf72296fee1a8ab4ecbfa9c8374bbae5a,HOV4LeV,8-abr,1775691033,T114,PEN,BCP,IDROBO,220.11,JAIPY,YARELIS,P,,PAGO,https://link.jairokov.com/i/HOV4LeV,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-HOV4LeV] Monto: 220.11, Titular: IDROBO
+Banco: BCP, Moneda: PEN, Tasa(T114): 3.41 ","[P-HOV4LeV] Monto: 220.11, Titular: IDROBO
+Banco: BCP, Moneda: PEN, Tasa(T114): 3.328 ",64.54,-66.13,1307.82,-94.65
