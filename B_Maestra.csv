@@ -11968,6 +11968,12 @@ Banco: OXXO, Moneda: MXN, Tasa(T112): 18.64 ",15.75,-16.09,6.06,-148.17
 4012,COMPLETADO,955b291cd44403b9920f6d7322f7b0956bd2d56cc2bb5f1702d839375ee9ba34,zpQGcZn,7-abr,1775615211,T112,PEN,INTERBANK,FUNDDA,111.09,FUNDDA,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/zpQGcZn,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.45,-1,"[P-zpQGcZn] Monto: 111.09, Titular: FUNDDA
 Banco: INTERBANK, Moneda: PEN, Tasa(T112): 3.45 ","[P-zpQGcZn] Monto: 111.09, Titular: FUNDDA
 Banco: INTERBANK, Moneda: PEN, Tasa(T112): 1 ",32.2,-111.09,331.03,-525.26
-4013,PENDIENTE,e2d3f009fe2b628ff6482536a50651c868231b9095c4889ef4f81c4e693da855,RMQB7Pb,31-dic,,,USDT,BINANCE,🤷‍♂️,803.61,CHASAN,,,,,https://link.jairokov.com/i/RMQB7Pb,5215647886474@s.whatsapp.net,,,,,,,,,,,
-4014,PENDIENTE,8d8f8ebbd6e31bfdf3e984d41ac6d6a3953384addcc9cbec3f795c914e19f94d,xzf09TN,31-dic,,,USD,BINANCE,🤷‍♂️,63.69,JOSEM,,,,,https://link.jairokov.com/i/xzf09TN,56990683872@s.whatsapp.net,,,,,,,,,,,
-4015,VALIDAR,de12c2dd7ffb84ed23d0fe58690003a1cdbf0c95f22c393faa4709545df1b94b,QEWDAC0,8-abr,1775654688,T113,USDT,BINANCE,🤷‍♂️,225.53,OMAR,FUNDDA,,,,https://link.jairokov.com/i/QEWDAC0,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4013,COMPLETADO,e2d3f009fe2b628ff6482536a50651c868231b9095c4889ef4f81c4e693da855,RMQB7Pb,8-abr,1775654719,T113,USDT,BINANCE,CHASAN,803.61,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/RMQB7Pb,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-RMQB7Pb] Monto: 803.61, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ","[A-RMQB7Pb] Monto: 803.61, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ",803.61,803.61,655.44,1134.64
+4014,COMPLETADO,8d8f8ebbd6e31bfdf3e984d41ac6d6a3953384addcc9cbec3f795c914e19f94d,xzf09TN,8-abr,1775654732,T113,USDT,BINANCE,JOSEM,63.69,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/xzf09TN,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-xzf09TN] Monto: 63.69, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ","[A-xzf09TN] Monto: 63.69, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ",63.69,63.69,0,1198.33
+4015,COMPLETADO,de12c2dd7ffb84ed23d0fe58690003a1cdbf0c95f22c393faa4709545df1b94b,QEWDAC0,8-abr,1775654688,T113,USDT,BINANCE,OMAR,225.53,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/QEWDAC0,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-QEWDAC0] Monto: 225.53, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ","[A-QEWDAC0] Monto: 225.53, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T113): 1 ",225.53,225.53,164.5,225.53
