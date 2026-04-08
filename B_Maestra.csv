@@ -11930,7 +11930,10 @@ Banco: ICBC, Moneda: ARS, Tasa(T112): 1405 ",75.13,-76.53,-725.25,0
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.539 ","[D-9JYVgTn] Monto: 350, Titular: YARELIS
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.45 ",98.89,101.44,-95.11,197.39
 4004,PENDIENTE,374d2fd1a18e63d164476eb0afb4eaa6e503646d4dba46c6c2b9e760d5da6eae,d731ROF,31-dic,,,COP,NEQUI,ZULEIDYZ DUBEN,45750,MERLI,,,,,https://link.jairokov.com/i/d731ROF,573248071414@s.whatsapp.net,,,,,,,,,,,
-4005,VALIDAR,31c0e120a7aafcc3fcda36951f4f163402998e3246f517c56e46787f25dced1b,bNtMS2x,7-abr,1775606598,T112,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,350,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/bNtMS2x,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+4005,COMPLETADO,31c0e120a7aafcc3fcda36951f4f163402998e3246f517c56e46787f25dced1b,bNtMS2x,7-abr,1775606598,T112,PEN,YAPE,YARELIS,350,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/bNtMS2x,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.539,3.45,"[D-bNtMS2x] Monto: 350, Titular: YARELIS
+Banco: YAPE, Moneda: PEN, Tasa(T112): 3.539 ","[D-bNtMS2x] Monto: 350, Titular: YARELIS
+Banco: YAPE, Moneda: PEN, Tasa(T112): 3.45 ",98.89,101.44,3.78,298.83
 4006,COMPLETADO,,ungIe4g,7-abr,1775606545,T112,PEN,YAPE,YARELIS,350,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/ungIe4g,,,,,3.539,3.45,"[D-ungIe4g] Monto: 350, Titular: YARELIS
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.539 ","[D-ungIe4g] Monto: 350, Titular: YARELIS
 Banco: YAPE, Moneda: PEN, Tasa(T112): 3.45 ",98.89,101.44,3.78,101.44
+4007,PENDIENTE,2f80036164f9e17989e6173d2aec68bb25331ff3be935fdf3ac8aa82f6920ef1,bglL6lZ,31-dic,,,COP,NEQUI,WILLER RUIZ,165000,AIDA,,,,,https://link.jairokov.com/i/bglL6lZ,51929501071@s.whatsapp.net,,,,,,,,,,,
