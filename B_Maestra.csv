@@ -12102,7 +12102,9 @@ Banco: BCP, Moneda: PEN, Tasa(T114): 3.328 ",20.52,-21.03,-262.4,523.31
 4050,COMPLETADO,e044b883fe406ea3a5fc6490d1fe887a25d3172f47d83d1a48637da4078e3564,RbdAyet,9-abr,1775730357,T114,USDT,BINANCE,JOSEM,238.17,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/RbdAyet,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-RbdAyet] Monto: 238.17, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ","[A-RbdAyet] Monto: 238.17, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ",238.17,238.17,0,-24.23
-4051,VALIDAR,1b3958cf72c2cd970943a8de5d76eaca752e2d4690a8088cfefde939448a0230,6sfwwYy,9-abr,1775764307,T115,USDT,BINANCE,JAIRITO,230.35,OMAR,CORREGIR,,,,https://link.jairokov.com/i/6sfwwYy,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4051,COMPLETADO,1b3958cf72c2cd970943a8de5d76eaca752e2d4690a8088cfefde939448a0230,6sfwwYy,9-abr,1775764307,T115,USDT,BINANCE,OMAR,230.35,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/6sfwwYy,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-6sfwwYy] Monto: 230.35, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T115): 1 ","[A-6sfwwYy] Monto: 230.35, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T115): 1 ",230.35,230.35,223.14,206.12
 4052,COMPLETADO,a4d46f0fd1d99e03588f04961b5da9b800f4f8549a1191de040190403da329ff,D5lsibr,9-abr,1775744580,T115,COP,NEQUI,JENIFER NAVARRO,122000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/D5lsibr,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3529,"[P-D5lsibr] Monto: 122000, Titular: JENIFER NAVARRO
 Banco: NEQUI, Moneda: COP, Tasa(T115): 0.99 ","[P-D5lsibr] Monto: 122000, Titular: JENIFER NAVARRO
 Banco: NEQUI, Moneda: COP, Tasa(T115): 3529 ",123232.32,-34.57,-1061430.32,-34.57
