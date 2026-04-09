@@ -12103,5 +12103,8 @@ Banco: BCP, Moneda: PEN, Tasa(T114): 3.328 ",20.52,-21.03,-262.4,523.31
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ","[A-RbdAyet] Monto: 238.17, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ",238.17,238.17,0,-24.23
 4051,PENDIENTE,1b3958cf72c2cd970943a8de5d76eaca752e2d4690a8088cfefde939448a0230,6sfwwYy,31-dic,,,USDT,BINANCE,JAIRITO,230.35,OMAR,,,,,https://link.jairokov.com/i/6sfwwYy,559295375590@s.whatsapp.net,,,,,,,,,,,
-4052,PENDIENTE,a4d46f0fd1d99e03588f04961b5da9b800f4f8549a1191de040190403da329ff,D5lsibr,31-dic,,,COP,NEQUI,JENIFER NAVARRO,122000,IRIS,,,,,https://link.jairokov.com/i/D5lsibr,573248071414@s.whatsapp.net,,,,,,,,,,,
-4053,VALIDAR,3646dca64b8cf2931123410aaacf3d2bf90eab596d2fd495e8e74d5575c3ab84,cRYYFwe,9-abr,1775742853,T115,COP,NEQUI,YOSIRIS DE LA HOZ,100000,IRIS,OMAR,,,,https://link.jairokov.com/i/cRYYFwe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4052,VALIDAR,a4d46f0fd1d99e03588f04961b5da9b800f4f8549a1191de040190403da329ff,D5lsibr,9-abr,1775744580,T115,COP,NEQUI,JENIFER NAVARRO,122000,IRIS,CORREGIR,,,,https://link.jairokov.com/i/D5lsibr,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4053,COMPLETADO,3646dca64b8cf2931123410aaacf3d2bf90eab596d2fd495e8e74d5575c3ab84,cRYYFwe,9-abr,1775742853,T115,COP,NEQUI,YOSIRIS DE LA HOZ,100000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/cRYYFwe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3529,"[P-cRYYFwe] Monto: 100000, Titular: YOSIRIS DE LA HOZ
+Banco: NEQUI, Moneda: COP, Tasa(T115): 0.99 ","[P-cRYYFwe] Monto: 100000, Titular: YOSIRIS DE LA HOZ
+Banco: NEQUI, Moneda: COP, Tasa(T115): 3529 ",101010.1,-28.33,101010.1,-28.33
+4054,PENDIENTE,c9ca117a2d6d58e51a4e1bbe7ebca6b87dd31db566b7520a4d57200c7eb3a951,LQJbCiP,31-dic,,,PEN,BCP,OROZCO BUCARITO WILLIAN J.,80,ELIS,,,,,https://link.jairokov.com/i/LQJbCiP,595991712966@s.whatsapp.net,,,,,,,,,,,
