@@ -12109,7 +12109,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T115): 3529 ",123232.32,-34.57,-1061430.32,-34.5
 4053,COMPLETADO,3646dca64b8cf2931123410aaacf3d2bf90eab596d2fd495e8e74d5575c3ab84,cRYYFwe,9-abr,1775742853,T115,COP,NEQUI,YOSIRIS DE LA HOZ,100000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/cRYYFwe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3529,"[P-cRYYFwe] Monto: 100000, Titular: YOSIRIS DE LA HOZ
 Banco: NEQUI, Moneda: COP, Tasa(T115): 0.99 ","[P-cRYYFwe] Monto: 100000, Titular: YOSIRIS DE LA HOZ
 Banco: NEQUI, Moneda: COP, Tasa(T115): 3529 ",101010.1,-28.33,101010.1,-28.33
-4054,PENDIENTE,c9ca117a2d6d58e51a4e1bbe7ebca6b87dd31db566b7520a4d57200c7eb3a951,LQJbCiP,31-dic,,,PEN,BCP,OROZCO BUCARITO WILLIAN J.,80,ELIS,,,,,https://link.jairokov.com/i/LQJbCiP,595991712966@s.whatsapp.net,,,,,,,,,,,
+4054,COMPLETADO,c9ca117a2d6d58e51a4e1bbe7ebca6b87dd31db566b7520a4d57200c7eb3a951,LQJbCiP,9-abr,1775764121,T115,PEN,BCP,WILLIAN,80,JAIPY,ELIS,P,,PAGO,https://link.jairokov.com/i/LQJbCiP,595991712966@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.4,-3.318,"[P-LQJbCiP] Monto: 80, Titular: WILLIAN
+Banco: BCP, Moneda: PEN, Tasa(T115): 3.4 ","[P-LQJbCiP] Monto: 80, Titular: WILLIAN
+Banco: BCP, Moneda: PEN, Tasa(T115): 3.318 ",23.52,-24.11,1356.93,-5.83
 4055,COMPLETADO,8c1343425643511a9653068a199a2054c242cab219a77737aa690532b1002abd,xdoTKRu,9-abr,1775744632,T115,COP,BANCOLOMBIA,MARIA DIAZ,61000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/xdoTKRu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3616,-3529,"[P-xdoTKRu] Monto: 61000, Titular: MARIA DIAZ
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T115): 3616 ","[P-xdoTKRu] Monto: 61000, Titular: MARIA DIAZ
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T115): 3529 ",16.86,-17.28,1350.27,-45.61
@@ -12129,7 +12131,9 @@ Banco: BCP, Moneda: PEN, Tasa(T115): 3.318 ",36.39,-37.29,1420.39,-131.94
 Banco: OXXO, Moneda: MXN, Tasa(T115): 18.69 ","[D-NakcHYz] Monto: 315, Titular: YENIFER OLMOS
 Banco: OXXO, Moneda: MXN, Tasa(T115): 18.3 ",16.85,-17.21,-66.78,506.1
 4061,PENDIENTE,79b8830f92cf582255cf6e8193081d56129b6fa78b1cc222245833b24eaed9af,sRyd7LJ,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,50,FUNDDA,,,,,https://link.jairokov.com/i/sRyd7LJ,595991712966@s.whatsapp.net,,,,,,,,,,,
-4062,VALIDAR,fd6b8c20b858ec4da090adfc70406065cc54941582e0233af2598b70da56caee,Y5OekKf,9-abr,1775755354,T115,USD,🤷‍♂️,🤷‍♂️,60,CINDY,JOHN,,,,https://link.jairokov.com/i/Y5OekKf,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4062,COMPLETADO,fd6b8c20b858ec4da090adfc70406065cc54941582e0233af2598b70da56caee,Y5OekKf,9-abr,1775755354,T115,USD,ZELLE,ERICK,60,CINDY,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/Y5OekKf,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,0,-1.063,"[D-Y5OekKf] Monto: 60, Titular: ERICK
+Banco: ZELLE, Moneda: USD, Tasa(T115): 0 ","[D-Y5OekKf] Monto: 60, Titular: ERICK
+Banco: ZELLE, Moneda: USD, Tasa(T115): 1.063 ",60,-56.44,533393.33,385.41
 4063,COMPLETADO,08fe8d20ce3652f76996bbaa7177230ec91d11167cf73f33b586122d64587074,28eCmr1,9-abr,1775755745,T115,PEN,INTERBANK,EUFAMAR,50,BEATRIZ,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/28eCmr1,5492993274287@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.4,"[D-28eCmr1] Monto: 50, Titular: EUFAMAR
 Banco: INTERBANK, Moneda: PEN, Tasa(T115): 1 ","[D-28eCmr1] Monto: 50, Titular: EUFAMAR
 Banco: INTERBANK, Moneda: PEN, Tasa(T115): 3.4 ",50,14.7,759.38,14.7
