@@ -12099,4 +12099,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ",-501.04,-501.04,-282.92,-587.16
 4049,COMPLETADO,bac79142685164f279f44fca7bde11b66bf1dc1397271ed3f5897d4bc42bd56a,Ii3jT53,8-abr,1775698624,T114,PEN,BCP,MUNOZ,70,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/Ii3jT53,595991712966@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.41,-3.328,"[P-Ii3jT53] Monto: 70, Titular: MUNOZ
 Banco: BCP, Moneda: PEN, Tasa(T114): 3.41 ","[P-Ii3jT53] Monto: 70, Titular: MUNOZ
 Banco: BCP, Moneda: PEN, Tasa(T114): 3.328 ",20.52,-21.03,-262.4,523.31
-4050,VALIDAR,e044b883fe406ea3a5fc6490d1fe887a25d3172f47d83d1a48637da4078e3564,RbdAyet,9-abr,1775730357,T114,USDT,BINANCE,JAIRO,238.17,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/RbdAyet,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+4050,COMPLETADO,e044b883fe406ea3a5fc6490d1fe887a25d3172f47d83d1a48637da4078e3564,RbdAyet,9-abr,1775730357,T114,USDT,BINANCE,JOSEM,238.17,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/RbdAyet,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-RbdAyet] Monto: 238.17, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ","[A-RbdAyet] Monto: 238.17, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T114): 1 ",238.17,238.17,0,-24.23
