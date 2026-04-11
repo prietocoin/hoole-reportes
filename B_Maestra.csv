@@ -12339,4 +12339,6 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T117): 657 ",110989.01,30.74,524372.82,30.74
 Banco: BINANCE, Moneda: USDT, Tasa(T117): 1 ","[A-SNh82sr] Monto: 12.56, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T117): 1 ",12.56,12.56,-39.54,43.3
 4131,PENDIENTE,64cdd44e2f4205dbea3bba20fa02e156f1bfd517ceb90a42520eae26f7553fda,nU1Y54o,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,59,LUIS,,,,,https://link.jairokov.com/i/nU1Y54o,51927731127@s.whatsapp.net,,,,,,,,,,,
-4132,PENDIENTE,0eb33c40e8fdd40497f822b7140cbb36137b9a20ead9557fa031fbcd4a2ddbf8,3u7CYiY,31-dic,,,USDT,BINANCE,🤷‍♂️,492.66,OMAR,,,,,https://link.jairokov.com/i/3u7CYiY,559295375590@s.whatsapp.net,,,,,,,,,,,
+4132,COMPLETADO,0eb33c40e8fdd40497f822b7140cbb36137b9a20ead9557fa031fbcd4a2ddbf8,3u7CYiY,11-abr,1775909397,T117,USDT,BINANCE,OMAR,492.66,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/3u7CYiY,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-3u7CYiY] Monto: 492.66, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T117): 1 ","[A-3u7CYiY] Monto: 492.66, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T117): 1 ",492.66,492.66,331.89,535.96
