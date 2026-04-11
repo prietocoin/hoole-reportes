@@ -12366,5 +12366,10 @@ Banco: NEQUI, Moneda: COP, Tasa(T118): 1.01 ",50000,-49504.95,930263.96,857999.1
 4140,COMPLETADO,4a51c1f4d09acbde6b7125d2b3493da592ea88afbeeb25929492dfec91d799d2,hCEod0T,11-abr,1775921403,T118,COP,BANCOLOMBIA,YAIR,20000,YAIR,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/hCEod0T,573025846261@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3600,"[D-hCEod0T] Monto: 20000, Titular: YAIR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T118): 1 ","[D-hCEod0T] Monto: 20000, Titular: YAIR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T118): 3600 ",20000,5.55,261919.11,595.5
-4141,VALIDAR,df8d9a65136c9b8c30d3885c3aa692829cb29ebe4d2556aa07c617ae3c307de6,R0HzfmX,11-abr,1775921561,T118,COP,BANCOLOMBIA,CIN*** ROL*** CUE***,50000,CINDY,JAIPY,,,,https://link.jairokov.com/i/R0HzfmX,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-4142,VALIDAR,ad247b88370d22a0a06951dad974653e2028dbb9b919a4c2f6aec5111e0c03ae,F3yJefu,11-abr,1775922038,T118,USDT,🤷‍♂️,ROKAPV18,200,FUNDDA,ROSIMAR,,,,https://link.jairokov.com/i/F3yJefu,595991712966@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4141,COMPLETADO,df8d9a65136c9b8c30d3885c3aa692829cb29ebe4d2556aa07c617ae3c307de6,R0HzfmX,11-abr,1775921561,T118,COP,BANCOLOMBIA,JUAN,50000,CINDY,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/R0HzfmX,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3600,"[D-R0HzfmX] Monto: 50000, Titular: JUAN
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T118): 1 ","[D-R0HzfmX] Monto: 50000, Titular: JUAN
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T118): 3600 ",50000,13.88,980263.96,609.38
+4142,COMPLETADO,ad247b88370d22a0a06951dad974653e2028dbb9b919a4c2f6aec5111e0c03ae,F3yJefu,11-abr,1775922038,T118,USDT,BINANCE,FUNDDA,-200,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/F3yJefu,595991712966@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-F3yJefu] Monto: -200, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T118): 1 ","[A-F3yJefu] Monto: -200, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T118): 1 ",-200,-200,405.43,-70.82
+4143,VALIDAR,3c57ae0968ce8ca13f339af0a6b4785afdbc3614e89ab9bbca0335354b6cd3dc,eja2S2l,11-abr,1775922826,T118,USDT,🤷‍♂️,🤷‍♂️,1000,FUNDDA,NELSY,,,,https://link.jairokov.com/i/eja2S2l,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
