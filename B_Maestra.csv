@@ -12609,3 +12609,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T119): 1 ",16.41,16.41,18.28,16.41
 Banco: INTERBANK, Moneda: PEN, Tasa(T119): 0.999 ","[A-DKTrdKe] Monto: 170.58, Titular: ALEJANDRA
 Banco: INTERBANK, Moneda: PEN, Tasa(T119): 3.42 ",170.75,49.87,-525.18,49.87
 4223,PENDIENTE,5f655e0b344802a3c2cda42acba7d962d9b2789f76075aae685b34df0e7dafcf,mCwmn0n,31-dic,,,USDT,BINANCE,JAIRO,11.59,JOSEM,,,,,https://link.jairokov.com/i/mCwmn0n,56990683872@s.whatsapp.net,,,,,,,,,,,
+4224,COMPLETADO,57016e7d5c6eab8f1a31ab4797d3d9d1649e987756949fb854ea1f46a1337940,kDah8Sa,13-abr,1776072615,T119,COP,NEQUI,COMPRA,959000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/kDah8Sa,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-kDah8Sa] Monto: 959000, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T119): 1 ","[C-kDah8Sa] Monto: 959000, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T119): 1 ",-959000,-959000,-28233230,-1140818.18
