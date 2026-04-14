@@ -12789,7 +12789,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T121): 1 ",962.38,962.38,962.38,962.38
 4279,COMPLETADO,7aa6674da1a26bb7464a91c7b20fd66976b14a83e72db07d88dc7cc63c10f2c6,t5dgonD,13-abr,1776134218,T121,EUR,BBVA,MOISES,50,CHASAN,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/t5dgonD,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.915,0.86,"[D-t5dgonD] Monto: 50, Titular: MOISES
 Banco: BBVA, Moneda: EUR, Tasa(T121): 0.915 ","[D-t5dgonD] Monto: 50, Titular: MOISES
 Banco: BBVA, Moneda: EUR, Tasa(T121): 0.86 ",54.64,58.13,1017.02,751.5
-4280,PENDIENTE,44cc4597ae2fe4a1061ff74e925e05deacba881e59b7f051990e9fc930e141d9,gjtr9La,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,325.08,FUNDDA,,,,,https://link.jairokov.com/i/gjtr9La,595991712966@s.whatsapp.net,,,,,,,,,,,
+4280,COMPLETADO,44cc4597ae2fe4a1061ff74e925e05deacba881e59b7f051990e9fc930e141d9,gjtr9La,14-abr,1776168325,T121,USDT,BINANCE,FUNDDA,-325.08,FUNDDA,NAUPAR,A,,ABONO,https://link.jairokov.com/i/gjtr9La,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-gjtr9La] Monto: -325.08, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T121): 1 ","[A-gjtr9La] Monto: -325.08, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T121): 1 ",-325.08,-325.08,637.3,79.79
 4281,COMPLETADO,e2a79109970e4257eec68c595f6918659c46962d1e52c754cd33371b1ec12fa8,RKiBHvf,14-abr,1776160227,T121,USDT,BINANCE,FUNDDA,-275,FUNDDA,SUBERO,A,,ABONO,https://link.jairokov.com/i/RKiBHvf,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-RKiBHvf] Monto: -275, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T121): 1 ","[A-RKiBHvf] Monto: -275, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T121): 1 ",-275,-275,-275,-38.67
