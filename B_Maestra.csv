@@ -12879,4 +12879,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T123): 3459 ",184848.48,-52.9,758281.04,-52.9
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T123): 1421 ","[P-KCEaQLO] Monto: 27936, Titular: CLENDYS
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T123): 1450 ",19.65,19.26,54.95,801.83
 4311,PENDIENTE,83c201256731c3accc0f9253dff77f7e50cc9ef3db399e8272f57a28d620f1ae,vf7jNy6,31-dic,,,COP,BANCOLOMBIA,CIN*** ROL*** CUE***,72000,YAIR,,,,,https://link.jairokov.com/i/vf7jNy6,573025846261@s.whatsapp.net,,,,,,,,,,,
-4312,VALIDAR,8935871c0f16db71f139107834ae14b0cc2f47d3b66549b9b157ed79a69a3d74,wxgjqnf,14-abr,1776200677,T123,COP,NEQUI,LUZ RIOS,50000,IRIS,ELIS,,,,https://link.jairokov.com/i/wxgjqnf,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4312,COMPLETADO,8935871c0f16db71f139107834ae14b0cc2f47d3b66549b9b157ed79a69a3d74,wxgjqnf,14-abr,1776200677,T123,COP,NEQUI,LUZ RIOS,50000,IRIS,ELIS,P,,PAGO,https://link.jairokov.com/i/wxgjqnf,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3459,"[P-wxgjqnf] Monto: 50000, Titular: LUZ RIOS
+Banco: NEQUI, Moneda: COP, Tasa(T123): 0.99 ","[P-wxgjqnf] Monto: 50000, Titular: LUZ RIOS
+Banco: NEQUI, Moneda: COP, Tasa(T123): 3459 ",50505.05,-14.45,808786.09,45.65
