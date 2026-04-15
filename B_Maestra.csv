@@ -12954,7 +12954,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T123): 1 ",385.4,385.4,582.67,560.93
 4336,COMPLETADO,b3a9ccacaea60c45ce72db93870249813684708ed922921bac0079881fdafb81,GBqBV11,15-abr,1776247772,T123,USDT,BINANCE,JOSEM,641.28,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/GBqBV11,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-GBqBV11] Monto: 641.28, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T123): 1 ","[A-GBqBV11] Monto: 641.28, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T123): 1 ",641.28,641.28,-39.54,1202.21
-4337,PENDIENTE,81d87911af3e707b1923c5cf12d3a348fbcffb9ce2584d889322d6e2d4f52f5f,uN0g94c,31-dic,,,USDT,BINANCE,🤷‍♂️,194.3,OMAR,,,,,https://link.jairokov.com/i/uN0g94c,559295375590@s.whatsapp.net,,,,,,,,,,,
+4337,COMPLETADO,81d87911af3e707b1923c5cf12d3a348fbcffb9ce2584d889322d6e2d4f52f5f,uN0g94c,15-abr,1776275419,T125,USDT,BINANCE,OMAR,194.3,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/uN0g94c,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-uN0g94c] Monto: 194.3, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T125): 1 ","[A-uN0g94c] Monto: 194.3, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T125): 1 ",194.3,194.3,108.68,1396.51
 4338,COMPLETADO,6b0aa03acfa68837b33ac92373c761d6ce4bad5d4a4c6c85492a85d271d6a713,pnJD4vY,15-abr,1776258663,T123,PEN,YAPE,LUIS,75,NELSY,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/pnJD4vY,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.478,3.39,"[D-pnJD4vY] Monto: 75, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T123): 3.478 ","[D-pnJD4vY] Monto: 75, Titular: LUIS
 Banco: YAPE, Moneda: PEN, Tasa(T123): 3.39 ",21.56,22.12,31.64,1224.33
@@ -12995,4 +12997,6 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T125): 3565 ",157000,44.03,3262778.56,44.0
 Banco: MERCANTIL, Moneda: VES, Tasa(T125): 605 ","[P-jPRauOP] Monto: 24021, Titular: 10327921
 Banco: MERCANTIL, Moneda: VES, Tasa(T125): 0.172 ",39.7,139656.97,99.55,3402435.53
 4353,PENDIENTE,e0a47c0d8496d46945a39d246e89717b4aa462e886b043abc823eb4008f5d041,RgIzvbO,31-dic,,,USD,BINANCE,🤷‍♂️,17.86,SUBERO,,,,,https://link.jairokov.com/i/RgIzvbO,34627629613@s.whatsapp.net,,,,,,,,,,,
-4354,PENDIENTE,4d295496cdb21884b50188e472ea0f2696c3d4647fc09b4e7fe71edb033c4514,iir2ayo,31-dic,,,COP,NEQUI,ZAIDA VALENCIA,100000,OMAR,,,,,https://link.jairokov.com/i/iir2ayo,573248071414@s.whatsapp.net,,,,,,,,,,,
+4354,COMPLETADO,4d295496cdb21884b50188e472ea0f2696c3d4647fc09b4e7fe71edb033c4514,iir2ayo,15-abr,1776275400,T125,COP,NEQUI,ZAIDA VALENCIA,100000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/iir2ayo,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3479,"[P-iir2ayo] Monto: 100000, Titular: ZAIDA VALENCIA
+Banco: NEQUI, Moneda: COP, Tasa(T125): 0.99 ","[P-iir2ayo] Monto: 100000, Titular: ZAIDA VALENCIA
+Banco: NEQUI, Moneda: COP, Tasa(T125): 3479 ",101010.1,-28.74,182323.23,-119.78
