@@ -13055,3 +13055,6 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T125): 3479 ",51.33,-52.6,106.58,-229.37
 Banco: LEMON, Moneda: ARS, Tasa(T125): 1425 ","[P-8cYdLBA] Monto: 56700, Titular: RICARDO
 Banco: LEMON, Moneda: ARS, Tasa(T125): 1399 ",39.78,-40.52,236.17,-40.52
 4371,PENDIENTE,fc099dc23ad7f5230387c79db4606ebaca708dbaa58dfa0596ecf485d9be2287,XLu00Yo,31-dic,,,COP,BANCOLOMBIA,CINDY ROLDAN C.,100000,CINDY,,,,,https://link.jairokov.com/i/XLu00Yo,573227036385@s.whatsapp.net,,,,,,,,,,,
+4372,COMPLETADO,0b4ba6671be38b58b3a972e853f0fee7e90de7d43d83413ddd2ffcc7faa9330e,2G4cBfJ,15-abr,1776290123,T125,COP,NEQUI,LISETH JULIO,30000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/2G4cBfJ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3479,"[P-2G4cBfJ] Monto: 30000, Titular: LISETH JULIO
+Banco: NEQUI, Moneda: COP, Tasa(T125): 0.99 ","[P-2G4cBfJ] Monto: 30000, Titular: LISETH JULIO
+Banco: NEQUI, Moneda: COP, Tasa(T125): 3479 ",30303.03,-8.62,-206020.21,-237.99
