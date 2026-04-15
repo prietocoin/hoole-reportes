@@ -12935,4 +12935,6 @@ Banco: PIX, Moneda: BRL, Tasa(T123): 4.76 ",37.81,-38.55,-85.62,777.58
 4329,COMPLETADO,9ff01f9f0a2859cfd7e06992aca954b8a99aa307cd688d533fa2d1153f19716f,BVqoyIw,14-abr,1776211110,T123,ARS,LEMON,YUWEN,171000,ANGEL,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/BVqoyIw,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1510,-1479,"[D-BVqoyIw] Monto: 171000, Titular: YUWEN
 Banco: LEMON, Moneda: ARS, Tasa(T123): 1510 ","[D-BVqoyIw] Monto: 171000, Titular: YUWEN
 Banco: LEMON, Moneda: ARS, Tasa(T123): 1479 ",113.24,-115.61,113.24,5
-4330,PENDIENTE,699e348375e17e930fdc18ea4ffb1af209df7800b722ee1fcb7c05adb6d80c08,p2O32VV,31-dic,,,🤷‍♂️,🤷‍♂️,FUNDABLOCK,22.93,ELIS,,,,,https://link.jairokov.com/i/p2O32VV,554191581015@s.whatsapp.net,,,,,,,,,,,
+4330,COMPLETADO,699e348375e17e930fdc18ea4ffb1af209df7800b722ee1fcb7c05adb6d80c08,p2O32VV,14-abr,1776212509,T123,USDT,BINANCE,ELIS,22.93,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/p2O32VV,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-p2O32VV] Monto: 22.93, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T123): 1 ","[A-p2O32VV] Monto: 22.93, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T123): 1 ",22.93,22.93,18.28,306.76
