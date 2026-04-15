@@ -12928,4 +12928,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T123): 3459 ",50505.05,-14.45,50505.05,-123.43
 4328,COMPLETADO,0d56539bcb78d0e7fca48a668b48a1cb77ed5be73dec10d1ff8f36a24a2f7c8b,3a5hoBf,14-abr,1776210882,T123,BRL,PIX,JOSSYEL,183.54,OMAR,CHASAN,P,,PAGO,https://link.jairokov.com/i/3a5hoBf,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,4.854,-4.76,"[P-3a5hoBf] Monto: 183.54, Titular: JOSSYEL
 Banco: PIX, Moneda: BRL, Tasa(T123): 4.854 ","[P-3a5hoBf] Monto: 183.54, Titular: JOSSYEL
 Banco: PIX, Moneda: BRL, Tasa(T123): 4.76 ",37.81,-38.55,-85.62,777.58
-4329,VALIDAR,9ff01f9f0a2859cfd7e06992aca954b8a99aa307cd688d533fa2d1153f19716f,BVqoyIw,14-abr,1776211110,T123,ARS,🤷‍♂️,🤷‍♂️,171000,NELSY,FUNDDA,,,,https://link.jairokov.com/i/BVqoyIw,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+4329,COMPLETADO,9ff01f9f0a2859cfd7e06992aca954b8a99aa307cd688d533fa2d1153f19716f,BVqoyIw,14-abr,1776211110,T123,ARS,LEMON,YUWEN,171000,ANGEL,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/BVqoyIw,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1510,-1479,"[D-BVqoyIw] Monto: 171000, Titular: YUWEN
+Banco: LEMON, Moneda: ARS, Tasa(T123): 1510 ","[D-BVqoyIw] Monto: 171000, Titular: YUWEN
+Banco: LEMON, Moneda: ARS, Tasa(T123): 1479 ",113.24,-115.61,113.24,5
