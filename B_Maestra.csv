@@ -13169,6 +13169,12 @@ Banco: NEQUI, Moneda: COP, Tasa(T127): 1043 ",46056.62,43.67,-274322.52,455.89
 Banco: NARANJA X, Moneda: ARS, Tasa(T127): 1412 ","[P-GJIjWme] Monto: 400000, Titular: RICARDO
 Banco: NARANJA X, Moneda: ARS, Tasa(T127): 1386 ",283.28,-288.6,666.76,-288.6
 4411,VALIDAR,eb7fe37f45fc8a15c8ac6592e11bbc6d08a8049aed0e5eb5d3b5062bce0ed1ed,,,1776370248,T127,,,,,,ROSIMAR,,,,,,595991712966@s.whatsapp.net,,,,,,,,,,
-4412,VALIDAR,b6c4de74cc3f24be7b606e38a8c325df4f6ffe2f80ec861296586a3fe3bb40fb,Hl5Axmu,16-abr,1776372748,T127,USD,BINANCE,NELSY,2000,FUNDDA,NELSY,,,,https://link.jairokov.com/i/Hl5Axmu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-4413,VALIDAR,f46914a1ab6c622ec66318408d7df33ac2d53bddb9af9fa19c8776c4fc787d2d,VXlFA3h,16-abr,1776372853,T127,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,200,ELIS,FUNDDA,,,,https://link.jairokov.com/i/VXlFA3h,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-4414,VALIDAR,937e9c53a416d00f8b49613e50caa45cb36e2b72630addbf2525dd5d453b65e4,yYtQop5,16-abr,1776373737,T127,🤷‍♂️,BELO,NELSY MAYNAP ALDANA MORILLO,300000,SUBERO,NELSY,,,,https://link.jairokov.com/i/yYtQop5,34627629613@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+4412,COMPLETADO,b6c4de74cc3f24be7b606e38a8c325df4f6ffe2f80ec861296586a3fe3bb40fb,Hl5Axmu,16-abr,1776372748,T127,USDT,BINANCE,FUNDDA,-2000,FUNDDA,NELSY,A,,ABONO,https://link.jairokov.com/i/Hl5Axmu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-Hl5Axmu] Monto: -2000, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T127): 1 ","[A-Hl5Axmu] Monto: -2000, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T127): 1 ",-2000,-2000,-2000,-1333.24
+4413,COMPLETADO,f46914a1ab6c622ec66318408d7df33ac2d53bddb9af9fa19c8776c4fc787d2d,VXlFA3h,16-abr,1776372853,T127,PEN,YAPE,JESUS,200,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/VXlFA3h,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.519,3.43,"[D-VXlFA3h] Monto: 200, Titular: JESUS
+Banco: YAPE, Moneda: PEN, Tasa(T127): 3.519 ","[D-VXlFA3h] Monto: 200, Titular: JESUS
+Banco: YAPE, Moneda: PEN, Tasa(T127): 3.43 ",56.83,58.3,56.83,-1941.7
+4414,COMPLETADO,937e9c53a416d00f8b49613e50caa45cb36e2b72630addbf2525dd5d453b65e4,yYtQop5,16-abr,1776373737,T127,ARS,BELO,RICARDO,300000,SUBERO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/yYtQop5,34627629613@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1501,-1469,"[D-yYtQop5] Monto: 300000, Titular: RICARDO
+Banco: BELO, Moneda: ARS, Tasa(T127): 1501 ","[D-yYtQop5] Monto: 300000, Titular: RICARDO
+Banco: BELO, Moneda: ARS, Tasa(T127): 1469 ",199.86,-204.22,-88.74,-1537.46
