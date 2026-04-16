@@ -13092,3 +13092,6 @@ Banco: BANESCO, Moneda: VES, Tasa(T125): 179.3 ",47.51,162.96,182.14,162.96
 4382,COMPLETADO,13400f563e06ca7e7bede5ebabc305b65a1e91fb04cd5648ece606e8fd7653ee,4z1be8q,15-abr,1776297983,T125,VES,VENEZUELA,15497404,30600,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/4z1be8q,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,605,179.3,"[P-4z1be8q] Monto: 30600, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T125): 605 ","[P-4z1be8q] Monto: 30600, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T125): 179.3 ",50.57,170.66,299.21,333.62
+4383,COMPLETADO,94d8f0b36016670803fed657a5fcee47283c52ad87eaf828dd9e41d1e1a9547b,zin0Aii,15-abr,1776302619,T125,USDT,BINANCE,OMAR,339.93,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/zin0Aii,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-zin0Aii] Monto: 339.93, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T125): 1 ","[A-zin0Aii] Monto: 339.93, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T125): 1 ",339.93,339.93,43.13,638.84
