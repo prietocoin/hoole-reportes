@@ -13211,4 +13211,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T127): 3494 ",61678.46,-17.45,-212644.06,-17.45
 Banco: INTERBANK, Moneda: PEN, Tasa(T127): 3.43 ","[P-65cNYS1] Monto: 67.8, Titular: IRMA
 Banco: INTERBANK, Moneda: PEN, Tasa(T127): 3.347 ",19.76,-20.25,37.79,-121.15
 4425,PENDIENTE,ed49124efef3957d83532074a37cee01dbdb7142256a2a5414dffbc2d489f5cb,UgAYQIb,31-dic,,,USD,🤷‍♂️,ROKAPV18,500,CORREGIR,,,,,https://link.jairokov.com/i/UgAYQIb,5491127574905@s.whatsapp.net,,,,,,,,,,,
-4426,PENDIENTE,19757d038ab2648a72965a395f117269cf394de732e628a9a117eada5ff135a1,62iBC9r,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,429.9,MERLI,,,,,https://link.jairokov.com/i/62iBC9r,51928344275@s.whatsapp.net,,,,,,,,,,,
+4426,COMPLETADO,19757d038ab2648a72965a395f117269cf394de732e628a9a117eada5ff135a1,62iBC9r,16-abr,1776385266,T127,PEN,YAPE,MERLI,429.9,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/62iBC9r,51928344275@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.999,3.43,"[A-62iBC9r] Monto: 429.9, Titular: MERLI
+Banco: YAPE, Moneda: PEN, Tasa(T127): 0.999 ","[A-62iBC9r] Monto: 429.9, Titular: MERLI
+Banco: YAPE, Moneda: PEN, Tasa(T127): 3.43 ",430.33,125.33,307.8,163.12
