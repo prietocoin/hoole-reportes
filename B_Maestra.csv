@@ -13468,5 +13468,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T129): 1027 ",201826.26,194.55,140510.61,561.47
 4510,COMPLETADO,3db9ff3263b506ab4353c99c43f5a529c9aa265494068b19f8b9050992f63a8d,eDvEnJq,18-abr,1776553201,T129,CLP,MERCADO PAGO,CLEIVER,42000,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/eDvEnJq,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-853,"[P-eDvEnJq] Monto: 42000, Titular: CLEIVER
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T129): 0.985 ","[P-eDvEnJq] Monto: 42000, Titular: CLEIVER
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T129): 853 ",42639.59,-49.23,-172862.43,-167.42
-4511,PENDIENTE,04fb05668323a2306f6ac02aa53e3f80ce49c6dc60d0d406f508af1b98abe112,1bdVozi,31-dic,,,PEN,PLIN,🤷‍♂️,105,FUNDDA,,,,,https://link.jairokov.com/i/1bdVozi,5491127574905@s.whatsapp.net,,,,,,,,,,,
-4512,PENDIENTE,0a8f7978995ea243770d54521376a54547a983d7519a9dd796a88bc9ee9e379e,2vgaIuy,31-dic,,,MXN,SPIN BY OXXO,🤷‍♂️,600,NAUPAR,,,,,https://link.jairokov.com/i/2vgaIuy,584122830430@s.whatsapp.net,,,,,,,,,,,
+4511,COMPLETADO,04fb05668323a2306f6ac02aa53e3f80ce49c6dc60d0d406f508af1b98abe112,1bdVozi,18-abr,1776554177,T129,PEN,PLIN,RAFAEL,105,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/1bdVozi,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.549,3.46,"[D-1bdVozi] Monto: 105, Titular: RAFAEL
+Banco: PLIN, Moneda: PEN, Tasa(T129): 3.549 ","[D-1bdVozi] Monto: 105, Titular: RAFAEL
+Banco: PLIN, Moneda: PEN, Tasa(T129): 3.46 ",29.58,30.34,-155.17,94.79
+4512,VALIDAR,0a8f7978995ea243770d54521376a54547a983d7519a9dd796a88bc9ee9e379e,2vgaIuy,18-abr,1776554194,T129,MXN,SPIN BY OXXO,🤷‍♂️,600,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/2vgaIuy,584122830430@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
