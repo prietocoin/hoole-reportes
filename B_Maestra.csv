@@ -13363,4 +13363,6 @@ Banco: ASTROPAY, Moneda: EUR, Tasa(T128): 0.801 ",-255.93,-255.93,-126.08,-1307.
 4473,COMPLETADO,34a6c6a99de523648d06c155cf5ec31b83bb88b9961650faa2614f5eb8d12846,cu5qYRK,17-abr,1776477858,T128,PEN,BCP,VARGAS,200.25,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/cu5qYRK,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.44,-3.357,"[P-cu5qYRK] Monto: 200.25, Titular: VARGAS
 Banco: BCP, Moneda: PEN, Tasa(T128): 3.44 ","[P-cu5qYRK] Monto: 200.25, Titular: VARGAS
 Banco: BCP, Moneda: PEN, Tasa(T128): 3.357 ",58.21,-59.65,207.56,-325.06
-4474,VALIDAR,00c7efdcdcfff71cd66a3cf13851c8581dab510ef4ea7f6012456f0614ec1ecd,btUm7OW,18-abr,1776514388,T128,🤷‍♂️,BINANCE,JAIRO,139.49,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/btUm7OW,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+4474,COMPLETADO,00c7efdcdcfff71cd66a3cf13851c8581dab510ef4ea7f6012456f0614ec1ecd,btUm7OW,18-abr,1776514388,T128,USDT,BINANCE,JOSEM,139.49,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/btUm7OW,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-btUm7OW] Monto: 139.49, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T128): 1 ","[A-btUm7OW] Monto: 139.49, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T128): 1 ",139.49,139.49,139.49,13.41
