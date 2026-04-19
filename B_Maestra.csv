@@ -13496,5 +13496,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T129): 3.46 ",22.74,6.57,-96.13,6.57
 4524,COMPLETADO,8716d70238fb1ac58ee14d133db096cbf98b9bf21eee151fb79b2ee5aae5ec84,w25YU97,19-abr,1776600194,T129,USDT,BINANCE,JOSEM,7.39,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/w25YU97,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-w25YU97] Monto: 7.39, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T129): 1 ","[A-w25YU97] Monto: 7.39, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T129): 1 ",7.39,7.39,136.49,13.96
-4525,PENDIENTE,7c577b3887ab347a27bc7ca099660b254b7be10e77643b9372a564fafce0808c,tu5jeRN,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,97,KARLA,,,,,https://link.jairokov.com/i/tu5jeRN,51927348852@s.whatsapp.net,,,,,,,,,,,
-4526,VALIDAR,239bd5e9e7ebc86ea949746c24f0c4f74645076d41de92b4f43d9661cf5a34a9,8rwsiIP,19-abr,1776609470,T130,PEN,INTERBANK,ELIZABETH M HERRERA T,100.8,FUNDDA,ELIS,,,,https://link.jairokov.com/i/8rwsiIP,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+4525,COMPLETADO,7c577b3887ab347a27bc7ca099660b254b7be10e77643b9372a564fafce0808c,tu5jeRN,19-abr,1776609490,T130,PEN,YAPE,KARLA,97,KARLA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/tu5jeRN,51927348852@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.47,"[D-tu5jeRN] Monto: 97, Titular: KARLA
+Banco: YAPE, Moneda: PEN, Tasa(T130): 1 ","[D-tu5jeRN] Monto: 97, Titular: KARLA
+Banco: YAPE, Moneda: PEN, Tasa(T130): 3.47 ",97,27.95,552.89,41.91
+4526,COMPLETADO,239bd5e9e7ebc86ea949746c24f0c4f74645076d41de92b4f43d9661cf5a34a9,8rwsiIP,19-abr,1776609470,T130,PEN,INTERBANK,ELIZABETH,100.8,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/8rwsiIP,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.47,-3.386,"[P-8rwsiIP] Monto: 100.8, Titular: ELIZABETH
+Banco: INTERBANK, Moneda: PEN, Tasa(T130): 3.47 ","[P-8rwsiIP] Monto: 100.8, Titular: ELIZABETH
+Banco: INTERBANK, Moneda: PEN, Tasa(T130): 3.386 ",29.04,-29.76,29.04,36.07
