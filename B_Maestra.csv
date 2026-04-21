@@ -13672,4 +13672,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T131): 3.46 ",500,144.5,1061.47,503.05
 4574,COMPLETADO,2add8d5ed309f124a75eb0ed29b0b388904b7159a1340b958b485e15ceb14e19,aadamfl,20-abr,1776735056,T131,VES,BANESCO,YUERQUI,79500,NELSY,BEATRIZ,P,,PAGO,https://link.jairokov.com/i/aadamfl,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,602,176.87,"[P-aadamfl] Monto: 79500, Titular: YUERQUI
 Banco: BANESCO, Moneda: VES, Tasa(T131): 602 ","[P-aadamfl] Monto: 79500, Titular: YUERQUI
 Banco: BANESCO, Moneda: VES, Tasa(T131): 176.87 ",132.05,449.48,-712.87,1510.95
-4575,PENDIENTE,d48168264ee77ec1124f0409a2c9da375662d9911ed0cb026a30d51e2c559707,OohiMry,31-dic,,,USD,BINANCE,🤷‍♂️,285.4,YARELIS,,,,,https://link.jairokov.com/i/OohiMry,593990405170@s.whatsapp.net,,,,,,,,,,,
+4575,COMPLETADO,d48168264ee77ec1124f0409a2c9da375662d9911ed0cb026a30d51e2c559707,OohiMry,21-abr,1776779055,T132,USDT,BINANCE,YARELIS,285.4,YARELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/OohiMry,593990405170@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-OohiMry] Monto: 285.39, Titular: YARELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T132): 1 ","[A-OohiMry] Monto: 285.39, Titular: YARELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T132): 1 ",285.39,285.39,194.83,788.44
