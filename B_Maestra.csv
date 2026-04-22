@@ -13881,7 +13881,9 @@ Banco: COPEX PAY, Moneda: CLP, Tasa(T132): 1.015 ",446.59,-118226.6,551.64,-4513
 4645,COMPLETADO,3f4ef069b3ebb7879e92a769607cefcdbf6d5b394d8d4d07dacaae3dc7397c51,f0LvZ9s,21-abr,1776808100,T132,PEN,BCP,FRANLIZ,68.2,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/f0LvZ9s,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.46,-3.376,"[P-f0LvZ9s] Monto: 68.2, Titular: FRANLIZ
 Banco: BCP, Moneda: PEN, Tasa(T132): 3.46 ","[P-f0LvZ9s] Monto: 68.2, Titular: FRANLIZ
 Banco: BCP, Moneda: PEN, Tasa(T132): 3.376 ",19.71,-20.2,583.61,-626.07
-4646,PENDIENTE,b59c923d3a5936e2ad667ff955bfbb316f6e6feefe1e9c6d0274ab276c3c90a5,H44zrOu,31-dic,,,COP,NEQUI,SULEYDI RAMIREZ,146400,OMAR,,,,,https://link.jairokov.com/i/H44zrOu,573248071414@s.whatsapp.net,,,,,,,,,,,
+4646,COMPLETADO,b59c923d3a5936e2ad667ff955bfbb316f6e6feefe1e9c6d0274ab276c3c90a5,H44zrOu,21-abr,1776811037,T132,COP,NEQUI,SULEYDI,146400,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/H44zrOu,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3459,"[P-H44zrOu] Monto: 146400, Titular: SULEYDI
+Banco: NEQUI, Moneda: COP, Tasa(T132): 0.99 ","[P-H44zrOu] Monto: 146400, Titular: SULEYDI
+Banco: NEQUI, Moneda: COP, Tasa(T132): 3459 ",147878.78,-42.32,-736265.37,-294.4
 4647,COMPLETADO,84a629d84ebeb2bc6f64f99b978a81dc696c2917c2537c422d6abee9976b4475,vsdIubk,21-abr,1776811037,T132,PEN,INTERBANK,JHOBEIKER,51.15,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/vsdIubk,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.46,-3.376,"[P-vsdIubk] Monto: 51.15, Titular: JHOBEIKER
 Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.46 ","[P-vsdIubk] Monto: 51.15, Titular: JHOBEIKER
 Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.376 ",14.78,-15.15,1539.49,-641.22
