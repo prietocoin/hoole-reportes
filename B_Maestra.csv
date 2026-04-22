@@ -13882,7 +13882,9 @@ Banco: COPEX PAY, Moneda: CLP, Tasa(T132): 1.015 ",446.59,-118226.6,551.64,-4513
 Banco: BCP, Moneda: PEN, Tasa(T132): 3.46 ","[P-f0LvZ9s] Monto: 68.2, Titular: FRANLIZ
 Banco: BCP, Moneda: PEN, Tasa(T132): 3.376 ",19.71,-20.2,583.61,-626.07
 4646,PENDIENTE,b59c923d3a5936e2ad667ff955bfbb316f6e6feefe1e9c6d0274ab276c3c90a5,H44zrOu,31-dic,,,COP,NEQUI,SULEYDI RAMIREZ,146400,OMAR,,,,,https://link.jairokov.com/i/H44zrOu,573248071414@s.whatsapp.net,,,,,,,,,,,
-4647,VALIDAR,84a629d84ebeb2bc6f64f99b978a81dc696c2917c2537c422d6abee9976b4475,vsdIubk,21-abr,1776811037,T132,PEN,INTERBANK,JHOBEIKER G AFRICANO O,51.15,FUNDDA,CHASAN,,,,https://link.jairokov.com/i/vsdIubk,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+4647,COMPLETADO,84a629d84ebeb2bc6f64f99b978a81dc696c2917c2537c422d6abee9976b4475,vsdIubk,21-abr,1776811037,T132,PEN,INTERBANK,JHOBEIKER,51.15,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/vsdIubk,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.46,-3.376,"[P-vsdIubk] Monto: 51.15, Titular: JHOBEIKER
+Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.46 ","[P-vsdIubk] Monto: 51.15, Titular: JHOBEIKER
+Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.376 ",14.78,-15.15,1539.49,-641.22
 4648,COMPLETADO,15c415d8117a93754b65a9a96bb8dadd3ea44009bf5d3018f4aab4e1b57ef1b6,5a0l9MW,21-abr,1776811108,T132,PEN,INTERBANK,LUIS,62,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/5a0l9MW,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.46,-3.376,"[P-5a0l9MW] Monto: 62, Titular: LUIS
 Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.46 ","[P-5a0l9MW] Monto: 62, Titular: LUIS
 Banco: INTERBANK, Moneda: PEN, Tasa(T132): 3.376 ",17.91,-18.36,17.91,-63.23
