@@ -14067,5 +14067,7 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T133): 3.376 ",20.23,-20.73,713.13,-293.23
 Banco: BINANCE, Moneda: USDT, Tasa(T133): 1 ","[A-A75KDp8] Monto: 188, Titular: JHON
 Banco: BINANCE, Moneda: USDT, Tasa(T133): 1 ",188,188,582.55,901.13
 4707,PENDIENTE,5cb7d006138471b3d48f800f43c0f4a377e2f9daffd306ddaeaf09d7565e0fd0,lZ9kmGd,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,389.69,ELIS,,,,,https://link.jairokov.com/i/lZ9kmGd,554191581015@s.whatsapp.net,,,,,,,,,,,
-4708,VALIDAR,73519eeb18bef9ecdfd4df0789e371055209aa3c1b85c2acba464b2be37c611b,rlqFgTo,22-abr,1776909423,T133,MXN,BANORTE,🤷‍♂️,3100,CHASAN,JAIPY,,,,https://link.jairokov.com/i/rlqFgTo,5215647886474@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+4708,COMPLETADO,73519eeb18bef9ecdfd4df0789e371055209aa3c1b85c2acba464b2be37c611b,rlqFgTo,22-abr,1776909423,T133,MXN,BANORTE,RETIRO,3100,CHASAN,JAIPY,P,,PAGO,https://link.jairokov.com/i/rlqFgTo,5215647886474@s.whatsapp.net,595991712966@s.whatsapp.net,,,16.95,17.48,"[P-rlqFgTo] Monto: 3100, Titular: RETIRO
+Banco: BANORTE, Moneda: MXN, Tasa(T133): 16.95 ","[P-rlqFgTo] Monto: 3100, Titular: RETIRO
+Banco: BANORTE, Moneda: MXN, Tasa(T133): 17.48 ",182.89,177.34,125.7,1040.77
 4709,PENDIENTE,dd5f4210e82b560fb9ddc053f70b5f7c2da119717cb8b31c7d3c0cba8898d3c8,QuDueF5,31-dic,,,USD,🤷‍♂️,🤷‍♂️,17.42,FUNDDA,,,,,https://link.jairokov.com/i/QuDueF5,595991712966@s.whatsapp.net,,,,,,,,,,,
