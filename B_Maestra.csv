@@ -14288,4 +14288,6 @@ Banco: PREX, Moneda: ARS, Tasa(T135): 1410 ",57.93,-59,440.66,-59
 4786,COMPLETADO,736934bee757b9e56d9996dd235ea65bd75473cdf02970abc299e0fd05f1a63b,rmMDZdl,24-abr,1777066392,T135,COP,NEQUI,MARIA GARCIA,34000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/rmMDZdl,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3435,"[P-rmMDZdl] Monto: 34000, Titular: MARIA GARCIA
 Banco: NEQUI, Moneda: COP, Tasa(T135): 0.99 ","[P-rmMDZdl] Monto: 34000, Titular: MARIA GARCIA
 Banco: NEQUI, Moneda: COP, Tasa(T135): 3435 ",34343.43,-9.89,-40652.01,-144.74
-4787,VALIDAR,6a58b9f8a28d33726457be7b5ff8075d4b5ca5c632e4df0c358ed95ab808fb2e,pdwbKo0,24-abr,1777066550,T135,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,195.2,YARELIS,FUNDDA,,,,https://link.jairokov.com/i/pdwbKo0,593990405170@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+4787,COMPLETADO,6a58b9f8a28d33726457be7b5ff8075d4b5ca5c632e4df0c358ed95ab808fb2e,pdwbKo0,24-abr,1777066550,T135,PEN,YAPE,MARIA TERRONES,195.2,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/pdwbKo0,593990405170@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.58,3.49,"[D-pdwbKo0] Monto: 195.2, Titular: MARIA TERRONES
+Banco: YAPE, Moneda: PEN, Tasa(T135): 3.58 ","[D-pdwbKo0] Monto: 195.2, Titular: MARIA TERRONES
+Banco: YAPE, Moneda: PEN, Tasa(T135): 3.49 ",54.52,55.93,5.2,249.76
