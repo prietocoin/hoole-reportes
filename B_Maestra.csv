@@ -14239,7 +14239,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T135): 3435 ",145454.54,-41.92,145454.54,-41.92
 Banco: YAPE, Moneda: PEN, Tasa(T135): 3.49 ","[P-kMb6mGD] Monto: 67.2, Titular: MARIA ELIAS
 Banco: YAPE, Moneda: PEN, Tasa(T135): 3.406 ",19.25,-19.72,438.53,133.46
 4765,PENDIENTE,035c18711662e5037bedfcef3125e06c5979b72f0e7eb703b12abf5cf8feeba2,NovQJ5j,31-dic,,,PEN,INTERBANK,LUZ M HOLGUIN C,50,ELIS,,,,,https://link.jairokov.com/i/NovQJ5j,5491177171331@s.whatsapp.net,,,,,,,,,,,
-4766,PENDIENTE,45e87a3ce07fae027e4ebae6d15bdbd82a25e764e1be96c861d8aa633c8fce7d,gzNoMzC,31-dic,,,PEN,INTERBANK,MARIA I DIAZ A,168,YARELIS,,,,,https://link.jairokov.com/i/gzNoMzC,5491177171331@s.whatsapp.net,,,,,,,,,,,
+4766,VALIDAR,45e87a3ce07fae027e4ebae6d15bdbd82a25e764e1be96c861d8aa633c8fce7d,gzNoMzC,24-abr,1777076481,T135,PEN,INTERBANK,MARIA I DIAZ A,168,YARELIS,FUNDDA,,,,https://link.jairokov.com/i/gzNoMzC,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 4767,COMPLETADO,85302ffcc49563e97b8319dc8c5ebcc8e15cfa67e662193357e3037dce8b2166,vA9aQP0,24-abr,1777048821,T135,PEN,YAPE,MARIA ESPAÑA,168,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/vA9aQP0,5491177171331@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.49,-3.406,"[P-vA9aQP0] Monto: 168, Titular: MARIA ESPAÑA
 Banco: YAPE, Moneda: PEN, Tasa(T135): 3.49 ","[P-vA9aQP0] Monto: 168, Titular: MARIA ESPAÑA
 Banco: YAPE, Moneda: PEN, Tasa(T135): 3.406 ",48.13,-49.32,486.66,-49.32
@@ -14303,4 +14303,6 @@ Banco: MERCADO PAGO, Moneda: ARS, Tasa(T135): 1410 ",24.72,-25.17,465.38,-25.17
 4791,COMPLETADO,a2cd33f8307c6c38628ea021687300f1a4d3273081a88124d50bb8ae7894edde,CBwEbBm,24-abr,1777070303,T135,MXN,OXXO,YARELIS,569,ALEJANDRA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/CBwEbBm,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.456,-18.25,"[D-CBwEbBm] Monto: 569, Titular: YARELIS
 Banco: OXXO, Moneda: MXN, Tasa(T135): 5.456 ","[D-CBwEbBm] Monto: 569, Titular: YARELIS
 Banco: OXXO, Moneda: MXN, Tasa(T135): 18.25 ",104.28,-31.17,8.16,-56.34
-4792,VALIDAR,dbf91e2159c7258762846a45246c5ac4ff4a1a7857a8fe0ea0fa70d95a4c33cc,Qa4gG5Y,24-abr,1777075917,T135,PEN,INTERBANK,ANGIE C GUERRA N,69,FUNDDA,CHASAN,,,,https://link.jairokov.com/i/Qa4gG5Y,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+4792,COMPLETADO,dbf91e2159c7258762846a45246c5ac4ff4a1a7857a8fe0ea0fa70d95a4c33cc,Qa4gG5Y,24-abr,1777075917,T135,PEN,INTERBANK,ANGIE,69,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/Qa4gG5Y,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.49,-3.406,"[P-Qa4gG5Y] Monto: 69, Titular: ANGIE
+Banco: INTERBANK, Moneda: PEN, Tasa(T135): 3.49 ","[P-Qa4gG5Y] Monto: 69, Titular: ANGIE
+Banco: INTERBANK, Moneda: PEN, Tasa(T135): 3.406 ",19.77,-20.25,269.53,-76.59
