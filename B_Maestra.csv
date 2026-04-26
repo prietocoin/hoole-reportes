@@ -14441,7 +14441,7 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T137): 178.57 ",12.92,44.52,64.62,2086.54
 4839,COMPLETADO,61bb9de98a0a868d087cbdf2a15519b0c9f04c3fe1a1b108041ae04d9efc1a36,naSwK6U,26-abr,1777215439,T137,VES,BANESCO,24724029,45000,NELSY,IRIS,P,,PAGO,https://link.jairokov.com/i/naSwK6U,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,615,-0.172,"[P-naSwK6U] Monto: 45000, Titular: 24724029
 Banco: BANESCO, Moneda: VES, Tasa(T137): 615 ","[P-naSwK6U] Monto: 45000, Titular: 24724029
 Banco: BANESCO, Moneda: VES, Tasa(T137): 0.172 ",73.17,-261627.9,137.79,288835.21
-4840,PENDIENTE,9dbc59bdc2f2f18ec39eed549ded52f7206d95f0b947445451e3e6f9b0d8bdc2,Bp2ZgLf,31-dic,,,COP,NEQUI,🤷‍♂️,623748,IRIS,,,,,https://link.jairokov.com/i/Bp2ZgLf,573248071414@s.whatsapp.net,,,,,,,,,,,
+4840,COMPLETADO,9dbc59bdc2f2f18ec39eed549ded52f7206d95f0b947445451e3e6f9b0d8bdc2,Bp2ZgLf,26-abr,1777246783,T137,COP,NEQUI,COMPRA,623748,COMPRA,IRIS,,,,https://link.jairokov.com/i/Bp2ZgLf,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 4841,COMPLETADO,e3e1729053cbf26daf127bce6f2a92746a190ff7debac07bf898d4a22ba32409,S2keurB,26-abr,1777218788,T137,USD,ZELLE,ERICK,137,CINDY,JOHN,D,,DEPOSITO,https://link.jairokov.com/i/S2keurB,573227036385@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0,-1.063,"[D-S2keurB] Monto: 137, Titular: ERICK
 Banco: ZELLE, Moneda: USD, Tasa(T137): 0 ","[D-S2keurB] Monto: 137, Titular: ERICK
 Banco: ZELLE, Moneda: USD, Tasa(T137): 1.063 ",137,-128.88,89402.53,453.67
