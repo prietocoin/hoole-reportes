@@ -14757,4 +14757,7 @@ Banco: LEMON, Moneda: ARS, Tasa(T142): 1453 ","[P-lfoSZ9E] Monto: 77004, Titular
 Banco: LEMON, Moneda: ARS, Tasa(T142): 1483 ",52.99,51.92,808.57,1519.46
 4948,PENDIENTE,3240e0aed399c66e38385d02aa109cea910801ffc55bb02da58fefd9f810a0a2,bUPxWs6,31-dic,,,ARS,BRUBANK,MARIANNE JOSEFINA FUCHS SOTO,640000,SUBERO,,,,,https://link.jairokov.com/i/bUPxWs6,5491127574905@s.whatsapp.net,,,,,,,,,,,
 4949,PENDIENTE,9bea3a361ff09e0f9b780b4d9247b452f0d96d8c42158780b4ac689f1ecf1a64,AYhhhFq,31-dic,,,ARS,MERCADO PAGO,NELSY MAYNAP ALDANA MORILLO,300000,SUBERO,,,,,https://link.jairokov.com/i/AYhhhFq,5491127574905@s.whatsapp.net,,,,,,,,,,,
-4950,PENDIENTE,52ffc48a62ea1739569e12ccb081626f0a3b513c5145fae782379721d2634008,jGgebKh,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,48.5,ENZO,,,,,https://link.jairokov.com/i/jGgebKh,51917122096@s.whatsapp.net,,,,,,,,,,,
+4950,COMPLETADO,52ffc48a62ea1739569e12ccb081626f0a3b513c5145fae782379721d2634008,jGgebKh,29-abr,1777492399,T142,PEN,YAPE,ENZO,48.5,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/jGgebKh,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.53,"[D-jGgebKh] Monto: 48.5, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T142): 1 ","[D-jGgebKh] Monto: 48.5, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T142): 3.53 ",48.5,13.73,127.07,13.73
+4951,PENDIENTE,4118b22dff0a151bfc15825b0187898811cf0c4b03a90981f130a3a79028a910,fr3r1vu,31-dic,,,COP,NEQUI,EDITH TORRES,44100,ENZO,,,,,https://link.jairokov.com/i/fr3r1vu,573248071414@s.whatsapp.net,,,,,,,,,,,
