@@ -14882,4 +14882,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",149201.21,-42.35,27878.82,-75.46
 Banco: NEQUI, Moneda: COP, Tasa(T144): 3534 ","[P-frsUkjL] Monto: 31000, Titular: MAYERLI RAMOS
 Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",8.77,-8.89,68.76,-84.35
 4992,PENDIENTE,6c5b6e516f12c7f76c23bbf283dbcf7c268a3649ee4b961410fa80aa650ca7af,pH4SBTM,31-dic,,,COP,NEQUI,🤷‍♂️,1030000,IRIS,,,,,https://link.jairokov.com/i/pH4SBTM,573248071414@s.whatsapp.net,,,,,,,,,,,
-4993,PENDIENTE,bdc653e13eb93baf673761e02534affdcf676ac9f32ed01f4c04fab1ab391fd5,J05uVia,31-dic,,,PEN,INTERBANK,ALEXANDRA C ESPINOZA N,314.4,FUNDDA,,,,,https://link.jairokov.com/i/J05uVia,5491177171331@s.whatsapp.net,,,,,,,,,,,
+4993,COMPLETADO,bdc653e13eb93baf673761e02534affdcf676ac9f32ed01f4c04fab1ab391fd5,J05uVia,30-abr,1777574520,T144,PEN,YAPE,ALEXANDRA ESPINOZA,314.4,FUNDDA,JOSEM,P,,PAGO,https://link.jairokov.com/i/J05uVia,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.54,-3.455,"[P-J05uVia] Monto: 314.39, Titular: ALEXANDRA ESPINOZA
+Banco: YAPE, Moneda: PEN, Tasa(T144): 3.54 ","[P-J05uVia] Monto: 314.39, Titular: ALEXANDRA ESPINOZA
+Banco: YAPE, Moneda: PEN, Tasa(T144): 3.455 ",88.81,-90.99,818,-189.71
+4994,PENDIENTE,e87aa544cc0c34ffd8bbe6b360323037979eaf3e5e85e2a9d2fdd29f240b62e9,T7VQlcv,31-dic,,,COP,NEQUI,MARIANYELIS SANTOYO,78744,IRIS,,,,,https://link.jairokov.com/i/T7VQlcv,573248071414@s.whatsapp.net,,,,,,,,,,,
