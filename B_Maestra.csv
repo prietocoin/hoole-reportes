@@ -14895,8 +14895,12 @@ Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",79619.81,-22.6,-913314.05,-106.95
 4995,COMPLETADO,fba4a7bf4e1d5dc4f472c89b736f9d77d854266d62aa23e83a3ad6148095bab6,XFGvJmb,30-abr,1777576279,T144,COP,NEQUI,MARBELY LEON,146200,IRIS,JOSEM,P,,PAGO,https://link.jairokov.com/i/XFGvJmb,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,-3484,"[P-XFGvJmb] Monto: 146200, Titular: MARBELY LEON
 Banco: NEQUI, Moneda: COP, Tasa(T144): 0.989 ","[P-XFGvJmb] Monto: 146200, Titular: MARBELY LEON
 Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",147826.08,-41.96,-765487.97,-231.67
-4996,PENDIENTE,d5b87a2dec36d8f84ca55384c6076f4799c3b94bb1f97e29a568f3a70d368a69,OG8V72o,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,62000,OMAR,,,,,https://link.jairokov.com/i/OG8V72o,573248071414@s.whatsapp.net,,,,,,,,,,,
-4997,PENDIENTE,cf6b2f6c04284d791f3d1938b5e8eb2288a50a9686e522dceb9204c791b1fcdf,Nbuwz6A,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,341250,OMAR,,,,,https://link.jairokov.com/i/Nbuwz6A,573248071414@s.whatsapp.net,,,,,,,,,,,
+4996,COMPLETADO,d5b87a2dec36d8f84ca55384c6076f4799c3b94bb1f97e29a568f3a70d368a69,OG8V72o,30-abr,1777589632,T144,COP,BANCOLOMBIA,VALERIA,62000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/OG8V72o,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,-3484,"[P-OG8V72o] Monto: 62000, Titular: VALERIA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 0.989 ","[P-OG8V72o] Monto: 62000, Titular: VALERIA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 3484 ",62689.58,-17.79,-702798.39,-124.74
+4997,COMPLETADO,cf6b2f6c04284d791f3d1938b5e8eb2288a50a9686e522dceb9204c791b1fcdf,Nbuwz6A,30-abr,1777589619,T144,COP,BANCOLOMBIA,ADRIAN DUARTE,341250,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/Nbuwz6A,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,-3484,"[P-Nbuwz6A] Monto: 341250, Titular: ADRIAN DUARTE
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 0.989 ","[P-Nbuwz6A] Monto: 341250, Titular: ADRIAN DUARTE
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 3484 ",345045.5,-97.94,-420442.47,-97.94
 4998,COMPLETADO,f20355f953425c78f5d279a40a077a69021d42fd6e51e68e9afc91f85067e409,Vo6ks18,30-abr,1777580310,T144,COP,BANCOLOMBIA,NEIDIS NEGRETE,992000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/Vo6ks18,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3570,-3484,"[P-Vo6ks18] Monto: 992000, Titular: NEIDIS NEGRETE
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 3570 ","[P-Vo6ks18] Monto: 992000, Titular: NEIDIS NEGRETE
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 3484 ",277.87,-284.73,1797.33,-284.73
@@ -14927,4 +14931,6 @@ Banco: PIX, Moneda: BRL, Tasa(T144): 5.133 ",57.16,-58.38,500.32,-58.38
 5009,COMPLETADO,0bc31c423ee657cc7947bda0b47081acf5137a1e11bc73d2c14057b93b816cdf,2MVyPQo,30-abr,1777589394,T144,MXN,OXXO,YENNESYS,1500,AIDA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/2MVyPQo,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,4.974,-18.34,"[D-2MVyPQo] Monto: 1500, Titular: YENNESYS
 Banco: OXXO, Moneda: MXN, Tasa(T144): 4.974 ","[D-2MVyPQo] Monto: 1500, Titular: YENNESYS
 Banco: OXXO, Moneda: MXN, Tasa(T144): 18.34 ",301.56,-81.78,301.56,418.54
-5010,VALIDAR,9e72c4ab5191fad888b6424fbc32f15b57fce6d4eefd8ad6c5686b2beb861bc5,Bzww2XV,30-abr,1777589562,T144,🤷‍♂️,🤷‍♂️,🤷‍♂️,192000,OMAR,CORREGIR,,,,https://link.jairokov.com/i/Bzww2XV,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5010,COMPLETADO,9e72c4ab5191fad888b6424fbc32f15b57fce6d4eefd8ad6c5686b2beb861bc5,Bzww2XV,30-abr,1777589562,T144,COP,BANCOLOMBIA,LUZ,192000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/Bzww2XV,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,-3484,"[P-Bzww2XV] Monto: 192000, Titular: LUZ
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 0.989 ","[P-Bzww2XV] Monto: 192000, Titular: LUZ
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T144): 3484 ",194135.49,-55.1,-670460.5,-113.48
