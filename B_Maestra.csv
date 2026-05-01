@@ -14923,7 +14923,9 @@ Banco: GALICIA, Moneda: ARS, Tasa(T144): 1408 ",79.77,-81.25,-2.84,-487.45
 5005,COMPLETADO,65181fe7cbd0f6d8907a439ab1db287b91ae700e2fabe8bbb252c8ff726e71b8,nYivCdi,30-abr,1777586919,T144,BRL,PIX,INGRID,1481,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/nYivCdi,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,4.835,-4.74,"[P-nYivCdi] Monto: 1481, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T144): 4.835 ","[P-nYivCdi] Monto: 1481, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T144): 4.74 ",306.3,-312.44,21.57,-544.11
-5006,COMPLETADO,10544d3770e96036f4d5e0eb378356dfef3499edbe8cef19e9dc2e2ad2bf0937,3S4F5yc,30-abr,1777600590,T144,COP,NEQUI,JUAN,31000,IRIS,OMAR,,,,https://link.jairokov.com/i/3S4F5yc,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5006,COMPLETADO,10544d3770e96036f4d5e0eb378356dfef3499edbe8cef19e9dc2e2ad2bf0937,3S4F5yc,30-abr,1777600590,T144,COP,NEQUI,JUAN,31000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/3S4F5yc,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.989,-3484,"[P-3S4F5yc] Monto: 31000, Titular: JUAN
+Banco: NEQUI, Moneda: COP, Tasa(T144): 0.989 ","[P-3S4F5yc] Monto: 31000, Titular: JUAN
+Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",31344.79,-8.89,-833251.2,12.68
 5007,COMPLETADO,e523b0336aadbe6f3996142450f67a56f3dbeed5ed8c0bbebd7005e01b828f0e,SkPCNMz,30-abr,1777587183,T144,BRL,PIX,ALLENDY HERNANDEZ,299.7,CHASAN,OMAR,D,,DEPOSITO,https://link.jairokov.com/i/SkPCNMz,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.243,-5.133,"[D-SkPCNMz] Monto: 299.7, Titular: ALLENDY HERNANDEZ
 Banco: PIX, Moneda: BRL, Tasa(T144): 5.243 ","[D-SkPCNMz] Monto: 299.7, Titular: ALLENDY HERNANDEZ
 Banco: PIX, Moneda: BRL, Tasa(T144): 5.133 ",57.16,-58.38,500.32,-58.38
@@ -14943,4 +14945,6 @@ Banco: VENEZUELA, Moneda: VES, Tasa(T144): 176.55 ",70.22,248.59,1909.56,550.15
 5013,COMPLETADO,bc3d2ad101d98df383ccad18e4af6e1b56769994c9a6a26c6e777722a8e53467,IDvAipB,30-abr,1777591422,T144,VES,BNC,19694946,23400,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/IDvAipB,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,615,0.175,"[P-IDvAipB] Monto: 23400, Titular: 19694946
 Banco: BNC, Moneda: VES, Tasa(T144): 615 ","[P-IDvAipB] Monto: 23400, Titular: 19694946
 Banco: BNC, Moneda: VES, Tasa(T144): 0.175 ",38.04,133714.28,35.2,1674534.76
-5014,PENDIENTE,79d4f8258941563b18c842c11251b64c51d64635712dacb3b8e3d520ecb8a4e5,sTbxpz2,31-dic,,,COP,NEQUI,🤷‍♂️,273000,OMAR,,,,,https://link.jairokov.com/i/sTbxpz2,595991712966@s.whatsapp.net,,,,,,,,,,,
+5014,COMPLETADO,79d4f8258941563b18c842c11251b64c51d64635712dacb3b8e3d520ecb8a4e5,sTbxpz2,30-abr,1777600642,T144,COP,NEQUI,EMELI,273000,FUNDDA,OMAR,P,,PAGO,https://link.jairokov.com/i/sTbxpz2,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3570,-3484,"[P-sTbxpz2] Monto: 273000, Titular: EMELI
+Banco: NEQUI, Moneda: COP, Tasa(T144): 3570 ","[P-sTbxpz2] Monto: 273000, Titular: EMELI
+Banco: NEQUI, Moneda: COP, Tasa(T144): 3484 ",76.47,-78.35,894.47,-220.65
