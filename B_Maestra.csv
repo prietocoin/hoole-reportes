@@ -14966,4 +14966,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T145): 1 ",-1000,-1000,928.84,-964.8
 5020,COMPLETADO,3a76a8f5ef55f26f3728b1761810fd48943e48cdbd9323e1386c841bc7c6a861,dRxihf1,1-may,1777646594,T145,ARS,MERCADO PAGO,RICARDO,124750,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/dRxihf1,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1444,-1417,"[P-dRxihf1] Monto: 124750, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T145): 1444 ","[P-dRxihf1] Monto: 124750, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T145): 1417 ",86.39,-88.03,-878.41,-494.23
-5021,PENDIENTE,51cb3fc7e98e2e38e9c39f03bc90f47f63e788830d79f16d5b4cfbeacac6bc79,joxHcEJ,31-dic,,,COP,NEQUI,🤷‍♂️,391100,IRIS,,,,,https://link.jairokov.com/i/joxHcEJ,573248071414@s.whatsapp.net,,,,,,,,,,,
+5021,COMPLETADO,51cb3fc7e98e2e38e9c39f03bc90f47f63e788830d79f16d5b4cfbeacac6bc79,joxHcEJ,1-may,1777647908,T145,COP,NEQUI,CUOTAS-SEMANAS,391100,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/joxHcEJ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-joxHcEJ] Monto: 391100, Titular: CUOTAS-SEMANAS
+Banco: NEQUI, Moneda: COP, Tasa(T145): 1 ","[C-joxHcEJ] Monto: 391100, Titular: CUOTAS-SEMANAS
+Banco: NEQUI, Moneda: COP, Tasa(T145): 1 ",-391100,-391100,-42873703,-960003.38
