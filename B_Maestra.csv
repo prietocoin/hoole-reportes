@@ -15222,10 +15222,14 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T146): 1 ",29.65,-105.57,29.65,-96.13
 5112,COMPLETADO,88349f12694ad9782bcb24c277bb439cb253359a854ffa466e39f629e30d1f36,wivypXw,3-may,1777815027,T147,USDT,BINANCE,PAGOAVICTOR,78.33,NELSY,FUNDDA,A,,ABONO,https://link.jairokov.com/i/wivypXw,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-wivypXw] Monto: 78.33, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T147): 1 ","[A-wivypXw] Monto: 78.33, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T147): 1 ",78.33,78.33,113.05,107.98
-5113,VALIDAR,dedd8c4c0aa5ede0d7339272693a4aeb34736f69e435ac5288ef06919d1d8c5c,QQAH5Ci,3-may,1777815678,T147,COP,NEQUI,IRISMAR KARINA PRIETRO VERA,50000,AIDA,IRIS,,,,https://link.jairokov.com/i/QQAH5Ci,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5113,COMPLETADO,dedd8c4c0aa5ede0d7339272693a4aeb34736f69e435ac5288ef06919d1d8c5c,QQAH5Ci,3-may,1777815678,T147,COP,NEQUI,OSWALDO,50000,AIDA,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/QQAH5Ci,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,1004,-1.01,"[D-QQAH5Ci] Monto: 50000, Titular: OSWALDO
+Banco: NEQUI, Moneda: COP, Tasa(T147): 1004 ","[D-QQAH5Ci] Monto: 50000, Titular: OSWALDO
+Banco: NEQUI, Moneda: COP, Tasa(T147): 1.01 ",49.8,-49504.95,93.87,-827846.88
 5114,PENDIENTE,e71362eacf0b28513fe9315fdaa7753b7d94454f47b7bf65bb06af9bf393b3e8,SNiDNet,31-dic,,,🤷‍♂️,🤷‍♂️,🤷‍♂️,26.39,FUNDDA,,,,,https://link.jairokov.com/i/SNiDNet,5491127574905@s.whatsapp.net,,,,,,,,,,,
 5115,PENDIENTE,968adcd148e52a509ec7dac70b2b9aee41f0f9be6f6f32ebef0152cd70c2eff3,zHi3S0R,31-dic,,,BRL,NUBANK,ELISMAR CAROLINA RODRIGUEZ OSORIO,200,ELIS,,,,,https://link.jairokov.com/i/zHi3S0R,554191581015@s.whatsapp.net,,,,,,,,,,,
-5116,VALIDAR,aa22f1bc5e3ba5624b5b8db2433244c75caa511b132daba00cbfae967b1cd3f7,ElmEUz5,3-may,1777818125,T147,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,V-15497405,7800,AIDA,NELSY,,,,https://link.jairokov.com/i/ElmEUz5,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5116,COMPLETADO,aa22f1bc5e3ba5624b5b8db2433244c75caa511b132daba00cbfae967b1cd3f7,ElmEUz5,3-may,1777818125,T147,VES,BANESCO,15497405,8700,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/ElmEUz5,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,615,175.56,"[P-ElmEUz5] Monto: 8700, Titular: 15497405
+Banco: BANESCO, Moneda: VES, Tasa(T147): 615 ","[P-ElmEUz5] Monto: 8700, Titular: 15497405
+Banco: BANESCO, Moneda: VES, Tasa(T147): 175.56 ",14.14,49.55,127.19,143.42
 5117,VALIDAR,eeb8a5174213ff772cf3a1bdd43ac1e34bae68c6c0a0803ede939cea9ecc12c3,UBHMQBc,3-may,1777819114,T147,USDT,🤷‍♂️,ROKAPV18,200,FUNDDA,ROSIMAR,,,,https://link.jairokov.com/i/UBHMQBc,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 5118,VALIDAR,418913a5134fe021e901a0328559d19b25191b6de3a043e42562b8038a8216aa,fxvAlsl,3-may,1777819190,T147,PEN,🤷‍♂️,EL*** MA*** RO*** OS***,128,JAIPY,ELIS,,,,https://link.jairokov.com/i/fxvAlsl,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 5119,VALIDAR,30ab9173486de845639e9b7f4e80783fd8c57a622bde0fb52c1bd6e68afd68af,bxyngnw,3-may,1777819703,T147,COP,NEQUI,FRANCOCO BELAIDES,130800,IRIS,EDWIN,,,,https://link.jairokov.com/i/bxyngnw,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
