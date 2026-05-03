@@ -15133,7 +15133,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T146): 3.474 ",115.14,-117.99,697.61,-245.43
 Banco: OXXO, Moneda: MXN, Tasa(T146): 5.38 ","[D-eFzYDTn] Monto: 568, Titular: YARELYS
 Banco: OXXO, Moneda: MXN, Tasa(T146): 18.35 ",105.57,-30.95,9.44,387.59
 5079,PENDIENTE,8a46f8daf83a5684795e7b49dd6c6f00ac3d6023c34621cc552094ed964ecbc9,wMXXmId,31-dic,,,COP,BANCOLOMBIA,🤷‍♂️,40000,JAIPY,,,,,https://link.jairokov.com/i/wMXXmId,573248071414@s.whatsapp.net,,,,,,,,,,,
-5080,PENDIENTE,984db70323bc31fd4652e504bada7421b177491564f8ecf2dce5abd3c6f88c69,A7boDZE,31-dic,,,VES,BANCO NACIONAL DE CREDITO,V-23474929,6200,NELSY,,,,,https://link.jairokov.com/i/A7boDZE,5491127574905@s.whatsapp.net,,,,,,,,,,,
+5080,COMPLETADO,984db70323bc31fd4652e504bada7421b177491564f8ecf2dce5abd3c6f88c69,A7boDZE,2-may,1777770221,T146,VES,BNC,23474929,6200,NELSY,CARMEN,P,,PAGO,https://link.jairokov.com/i/A7boDZE,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,616,626,"[P-A7boDZE] Monto: 6200, Titular: 23474929
+Banco: BNC, Moneda: VES, Tasa(T146): 616 ","[P-A7boDZE] Monto: 6200, Titular: 23474929
+Banco: BNC, Moneda: VES, Tasa(T146): 626 ",10.06,9.9,177.09,74.76
 5081,COMPLETADO,44a771829bd37634e536e12014db7a39bd026ca3d0adaaf39f9206e49669092f,ghmiRhi,2-may,1777749376,T146,COP,NEQUI,YOSEILYN LUQUEZ,44000,ROSIMAR,KARLA,P,,PAGO,https://link.jairokov.com/i/ghmiRhi,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3554,1008,"[P-ghmiRhi] Monto: 44000, Titular: YOSEILYN LUQUEZ
 Banco: NEQUI, Moneda: COP, Tasa(T146): 3554 ","[P-ghmiRhi] Monto: 44000, Titular: YOSEILYN LUQUEZ
 Banco: NEQUI, Moneda: COP, Tasa(T146): 1008 ",12.38,43.65,113.9,43.65
@@ -15194,3 +15196,4 @@ Banco: VENEZUELA, Moneda: VES, Tasa(T146): 175.84 ",12.58,44.07,12.58,44.07
 Banco: BINANCE, Moneda: USDT, Tasa(T146): 1 ","[A-sWS0ykn] Monto: 28.68, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T146): 1 ",28.68,28.68,-216.75,28.68
 5104,PENDIENTE,afa4c74ca44197f3186e85d6d93c8a289dae93b6c2f9fc943fdea07b78637e3e,FEkBQ7G,31-dic,,,USDT,BINANCE,🤷‍♂️,40.94,FUNDDA,,,,,https://link.jairokov.com/i/FEkBQ7G,5491177171331@s.whatsapp.net,,,,,,,,,,,
+5105,PENDIENTE,868219753669155758beeab7328329467c0acdd109ea59544886e31f6ba28998,vTymLpE,31-dic,,,🤷‍♂️,BINANCE,🤷‍♂️,373.18,ELIS,,,,,https://link.jairokov.com/i/vTymLpE,554191581015@s.whatsapp.net,,,,,,,,,,,
