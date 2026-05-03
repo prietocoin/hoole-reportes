@@ -15186,4 +15186,7 @@ Banco: MERCADO PAGO, Moneda: CLP, Tasa(T146): 876 ",29441.62,-33.1,29441.62,-55.
 5102,COMPLETADO,78e956042150f49ef86d5d87a5e1292a36ff62d0a413f27e2348f3b5a87839db,sFEwG4U,2-may,1777768906,T146,VES,VENEZUELA,15497404,7750,NELSY,AIDA,P,,PAGO,https://link.jairokov.com/i/sFEwG4U,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,616,175.84,"[P-sFEwG4U] Monto: 7750, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T146): 616 ","[P-sFEwG4U] Monto: 7750, Titular: 15497404
 Banco: VENEZUELA, Moneda: VES, Tasa(T146): 175.84 ",12.58,44.07,12.58,44.07
-5103,PENDIENTE,7a15225f8a016440caa71cbaa68a85b8a61edd21ba986f8327807a76e4e76032,sWS0ykn,31-dic,,,USDT,BINANCE,🤷‍♂️,-28.68,FUNDDA,,,,,https://link.jairokov.com/i/sWS0ykn,5491127574905@s.whatsapp.net,,,,,,,,,,,
+5103,COMPLETADO,7a15225f8a016440caa71cbaa68a85b8a61edd21ba986f8327807a76e4e76032,sWS0ykn,2-may,1777769212,T146,USDT,BINANCE,JOSEM,28.68,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/sWS0ykn,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-sWS0ykn] Monto: 28.68, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T146): 1 ","[A-sWS0ykn] Monto: 28.68, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T146): 1 ",28.68,28.68,-216.75,28.68
+5104,PENDIENTE,afa4c74ca44197f3186e85d6d93c8a289dae93b6c2f9fc943fdea07b78637e3e,FEkBQ7G,31-dic,,,USDT,BINANCE,🤷‍♂️,40.94,FUNDDA,,,,,https://link.jairokov.com/i/FEkBQ7G,5491177171331@s.whatsapp.net,,,,,,,,,,,
