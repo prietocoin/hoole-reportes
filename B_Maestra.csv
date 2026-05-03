@@ -15266,4 +15266,6 @@ Banco: VENEZUELA, Moneda: VES, Tasa(T147): 615 ","[P-t0xgoYg] Monto: 30000, Titu
 Banco: VENEZUELA, Moneda: VES, Tasa(T147): 0.169 ",48.78,-177514.79,70.78,-177514.79
 5129,PENDIENTE,40cb3811fb5e7e559c6e7c0b99bea3bac9010d740c812258bd0fd11c0ae95e90,fmBz65Y,31-dic,,,COP,BANCOLOMBIA,🤷‍♂️,40000,JAIPY,,,,,https://link.jairokov.com/i/fmBz65Y,5491127574905@s.whatsapp.net,,,,,,,,,,,
 5130,PENDIENTE,6e43048a1fed9b5aa814fac93c58a95df0cbb46da219242216594cd20894bf41,q950Wde,31-dic,,,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,V-23474929,6240,NELSY,,,,,https://link.jairokov.com/i/q950Wde,5491127574905@s.whatsapp.net,,,,,,,,,,,
-5131,VALIDAR,2c25ee3f193c5fb28ce921c6ef881393d3c27bec1662a11fef2e747d97cb2dce,at4pCT7,3-may,1777837945,T147,COP,NEQUI,FARI SARMIENTO,348900,IRIS,JOSEM,,,,https://link.jairokov.com/i/at4pCT7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5131,COMPLETADO,2c25ee3f193c5fb28ce921c6ef881393d3c27bec1662a11fef2e747d97cb2dce,at4pCT7,3-may,1777837945,T147,COP,NEQUI,FARI,348900,IRIS,JOSEM,P,,PAGO,https://link.jairokov.com/i/at4pCT7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3489,"[P-at4pCT7] Monto: 348900, Titular: FARI
+Banco: NEQUI, Moneda: COP, Tasa(T147): 0.99 ","[P-at4pCT7] Monto: 348900, Titular: FARI
+Banco: NEQUI, Moneda: COP, Tasa(T147): 3489 ",352424.24,-100,174909.45,-211.75
