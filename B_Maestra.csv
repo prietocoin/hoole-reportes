@@ -15293,5 +15293,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ",37.47,37.47,88.33,51.13
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ","[A-h96AFMC] Monto: 98.97, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ",98.97,98.97,121.11,98.97
 5139,PENDIENTE,5cde1746adc2eb879bc3f661bba0d0f52bde54198e39f3298781b17b4fd62929,m1lCK0s,31-dic,,,ARS,LEMON,NELSY MAYNAP ALDANA MORILLO,140250,SUBERO,,,,,https://link.jairokov.com/i/m1lCK0s,5491127574905@s.whatsapp.net,,,,,,,,,,,
-5140,VALIDAR,51ffbb8a73511e31670e0245ee007b9c617dfbbfd47943545ad5230b309972aa,jryzwci,4-may,1777903026,T148,USDT,BINANCE,JAIRO,127.6,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/jryzwci,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-5141,VALIDAR,3142bebfe2c03c8f1ea568b4b3b1d1f8e8eaec251f1474cba559168987550f4b,bGeFidN,4-may,1777904014,T148,CLP,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,75000,MICHEL,OMAR,,,,https://link.jairokov.com/i/bGeFidN,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5140,COMPLETADO,51ffbb8a73511e31670e0245ee007b9c617dfbbfd47943545ad5230b309972aa,jryzwci,4-may,1777903026,T148,USDT,BINANCE,JOSEM,127.6,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/jryzwci,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-jryzwci] Monto: 127.6, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ","[A-jryzwci] Monto: 127.6, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ",127.6,127.6,-84.15,226.57
+5141,COMPLETADO,3142bebfe2c03c8f1ea568b4b3b1d1f8e8eaec251f1474cba559168987550f4b,bGeFidN,4-may,1777904014,T148,CLP,MERCADO PAGO,JONAIDY,75000,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/bGeFidN,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-874,"[P-bGeFidN] Monto: 75000, Titular: JONAIDY
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T148): 0.985 ","[P-bGeFidN] Monto: 75000, Titular: JONAIDY
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T148): 874 ",76142.13,-85.81,105583.75,595.73
