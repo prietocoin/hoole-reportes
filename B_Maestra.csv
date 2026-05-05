@@ -15486,4 +15486,7 @@ Banco: YAPE, Moneda: PEN, Tasa(T149): 3.455 ",55.08,-56.43,1584.78,-56.43
 Banco: NEQUI, Moneda: COP, Tasa(T149): 0.989 ","[P-AZCrcbu] Monto: 187550, Titular: SAGILE MOLINA
 Banco: NEQUI, Moneda: COP, Tasa(T149): 3562 ",189635.99,-52.65,231224.2,243.36
 5212,VALIDAR,078ff139a4a3226cd8cf8a2300647bd53a2b578be66de8f5adab257371f419e4,1Nbfg6K,5-may,1778019646,T149,COP,🤷‍♂️,🤷‍♂️,845000,CORREGIR,FUNDDA,,,,https://link.jairokov.com/i/1Nbfg6K,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-5213,COMPLETADO,126fef9935c7b42dcf02817d9854ddda0b4f139c6ffc2f0a3a048de5c3c1c52b,4n47uFy,5-may,1778019635,T149,MXN,OXXO,NATALIA,312,JOSEM,CHASAN,,,,https://link.jairokov.com/i/4n47uFy,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5213,COMPLETADO,126fef9935c7b42dcf02817d9854ddda0b4f139c6ffc2f0a3a048de5c3c1c52b,4n47uFy,5-may,1778019635,T149,MXN,OXXO,NATALIA,312,JOSEM,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/4n47uFy,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,18.69,-18.3,"[D-4n47uFy] Monto: 312, Titular: NATALIA
+Banco: OXXO, Moneda: MXN, Tasa(T149): 18.69 ","[D-4n47uFy] Monto: 312, Titular: NATALIA
+Banco: OXXO, Moneda: MXN, Tasa(T149): 18.3 ",16.69,-17.04,-67.46,774.26
+5214,VALIDAR,345cbcafe7370120a37852a404b790a360ba79f96186fbd8c6572bdc008d4ef1,cpPO2nR,5-may,1778019931,T149,COP,BANCOLOMBIA,MIG*** COR*** ROD*** MED***,49600,CORREGIR,FUNDDA,,,,https://link.jairokov.com/i/cpPO2nR,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
