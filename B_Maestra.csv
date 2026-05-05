@@ -15527,4 +15527,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T149): 3.54 ",145.5,41.1,501.26,41.1
 5225,COMPLETADO,50fa3b29bd18ac7dcdcc5a86e67b1491a687af09597108e2828ee042c5b642df,jcxs60f,5-may,1778020678,T149,VES,BANESCO,JEIMY,15700,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/jcxs60f,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,635,0.176,"[P-jcxs60f] Monto: 15700, Titular: JEIMY
 Banco: BANESCO, Moneda: VES, Tasa(T149): 635 ","[P-jcxs60f] Monto: 15700, Titular: JEIMY
 Banco: BANESCO, Moneda: VES, Tasa(T149): 0.176 ",24.72,89204.54,295.18,89204.54
-5226,VALIDAR,471ad974e886202beda51f303604b0dd63ecd358e698d124aa5ba0ce360f53eb,gRohS6X,5-may,1778021101,T149,PEN,INTERBANK,SUSAN CERRON V,195,CORREGIR,FUNDDA,,,,https://link.jairokov.com/i/gRohS6X,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5226,COMPLETADO,471ad974e886202beda51f303604b0dd63ecd358e698d124aa5ba0ce360f53eb,gRohS6X,5-may,1778021101,T149,PEN,YAPE,SUSAN CERRON,195,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/gRohS6X,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.54,-3.455,"[P-gRohS6X] Monto: 195, Titular: SUSAN CERRON
+Banco: YAPE, Moneda: PEN, Tasa(T149): 3.54 ","[P-gRohS6X] Monto: 195, Titular: SUSAN CERRON
+Banco: YAPE, Moneda: PEN, Tasa(T149): 3.455 ",55.08,-56.43,96.18,-112.86
+5227,COMPLETADO,8e71c493103552594cfbc4e7ad450bc5ad101bb3ac971aa41215cd402c5fa3a1,xMesELf,5-may,1778021169,T149,PEN,BCP,GUANARE DURBELYS,80,JAIPY,ELIS,P,,PAGO,https://link.jairokov.com/i/xMesELf,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.54,-3.455,"[P-xMesELf] Monto: 80, Titular: GUANARE DURBELYS
+Banco: BCP, Moneda: PEN, Tasa(T149): 3.54 ","[P-xMesELf] Monto: 80, Titular: GUANARE DURBELYS
+Banco: BCP, Moneda: PEN, Tasa(T149): 3.455 ",22.59,-23.15,51.57,-136.01
