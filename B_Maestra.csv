@@ -15502,4 +15502,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T149): 997 ",27.81,-100.3,119.4,-324.9
 Banco: VENEZUELA, Moneda: VES, Tasa(T149): 645 ","[P-tklKe05] Monto: 9800, Titular: ARBENIS
 Banco: VENEZUELA, Moneda: VES, Tasa(T149): 629 ",15.19,-15.58,15.19,-83.04
 5218,PENDIENTE,4c87e15fe996e92e27723c08b6cc49932d388a79dcc9e4a760230a815d6cbfff,i9aaeBx,31-dic,,,COP,BANCOLOMBIA,CIN*** ROL*** CUE***,100000,JAIPY,,,,,https://link.jairokov.com/i/i9aaeBx,573248071414@s.whatsapp.net,,,,,,,,,,,
-5219,VALIDAR,4fa2a4528d5f36fea8f709bd100d2d90dc745bbeabf99fb25649677e49cd9ced,iSO2S2U,5-may,1778020225,T149,🤷‍♂️,🤷‍♂️,ROKAPV18,200,CORREGIR,FUNDDA,,,,https://link.jairokov.com/i/iSO2S2U,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5219,COMPLETADO,4fa2a4528d5f36fea8f709bd100d2d90dc745bbeabf99fb25649677e49cd9ced,iSO2S2U,5-may,1778020225,T149,USDT,BINANCE,FUNDDA,-200,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/iSO2S2U,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-iSO2S2U] Monto: -200, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T149): 1 ","[A-iSO2S2U] Monto: -200, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T149): 1 ",-200,-200,-200,-80.6
+5220,VALIDAR,0c98c5be1445688a18c0d4aae8093a121725df4e4739d090c392198344365d24,2Zcl9Yt,5-may,1778020269,T149,COP,NEQUI,YIGEYLI ZAMORA,135765,CORREGIR,FUNDDA,,,,https://link.jairokov.com/i/2Zcl9Yt,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
