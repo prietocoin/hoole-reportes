@@ -15574,4 +15574,7 @@ Banco: PICPAY, Moneda: BRL, Tasa(T149): 4.702 ",20.85,-21.26,186.79,584.03
 5244,COMPLETADO,488c4f286d19760ddc1ff397b90e898617ced82a4d7dc4a5dc08f8dd77bde931,hcBOjzv,5-may,1778033011,T149,PEN,INTERBANK,ANGEL,408,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/hcBOjzv,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.54,-3.455,"[P-hcBOjzv] Monto: 408, Titular: ANGEL
 Banco: INTERBANK, Moneda: PEN, Tasa(T149): 3.54 ","[P-hcBOjzv] Monto: 408, Titular: ANGEL
 Banco: INTERBANK, Moneda: PEN, Tasa(T149): 3.455 ",115.25,-118.08,229.46,465.95
-5245,VALIDAR,332d0289f35b8135529e4df4e040bab3c20aae3be607a2f67bf046bd7607f92d,c8okORv,5-may,1778033044,T149,MXN,SPIN BY OXXO,🤷‍♂️,1062,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/c8okORv,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5245,COMPLETADO,332d0289f35b8135529e4df4e040bab3c20aae3be607a2f67bf046bd7607f92d,c8okORv,5-may,1778033044,T149,MXN,OXXO,MONTERREY,1050,NAUPAR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/c8okORv,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,18.69,-18.3,"[D-c8okORv] Monto: 1050, Titular: MONTERREY
+Banco: OXXO, Moneda: MXN, Tasa(T149): 18.69 ","[D-c8okORv] Monto: 1050, Titular: MONTERREY
+Banco: OXXO, Moneda: MXN, Tasa(T149): 18.3 ",56.17,-57.37,517.24,408.58
+5246,COMPLETADO,e4679bca60d37997af8dbcad99b27e911de85e81c2a5f69fe8c1f38d7bde1a41,Sa1W44y,5-may,1778033072,T149,ECU,PICHINCHA,MEDINA,19,YARELIS,CHASAN,,,,https://link.jairokov.com/i/Sa1W44y,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
