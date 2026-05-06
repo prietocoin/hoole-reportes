@@ -15448,9 +15448,9 @@ Banco: ZELLE, Moneda: USD, Tasa(T148): 0.26 ",281.25,-1038.46,301.57,53.79
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ","[A-5ccjDjo] Monto: 253.58, Titular: PAGOSUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ",253.58,253.58,26.28,253.58
 5196,VALIDAR,76387163f0a72abec576ab4a1a482361148798db4ec8d5cf230c22dc7aad350f,,,1777945030,T148,,,,,,FUNDDA,,,,,,5491177171331@s.whatsapp.net,,,,,,,,,,
-5197,COMPLETADO,7122a91718cc5a2ed2799c91aed1a1a49c22456ecf76ad6fb51753390e4d6dde,qPkornI,4-may,1777946142,T148,PEN,INTERBANK,FUNDDA,-53.79,FUNDDA,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/qPkornI,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.55,-1,"[P-qPkornI] Monto: -53.79, Titular: FUNDDA
-Banco: INTERBANK, Moneda: PEN, Tasa(T148): 3.55 ","[P-qPkornI] Monto: -53.79, Titular: FUNDDA
-Banco: INTERBANK, Moneda: PEN, Tasa(T148): 1 ",-15.15,53.79,-15.15,107.58
+5197,COMPLETADO,7122a91718cc5a2ed2799c91aed1a1a49c22456ecf76ad6fb51753390e4d6dde,qPkornI,4-may,1777946142,T148,PEN,INTERBANK,FUNDDA,53.79,FUNDDA,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/qPkornI,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.55,-1,"[P-qPkornI] Monto: 53.79, Titular: FUNDDA
+Banco: INTERBANK, Moneda: PEN, Tasa(T148): 3.55 ","[P-qPkornI] Monto: 53.79, Titular: FUNDDA
+Banco: INTERBANK, Moneda: PEN, Tasa(T148): 1 ",15.15,-53.79,15.15,0
 5198,COMPLETADO,14162d933b96d7674a7ff56fa24fda6ce460203175b1a4ea24baeb5d7b318cfd,4LjAeCy,5-may,1777984345,T148,USDT,BINANCE,PAGOANAUPAR,202.95,NELSY,FUNDDA,A,,ABONO,https://link.jairokov.com/i/4LjAeCy,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-4LjAeCy] Monto: 202.95, Titular: PAGOANAUPAR
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ","[A-4LjAeCy] Monto: 202.95, Titular: PAGOANAUPAR
 Banco: BINANCE, Moneda: USDT, Tasa(T148): 1 ",202.95,202.95,229.23,187.8
