@@ -16272,5 +16272,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T154): 3577 ",127272.72,-35.22,127272.72,-44.02
 5492,COMPLETADO,44ff0f47faf08ecc4efd4c39f7478b6481f9ec8783b1add37a007bf725cef048,gmoh9p2,9-may,1778361926,T154,CLP,MERCADO PAGO,JOSE,6690,MICHEL,MERLI,P,,PAGO,https://link.jairokov.com/i/gmoh9p2,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-249.36,"[P-gmoh9p2] Monto: 6690, Titular: JOSE
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T154): 0.985 ","[P-gmoh9p2] Monto: 6690, Titular: JOSE
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T154): 249.36 ",6791.87,-26.82,22020.29,-71.99
-5493,VALIDAR,8e0b47efe969cf496008337200b3e8ea78fae05eab138be26ffc723ff45d05ab,xGlxw54,9-may,1778362282,T154,BRL,CORPAG IP,SIORET S A ESPINOZA,200,CHASAN,OMAR,,,,https://link.jairokov.com/i/xGlxw54,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5493,COMPLETADO,8e0b47efe969cf496008337200b3e8ea78fae05eab138be26ffc723ff45d05ab,xGlxw54,9-may,1778362282,T154,BRL,PIX,SIORET ESPINOZA,200,CHASAN,OMAR,D,,DEPOSITO,https://link.jairokov.com/i/xGlxw54,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.17,-5.061,"[D-xGlxw54] Monto: 200, Titular: SIORET ESPINOZA
+Banco: PIX, Moneda: BRL, Tasa(T154): 5.17 ","[D-xGlxw54] Monto: 200, Titular: SIORET ESPINOZA
+Banco: PIX, Moneda: BRL, Tasa(T154): 5.061 ",38.68,-39.51,22.06,-83.53
 5494,VALIDAR,ba57522a3900dfe51bf4e21132ee6f8adadb6cbf5c31392493496a63ff7fdc3f,IbBEcMx,9-may,1778362673,T154,COP,NEQUI,YIGEYLI ZAMORA,44100,IRIS,OMAR,,,,https://link.jairokov.com/i/IbBEcMx,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
