@@ -16404,7 +16404,9 @@ Banco: PIX, Moneda: BRL, Tasa(T155): 5.061 ",91.56,-27.66,19.57,-199.3
 5526,COMPLETADO,8a1a1f6d6df957795163a6e2645988052b58683da35d332be23460844df59777,wKogmMY,10-may,1778429046,T155,COP,NEQUI,KEIDRR,46050,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/wKogmMY,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,1055,"[P-wKogmMY] Monto: 46050, Titular: KEIDRR
 Banco: NEQUI, Moneda: COP, Tasa(T155): 0.99 ","[P-wKogmMY] Monto: 46050, Titular: KEIDRR
 Banco: NEQUI, Moneda: COP, Tasa(T155): 1055 ",46515.15,43.64,-801884.01,43.64
-5527,VALIDAR,a972e44d1cf2d41e689573812c406f8c6dade4a15d48c251eb080cafec1a36d9,EbfNkgR,10-may,1778430350,T155,COP,NEQUI,IRISMAR PRIETRO,50000,EDWIN,IRIS,,,,https://link.jairokov.com/i/EbfNkgR,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5527,COMPLETADO,a972e44d1cf2d41e689573812c406f8c6dade4a15d48c251eb080cafec1a36d9,EbfNkgR,10-may,1778430350,T155,COP,NEQUI,DANIELA,50000,EDWIN,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/EbfNkgR,554191071791@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3685,-1.01,"[D-EbfNkgR] Monto: 50000, Titular: DANIELA
+Banco: NEQUI, Moneda: COP, Tasa(T155): 3685 ","[D-EbfNkgR] Monto: 50000, Titular: DANIELA
+Banco: NEQUI, Moneda: COP, Tasa(T155): 1.01 ",13.56,-49504.95,-7.96,-851388.96
 5528,PENDIENTE,d0a0d604bade1f6cdf445afedd2bd63605ba88c706b8db30110b80b7ab8fbfe2,Nth5uvE,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,58.2,ENZO,,,,,https://link.jairokov.com/i/Nth5uvE,51917122096@s.whatsapp.net,,,,,,,,,,,
 5529,COMPLETADO,8911fdeff2eba1e5b9ec022602a8602d663fe66d1ab536312fd4b1d3bb64a571,wvdMucZ,10-may,1778431289,T155,COP,NEQUI,MORELYS,55260,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/wvdMucZ,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,1055,"[P-wvdMucZ] Monto: 55260, Titular: MORELYS
 Banco: NEQUI, Moneda: COP, Tasa(T155): 0.99 ","[P-wvdMucZ] Monto: 55260, Titular: MORELYS
