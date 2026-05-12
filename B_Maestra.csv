@@ -16593,7 +16593,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T157): 3699 ",31818.18,-8.51,31818.18,-51.08
 5601,COMPLETADO,78f2efcf708131530cc095186ec53a8c4d8a650b0bb1e32651696a4457615ee6,sGcI9CK,11-may,1778536148,T157,COP,NEQUI,ZULEIDYZ,370000,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/sGcI9CK,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-1056,"[P-sGcI9CK] Monto: 370000, Titular: ZULEIDYZ
 Banco: NEQUI, Moneda: COP, Tasa(T157): 0.99 ","[P-sGcI9CK] Monto: 370000, Titular: ZULEIDYZ
 Banco: NEQUI, Moneda: COP, Tasa(T157): 1056 ",373737.37,-350.37,405555.55,-350.37
-5602,VALIDAR,4430e5e4ea537d2208e6aa12d9120dd0991e1e5c9230c5fea71ecb742e0bf584,gaycCtN,11-may,1778538312,T157,PEN,BCP,JOHAN ALONSO ARRIETA CONTRERAS,106.5,JAIPY,CHASAN,,,,https://link.jairokov.com/i/gaycCtN,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+5602,COMPLETADO,4430e5e4ea537d2208e6aa12d9120dd0991e1e5c9230c5fea71ecb742e0bf584,gaycCtN,11-may,1778548258,T157,PEN,BCP,JOHAN,106.5,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/gaycCtN,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.47,-3.386,"[P-gaycCtN] Monto: 106.5, Titular: JOHAN
+Banco: BCP, Moneda: PEN, Tasa(T157): 3.47 ","[P-gaycCtN] Monto: 106.5, Titular: JOHAN
+Banco: BCP, Moneda: PEN, Tasa(T157): 3.386 ",30.69,-31.45,79.4,981.95
 5603,COMPLETADO,228fae7ddedf9e577414d6fb64b5838c1497bfc5ebe3fc878da2ccadb5096db7,8c7EgaM,11-may,1778539622,T157,ECU,GUAYAQUIL,VASQUEZ,25.5,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/8c7EgaM,593980339529@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.98,-0.96,"[P-8c7EgaM] Monto: 25.5, Titular: VASQUEZ
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T157): 0.98 ","[P-8c7EgaM] Monto: 25.5, Titular: VASQUEZ
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T157): 0.96 ",26.02,-26.56,-139.61,-26.56
@@ -16616,7 +16618,9 @@ Banco: OXXO, Moneda: MXN, Tasa(T157): 18.01 ",100.21,-102.33,181.78,-102.33
 5612,COMPLETADO,3250e8666ea0c7c4384905583574767985241ec5c7baefb3fcf41df20ac76bb9,bVKCMkA,11-may,1778546304,T157,COP,BANCOLOMBIA,ADRIAN,837000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/bVKCMkA,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3699,"[P-bVKCMkA] Monto: 837000, Titular: ADRIAN
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T157): 0.99 ","[P-bVKCMkA] Monto: 837000, Titular: ADRIAN
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T157): 3699 ",845454.54,-226.27,947272.72,-304.6
-5613,VALIDAR,8fc2a0ce71ba21b4aa3bcb7e591dbf84fe96105d27cffd0fcade7d94894ca723,y5zUold,11-may,1778548091,T157,PEN,YAPE,PETRONILA MARTINEZ QUISPE,480,CHASAN,FUNDDA,,,,https://link.jairokov.com/i/y5zUold,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5613,COMPLETADO,8fc2a0ce71ba21b4aa3bcb7e591dbf84fe96105d27cffd0fcade7d94894ca723,y5zUold,11-may,1778548091,T157,PEN,YAPE,PETRONILA,480,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/y5zUold,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.47,-3.386,"[P-y5zUold] Monto: 480, Titular: PETRONILA
+Banco: YAPE, Moneda: PEN, Tasa(T157): 3.47 ","[P-y5zUold] Monto: 480, Titular: PETRONILA
+Banco: YAPE, Moneda: PEN, Tasa(T157): 3.386 ",138.32,-141.76,138.32,-244.09
 5614,COMPLETADO,5166e014ba1ccbd6076589a31bbe9b20e39ae3c481956d80db918b7f85c795e1,jiMixxw,11-may,1778548077,T157,PEN,BCP,PETRONILA,72.75,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/jiMixxw,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.47,-3.386,"[P-jiMixxw] Monto: 72.75, Titular: PETRONILA
 Banco: BCP, Moneda: PEN, Tasa(T157): 3.47 ","[P-jiMixxw] Monto: 72.75, Titular: PETRONILA
 Banco: BCP, Moneda: PEN, Tasa(T157): 3.386 ",20.96,-21.48,20.96,-21.48
