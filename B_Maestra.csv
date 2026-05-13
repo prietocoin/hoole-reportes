@@ -16797,4 +16797,6 @@ Banco: BCP, Moneda: PEN, Tasa(T158): 3.386 ",14.4,-14.76,67.64,-14.76
 5677,COMPLETADO,f2b8118af8af63733ab2e599a89bf475b17bde56fd46f705131eaff84c32399b,VytRfkL,13-may,1778698823,T161,ECU,PICHINCHA,SANTANA,20,YARELIS,EDWIN,P,,PAGO,https://link.jairokov.com/i/VytRfkL,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.98,1,"[P-VytRfkL] Monto: 20, Titular: SANTANA
 Banco: PICHINCHA, Moneda: ECU, Tasa(T161): 0.98 ","[P-VytRfkL] Monto: 20, Titular: SANTANA
 Banco: PICHINCHA, Moneda: ECU, Tasa(T161): 1 ",20.4,20,20.4,52.29
-5678,VALIDAR,d3f5ac698b294e6c9f24a8520916bf3ada7c43183b462ee6dd22565cbe1bcc74,OgfL3vC,13-may,1778698905,T161,PEN,INTERBANK,🤷‍♂️,50,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/OgfL3vC,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5678,COMPLETADO,d3f5ac698b294e6c9f24a8520916bf3ada7c43183b462ee6dd22565cbe1bcc74,OgfL3vC,13-may,1778698905,T161,PEN,INTERBANK,MILAGRO,50,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/OgfL3vC,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.46,-3.376,"[P-OgfL3vC] Monto: 50, Titular: MILAGRO
+Banco: INTERBANK, Moneda: PEN, Tasa(T161): 3.46 ","[P-OgfL3vC] Monto: 50, Titular: MILAGRO
+Banco: INTERBANK, Moneda: PEN, Tasa(T161): 3.376 ",14.45,-14.81,82.09,-29.57
