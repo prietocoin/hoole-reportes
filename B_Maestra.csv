@@ -17005,4 +17005,6 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T162): 3640 ",117.18,-120.08,217.93,80.23
 5753,COMPLETADO,3da7430f3d84ce72b0393859cb8065bca2d68d62fb4ac59970f645ebe8f8a49e,eCqWras,14-may,1778800417,T162,USDT,BINANCE,ELIS,44.8,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/eCqWras,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-eCqWras] Monto: 44.8, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T162): 1 ","[A-eCqWras] Monto: 44.8, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T162): 1 ",44.8,44.8,0,175.86
-5754,VALIDAR,040d04fb7492581a0c781e526b0c0c5a5016c4e2b53fa2a97237a3d94de0f298,XytPwmL,14-may,1778801147,T162,COP,NEQUI,🤷‍♂️,350000,IRIS,CORREGIR,,,,https://link.jairokov.com/i/XytPwmL,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5754,COMPLETADO,040d04fb7492581a0c781e526b0c0c5a5016c4e2b53fa2a97237a3d94de0f298,XytPwmL,14-may,1778801147,T162,COP,NEQUI,COMPRA,350000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/XytPwmL,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-XytPwmL] Monto: 350000, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T162): 1 ","[C-XytPwmL] Monto: 350000, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T162): 1 ",-350000,-350000,-58290760,-127891.02
