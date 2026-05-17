@@ -17360,4 +17360,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T166): 3.406 ",106.57,-109.19,106.57,-178.32
 Banco: MERCADO PAGO, Moneda: BRL, Tasa(T166): 4.922 ","[P-rG47Bck] Monto: 60, Titular: YURIMAR
 Banco: MERCADO PAGO, Moneda: BRL, Tasa(T166): 1.345 ",12.19,-44.6,-284.07,-44.6
 5888,VALIDAR,80ee6159fbf1929631ff825424b991e730b410529e21f1a425a05cf33d1dc302,uzyJx7y,17-may,1779048405,T166,COP,BANCOLOMBIA,🤷‍♂️,93500,JAIPY,BEATRIZ,,,,https://link.jairokov.com/i/uzyJx7y,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-5889,VALIDAR,55a6b873dc5231487079ae4ed2487dafc3a3c7f3d986818c95b5b4fd12f373c6,kjfKJmj,17-may,1779050028,T166,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,100,ELIS,FUNDDA,,,,https://link.jairokov.com/i/kjfKJmj,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5889,COMPLETADO,55a6b873dc5231487079ae4ed2487dafc3a3c7f3d986818c95b5b4fd12f373c6,kjfKJmj,17-may,1779050028,T166,PEN,YAPE,YESEYKA,100,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/kjfKJmj,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.58,3.49,"[D-kjfKJmj] Monto: 100, Titular: YESEYKA
+Banco: YAPE, Moneda: PEN, Tasa(T166): 3.58 ","[D-kjfKJmj] Monto: 100, Titular: YESEYKA
+Banco: YAPE, Moneda: PEN, Tasa(T166): 3.49 ",27.93,28.65,54.06,28.65
