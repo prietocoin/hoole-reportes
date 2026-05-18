@@ -17490,4 +17490,6 @@ Banco: GUAYAQUIL, Moneda: ECU, Tasa(T167): 0.98 ","[P-dfIHQaa] Monto: 30, Titula
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T167): 0.96 ",30.61,-31.25,-5.88,467.63
 5923,PENDIENTE,923de4625d8d1fe9aba415783a1cf509ea1c41f1db0f42cd72f8fc5968c89665,yG3S8kW,31-dic,,,COP,BANCOLOMBIA,🤷‍♂️,282000,IRIS,,,,,https://link.jairokov.com/i/yG3S8kW,573248071414@s.whatsapp.net,,,,,,,,,,,
 5924,VALIDAR,6caeb50a2849798b01591b44e4714a638091246fa83ffd274b7bcb495fd22572,pLRoN3k,18-may,1779132514,T167,EUR,BBVA,JAIRO ENRIQUE PRIETO RINCON,20,VICTOR,JAIPY,,,,https://link.jairokov.com/i/pLRoN3k,573105981346@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-5925,VALIDAR,adf0cfce5eddd162cb7f31087c4b24f6629cb909cbb47b5038d214fa67ecc15f,FfihdKq,18-may,1779132611,T167,USD,MI VECINO,O?ATE VILLON JOSE STEEVEN,68,YARELIS,CHASAN,,,,https://link.jairokov.com/i/FfihdKq,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5925,COMPLETADO,adf0cfce5eddd162cb7f31087c4b24f6629cb909cbb47b5038d214fa67ecc15f,FfihdKq,18-may,1779132611,T167,ECU,PICHINCHA,VILLON STEEVEN,68,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/FfihdKq,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.98,-0.96,"[P-FfihdKq] Monto: 68, Titular: VILLON STEEVEN
+Banco: PICHINCHA, Moneda: ECU, Tasa(T167): 0.98 ","[P-FfihdKq] Monto: 68, Titular: VILLON STEEVEN
+Banco: PICHINCHA, Moneda: ECU, Tasa(T167): 0.96 ",69.38,-70.83,63.5,396.8
