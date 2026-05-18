@@ -17493,9 +17493,13 @@ Banco: GUAYAQUIL, Moneda: ECU, Tasa(T167): 0.96 ",30.61,-31.25,-5.88,467.63
 5925,COMPLETADO,adf0cfce5eddd162cb7f31087c4b24f6629cb909cbb47b5038d214fa67ecc15f,FfihdKq,18-may,1779132611,T167,ECU,PICHINCHA,VILLON STEEVEN,68,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/FfihdKq,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.98,-0.96,"[P-FfihdKq] Monto: 68, Titular: VILLON STEEVEN
 Banco: PICHINCHA, Moneda: ECU, Tasa(T167): 0.98 ","[P-FfihdKq] Monto: 68, Titular: VILLON STEEVEN
 Banco: PICHINCHA, Moneda: ECU, Tasa(T167): 0.96 ",69.38,-70.83,63.5,396.8
-5926,VALIDAR,b55d830297b024c7f99eafdd7fac6c0b7f9cd62995dceeb0ea6fb4cdcd073b83,H0s2lH7,18-may,1779134070,T167,MXN,SPIN BY OXXO,🤷‍♂️,1012,MERLI,CHASAN,,,,https://link.jairokov.com/i/H0s2lH7,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5926,COMPLETADO,b55d830297b024c7f99eafdd7fac6c0b7f9cd62995dceeb0ea6fb4cdcd073b83,H0s2lH7,18-may,1779134070,T167,MXN,OXXO,EDWIN,1000,MERLI,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/H0s2lH7,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.444,-18.26,"[D-H0s2lH7] Monto: 1000, Titular: EDWIN
+Banco: OXXO, Moneda: MXN, Tasa(T167): 5.444 ","[D-H0s2lH7] Monto: 1000, Titular: EDWIN
+Banco: OXXO, Moneda: MXN, Tasa(T167): 18.26 ",183.68,-54.76,98.36,342.04
 5927,PENDIENTE,70a9bc774dd6c5c8c6d6579b1c8fc3c6bc1f424cd6172cd05a7f6befab6e218a,qInP1zi,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,48.5,AIDA,,,,,https://link.jairokov.com/i/qInP1zi,51929501071@s.whatsapp.net,,,,,,,,,,,
-5928,VALIDAR,9d47403e3bbecb348e0658386a27f7d12e5eb816f6471e8aad4fa22a955cd9ad,Bik2cyc,18-may,1779134167,T167,🤷‍♂️,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,43500,MICHEL,OMAR,,,,https://link.jairokov.com/i/Bik2cyc,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5928,COMPLETADO,9d47403e3bbecb348e0658386a27f7d12e5eb816f6471e8aad4fa22a955cd9ad,Bik2cyc,18-may,1779134167,T167,CLP,MERCADO PAGO,SANTIAGO,43500,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/Bik2cyc,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-872,"[P-Bik2cyc] Monto: 43500, Titular: SANTIAGO
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T167): 0.985 ","[P-Bik2cyc] Monto: 43500, Titular: SANTIAGO
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T167): 872 ",44162.43,-49.88,55329.94,-210.74
 5929,VALIDAR,4d626c9b9f0badea735dba8a986bf78160df77a7ecce2c10af8a1dc40f33497a,ilIkhoC,18-may,1779134178,T167,COP,NEQUI,CEIDYS HERAZO,46750,ROSIMAR,AIDA,,,,https://link.jairokov.com/i/ilIkhoC,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 5930,VALIDAR,1ce9840834a6bc45db71208b02e9117ae1fc4a4f33b593a7ac9baccf35f57b6c,6R4kIec,18-may,1779134573,T167,USD,BANCO GUAYAQUIL,VASQUEZ ARREAGA JOSELYN BELEN,107,YARELIS,CHASAN,,,,https://link.jairokov.com/i/6R4kIec,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 5931,VALIDAR,82cf5ce23d3f2bb474a0e9805ba8d83f2e0aba59cf3bb32097a2e74db680bfac,v1blTEk,18-may,1779135483,T167,USD,BANCO GUAYAQUIL,VARGAS SOLORZANO DARIO JAVIER,26.32,YARELIS,CHASAN,,,,https://link.jairokov.com/i/v1blTEk,593980339529@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
