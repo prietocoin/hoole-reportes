@@ -17500,7 +17500,9 @@ Banco: PICHINCHA, Moneda: ECU, Tasa(T167): 0.96 ",69.38,-70.83,63.5,396.8
 5926,COMPLETADO,b55d830297b024c7f99eafdd7fac6c0b7f9cd62995dceeb0ea6fb4cdcd073b83,H0s2lH7,18-may,1779134070,T167,MXN,OXXO,EDWIN,1000,MERLI,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/H0s2lH7,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.444,-18.26,"[D-H0s2lH7] Monto: 1000, Titular: EDWIN
 Banco: OXXO, Moneda: MXN, Tasa(T167): 5.444 ","[D-H0s2lH7] Monto: 1000, Titular: EDWIN
 Banco: OXXO, Moneda: MXN, Tasa(T167): 18.26 ",183.68,-54.76,98.36,342.04
-5927,VALIDAR,70a9bc774dd6c5c8c6d6579b1c8fc3c6bc1f424cd6172cd05a7f6befab6e218a,qInP1zi,18-may,1779139520,T167,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,48.5,AIDA,FUNDDA,,,,https://link.jairokov.com/i/qInP1zi,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5927,COMPLETADO,70a9bc774dd6c5c8c6d6579b1c8fc3c6bc1f424cd6172cd05a7f6befab6e218a,qInP1zi,18-may,1779139520,T167,PEN,YAPE,AIDA,48.5,AIDA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/qInP1zi,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.5,"[D-qInP1zi] Monto: 48.5, Titular: AIDA
+Banco: YAPE, Moneda: PEN, Tasa(T167): 1 ","[D-qInP1zi] Monto: 48.5, Titular: AIDA
+Banco: YAPE, Moneda: PEN, Tasa(T167): 3.5 ",48.5,13.85,686.22,1015.38
 5928,COMPLETADO,9d47403e3bbecb348e0658386a27f7d12e5eb816f6471e8aad4fa22a955cd9ad,Bik2cyc,18-may,1779134167,T167,CLP,MERCADO PAGO,SANTIAGO,43500,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/Bik2cyc,56931316076@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-872,"[P-Bik2cyc] Monto: 43500, Titular: SANTIAGO
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T167): 0.985 ","[P-Bik2cyc] Monto: 43500, Titular: SANTIAGO
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T167): 872 ",44162.43,-49.88,55329.94,-210.74
