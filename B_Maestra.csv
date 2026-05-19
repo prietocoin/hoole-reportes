@@ -17661,7 +17661,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T168): 3.376 ",19.19,-19.66,-558.09,583.26
 Banco: BCP, Moneda: PEN, Tasa(T168): 3.46 ","[P-x8Q6CYO] Monto: 1660, Titular: DETANTALEAN ANDREA
 Banco: BCP, Moneda: PEN, Tasa(T168): 3.376 ",479.76,-491.7,490.46,91.56
 5983,PENDIENTE,9025323df3e73136fd8e69db244e560e6a391182e9e92e13f7b0e52af8137a83,ybeSqcd,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,194.25,ROSIMAR,,,,,https://link.jairokov.com/i/ybeSqcd,573248071414@s.whatsapp.net,,,,,,,,,,,
-5984,VALIDAR,a2bbd76b08c4337179879f85edb858f80ff725eabe20390655f5de9b6ec22b17,CAwPqNW,19-may,1779224242,T168,PEN,INTERBANK,ALVARO Y VASQUEZ F,67.8,FUNDDA,CHASAN,,,,https://link.jairokov.com/i/CAwPqNW,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+5984,COMPLETADO,a2bbd76b08c4337179879f85edb858f80ff725eabe20390655f5de9b6ec22b17,CAwPqNW,19-may,1779224242,T168,PEN,INTERBANK,ALVARO,67.8,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/CAwPqNW,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.46,-3.376,"[P-CAwPqNW] Monto: 67.8, Titular: ALVARO
+Banco: INTERBANK, Moneda: PEN, Tasa(T168): 3.46 ","[P-CAwPqNW] Monto: 67.8, Titular: ALVARO
+Banco: INTERBANK, Moneda: PEN, Tasa(T168): 3.376 ",19.59,-20.08,-538.5,71.48
 5985,VALIDAR,6041dcc0e187223e164d060c4cf7bacc3f83cae6a5e00a2fbe9680207f79ec3c,,,1779224286,T168,,,,,,OMAR,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
 5986,COMPLETADO,d086e06da410f244f6209e1cbefad51a80989706dc80c4cab58be5644af359dc,NrMEFL2,19-may,1779224796,T168,PEN,INTERBANK,ELIS,17,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/NrMEFL2,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.549,3.46,"[D-NrMEFL2] Monto: 17, Titular: ELIS
 Banco: INTERBANK, Moneda: PEN, Tasa(T168): 3.549 ","[D-NrMEFL2] Monto: 17, Titular: ELIS
@@ -17688,3 +17690,4 @@ Banco: YAPE, Moneda: PEN, Tasa(T168): 3.46 ",92.15,26.63,1112.54,71.02
 5994,VALIDAR,6e938cc85fd4d74a54ef8bfa351a53fdbd61df882cebb63292433bb1ef8bc3a4,qdHLkUg,19-may,1779228885,T168,COP,NEQUI,SULEYDI RAMIREZ,346500,IRIS,OMAR,,,,https://link.jairokov.com/i/qdHLkUg,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 5995,PENDIENTE,5db7f05626f7d9d181261246151ae2667139404d5090fddb02d32d872df2d2a1,mdRj8FV,31-dic,,,USD,🤷‍♂️,SERRATO ROJAS NATALIA,22,YARELIS,,,,,https://link.jairokov.com/i/mdRj8FV,593980339529@s.whatsapp.net,,,,,,,,,,,
 5996,VALIDAR,a5ac9f1736c00b42acecd8b5fd5f33f430bf6a507d930d1e6bd80d555d2aef8a,DhLeagA,19-may,1779229339,T168,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,V-15406977,63280,NELSY,CINDY,,,,https://link.jairokov.com/i/DhLeagA,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+5997,PENDIENTE,668accb307cd4a6e45b39d1b19e69cad7e09fff4a4c556530291c5e0f8f823f8,ojAmkrs,31-dic,,,COP,BANCOLOMBIA,CIN*** ROL*** CUE***,150000,CINDY,,,,,https://link.jairokov.com/i/ojAmkrs,573227036385@s.whatsapp.net,,,,,,,,,,,
