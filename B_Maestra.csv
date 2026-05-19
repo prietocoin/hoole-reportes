@@ -17605,7 +17605,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T168): 1043 ",12.91,-45.54,182.38,-137.12
 Banco: NEQUI, Moneda: COP, Tasa(T168): 3678 ","[P-fV39Qja] Monto: 100000, Titular: ADRIANA
 Banco: NEQUI, Moneda: COP, Tasa(T168): 1043 ",27.18,-95.87,209.56,-232.99
 5963,VALIDAR,b9de3dc9fa11b12b4bb115ac0a8dd9f6221a38b0aec1a35992fefedb0e0cc7b2,,,1779206524,T168,,,,,,FUNDDA,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
-5964,VALIDAR,3fe63cc0fa623c25a1fea2d80938268abf9088d5eb30ae494d632d99e824a1c7,f9seMET,19-may,1779207321,T168,BRL,NU PAGAMENTOS S.A.,ADALVELIS ADRIANNY CHACON APONTE,120,MERLI,OMAR,,,,https://link.jairokov.com/i/f9seMET,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+5964,COMPLETADO,3fe63cc0fa623c25a1fea2d80938268abf9088d5eb30ae494d632d99e824a1c7,f9seMET,19-may,1779207321,T168,BRL,PIX,VICTOR,120,MERLI,OMAR,D,,DEPOSITO,https://link.jairokov.com/i/f9seMET,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,1.58,-5.185,"[D-f9seMET] Monto: 120, Titular: VICTOR
+Banco: PIX, Moneda: BRL, Tasa(T168): 1.58 ","[D-f9seMET] Monto: 120, Titular: VICTOR
+Banco: PIX, Moneda: BRL, Tasa(T168): 5.185 ",75.94,-23.14,-157.05,80.91
 5965,VALIDAR,f79c6c50f7b66ceff2f6886ddb70973979bfd3c36b5cc0cd59b942be2c8181c6,WIp4KIG,19-may,1779207336,T168,COP,NEQUI,🤷‍♂️,63000,ROSIMAR,OMAR,,,,https://link.jairokov.com/i/WIp4KIG,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 5966,VALIDAR,ce7562c2f0aea6f68687e039b4d47518db96beaf9ae3cd1dd7f94a1c8b81a3e9,MXnjxGl,19-may,1779207746,T168,USD,BINANCE,🤷‍♂️,577.28,FUNDDA,YARELIS,,,,https://link.jairokov.com/i/MXnjxGl,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 5967,VALIDAR,8f6cf56c50654b1bf14c87937b05ba550428d880cff12f99aa460d7a8c47f38b,y0ERSPH,19-may,1779207968,T168,VES,MERCANTIL,V-14.172.557,13440,NELSY,MERLI,,,,https://link.jairokov.com/i/y0ERSPH,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
