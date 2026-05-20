@@ -17659,7 +17659,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T168): 3.376 ",19.19,-19.66,-558.09,583.26
 5981,COMPLETADO,8bc3d7702755048a1dd5f881e88d76a391eb9ecf038f220c04c8a1da9aeadd75,x8Q6CYO,19-may,1779222402,T168,PEN,BCP,DETANTALEAN ANDREA,1660,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/x8Q6CYO,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.46,-3.376,"[P-x8Q6CYO] Monto: 1660, Titular: DETANTALEAN ANDREA
 Banco: BCP, Moneda: PEN, Tasa(T168): 3.46 ","[P-x8Q6CYO] Monto: 1660, Titular: DETANTALEAN ANDREA
 Banco: BCP, Moneda: PEN, Tasa(T168): 3.376 ",479.76,-491.7,490.46,91.56
-5982,PENDIENTE,9025323df3e73136fd8e69db244e560e6a391182e9e92e13f7b0e52af8137a83,ybeSqcd,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,194.25,ROSIMAR,,,,,https://link.jairokov.com/i/ybeSqcd,573248071414@s.whatsapp.net,,,,,,,,,,,
+5982,COMPLETADO,9025323df3e73136fd8e69db244e560e6a391182e9e92e13f7b0e52af8137a83,ybeSqcd,19-may,1779235268,T168,USDT,BINANCE,FUNDDA,-194.25,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/ybeSqcd,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-ybeSqcd] Monto: -194.25, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T168): 1 ","[A-ybeSqcd] Monto: -194.25, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T168): 1 ",-194.25,-194.25,-752.34,-172.84
 5983,COMPLETADO,a2bbd76b08c4337179879f85edb858f80ff725eabe20390655f5de9b6ec22b17,CAwPqNW,19-may,1779224242,T168,PEN,INTERBANK,ALVARO,67.8,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/CAwPqNW,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.46,-3.376,"[P-CAwPqNW] Monto: 67.8, Titular: ALVARO
 Banco: INTERBANK, Moneda: PEN, Tasa(T168): 3.46 ","[P-CAwPqNW] Monto: 67.8, Titular: ALVARO
 Banco: INTERBANK, Moneda: PEN, Tasa(T168): 3.376 ",19.59,-20.08,-538.5,71.48
