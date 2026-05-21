@@ -17841,7 +17841,7 @@ Banco: BINANCE, Moneda: USDT, Tasa(T170): 1 ",470.58,470.58,129.8,864.21
 Banco: BINANCE, Moneda: USDT, Tasa(T170): 1 ","[A-gNZiEI9] Monto: 500, Titular: CHASAN
 Banco: BINANCE, Moneda: USDT, Tasa(T170): 1 ",500,500,408.14,1364.21
 6045,PENDIENTE,0a0fdbe042dbe5c2ae879ac99affba9cfd193a35df9e45e3b94f08ce4141982b,2nVM7AA,31-dic,,,USD,🤷‍♂️,🤷‍♂️,183,FUNDDA,,,,,https://link.jairokov.com/i/2nVM7AA,5491177171331@s.whatsapp.net,,,,,,,,,,,
-6046,PENDIENTE,dc52cfd856959183f197b7cda431b1d4c71d574ec536d5f8de5fcd5670993795,QfdDGWe,31-dic,,,USDT,BINANCE,JAIRO,26.04,JOSEM,,,,,https://link.jairokov.com/i/QfdDGWe,56990683872@s.whatsapp.net,,,,,,,,,,,
+6046,VALIDAR,dc52cfd856959183f197b7cda431b1d4c71d574ec536d5f8de5fcd5670993795,QfdDGWe,21-may,1779389720,T171,USDT,BINANCE,JAIRO,26.04,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/QfdDGWe,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6047,PENDIENTE,2767044588f5aed52ea1218a787c33b6306ca2c5918e63466e52b50dbc82fb85,9livyV4,31-dic,,,COP,NEQUI,PAULENE ASTUDILLO,68000,EDWIN,,,,,https://link.jairokov.com/i/9livyV4,573248071414@s.whatsapp.net,,,,,,,,,,,
 6048,COMPLETADO,29c591b08e4e82ad74d6af4ba3cfdb7a13191ca6e8192cb19ef94202af58fdb0,9U8eTTK,21-may,1779376268,T171,COP,NEQUI,LAURA LOPEZ,182700,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/9U8eTTK,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3586,"[P-9U8eTTK] Monto: 182700, Titular: LAURA LOPEZ
 Banco: NEQUI, Moneda: COP, Tasa(T171): 0.99 ","[P-9U8eTTK] Monto: 182700, Titular: LAURA LOPEZ
@@ -17880,6 +17880,7 @@ Banco: BCP, Moneda: PEN, Tasa(T171): 3.357 ",55.49,-56.86,458.51,-86.77
 6062,COMPLETADO,e99a08688dd514e91e276093e6647290f65053e5933084a57cd5812f019d51bb,Tor8ltP,21-may,1779389379,T171,PEN,YAPE,MERLI,500,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/Tor8ltP,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.44,"[A-Tor8ltP] Monto: 500, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T171): 1 ","[A-Tor8ltP] Monto: 500, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T171): 3.44 ",500,145.34,500,174.53
-6063,COMPLETADO,d49c68d5f06542bfb9b3d34c7cd1b1c8320f127970afaa7259f86f2129197825,OpPrVEc,21-may,1779389507,T171,COP,NEQUI,JHON,218500,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/OpPrVEc,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-1033,"[P-OpPrVEc] Monto: 218500, Titular: JHON
+6063,COMPLETADO,d49c68d5f06542bfb9b3d34c7cd1b1c8320f127970afaa7259f86f2129197825,OpPrVEc,21-may,1779389600,T171,COP,NEQUI,JHON,218500,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/OpPrVEc,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-1033,"[P-OpPrVEc] Monto: 218500, Titular: JHON
 Banco: NEQUI, Moneda: COP, Tasa(T171): 0.99 ","[P-OpPrVEc] Monto: 218500, Titular: JHON
 Banco: NEQUI, Moneda: COP, Tasa(T171): 1033 ",220707.07,-211.51,269991.43,288.49
+6064,PENDIENTE,80f06ee1996618a8d5a97c2b8d6aabb0b0638679e94ccb964aabef1d7a91bacc,uzG2IUh,31-dic,,,COP,BANCOLOMBIA,🤷‍♂️,218500,MERLI,,,,,https://link.jairokov.com/i/uzG2IUh,573248071414@s.whatsapp.net,,,,,,,,,,,
