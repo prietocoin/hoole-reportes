@@ -17905,6 +17905,13 @@ Banco: BCP, Moneda: PEN, Tasa(T172): 3.357 ",278.19,-285.07,736.7,-285.07
 6069,COMPLETADO,ecb05b8e768b4e6c4659af453d326f3888f93d42c8cca02825a5fdc0fd8fc0d5,U7PdwEU,21-may,1779399016,T172,ECU,GUAYAQUIL,TOMASTO,22.56,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/U7PdwEU,593980339529@s.whatsapp.net,5491177171331@s.whatsapp.net,,,0.98,-0.96,"[P-U7PdwEU] Monto: 22.56, Titular: TOMASTO
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T172): 0.98 ","[P-U7PdwEU] Monto: 22.56, Titular: TOMASTO
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T172): 0.96 ",23.02,-23.5,-63.75,-308.57
-6070,VALIDAR,387e4f448fd4fe9ff3adb41a5dd412d609ea7f67d130fa4967b6c4d0b1f05af7,doztcEk,21-may,1779402264,T172,MXN,SPIN BY OXXO,NATALIA,1976,JOSEM,CHASAN,,,,https://link.jairokov.com/i/doztcEk,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6071,VALIDAR,813059c36b06f52729f2d62f09e708d20d98324b03a1ab3a727683cfde3ffc52,uDlDeUW,21-may,1779402184,T172,COP,🤷‍♂️,🤷‍♂️,84600,IRIS,OMAR,,,,https://link.jairokov.com/i/uDlDeUW,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6072,VALIDAR,a9d3bfc761510b3ce347be6a018b6800d179806e6030977a9aedfb0a14abe885,EgOFGqb,21-may,1779403164,T172,PEN,INTERBANK,NERY MORE M,49.8,FUNDDA,YARELIS,,,,https://link.jairokov.com/i/EgOFGqb,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+6070,COMPLETADO,387e4f448fd4fe9ff3adb41a5dd412d609ea7f67d130fa4967b6c4d0b1f05af7,doztcEk,21-may,1779402264,T172,MXN,OXXO,NATALIA,1964,JOSEM,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/doztcEk,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,18.48,-18.09,"[D-doztcEk] Monto: 1964, Titular: NATALIA
+Banco: OXXO, Moneda: MXN, Tasa(T172): 18.48 ","[D-doztcEk] Monto: 1964, Titular: NATALIA
+Banco: OXXO, Moneda: MXN, Tasa(T172): 18.09 ",106.27,-108.56,86.76,-417.13
+6071,COMPLETADO,813059c36b06f52729f2d62f09e708d20d98324b03a1ab3a727683cfde3ffc52,uDlDeUW,21-may,1779402184,T172,COP,NEQUI,IVAN,84600,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/uDlDeUW,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3567,"[P-uDlDeUW] Monto: 84600, Titular: IVAN
+Banco: NEQUI, Moneda: COP, Tasa(T172): 0.99 ","[P-uDlDeUW] Monto: 84600, Titular: IVAN
+Banco: NEQUI, Moneda: COP, Tasa(T172): 3567 ",85454.54,-23.71,355445.97,32.73
+6072,COMPLETADO,a9d3bfc761510b3ce347be6a018b6800d179806e6030977a9aedfb0a14abe885,EgOFGqb,21-may,1779403164,T172,PEN,YAPE,NERY MORE,49.8,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/EgOFGqb,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.44,-3.357,"[P-EgOFGqb] Monto: 49.8, Titular: NERY MORE
+Banco: YAPE, Moneda: PEN, Tasa(T172): 3.44 ","[P-EgOFGqb] Monto: 49.8, Titular: NERY MORE
+Banco: YAPE, Moneda: PEN, Tasa(T172): 3.357 ",14.47,-14.83,225.91,-78.58
+6073,PENDIENTE,1473cafaa22cc17745cfed1c7881128601c01c3fbb8edf5ee58c623a32b51411,4QGUMlA,31-dic,,,COP,NEQUI,FARI SARMIENTO,356700,JOSEM,,,,,https://link.jairokov.com/i/4QGUMlA,573248071414@s.whatsapp.net,,,,,,,,,,,
