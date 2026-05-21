@@ -17817,10 +17817,12 @@ Banco: BCP, Moneda: PEN, Tasa(T170): 3.357 ",27.76,-28.44,258.99,-3.06
 6037,COMPLETADO,86ab8282371c2f4f46bf5316d65635c72265208d5e4083d509ebd167ab208824,vVVOzpn,20-may,1779314771,T170,PEN,YAPE,ALEXANDRA ESPINOZA,305.48,JAIPY,JOSEM,P,,PAGO,https://link.jairokov.com/i/vVVOzpn,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.44,-3.357,"[P-vVVOzpn] Monto: 305.48, Titular: ALEXANDRA ESPINOZA
 Banco: YAPE, Moneda: PEN, Tasa(T170): 3.44 ","[P-vVVOzpn] Monto: 305.48, Titular: ALEXANDRA ESPINOZA
 Banco: YAPE, Moneda: PEN, Tasa(T170): 3.357 ",88.8,-90.99,347.79,-117.03
-6038,COMPLETADO,01bd30ebc5ddf27433b5beaf17da4299beee5dc1de1677e4527a654feec4ff56,pzaZCTH,21-may,1779359209,T170,COP,NEQUI,YEISKA,63000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/pzaZCTH,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3596,"[P-pzaZCTH] Monto: 63000, Titular: YEISKA
+6038,COMPLETADO,01bd30ebc5ddf27433b5beaf17da4299beee5dc1de1677e4527a654feec4ff56,pzaZCTH,20-may,1779292111,T170,COP,NEQUI,YEISKA,63000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/pzaZCTH,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3596,"[P-pzaZCTH] Monto: 63000, Titular: YEISKA
 Banco: NEQUI, Moneda: COP, Tasa(T170): 0.99 ","[P-pzaZCTH] Monto: 63000, Titular: YEISKA
 Banco: NEQUI, Moneda: COP, Tasa(T170): 3596 ",63636.36,-17.51,671595.92,-340.78
 6039,VALIDAR,975ccf7691be6e1897fcddfaf394cdc1d2f8f4fddf9b6a4c8c634c5061edab90,zTlCeYs,20-may,1779318198,T170,USD,🤷‍♂️,BRAVO BASTIDAS KAREN XIOM,19,YARELIS,CHASAN,,,,https://link.jairokov.com/i/zTlCeYs,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6040,VALIDAR,7ad7dafbba8b94c6c75b1f5803347dbb10108d1fc8b993f7951463b85a0f967f,t83lsjv,20-may,1779323005,T170,USD,🤷‍♂️,JESUS BERMUDEZ,40,ALEJANDRA,JOHN,,,,https://link.jairokov.com/i/t83lsjv,51917606346@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 6041,PENDIENTE,8e5ca6f1cfc6f69005f0d08694b31b62df6cc99345d63b487b5b319459a1b3dd,xL1h7hF,31-dic,,,USDT,BINANCE,JAIRO,91,JOSEM,,,,,https://link.jairokov.com/i/xL1h7hF,56990683872@s.whatsapp.net,,,,,,,,,,,
-6042,VALIDAR,2d8aded7b8ad6027dc2e3b4983021c2f3f38d74c7dd4fd7d0dbf5cc3df5c0116,aNzm9lv,21-may,1779359401,T170,CLP,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,45200,MICHEL,MERLI,,,,https://link.jairokov.com/i/aNzm9lv,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6042,COMPLETADO,2d8aded7b8ad6027dc2e3b4983021c2f3f38d74c7dd4fd7d0dbf5cc3df5c0116,aNzm9lv,20-may,1779292111,T170,CLP,MERCADO PAGO,NORMA,45200,MICHEL,MERLI,P,,PAGO,https://link.jairokov.com/i/aNzm9lv,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.985,-253.55,"[P-aNzm9lv] Monto: 45200, Titular: NORMA
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T170): 0.985 ","[P-aNzm9lv] Monto: 45200, Titular: NORMA
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T170): 253.55 ",45888.32,-178.26,136966.17,-624.77
