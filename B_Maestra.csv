@@ -18183,7 +18183,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T176): 3533 ",8.97,-9.05,218.36,-301.14
 Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ","[A-DAvU0U2] Monto: 500, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ",500,500,500,514.49
 6171,PENDIENTE,04d19b1ea3b7bfb3b4228bbc2328b7d5ed02cb11d94e7ef4554b374dcd0e71ca,18QswOp,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,411.71,MERLI,,,,,https://link.jairokov.com/i/18QswOp,51928344275@s.whatsapp.net,,,,,,,,,,,
-6172,VALIDAR,d10f9dcff5a5cf3d1f5731831adf09ddc03c079fcad77fadf7be9de3e522a801,NzDxx7v,26-may,1779800157,T177,COP,NEQUI,WILLER RUIZ,45000,YAIR,IRIS,,,,https://link.jairokov.com/i/NzDxx7v,573025846261@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+6172,COMPLETADO,d10f9dcff5a5cf3d1f5731831adf09ddc03c079fcad77fadf7be9de3e522a801,NzDxx7v,26-may,1779800157,T177,COP,NEQUI,YAIR,45000,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/NzDxx7v,573025846261@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,-1.01,"[D-NzDxx7v] Monto: 45000, Titular: YAIR
+Banco: NEQUI, Moneda: COP, Tasa(T177): 1 ","[D-NzDxx7v] Monto: 45000, Titular: YAIR
+Banco: NEQUI, Moneda: COP, Tasa(T177): 1.01 ",45000,-44554.45,1796911.6,52415.24
 6173,COMPLETADO,88fab8fec04f35410838aff5c6842051f23e4622232167b425ad4861db00c0bb,wtSVwsV,25-may,1779751860,T177,PEN,INTERBANK,BERNARDO,80,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/wtSVwsV,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.44,-3.357,"[P-wtSVwsV] Monto: 80, Titular: BERNARDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T177): 3.44 ","[P-wtSVwsV] Monto: 80, Titular: BERNARDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T177): 3.357 ",23.25,-23.83,37.74,53.76
@@ -18298,7 +18300,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T177): 1 ",-135.52,-135.52,-135.52,0.01
 6220,COMPLETADO,2d650bb89665554605de8cbdf9ce90f01729e3768f7f8f52da781f451020a04a,aLoFV1x,25-may,1779757904,T177,USDT,BINNACE,FUNDDA,-178.48,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/aLoFV1x,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-aLoFV1x] Monto: -178.48, Titular: FUNDDA
 Banco: BINNACE, Moneda: USDT, Tasa(T177): 1 ","[A-aLoFV1x] Monto: -178.48, Titular: FUNDDA
 Banco: BINNACE, Moneda: USDT, Tasa(T177): 1 ",-178.48,-178.48,-314,-178.48
-6221,VALIDAR,d96a4838c7710d168881f740edf72c61711edc0cd28cacdc3fdeb46adc7f3802,PysChy8,26-may,1779804972,T178,USDT,BINANCE,🤷‍♂️,-397.19,OMAR,FUNDDA,,,,https://link.jairokov.com/i/PysChy8,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6221,COMPLETADO,d96a4838c7710d168881f740edf72c61711edc0cd28cacdc3fdeb46adc7f3802,PysChy8,26-may,1779804972,T178,USDT,BINANCE,OMAR,397.19,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/PysChy8,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-PysChy8] Monto: 397.19, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ","[A-PysChy8] Monto: 397.19, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ",397.19,397.19,340,83.19
 6222,COMPLETADO,f7c6cd766d1989adde4df50d8fef7914dc2e9cec82bf40ae6e239bd6819a739d,WKPYviO,26-may,1779801397,T177,USDT,BINANCE,CHASAN,960,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/WKPYviO,5215647886474@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-WKPYviO] Monto: 960, Titular: CHASAN
 Banco: BINANCE, Moneda: USDT, Tasa(T177): 1 ","[A-WKPYviO] Monto: 960, Titular: CHASAN
 Banco: BINANCE, Moneda: USDT, Tasa(T177): 1 ",960,960,1048.59,960
