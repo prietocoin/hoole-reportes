@@ -18182,7 +18182,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T176): 3533 ",8.97,-9.05,218.36,-301.14
 6170,COMPLETADO,a6f327838299d9cc0e704f8b68a205d38c5b3bf9fc39c8b9f6bf59d749b82f6a,DAvU0U2,25-may,1779714783,T176,USDT,BINANCE,OMAR,500,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/DAvU0U2,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-DAvU0U2] Monto: 500, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ","[A-DAvU0U2] Monto: 500, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ",500,500,500,514.49
-6171,VALIDAR,04d19b1ea3b7bfb3b4228bbc2328b7d5ed02cb11d94e7ef4554b374dcd0e71ca,18QswOp,26-may,1779806049,T178,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,411.71,MERLI,FUNDDA,,,,https://link.jairokov.com/i/18QswOp,51928344275@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6171,COMPLETADO,04d19b1ea3b7bfb3b4228bbc2328b7d5ed02cb11d94e7ef4554b374dcd0e71ca,18QswOp,25-may,1779714783,T176,PEN,YAPE,MERLI,411.71,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/18QswOp,51928344275@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,3.45,"[A-18QswOp] Monto: 411.71, Titular: MERLI
+Banco: YAPE, Moneda: PEN, Tasa(T176): 1 ","[A-18QswOp] Monto: 411.71, Titular: MERLI
+Banco: YAPE, Moneda: PEN, Tasa(T176): 3.45 ",411.71,119.33,411.71,633.82
 6172,COMPLETADO,d10f9dcff5a5cf3d1f5731831adf09ddc03c079fcad77fadf7be9de3e522a801,NzDxx7v,26-may,1779800157,T177,COP,NEQUI,YAIR,45000,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/NzDxx7v,573025846261@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,-1.01,"[D-NzDxx7v] Monto: 45000, Titular: YAIR
 Banco: NEQUI, Moneda: COP, Tasa(T177): 1 ","[D-NzDxx7v] Monto: 45000, Titular: YAIR
 Banco: NEQUI, Moneda: COP, Tasa(T177): 1.01 ",45000,-44554.45,1796911.6,52415.24
