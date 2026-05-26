@@ -18175,7 +18175,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T176): 3533 ",276.24,-283.04,276.24,-283.0
 Banco: NEQUI, Moneda: COP, Tasa(T176): 3565 ","[P-rV8ZM8e] Monto: 32000, Titular: YIGEYLI
 Banco: NEQUI, Moneda: COP, Tasa(T176): 3533 ",8.97,-9.05,209.39,-292.09
 6169,VALIDAR,5f9e4c3b146811afd4ef47a009f01beff24cd00c295941cb33ff31bda1200246,mFN4phB,25-may,1779726704,T176,COP,NEQUI,BRAYAN LOPEZ,32000,ROSIMAR,OMAR,,,,https://link.jairokov.com/i/mFN4phB,584125868185@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-6170,VALIDAR,a6f327838299d9cc0e704f8b68a205d38c5b3bf9fc39c8b9f6bf59d749b82f6a,DAvU0U2,25-may,1779756230,T177,USDT,BINANCE,🤷‍♂️,500,OMAR,FUNDDA,,,,https://link.jairokov.com/i/DAvU0U2,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6170,COMPLETADO,a6f327838299d9cc0e704f8b68a205d38c5b3bf9fc39c8b9f6bf59d749b82f6a,DAvU0U2,25-may,1779714783,T176,USDT,BINANCE,OMAR,500,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/DAvU0U2,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-DAvU0U2] Monto: 500, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ","[A-DAvU0U2] Monto: 500, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ",500,500,500,514.49
 6171,PENDIENTE,b707f5765a94eff5821c32d1c044e2d95f50ee552b50d82020f945f5789a1873,HoWto6r,31-dic,,,COP,BANCOLOMBIA,ROS*** KAR*** PRI*** VER***,300000,ROSIMAR,,,,,https://link.jairokov.com/i/HoWto6r,584125868185@s.whatsapp.net,,,,,,,,,,,
 6172,PENDIENTE,04d19b1ea3b7bfb3b4228bbc2328b7d5ed02cb11d94e7ef4554b374dcd0e71ca,18QswOp,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,411.71,MERLI,,,,,https://link.jairokov.com/i/18QswOp,51928344275@s.whatsapp.net,,,,,,,,,,,
 6173,PENDIENTE,d10f9dcff5a5cf3d1f5731831adf09ddc03c079fcad77fadf7be9de3e522a801,NzDxx7v,31-dic,,,COP,NEQUI,WILLER RUIZ,45000,YAIR,,,,,https://link.jairokov.com/i/NzDxx7v,573025846261@s.whatsapp.net,,,,,,,,,,,
@@ -18243,3 +18245,4 @@ Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.98 ","[P-DZjP23H] Monto: 20, Titula
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.94 ",20.4,-21.27,151.82,32.49
 6218,VALIDAR,adcb3b5e8c95cb6e5d5ddd24cfaa1e0d6be54dedcf62035b20e44c6757a40119,Fd8t2Us,25-may,1779753798,T177,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,ANA ELIZABETH GALINDEZ RANGEL,44475.55,NELSY,ARACELIS,,,,https://link.jairokov.com/i/Fd8t2Us,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 6219,VALIDAR,d20b6e6934580106ecb61251d74ec91af1a4aba8d61958d4f3040bb2ce9c74cb,NO6awkl,25-may,1779754793,T177,COP,NEQUI,🤷‍♂️,98560,JAIPY,OMAR,,,,https://link.jairokov.com/i/NO6awkl,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6220,VALIDAR,6380c989d4e3a7da74943a3f71d09a5a4f4ae2767ba92bfdd706ce33cdbe8255,nAU7ghy,25-may,1779756435,T177,USDT,PLATAFORMA DE CRIPTOMONEDAS,🤷‍♂️,135.52,FUNDDA,JOSEM,,,,https://link.jairokov.com/i/nAU7ghy,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
