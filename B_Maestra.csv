@@ -18204,9 +18204,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T177): 3513 ",9.87,-9.96,64,-9.96
 Banco: PIX, Moneda: BRL, Tasa(T177): 1.589 ","[D-OE1s0Px] Monto: 400, Titular: VICTOR
 Banco: PIX, Moneda: BRL, Tasa(T177): 5.185 ",251.73,-77.14,251.73,368.22
 6180,VALIDAR,3e96c01cea7b58fd97442759cd19bc4b415dddfe9cedc248fc1a83dcad2f3c3a,eQbGf7D,25-may,1779731744,T177,🤷‍♂️,🤷‍♂️,CINDY ROLDAN,72000,YAIR,JAIPY,,,,https://link.jairokov.com/i/eQbGf7D,573025846261@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-6181,COMPLETADO,c857985d431110592391af9e7cea97aeed0ff5eff1a195adfab203dd57b2c523,Lvs3tef,25-may,1779731433,T177,VES,BANESCO,19109733,50000,NELSY,ROSIMAR,P,,PAGO,https://link.jairokov.com/i/Lvs3tef,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,701,701,"[P-Lvs3tef] Monto: 50000, Titular: 19109733
-Banco: BANESCO, Moneda: VES, Tasa(T177): 701 ","[P-Lvs3tef] Monto: 50000, Titular: 19109733
-Banco: BANESCO, Moneda: VES, Tasa(T177): 701 ",71.32,71.32,71.32,71.32
+6181,COMPLETADO,c857985d431110592391af9e7cea97aeed0ff5eff1a195adfab203dd57b2c523,Lvs3tef,25-may,1779731433,T177,VES,BANESCO,19109733,-50000,FUNDDA,ROSIMAR,P,,PAGO,https://link.jairokov.com/i/Lvs3tef,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,-688,701,"[P-Lvs3tef] Monto: -50000, Titular: 19109733
+Banco: BANESCO, Moneda: VES, Tasa(T177): 688 ","[P-Lvs3tef] Monto: -50000, Titular: 19109733
+Banco: BANESCO, Moneda: VES, Tasa(T177): 701 ",72.67,-71.32,110.41,-7.32
 6182,COMPLETADO,fe8622bdfd65489288ab8e0d5ae50a0807a5f786fa68239c44815ddc2a6906f8,Ym2qV7W,25-may,1779731659,T177,ARS,BBVA,SILVA,216000,SOLANO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/Ym2qV7W,51920740949@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1487,-1516,"[D-Ym2qV7W] Monto: 216000, Titular: SILVA
 Banco: BBVA, Moneda: ARS, Tasa(T177): 1487 ","[D-Ym2qV7W] Monto: 216000, Titular: SILVA
 Banco: BBVA, Moneda: ARS, Tasa(T177): 1516 ",145.25,-142.48,720.65,-71.16
