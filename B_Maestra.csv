@@ -18247,7 +18247,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T177): 3.357 ",28.95,-29.66,28.95,192.75
 6213,COMPLETADO,95556d852dcf3772cde3286e56e164b394b6f174f8d9b24fd70f2253fd6c803a,zpwgDdC,25-may,1779753035,T177,ECU,PICHINCHA,GUTIERREZ,100,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/zpwgDdC,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.98,-0.96,"[P-zpwgDdC] Monto: 100, Titular: GUTIERREZ
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.98 ","[P-zpwgDdC] Monto: 100, Titular: GUTIERREZ
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.96 ",102.04,-104.16,131.42,88.59
-6214,VALIDAR,2096a514e33bba2ad8db7d2c608cf21a7c79a5b8cf7f987cb17d1d89926e9ace,7J7nEKm,25-may,1779756827,T177,COP,🤷‍♂️,🤷‍♂️,150.4,JAIPY,FUNDDA,,,,https://link.jairokov.com/i/7J7nEKm,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6214,COMPLETADO,2096a514e33bba2ad8db7d2c608cf21a7c79a5b8cf7f987cb17d1d89926e9ace,7J7nEKm,25-may,1779756827,T177,COP,NEQUI,NEQUI,150400,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/7J7nEKm,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3600,-3513,"[P-7J7nEKm] Monto: 150400, Titular: NEQUI
+Banco: NEQUI, Moneda: COP, Tasa(T177): 3600 ","[P-7J7nEKm] Monto: 150400, Titular: NEQUI
+Banco: NEQUI, Moneda: COP, Tasa(T177): 3513 ",41.77,-42.81,41.77,-42.81
 6215,PENDIENTE,ff91a56b15bd2fb5019909cab4c371280f9ef38e908b0206f6a31bf224b1109e,YBoWTqT,31-dic,,,ARS,BANCO DE GALICIA S.A.U,NELSY MAYNAP ALDANA MORILLO,62250,NELSY,,,,,https://link.jairokov.com/i/YBoWTqT,5491127574905@s.whatsapp.net,,,,,,,,,,,
 6216,COMPLETADO,195c226db4c8d1be7b55dc77abe74d4243a8ef30a476c6110bbda7ef52d4f3ae,60QksPS,25-may,1779752492,T177,COP,BANCOLOMBIA,LUIS,102400,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/60QksPS,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3600,-3513,"[P-60QksPS] Monto: 102400, Titular: LUIS
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T177): 3600 ","[P-60QksPS] Monto: 102400, Titular: LUIS
@@ -18256,7 +18258,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T177): 3513 ",28.44,-29.14,28.44,-29.14
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.98 ","[P-DZjP23H] Monto: 20, Titular: AREVALO
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 0.94 ",20.4,-21.27,151.82,32.49
 6218,VALIDAR,adcb3b5e8c95cb6e5d5ddd24cfaa1e0d6be54dedcf62035b20e44c6757a40119,Fd8t2Us,25-may,1779753798,T177,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,ANA ELIZABETH GALINDEZ RANGEL,44475.55,NELSY,ARACELIS,,,,https://link.jairokov.com/i/Fd8t2Us,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-6219,VALIDAR,d20b6e6934580106ecb61251d74ec91af1a4aba8d61958d4f3040bb2ce9c74cb,NO6awkl,25-may,1779754793,T177,COP,NEQUI,🤷‍♂️,98560,JAIPY,OMAR,,,,https://link.jairokov.com/i/NO6awkl,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6219,COMPLETADO,d20b6e6934580106ecb61251d74ec91af1a4aba8d61958d4f3040bb2ce9c74cb,NO6awkl,25-may,1779754793,T177,COP,NEQUI,LUIS,98560,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/NO6awkl,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3600,-3513,"[P-NO6awkl] Monto: 98560, Titular: LUIS
+Banco: NEQUI, Moneda: COP, Tasa(T177): 3600 ","[P-NO6awkl] Monto: 98560, Titular: LUIS
+Banco: NEQUI, Moneda: COP, Tasa(T177): 3513 ",27.37,-28.05,55.81,-57.19
 6220,COMPLETADO,6380c989d4e3a7da74943a3f71d09a5a4f4ae2767ba92bfdd706ce33cdbe8255,nAU7ghy,25-may,1779756435,T177,USDT,BINANCE,FUNDDA,-135.52,FUNDDA,JOSEM,A,,ABONO,https://link.jairokov.com/i/nAU7ghy,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-nAU7ghy] Monto: -135.52, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T177): 1 ","[A-nAU7ghy] Monto: -135.52, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T177): 1 ",-135.52,-135.52,-135.52,0.01
