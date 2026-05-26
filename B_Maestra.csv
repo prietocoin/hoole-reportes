@@ -18159,7 +18159,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ","[A-9osxhbW] Monto: 63.47, Titular
 Banco: BINANCE, Moneda: USDT, Tasa(T176): 1 ",63.47,63.47,63.47,1074.93
 6162,PENDIENTE,081474801600ec2c4b0e470fec1e70a5da3476578d8f651373b709abd1791573,1UN4XP4,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,167.39,NELSY,,,,,https://link.jairokov.com/i/1UN4XP4,5491127574905@s.whatsapp.net,,,,,,,,,,,
 6163,VALIDAR,89da3dc714c53f6764f242956be4a1c5d8ad6af7fe84d502a0df297d4838a076,wGINOob,25-may,1779720472,T176,PEN,INTERBANK,ROSSMIR ALEJANDRA CHAVEZ COLLAZOS,255.3,FUNDDA,ALEJANDRA,,,,https://link.jairokov.com/i/wGINOob,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
-6164,VALIDAR,495b7b1f7835f4ac6e04f2d19c476902746610effca438013ff28c3f4bfa8288,hovtPxi,25-may,1779755779,T177,🤷‍♂️,🤷‍♂️,ADRIAN JOSE DUARTE RIVERA,733200,OMAR,FUNDDA,,,,https://link.jairokov.com/i/hovtPxi,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6164,COMPLETADO,495b7b1f7835f4ac6e04f2d19c476902746610effca438013ff28c3f4bfa8288,hovtPxi,25-may,1779755779,T177,COP,BANCOLOMBIA,ADRIAN,733200,FUNDDA,OMAR,P,,PAGO,https://link.jairokov.com/i/hovtPxi,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3600,-3513,"[P-hovtPxi] Monto: 733200, Titular: ADRIAN
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T177): 3600 ","[P-hovtPxi] Monto: 733200, Titular: ADRIAN
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T177): 3513 ",203.66,-208.71,203.66,415.26
 6165,COMPLETADO,a8db9303ebca075ff79581df7721121e6ab640b1da03f4ebaf5481f9b792fa74,E2z0gnr,25-may,1779723380,T176,PEN,YAPE,JORGE,50,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/E2z0gnr,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.539,3.45,"[D-E2z0gnr] Monto: 50, Titular: JORGE
 Banco: YAPE, Moneda: PEN, Tasa(T176): 3.539 ","[D-E2z0gnr] Monto: 50, Titular: JORGE
 Banco: YAPE, Moneda: PEN, Tasa(T176): 3.45 ",14.12,14.49,77.59,14.49
