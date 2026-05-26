@@ -18325,7 +18325,9 @@ Banco: BANORTE, Moneda: MXN, Tasa(T178): 16.4 ",237.1,-243.9,1285.69,-243.9
 6227,COMPLETADO,234cf0ee508cdcd8dff3911b860054ad090c708d3e147f6b3c4ea3a087a42669,8mZxs3o,26-may,1779811584,T178,PEN,INTERBANK,SEGUNDO,56,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/8mZxs3o,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.44,-3.357,"[P-8mZxs3o] Monto: 56, Titular: SEGUNDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T178): 3.44 ","[P-8mZxs3o] Monto: 56, Titular: SEGUNDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T178): 3.357 ",16.27,-16.68,956.56,15.81
-6228,PENDIENTE,79d6a9583fb7225f5fa68ee2111155c62dcc355e0c0e224adc89d46c29aafcba,sThyYMl,31-dic,,,COP,NEQUI,ADRIANA GUERRERO,100000,MERLI,,,,,https://link.jairokov.com/i/sThyYMl,573248071414@s.whatsapp.net,,,,,,,,,,,
+6228,COMPLETADO,79d6a9583fb7225f5fa68ee2111155c62dcc355e0c0e224adc89d46c29aafcba,sThyYMl,26-may,1779816177,T178,COP,NEQUI,ADRIANA,100000,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/sThyYMl,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-1011,"[P-sThyYMl] Monto: 100000, Titular: ADRIANA
+Banco: NEQUI, Moneda: COP, Tasa(T178): 0.99 ","[P-sThyYMl] Monto: 100000, Titular: ADRIANA
+Banco: NEQUI, Moneda: COP, Tasa(T178): 1011 ",101010.1,-98.91,153425.34,-258.21
 6229,COMPLETADO,be66d7bd7546945621bdf2f1f5d4e5276fd34983d99eb29d38fdd95e058fba4b,J9j2s0X,26-may,1779813224,T178,ARS,MP,RICARDO,64250,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/J9j2s0X,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1456,-1429,"[P-J9j2s0X] Monto: 64250, Titular: RICARDO
 Banco: MP, Moneda: ARS, Tasa(T178): 1456 ","[P-J9j2s0X] Monto: 64250, Titular: RICARDO
 Banco: MP, Moneda: ARS, Tasa(T178): 1429 ",44.12,-44.96,178.88,-44.96
