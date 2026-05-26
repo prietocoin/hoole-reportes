@@ -18398,5 +18398,9 @@ Banco: NARANJA, Moneda: ARS, Tasa(T178): 1429 ",82.73,-84.29,488.56,-84.29
 6252,COMPLETADO,713335e214a12d4c34a3d0ef146e1a95d662ac53bc108350809b7c13856e7247,qQhk2eO,26-may,1779829955,T178,PEN,YAPE,ENZO,48.5,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/qQhk2eO,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.44,"[D-qQhk2eO] Monto: 48.5, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T178): 1 ","[D-qQhk2eO] Monto: 48.5, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T178): 3.44 ",48.5,14.09,118.55,1193.09
-6253,VALIDAR,2543c873c9ca96a596f23668ec4c331e8ebecbbe2a6bc6ddb4e6709f1606ffbf,8PRZvJS,26-may,1779830149,T178,USD,BINANCE,🤷‍♂️,84.29,SUBERO,FUNDDA,,,,https://link.jairokov.com/i/8PRZvJS,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6254,VALIDAR,d5bce199d3c3cd32faea18f099b479fec26b2d31e12f016120021cf96e2e779b,OGoBllX,26-may,1779830139,T178,COP,🤷‍♂️,🤷‍♂️,45650,IRIS,ENZO,,,,https://link.jairokov.com/i/OGoBllX,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6253,COMPLETADO,2543c873c9ca96a596f23668ec4c331e8ebecbbe2a6bc6ddb4e6709f1606ffbf,8PRZvJS,26-may,1779830149,T178,USDT,BINANCE,SUBERO,84.29,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/8PRZvJS,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-8PRZvJS] Monto: 84.29, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ","[A-8PRZvJS] Monto: 84.29, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ",84.29,84.29,0,1277.38
+6254,COMPLETADO,d5bce199d3c3cd32faea18f099b479fec26b2d31e12f016120021cf96e2e779b,OGoBllX,26-may,1779830139,T178,COP,NEQUI,SARAY,45650,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/OGoBllX,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,1046,"[P-OGoBllX] Monto: 45650, Titular: SARAY
+Banco: NEQUI, Moneda: COP, Tasa(T178): 0.99 ","[P-OGoBllX] Monto: 45650, Titular: SARAY
+Banco: NEQUI, Moneda: COP, Tasa(T178): 1046 ",46111.11,43.64,-597317.84,162.19
