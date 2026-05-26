@@ -18273,7 +18273,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T177): 3.44 ","[P-b6iCHUM] Monto: 99.6, Titu
 Banco: INTERBANK, Moneda: PEN, Tasa(T177): 3.357 ",28.95,-29.66,28.95,192.75
 6208,VALIDAR,c61b48a400bb9d7c3da36fc5385992c7a95f1b40b4212bbd296d7ac8c5f01768,KYAfdJE,25-may,1779744688,T177,PEN,INTERBANK,JAIROKOV,911.07,FUNDDA,ROSANGEL,,,,https://link.jairokov.com/i/KYAfdJE,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
 6209,PENDIENTE,d2554113fd6851c3b0ece443c15c2b1318e5563e49a8d0dc9246b466099f3eb5,NSl1LIm,31-dic,,,COP,🤷‍♂️,🤷‍♂️,100.108,EDWIN,,,,,https://link.jairokov.com/i/NSl1LIm,595991712966@s.whatsapp.net,,,,,,,,,,,
-6210,VALIDAR,f56f1ab39952821bb7bd82df6c6b2492f4ba94f6768c9eccc3024b39b8680591,WcoEibK,25-may,1779749784,T177,COP,NEQUI,🤷‍♂️,183200,JAIPY,MERLI,,,,https://link.jairokov.com/i/WcoEibK,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6210,COMPLETADO,f56f1ab39952821bb7bd82df6c6b2492f4ba94f6768c9eccc3024b39b8680591,WcoEibK,25-may,1779749784,T177,COP,NEQUI,ANA,183200,JAIPY,MERLI,P,,PAGO,https://link.jairokov.com/i/WcoEibK,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3600,-1011,"[P-WcoEibK] Monto: 183200, Titular: ANA
+Banco: NEQUI, Moneda: COP, Tasa(T177): 3600 ","[P-WcoEibK] Monto: 183200, Titular: ANA
+Banco: NEQUI, Moneda: COP, Tasa(T177): 1011 ",50.88,-181.2,50.88,-159.3
 6211,COMPLETADO,95556d852dcf3772cde3286e56e164b394b6f174f8d9b24fd70f2253fd6c803a,zpwgDdC,25-may,1779753035,T177,ECU,PICHINCHA,GUTIERREZ,100,FUNDDA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/zpwgDdC,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.064,1.042,"[D-zpwgDdC] Monto: 100, Titular: GUTIERREZ
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 1.064 ","[D-zpwgDdC] Monto: 100, Titular: GUTIERREZ
 Banco: PICHINCHA, Moneda: ECU, Tasa(T177): 1.042 ",93.98,95.96,93.98,288.71
