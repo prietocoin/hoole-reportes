@@ -18439,4 +18439,7 @@ Banco: YAPE, Moneda: PEN, Tasa(T178): 3.44 ",53.35,15.5,215.54,1292.88
 Banco: NEQUI, Moneda: COP, Tasa(T178): 0.99 ","[P-tmEG5rP] Monto: 50215, Titular: EDITH
 Banco: NEQUI, Moneda: COP, Tasa(T178): 1046 ",50722.22,48,-546595.62,263.54
 6267,PENDIENTE,bbbe0e0fc29da0ac81989ceab70ffc6b8941c99e96a2df5d154ace390ccd61a0,IwcYO28,31-dic,,,USDT,BINANCE,🤷‍♂️,62.01,NELSY,,,,,https://link.jairokov.com/i/IwcYO28,5491127574905@s.whatsapp.net,,,,,,,,,,,
-6268,VALIDAR,1cd7618f823c7e44172fa8b221e191c9dc9425072079c57aeac782d64434222d,6Q1Lhvr,26-may,1779841539,T178,USD,BINANCE,🤷‍♂️,802.22,FUNDDA,NELSY,,,,https://link.jairokov.com/i/6Q1Lhvr,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6268,COMPLETADO,1cd7618f823c7e44172fa8b221e191c9dc9425072079c57aeac782d64434222d,6Q1Lhvr,26-may,1779841539,T178,USDT,BINANCE,FUNDDA,-802.22,FUNDDA,NELSY,A,,ABONO,https://link.jairokov.com/i/6Q1Lhvr,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-6Q1Lhvr] Monto: -802.22, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ","[A-6Q1Lhvr] Monto: -802.22, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T178): 1 ",-802.22,-802.22,490.66,-802.22
+6269,VALIDAR,d407f96985d6308840b8613890e427ddfd6f146a562165160afe2d062da4c3e0,OhiVa2D,26-may,1779841969,T178,USDT,🤷‍♂️,CDEVILELA,62.01,NELSY,HEIDI,,,,https://link.jairokov.com/i/OhiVa2D,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
