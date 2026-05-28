@@ -18598,6 +18598,10 @@ Banco: NEQUI, Moneda: COP, Tasa(T181): 3518 ",27878.78,-7.84,305381.79,-61.55
 6326,COMPLETADO,7210a8817ddb4a7f991c284a9c65dbb420b0eeefeec6255badb84bedc8ce7193,r2ZP8Pd,28-may,1779989116,T181,VES,VENEZUELA,18824946,299880,JAIPY,CINDY,P,,PAGO,https://link.jairokov.com/i/r2ZP8Pd,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,730,0.202,"[P-r2ZP8Pd] Monto: 299880, Titular: 18824946
 Banco: VENEZUELA, Moneda: VES, Tasa(T181): 730 ","[P-r2ZP8Pd] Monto: 299880, Titular: 18824946
 Banco: VENEZUELA, Moneda: VES, Tasa(T181): 0.202 ",410.79,1484554.45,962.5,3393353.94
-6327,VALIDAR,2f1590b508425c3041e970eddbf5b327bf6e49bf749fca27bccd77c8bb3e79bc,baeJvAu,28-may,1779991110,T181,COP,🤷‍♂️,🤷‍♂️,72450,JAIPY,OMAR,,,,https://link.jairokov.com/i/baeJvAu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6327,COMPLETADO,2f1590b508425c3041e970eddbf5b327bf6e49bf749fca27bccd77c8bb3e79bc,baeJvAu,28-may,1779991110,T181,COP,NEQUI,MAYERLI,72450,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/baeJvAu,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3605,-3518,"[P-baeJvAu] Monto: 72450, Titular: MAYERLI
+Banco: NEQUI, Moneda: COP, Tasa(T181): 3605 ","[P-baeJvAu] Monto: 72450, Titular: MAYERLI
+Banco: NEQUI, Moneda: COP, Tasa(T181): 3518 ",20.09,-20.59,982.59,-82.14
 6328,PENDIENTE,d1116e17b333e5cf897c002a165ffd2795181af2b39b1e9c799cd90f08686055,NzJZUa4,31-dic,,,COP,NEQUI,🤷‍♂️,378000,OMAR,,,,,https://link.jairokov.com/i/NzJZUa4,595991712966@s.whatsapp.net,,,,,,,,,,,
-6329,VALIDAR,d3f822c945d810b06e3d8e56f513c0c11ab15eee80abc75ebd3d56fce731954c,OgowERc,28-may,1779991215,T181,COP,🤷‍♂️,🤷‍♂️,91000,JAIPY,MERLI,,,,https://link.jairokov.com/i/OgowERc,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6329,COMPLETADO,d3f822c945d810b06e3d8e56f513c0c11ab15eee80abc75ebd3d56fce731954c,OgowERc,28-may,1779991215,T181,COP,NEQUI,JENNIFER,91000,JAIPY,MERLI,P,,PAGO,https://link.jairokov.com/i/OgowERc,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3605,-1010,"[P-OgowERc] Monto: 91000, Titular: JENNIFER
+Banco: NEQUI, Moneda: COP, Tasa(T181): 3605 ","[P-OgowERc] Monto: 91000, Titular: JENNIFER
+Banco: NEQUI, Moneda: COP, Tasa(T181): 1010 ",25.24,-90.09,1007.83,319.23
