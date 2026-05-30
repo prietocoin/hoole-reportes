@@ -18811,9 +18811,12 @@ Banco: BANESCO, Moneda: VES, Tasa(T184): 210.14 ",12.39,42.11,37.17,126.33
 6403,COMPLETADO,7125b1cc98137e50a587efe4963e5ff361b34aa98c06454d93427e71e635e966,qPvceCS,30-may,1780180528,T184,PEN,BCP,VALBUENA,200,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/qPvceCS,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.45,-3.367,"[P-qPvceCS] Monto: 200, Titular: VALBUENA
 Banco: BCP, Moneda: PEN, Tasa(T184): 3.45 ","[P-qPvceCS] Monto: 200, Titular: VALBUENA
 Banco: BCP, Moneda: PEN, Tasa(T184): 3.367 ",57.97,-59.4,57.97,-238.26
-6404,PENDIENTE,61c177e564e882ed90fbc5cfea9fdf7e25889d7b890a03c0f38c1863bbd6fa17,nbdmwMh,31-dic,,,COP,NEQUI,🤷‍♂️,70000,OMAR,,,,,https://link.jairokov.com/i/nbdmwMh,595991712966@s.whatsapp.net,,,,,,,,,,,
+6404,COMPLETADO,61c177e564e882ed90fbc5cfea9fdf7e25889d7b890a03c0f38c1863bbd6fa17,nbdmwMh,30-may,1780182041,T184,COP,NEQUI,MARGARITA,70000,FUNDDA,OMAR,P,,PAGO,https://link.jairokov.com/i/nbdmwMh,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3635,-3547,"[P-nbdmwMh] Monto: 70000, Titular: MARGARITA
+Banco: NEQUI, Moneda: COP, Tasa(T184): 3635 ","[P-nbdmwMh] Monto: 70000, Titular: MARGARITA
+Banco: NEQUI, Moneda: COP, Tasa(T184): 3547 ",19.25,-19.73,178.9,61.92
 6405,COMPLETADO,06957dc39e34a201005de21c54566002f1a2b6948253f6f50f88a86bfbebe054,1yNtlLy,30-may,1780181282,T184,ARS,BRUBANK,CLAUDIA,50000,ARACELIS,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/1yNtlLy,51925556093@s.whatsapp.net,5491127574905@s.whatsapp.net,,,428.11,-1506,"[D-1yNtlLy] Monto: 50000, Titular: CLAUDIA
 Banco: BRUBANK, Moneda: ARS, Tasa(T184): 428.11 ","[D-1yNtlLy] Monto: 50000, Titular: CLAUDIA
 Banco: BRUBANK, Moneda: ARS, Tasa(T184): 1506 ",116.79,-33.2,810.25,3.97
 6406,PENDIENTE,e30991a5aa80b199e78233c0acddc2eaa87f8c4c882ca39d138655bde01fcaa7,RPVyQ9e,31-dic,,,COP,NEQUI,WILLER RUIZ,50000,YAIR,,,,,https://link.jairokov.com/i/RPVyQ9e,573025846261@s.whatsapp.net,,,,,,,,,,,
 6407,PENDIENTE,f8a9add7c2066f37ba68f741d983c60dc314303fe93215677ffc09622b691d4b,WXRO4at,31-dic,,,🤷‍♂️,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,37500,MICHEL,,,,,https://link.jairokov.com/i/WXRO4at,56931316076@s.whatsapp.net,,,,,,,,,,,
+6408,PENDIENTE,11ea78f68e9510e3be50cf3f62f5d895c2f2d87ec85e3a69c71c1c881d503d0b,4foTVxQ,31-dic,,,VES,BANESCO BANCO UNIVERSAL S.A.C.A.,ANA ELIZABETH GALINDEZ RANGEL,22668.04,NELSY,,,,,https://link.jairokov.com/i/4foTVxQ,5491127574905@s.whatsapp.net,,,,,,,,,,,
