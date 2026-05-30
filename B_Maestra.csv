@@ -18818,10 +18818,13 @@ Banco: NEQUI, Moneda: COP, Tasa(T184): 3547 ",19.25,-19.73,178.9,61.92
 Banco: BRUBANK, Moneda: ARS, Tasa(T184): 428.11 ","[D-1yNtlLy] Monto: 50000, Titular: CLAUDIA
 Banco: BRUBANK, Moneda: ARS, Tasa(T184): 1506 ",116.79,-33.2,810.25,3.97
 6406,PENDIENTE,e30991a5aa80b199e78233c0acddc2eaa87f8c4c882ca39d138655bde01fcaa7,RPVyQ9e,31-dic,,,COP,NEQUI,WILLER RUIZ,50000,YAIR,,,,,https://link.jairokov.com/i/RPVyQ9e,573025846261@s.whatsapp.net,,,,,,,,,,,
-6407,VALIDAR,f8a9add7c2066f37ba68f741d983c60dc314303fe93215677ffc09622b691d4b,WXRO4at,30-may,1780182291,T184,🤷‍♂️,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,37500,MICHEL,OMAR,,,,https://link.jairokov.com/i/WXRO4at,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6407,COMPLETADO,f8a9add7c2066f37ba68f741d983c60dc314303fe93215677ffc09622b691d4b,WXRO4at,30-may,1780182291,T184,CLP,MERCADO PAGO,JEAN,37500,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/WXRO4at,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.985,-861,"[P-WXRO4at] Monto: 37500, Titular: JEAN
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T184): 0.985 ","[P-WXRO4at] Monto: 37500, Titular: JEAN
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T184): 861 ",38071.06,-43.55,501310.95,18.37
 6408,COMPLETADO,11ea78f68e9510e3be50cf3f62f5d895c2f2d87ec85e3a69c71c1c881d503d0b,4foTVxQ,30-may,1780182110,T184,VES,BANESCO,ANA,22668.04,NELSY,ARACELIS,P,,PAGO,https://link.jairokov.com/i/4foTVxQ,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,714,210.14,"[P-4foTVxQ] Monto: 22668.04, Titular: ANA
 Banco: BANESCO, Moneda: VES, Tasa(T184): 714 ","[P-4foTVxQ] Monto: 22668.04, Titular: ANA
 Banco: BANESCO, Moneda: VES, Tasa(T184): 210.14 ",31.74,107.87,35.71,918.12
 6409,COMPLETADO,7bcb6a275219182a8a43409c012920421e2d00011583d7de16cc73dec9ff97f0,tm2zVIs,30-may,1780182251,T184,BRL,PIX,TONY,98.7,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/tm2zVIs,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,4.912,-4.817,"[P-tm2zVIs] Monto: 98.7, Titular: TONY
 Banco: PIX, Moneda: BRL, Tasa(T184): 4.912 ","[P-tm2zVIs] Monto: 98.7, Titular: TONY
 Banco: PIX, Moneda: BRL, Tasa(T184): 4.817 ",20.09,-20.48,82.01,39.94
+6410,VALIDAR,ad1f2f34b0e4bfde197f45d5cb8ddda78f790d492d323e199dc8f71fb8b3c52c,F3fRBoq,30-may,1780182560,T184,COP,NEQUI,🤷‍♂️,31500,JAIPY,OMAR,,,,https://link.jairokov.com/i/F3fRBoq,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
