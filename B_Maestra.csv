@@ -18916,7 +18916,9 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T186): 0.198 ",24.54,88500,24.54,3833655.73
 6444,COMPLETADO,24dd47acc2ee62d6f8c9d543d9d2fa64454418ccf675ed720c8bd9b84839f915,8JZ0NHF,31-may,1780274790,T186,VES,BANCAMIGA,23474929,5310,NELSY,FUNDDA,P,,PAGO,https://link.jairokov.com/i/8JZ0NHF,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,714,-701,"[P-8JZ0NHF] Monto: 5310, Titular: 23474929
 Banco: BANCAMIGA, Moneda: VES, Tasa(T186): 714 ","[P-8JZ0NHF] Monto: 5310, Titular: 23474929
 Banco: BANCAMIGA, Moneda: VES, Tasa(T186): 701 ",7.43,-7.57,31.97,113.06
-6445,VALIDAR,f8fea0091da5cc246fbd741608e24a3195bfc87f1e06ef62d72880b1bc9147fb,X2KgSlw,31-may,1780274748,T186,MXN,SPIN BY OXXO,🤷‍♂️,850,NAUPAR,NAUPAR,,,,https://link.jairokov.com/i/X2KgSlw,584122830430@s.whatsapp.net,584122830430@s.whatsapp.net,,,,,,,,,,
+6445,COMPLETADO,f8fea0091da5cc246fbd741608e24a3195bfc87f1e06ef62d72880b1bc9147fb,X2KgSlw,31-may,1780274748,T186,MXN,OXXO,NAUPAR,850,NAUPAR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/X2KgSlw,584122830430@s.whatsapp.net,584122830430@s.whatsapp.net,,,18.66,-18.27,"[D-X2KgSlw] Monto: 850, Titular: NAUPAR
+Banco: OXXO, Moneda: MXN, Tasa(T186): 18.66 ","[D-X2KgSlw] Monto: 850, Titular: NAUPAR
+Banco: OXXO, Moneda: MXN, Tasa(T186): 18.27 ",45.55,-46.52,332.93,-460.11
 6446,PENDIENTE,3937ccbe67baa43b43dd33ff6db55f2d908e51ab2405c1eff171f4c4915158ab,dzdWg9f,31-dic,,,MXN,🤷‍♂️,🤷‍♂️,850,NAUPAR,,,,,https://link.jairokov.com/i/dzdWg9f,584122830430@s.whatsapp.net,,,,,,,,,,,
 6447,PENDIENTE,468a5f25d8b1e202d7e31b7cef8f28a6e03b7452ab72d414cc9edad85c97d5f2,gJ5QLkE,31-dic,,,MXN,SPIN BY OXXO,🤷‍♂️,850,NAUPAR,,,,,https://link.jairokov.com/i/gJ5QLkE,584122830430@s.whatsapp.net,,,,,,,,,,,
 6448,PENDIENTE,c1acae72125b0f9e373fbbe61c7bb8fdacd6280606597cd3182b0375bad06f6d,JVqiRBY,31-dic,,,MXN,SPIN BY OXXO,🤷‍♂️,850,CHASAN,,,,,https://link.jairokov.com/i/JVqiRBY,5491127574905@s.whatsapp.net,,,,,,,,,,,
