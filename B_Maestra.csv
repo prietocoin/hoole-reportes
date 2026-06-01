@@ -18962,9 +18962,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T189): 1 ",-1080000,-1080000,-70506506,105
 6462,COMPLETADO,6f11fd9fe6634882c846289f758d76299de51e40651fd4a97af304604eeb23f4,qkXYzQB,1-jun,1780321047,T188,COP,NEQUI,MARIANGELA,20160,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/qkXYzQB,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3523,"[P-qkXYzQB] Monto: 20160, Titular: MARIANGELA
 Banco: NEQUI, Moneda: COP, Tasa(T188): 0.99 ","[P-qkXYzQB] Monto: 20160, Titular: MARIANGELA
 Banco: NEQUI, Moneda: COP, Tasa(T188): 3523 ",20363.63,-5.72,125460.09,20.03
-6463,COMPLETADO,0ba887398a004064c9b5f18b21504b60ba9d2b3a5ee4c38679a9eaaf5300b720,2LoUwkg,1-jun,1780351174,T189,PEN,YAPE,KIARA,150,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/2LoUwkg,593990405170@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.539,3.45,"[D-2LoUwkg] Monto: 150, Titular: KIARA
-Banco: YAPE, Moneda: PEN, Tasa(T189): 3.539 ","[D-2LoUwkg] Monto: 150, Titular: KIARA
-Banco: YAPE, Moneda: PEN, Tasa(T189): 3.45 ",42.38,43.47,5.55,836.97
+6463,COMPLETADO,0ba887398a004064c9b5f18b21504b60ba9d2b3a5ee4c38679a9eaaf5300b720,2LoUwkg,23-ago,178021047,No se encontró un IDTAS adecuado,PEN,YAPE,KIARA,150,YARELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/2LoUwkg,593990405170@s.whatsapp.net,573248071414@s.whatsapp.net,,,1.026,1,"[D-2LoUwkg] Monto: 150, Titular: KIARA
+Banco: YAPE, Moneda: PEN, Tasa(No se encontró un IDTAS adecuado): 1.026 ","[D-2LoUwkg] Monto: 150, Titular: KIARA
+Banco: YAPE, Moneda: PEN, Tasa(No se encontró un IDTAS adecuado): 1 ",146.19,150,109.36,943.5
 6464,COMPLETADO,764ed355d13690327258a18c394ea16dc69dfd7a910808d133acdd8fbcd976eb,s3niUTr,1-jun,1780330162,T188,PYG,UENO BANK,BENJAMIN,500000,FUNDDA,IRIS,P,,PAGO,https://link.jairokov.com/i/s3niUTr,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,-5824,-1.552,"[P-s3niUTr] Monto: 500000, Titular: BENJAMIN
 Banco: UENO BANK, Moneda: PYG, Tasa(T188): 5824 ","[P-s3niUTr] Monto: 500000, Titular: BENJAMIN
 Banco: UENO BANK, Moneda: PYG, Tasa(T188): 1.552 ",-85.85,-322164.94,-85.85,-322164.94
