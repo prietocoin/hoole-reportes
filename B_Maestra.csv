@@ -19207,11 +19207,13 @@ Banco: NEQUI, Moneda: COP, Tasa(T191): 3464 ",93939.39,-26.84,1104592.03,1083.38
 6537,COMPLETADO,2bc555f136fdd323352584f6e5175c1a72247de10f2dff28e0db8c4269553c37,anwtccN,2-jun,1780419628,T191,PEN,INTERBANK,JORGE GALINDO,128.16,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/anwtccN,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.44,-3.357,"[P-anwtccN] Monto: 128.16, Titular: JORGE GALINDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T191): 3.44 ","[P-anwtccN] Monto: 128.16, Titular: JORGE GALINDO
 Banco: INTERBANK, Moneda: PEN, Tasa(T191): 3.357 ",37.25,-38.17,-489.8,161.85
-6538,COMPLETADO,6322a6ee7c3049a2cc0e27d7826ea4c4535e6e41b0d680b1ce6de737a8dd3c6f,nvuVQMb,2-jun,1780434042,T191,COP,NEQUI,MAYERLI,155000,IRIS,OMAR,,,,https://link.jairokov.com/i/nvuVQMb,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6538,COMPLETADO,6322a6ee7c3049a2cc0e27d7826ea4c4535e6e41b0d680b1ce6de737a8dd3c6f,nvuVQMb,2-jun,1780434042,T191,COP,NEQUI,MAYERLI,155000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/nvuVQMb,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3464,"[P-nvuVQMb] Monto: 155000, Titular: MAYERLI
+Banco: NEQUI, Moneda: COP, Tasa(T191): 0.99 ","[P-nvuVQMb] Monto: 155000, Titular: MAYERLI
+Banco: NEQUI, Moneda: COP, Tasa(T191): 3464 ",156565.65,-44.74,1261157.68,1038.64
 6539,COMPLETADO,03fe7948f428f6ab69d597decfb49946933d189ecd8de8f4bb18757b2ff55748,WIGHEwj,2-jun,1780423561,T191,PEN,YAPE,CARLOS,100,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/WIGHEwj,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.529,3.44,"[D-WIGHEwj] Monto: 100, Titular: CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.529 ","[D-WIGHEwj] Monto: 100, Titular: CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.44 ",28.33,29.06,18.75,-460.74
-6540,PENDIENTE,9d35a6a11e64472c0c5ab91bfac0aa0e33462319c51edec505edebc57984d40f,BhjmN14,31-dic,,,COP,NEQUI,🤷‍♂️,62000,OMAR,,,,,https://link.jairokov.com/i/BhjmN14,573248071414@s.whatsapp.net,,,,,,,,,,,
+6540,COMPLETADO,9d35a6a11e64472c0c5ab91bfac0aa0e33462319c51edec505edebc57984d40f,BhjmN14,2-jun,1780434169,T191,COP,NEQUI,YALIMAR,62000,IRIS,OMAR,,,,https://link.jairokov.com/i/BhjmN14,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6541,COMPLETADO,29b6af8c19fa7256d16b272323426a87da1dad2f83ecc99b066217e917a61436,9Thfeby,2-jun,1780424064,T191,USDT,BINANCE,PAGO SUBERO,43.75,NELSY,SUBERO,A,,ABONO,https://link.jairokov.com/i/9Thfeby,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-9Thfeby] Monto: 43.75, Titular: PAGO SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ","[A-9Thfeby] Monto: 43.75, Titular: PAGO SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ",43.75,43.75,26.53,202.99
@@ -19233,7 +19235,7 @@ Banco: PIX, Moneda: BRL, Tasa(T191): 1.348 ",38.85,-140.2,19.35,-257.59
 6547,COMPLETADO,e8d507f023c2153686e5ef63110bad9e6984c8e2efc9af98da699a413275ef06,Td7FX1W,2-jun,1780427270,T191,COP,NEQUI,COMPRA,1410823,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/Td7FX1W,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-Td7FX1W] Monto: 1410823, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ","[C-Td7FX1W] Monto: 1410823, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ",-1410823,-1410823,-71257329,-1342560.38
-6548,PENDIENTE,d0d5996f32265421e0f4fa14edb58327dc35fc7d3b7fe990dd6f44eb9bdfe2e6,NwiXBbq,31-dic,,,🤷‍♂️,🤷‍♂️,ADRIAN JOSE DUARTE RIVERA,827875,OMAR,,,,,https://link.jairokov.com/i/NwiXBbq,573248071414@s.whatsapp.net,,,,,,,,,,,
+6548,VALIDAR,d0d5996f32265421e0f4fa14edb58327dc35fc7d3b7fe990dd6f44eb9bdfe2e6,NwiXBbq,2-jun,1780434210,T191,🤷‍♂️,🤷‍♂️,ADRIAN JOSE DUARTE RIVERA,827875,OMAR,CORREGIR,,,,https://link.jairokov.com/i/NwiXBbq,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6549,COMPLETADO,aeff15c23d9fe8926bc5ebd295994b92131305a1231a06a71aab6caa3bbffe68,FuOD72O,2-jun,1780428392,T191,USDT,BINANCE,SUBERO,45.01,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/FuOD72O,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-FuOD72O] Monto: 45.01, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ","[A-FuOD72O] Monto: 45.01, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ",45.01,45.01,202.99,-390.15
