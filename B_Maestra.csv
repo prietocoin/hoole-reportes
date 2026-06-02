@@ -19234,4 +19234,6 @@ Banco: PIX, Moneda: BRL, Tasa(T191): 1.348 ",38.85,-140.2,19.35,-257.59
 Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ","[C-Td7FX1W] Monto: 1410823, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ",-1410823,-1410823,-71257329,-1342560.38
 6548,PENDIENTE,d0d5996f32265421e0f4fa14edb58327dc35fc7d3b7fe990dd6f44eb9bdfe2e6,NwiXBbq,31-dic,,,🤷‍♂️,🤷‍♂️,ADRIAN JOSE DUARTE RIVERA,827875,OMAR,,,,,https://link.jairokov.com/i/NwiXBbq,573248071414@s.whatsapp.net,,,,,,,,,,,
-6549,VALIDAR,aeff15c23d9fe8926bc5ebd295994b92131305a1231a06a71aab6caa3bbffe68,FuOD72O,2-jun,1780428392,T191,USD,🤷‍♂️,🤷‍♂️,45.01,SUBERO,FUNDDA,,,,https://link.jairokov.com/i/FuOD72O,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6549,COMPLETADO,aeff15c23d9fe8926bc5ebd295994b92131305a1231a06a71aab6caa3bbffe68,FuOD72O,2-jun,1780428392,T191,USDT,BINANCE,SUBERO,45.01,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/FuOD72O,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-FuOD72O] Monto: 45.01, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ","[A-FuOD72O] Monto: 45.01, Titular: SUBERO
+Banco: BINANCE, Moneda: USDT, Tasa(T191): 1 ",45.01,45.01,202.99,-390.15
