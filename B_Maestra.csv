@@ -19221,7 +19221,9 @@ Banco: NARANJA, Moneda: ARS, Tasa(T191): 1433 ",44.17,-45.01,70.7,157.98
 6543,COMPLETADO,85cd911cbf5f7477f4e7c8d17028e493708253b00a3e2ca39f2e451fafa953a4,vJby8MN,2-jun,1780425564,T191,PEN,YAPE,ALDAIR CARLOS,88,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/vJby8MN,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.44,-3.357,"[P-vJby8MN] Monto: 88, Titular: ALDAIR CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.44 ","[P-vJby8MN] Monto: 88, Titular: ALDAIR CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.357 ",25.58,-26.21,-435.16,135.64
-6544,VALIDAR,ab15c5b501334864787bba9d8516233dc3aac61c4cfcf155cc680440d6c7b400,EzjhXfz,2-jun,1780427642,T191,COP,🤷‍♂️,🤷‍♂️,31000,OMAR,CORREGIR,,,,https://link.jairokov.com/i/EzjhXfz,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6544,COMPLETADO,ab15c5b501334864787bba9d8516233dc3aac61c4cfcf155cc680440d6c7b400,EzjhXfz,2-jun,1780427642,T191,COP,NEQUI,BRIAN,31000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/EzjhXfz,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3464,"[P-EzjhXfz] Monto: 31000, Titular: BRIAN
+Banco: NEQUI, Moneda: COP, Tasa(T191): 0.99 ","[P-EzjhXfz] Monto: 31000, Titular: BRIAN
+Banco: NEQUI, Moneda: COP, Tasa(T191): 3464 ",31313.13,-8.94,31313.13,-8.94
 6545,COMPLETADO,e9298539a99c2de6ab91af30d7fd1fbb09102ccee748e45c4ebee7efcbe21285,ThYvWM7,2-jun,1780427065,T191,COP,NEQUI,EDYER,67580,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/ThYvWM7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3464,"[P-ThYvWM7] Monto: 67580, Titular: EDYER
 Banco: NEQUI, Moneda: COP, Tasa(T191): 0.99 ","[P-ThYvWM7] Monto: 67580, Titular: EDYER
 Banco: NEQUI, Moneda: COP, Tasa(T191): 3464 ",68262.62,-19.5,68262.62,-19.5
