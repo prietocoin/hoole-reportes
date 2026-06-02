@@ -19221,8 +19221,14 @@ Banco: NARANJA, Moneda: ARS, Tasa(T191): 1433 ",44.17,-45.01,70.7,157.98
 6543,COMPLETADO,85cd911cbf5f7477f4e7c8d17028e493708253b00a3e2ca39f2e451fafa953a4,vJby8MN,2-jun,1780425564,T191,PEN,YAPE,ALDAIR CARLOS,88,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/vJby8MN,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.44,-3.357,"[P-vJby8MN] Monto: 88, Titular: ALDAIR CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.44 ","[P-vJby8MN] Monto: 88, Titular: ALDAIR CARLOS
 Banco: YAPE, Moneda: PEN, Tasa(T191): 3.357 ",25.58,-26.21,-435.16,135.64
-6544,PENDIENTE,ab15c5b501334864787bba9d8516233dc3aac61c4cfcf155cc680440d6c7b400,EzjhXfz,31-dic,,,COP,🤷‍♂️,🤷‍♂️,31000,OMAR,,,,,https://link.jairokov.com/i/EzjhXfz,573248071414@s.whatsapp.net,,,,,,,,,,,
-6545,VALIDAR,e9298539a99c2de6ab91af30d7fd1fbb09102ccee748e45c4ebee7efcbe21285,ThYvWM7,2-jun,1780427065,T191,COP,🤷‍♂️,🤷‍♂️,67580,IRIS,OMAR,,,,https://link.jairokov.com/i/ThYvWM7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6546,VALIDAR,172f2804e10c53c1cd2f234008b48d271794f3bfa2b7fee98aefe0b9ae93b72f,5uR7cMY,2-jun,1780427136,T191,BRL,CORPX INSTITUIÇÃO DE PAGAMENTO,OMAR ANTONIO MENESES SERRA LTD,189,OMAR,MERLI,,,,https://link.jairokov.com/i/5uR7cMY,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6547,VALIDAR,e8d507f023c2153686e5ef63110bad9e6984c8e2efc9af98da699a413275ef06,Td7FX1W,2-jun,1780427270,T191,COP,NEQUI,🤷‍♂️,1230823,COMPRA,IRIS,,,,https://link.jairokov.com/i/Td7FX1W,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6544,VALIDAR,ab15c5b501334864787bba9d8516233dc3aac61c4cfcf155cc680440d6c7b400,EzjhXfz,2-jun,1780427642,T191,COP,🤷‍♂️,🤷‍♂️,31000,OMAR,CORREGIR,,,,https://link.jairokov.com/i/EzjhXfz,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6545,COMPLETADO,e9298539a99c2de6ab91af30d7fd1fbb09102ccee748e45c4ebee7efcbe21285,ThYvWM7,2-jun,1780427065,T191,COP,NEQUI,EDYER,67580,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/ThYvWM7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3464,"[P-ThYvWM7] Monto: 67580, Titular: EDYER
+Banco: NEQUI, Moneda: COP, Tasa(T191): 0.99 ","[P-ThYvWM7] Monto: 67580, Titular: EDYER
+Banco: NEQUI, Moneda: COP, Tasa(T191): 3464 ",68262.62,-19.5,68262.62,-19.5
+6546,COMPLETADO,172f2804e10c53c1cd2f234008b48d271794f3bfa2b7fee98aefe0b9ae93b72f,5uR7cMY,2-jun,1780427136,T191,BRL,PIX,VICTOR,189,OMAR,MERLI,P,,PAGO,https://link.jairokov.com/i/5uR7cMY,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,4.864,-1.348,"[P-5uR7cMY] Monto: 189, Titular: VICTOR
+Banco: PIX, Moneda: BRL, Tasa(T191): 4.864 ","[P-5uR7cMY] Monto: 189, Titular: VICTOR
+Banco: PIX, Moneda: BRL, Tasa(T191): 1.348 ",38.85,-140.2,19.35,-257.59
+6547,COMPLETADO,e8d507f023c2153686e5ef63110bad9e6984c8e2efc9af98da699a413275ef06,Td7FX1W,2-jun,1780427270,T191,COP,NEQUI,COMPRA,1230823,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/Td7FX1W,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-Td7FX1W] Monto: 1230823, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ","[C-Td7FX1W] Monto: 1230823, Titular: COMPRA
+Banco: NEQUI, Moneda: COP, Tasa(T191): 1 ",-1230823,-1230823,-71077329,-1162560.38
 6548,PENDIENTE,d0d5996f32265421e0f4fa14edb58327dc35fc7d3b7fe990dd6f44eb9bdfe2e6,NwiXBbq,31-dic,,,🤷‍♂️,🤷‍♂️,ADRIAN JOSE DUARTE RIVERA,827875,OMAR,,,,,https://link.jairokov.com/i/NwiXBbq,573248071414@s.whatsapp.net,,,,,,,,,,,
