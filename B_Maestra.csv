@@ -18914,7 +18914,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T186): 1 ",120.63,120.63,233.26,120.63
 6440,COMPLETADO,61460d5ab18a15774db1fe9e8a9bec846dc8c15a4cf2fad4818caf5346853536,n47V0i0,31-may,1780262136,T186,VES,MERCANTIL,13190686,17523,NELSY,CINDY,P,,PAGO,https://link.jairokov.com/i/n47V0i0,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,714,0.198,"[P-n47V0i0] Monto: 17523, Titular: 13190686
 Banco: MERCANTIL, Moneda: VES, Tasa(T186): 714 ","[P-n47V0i0] Monto: 17523, Titular: 13190686
 Banco: MERCANTIL, Moneda: VES, Tasa(T186): 0.198 ",24.54,88500,24.54,3833655.73
-6441,VALIDAR,503bb6a2afb96bcfa56079a1ecbc50f50b3311d887e8ad8d1abc4b46b37bbe86,j1B59sN,2-jun,1780399498,T189,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,48.5,KARLA,FUNDDA,,,,https://link.jairokov.com/i/j1B59sN,51927348852@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6441,COMPLETADO,503bb6a2afb96bcfa56079a1ecbc50f50b3311d887e8ad8d1abc4b46b37bbe86,j1B59sN,2-jun,1780399498,T189,PEN,YAPE,KARLA,48.5,KARLA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/j1B59sN,51927348852@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.45,"[D-j1B59sN] Monto: 48.5, Titular: KARLA
+Banco: YAPE, Moneda: PEN, Tasa(T189): 1 ","[D-j1B59sN] Monto: 48.5, Titular: KARLA
+Banco: YAPE, Moneda: PEN, Tasa(T189): 3.45 ",48.5,14.05,92.14,134.68
 6442,COMPLETADO,3167f61a3d2e3dc0a0a9ea1ebb7ea812de1ea3308ba2b4cb2c70ec808eeffb28,bInbcgT,31-may,1780269447,T186,COP,NEQUI,YOSEILYN L,46000,IRIS,KARLA,P,,PAGO,https://link.jairokov.com/i/bInbcgT,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,1054,"[P-bInbcgT] Monto: 46000, Titular: YOSEILYN L
 Banco: NEQUI, Moneda: COP, Tasa(T186): 0.989 ","[P-bInbcgT] Monto: 46000, Titular: YOSEILYN L
 Banco: NEQUI, Moneda: COP, Tasa(T186): 1054 ",46511.62,43.64,-464693.94,43.64
@@ -19158,4 +19160,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T189): 1 ",240.22,240.22,240.22,240.22
 6526,COMPLETADO,b56051c517172cd51e64ae72713800bd99292715e9b3c7f2e44ec209e5c0103b,H0C2aEb,2-jun,1780395617,T189,USD,BINANCE,JOSEM,145.24,JOSEM,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/H0C2aEb,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,1.087,1,"[D-H0C2aEb] Monto: 145.24, Titular: JOSEM
 Banco: BINANCE, Moneda: USD, Tasa(T189): 1.087 ","[D-H0C2aEb] Monto: 145.24, Titular: JOSEM
 Banco: BINANCE, Moneda: USD, Tasa(T189): 1 ",133.61,145.24,133.61,385.46
-6527,VALIDAR,5921b4ec26f0cc2358e60a3fea6cb84ef1cbe614958bbbafc475a06467efe0ad,l8qg3Tw,2-jun,1780399538,T189,USDT,🤷‍♂️,🤷‍♂️,164,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/l8qg3Tw,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6527,COMPLETADO,5921b4ec26f0cc2358e60a3fea6cb84ef1cbe614958bbbafc475a06467efe0ad,l8qg3Tw,2-jun,1780399538,T189,USDT,BINANCE,TORRES,164,TORRES,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/l8qg3Tw,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[D-l8qg3Tw] Monto: 164, Titular: TORRES
+Banco: BINANCE, Moneda: USDT, Tasa(T189): 1 ","[D-l8qg3Tw] Monto: 164, Titular: TORRES
+Banco: BINANCE, Moneda: USDT, Tasa(T189): 1 ",164,164,2065.96,549.46
