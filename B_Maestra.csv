@@ -19306,4 +19306,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T192): 3474 ",14.14,-14.27,71.3,-71.96
 6572,COMPLETADO,b2a8e607af9c4e3950cf7e4eceded801c1156ca6798ff7ef6047568cdcc8e74b,GmFS75t,3-jun,1780509284,T192,ECU,GUAYAQUIL,MONICA MARCIA,28.8,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/GmFS75t,593980339529@s.whatsapp.net,595991712966@s.whatsapp.net,,,0.98,-0.96,"[P-GmFS75t] Monto: 28.8, Titular: MONICA MARCIA
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T192): 0.98 ","[P-GmFS75t] Monto: 28.8, Titular: MONICA MARCIA
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T192): 0.96 ",29.38,-30,29.38,-337.28
-6573,VALIDAR,edf0edf93dd76a72466a28d077d101702b180f6984fcd877a113d07dcd822f9a,UqeFqpi,3-jun,1780510444,T192,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,92.15,ENZO,FUNDDA,,,,https://link.jairokov.com/i/UqeFqpi,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6573,COMPLETADO,edf0edf93dd76a72466a28d077d101702b180f6984fcd877a113d07dcd822f9a,UqeFqpi,3-jun,1780510444,T192,PEN,YAPE,ENZO,92.15,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/UqeFqpi,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.44,"[D-UqeFqpi] Monto: 92.15, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T192): 1 ","[D-UqeFqpi] Monto: 92.15, Titular: ENZO
+Banco: YAPE, Moneda: PEN, Tasa(T192): 3.44 ",92.15,26.78,184.14,107.91
