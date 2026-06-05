@@ -19492,5 +19492,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T195): 3.44 ",14.16,14.53,14.16,-54.77
 6638,COMPLETADO,e7b8d52a7d6673b727752c79a23542c92df0d7545cfefbd3823daa5257e1ed98,SWNJWn0,4-jun,1780591509,T195,ARS,LEMON,RICARDO,65000,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/SWNJWn0,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1470,-1443,"[P-SWNJWn0] Monto: 65000, Titular: RICARDO
 Banco: LEMON, Moneda: ARS, Tasa(T195): 1470 ","[P-SWNJWn0] Monto: 65000, Titular: RICARDO
 Banco: LEMON, Moneda: ARS, Tasa(T195): 1443 ",44.21,-45.04,112.24,-45.04
-6639,VALIDAR,38f87cb41dd3f581ebe2228a6fbb3cd02e391f4c49c738a72965d1be3e3be929,dvAvgRm,5-jun,1780666886,T196,USD,BINANCE,🤷‍♂️,191.85,OMAR,FUNDDA,,,,https://link.jairokov.com/i/dvAvgRm,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-6640,VALIDAR,9323b13879784bc6b64e2465fb04f5734b3d0684a21f021098aee2fec73625f0,yTg77Tn,5-jun,1780666770,T196,USD,BINANCE,🤷‍♂️,87.27,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/yTg77Tn,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6639,COMPLETADO,38f87cb41dd3f581ebe2228a6fbb3cd02e391f4c49c738a72965d1be3e3be929,dvAvgRm,5-jun,1780666886,T196,USDT,BINANCE,OMAR,191.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/dvAvgRm,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-dvAvgRm] Monto: 191.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T196): 1 ","[A-dvAvgRm] Monto: 191.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T196): 1 ",191.85,191.85,177.34,137.08
+6640,COMPLETADO,9323b13879784bc6b64e2465fb04f5734b3d0684a21f021098aee2fec73625f0,yTg77Tn,5-jun,1780666770,T196,USDT,BINANCE,JOSEM,87.27,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/yTg77Tn,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-yTg77Tn] Monto: 87.27, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T196): 1 ","[A-yTg77Tn] Monto: 87.27, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T196): 1 ",87.27,87.27,90.02,87.27
