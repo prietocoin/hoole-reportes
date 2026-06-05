@@ -19577,7 +19577,11 @@ Banco: YAPE, Moneda: PEN, Tasa(T196): 3.357 ",63.95,-65.53,71.06,-269.52
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T196): 0.98 ","[P-yHRraEN] Monto: 20, Titular: LOPEZ MARIA
 Banco: GUAYAQUIL, Moneda: ECU, Tasa(T196): 0.94 ",20.4,-21.27,540.66,-290.79
 6663,PENDIENTE,d2f948e7568b4bb0b541a403a44ab026e06917f7bad219c9c00035f733435ad0,O1L5nFf,31-dic,,,COP,NEQUI,BELKER JAUREGUI,58685,OMAR,,,,,https://link.jairokov.com/i/O1L5nFf,573248071414@s.whatsapp.net,,,,,,,,,,,
-6664,VALIDAR,456bb6b02d69ad8ac76c4d0088e73c6a52b7235c497e2dcb901d2a40b0019835,gsD9K1m,5-jun,1780699158,T196,COP,NEQUI,🤷‍♂️,36300,OMAR,CORREGIR,,,,https://link.jairokov.com/i/gsD9K1m,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6665,VALIDAR,51f7bece78a7a0e747ea0de9291ac45bca51fa98869080b7a5ce01007039983b,jr68fad,5-jun,1780699114,T196,COP,🤷‍♂️,🤷‍♂️,90750,IRIS,OMAR,,,,https://link.jairokov.com/i/jr68fad,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6664,COMPLETADO,456bb6b02d69ad8ac76c4d0088e73c6a52b7235c497e2dcb901d2a40b0019835,gsD9K1m,5-jun,1780699158,T196,COP,NEQUI,VICMARI,36300,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/gsD9K1m,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3459,"[P-gsD9K1m] Monto: 36300, Titular: VICMARI
+Banco: NEQUI, Moneda: COP, Tasa(T196): 0.99 ","[P-gsD9K1m] Monto: 36300, Titular: VICMARI
+Banco: NEQUI, Moneda: COP, Tasa(T196): 3459 ",36666.66,-10.49,-814675.68,-10.49
+6665,COMPLETADO,51f7bece78a7a0e747ea0de9291ac45bca51fa98869080b7a5ce01007039983b,jr68fad,5-jun,1780699114,T196,COP,NEQUI,ZAIDA,90750,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/jr68fad,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3459,"[P-jr68fad] Monto: 90750, Titular: ZAIDA
+Banco: NEQUI, Moneda: COP, Tasa(T196): 0.99 ","[P-jr68fad] Monto: 90750, Titular: ZAIDA
+Banco: NEQUI, Moneda: COP, Tasa(T196): 3459 ",91666.66,-26.23,-759675.68,-26.23
 6666,PENDIENTE,9ba7a77116017d62d4b059da456f5523e5bd9192e996756d8d9e535585a17a89,AUset1U,31-dic,,,🤷‍♂️,🤷‍♂️,ASTRID CAROLINA MEDINA SEPULVEDA,46000,IRIS,,,,,https://link.jairokov.com/i/AUset1U,573248071414@s.whatsapp.net,,,,,,,,,,,
 6667,VALIDAR,20e4a903a281d934ce68f44823498f7f7283b35662586899142843905c21fe22,7NBaqXK,5-jun,1780699645,T196,COP,NEQUI,3244552839,30250,IRIS,OMAR,,,,https://link.jairokov.com/i/7NBaqXK,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
