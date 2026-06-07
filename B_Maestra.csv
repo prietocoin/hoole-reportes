@@ -19749,7 +19749,11 @@ Banco: NEQUI, Moneda: COP, Tasa(T198): 3469 ",8.43,-8.64,490.32,-177.25
 6727,COMPLETADO,00ea5c1a6a440b2893f21a23a5d11ffeed2f23200452e69ce406f63102d8429f,dstAe1v,6-jun,1780788671,T198,COP,BANCOLOMBIA,RONALD,120000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/dstAe1v,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3469,"[P-dstAe1v] Monto: 120000, Titular: RONALD
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T198): 0.99 ","[P-dstAe1v] Monto: 120000, Titular: RONALD
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T198): 3469 ",121212.12,-34.59,121212.12,-211.84
-6728,PENDIENTE,4175b2a23da405af3b0579ba98bd1f34537b5a5bdc3f0b941b64983e4494ddce,fwoAdOg,31-dic,,,COP,🤷‍♂️,🤷‍♂️,120000,JAIPY,,,,,https://link.jairokov.com/i/fwoAdOg,595991712966@s.whatsapp.net,,,,,,,,,,,
-6729,PENDIENTE,265c9f80350873bab59e4f7db222498af774bf460950a915206c0a896dcca5ff,95ZY8J6,31-dic,,,COP,🤷‍♂️,🤷‍♂️,95000,JAIPY,,,,,https://link.jairokov.com/i/95ZY8J6,595991712966@s.whatsapp.net,,,,,,,,,,,
+6728,COMPLETADO,4175b2a23da405af3b0579ba98bd1f34537b5a5bdc3f0b941b64983e4494ddce,fwoAdOg,6-jun,1780794851,T198,COP,NEQUI,AUDER,120000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/fwoAdOg,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3555,-3469,"[P-fwoAdOg] Monto: 120000, Titular: AUDER
+Banco: NEQUI, Moneda: COP, Tasa(T198): 3555 ","[P-fwoAdOg] Monto: 120000, Titular: AUDER
+Banco: NEQUI, Moneda: COP, Tasa(T198): 3469 ",33.75,-34.59,524.07,-246.43
+6729,COMPLETADO,265c9f80350873bab59e4f7db222498af774bf460950a915206c0a896dcca5ff,95ZY8J6,6-jun,1780794887,T198,COP,NEQUI,MARIA,95000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/95ZY8J6,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3555,-3469,"[P-95ZY8J6] Monto: 95000, Titular: MARIA
+Banco: NEQUI, Moneda: COP, Tasa(T198): 3555 ","[P-95ZY8J6] Monto: 95000, Titular: MARIA
+Banco: NEQUI, Moneda: COP, Tasa(T198): 3469 ",26.72,-27.38,550.79,-273.81
 6730,VALIDAR,6cdeb17790e1a9d105ea71cfbc640a7acb243be203cfeb3d00be5386446ab3b3,pOCgfRm,6-jun,1780793108,T198,VES,BANCO NACIONAL DE CREDITO,V-15987297,10500,NELSY,MERLI,,,,https://link.jairokov.com/i/pOCgfRm,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 6731,VALIDAR,1febd8492435fa7b6924a7b12092db8061f9d0901460410093571ffdace40c90,7zjdCqr,6-jun,1780794118,T198,VES,BANCARIBE,V-27440804,18700,NELSY,AIDA,,,,https://link.jairokov.com/i/7zjdCqr,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
