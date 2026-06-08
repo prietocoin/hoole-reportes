@@ -19825,4 +19825,6 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T199): 213.71 ",74.99,258.26,121.57,738.29
 6745,COMPLETADO,b19e889c145661e9e907b117dd2c8e480ae0f482fbe2178472bcbae7df97a1e4,G7nr1Tn,7-jun,1780838171,T199,USDT,BINANCE,JOSEM,48.72,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/G7nr1Tn,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-G7nr1Tn] Monto: 48.72, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T199): 1 ","[A-G7nr1Tn] Monto: 48.72, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T199): 1 ",48.72,48.72,90.02,48.72
-6746,VALIDAR,aa068a2169a84ec30aea1bb379f88177f2b358262bebcf5ff841bc4432f47c3a,EjJwfvS,8-jun,1780920720,T199,USDT,BINANCE,NELSY,513.17,FUNDDA,NELSY,,,,https://link.jairokov.com/i/EjJwfvS,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+6746,COMPLETADO,aa068a2169a84ec30aea1bb379f88177f2b358262bebcf5ff841bc4432f47c3a,EjJwfvS,8-jun,1780920720,T199,USDT,BINANCE,FUNDDA,-513.17,FUNDDA,NELSY,A,,ABONO,https://link.jairokov.com/i/EjJwfvS,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-EjJwfvS] Monto: -513.16, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T199): 1 ","[A-EjJwfvS] Monto: -513.16, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T199): 1 ",-513.16,-513.16,-464.44,-391.59
