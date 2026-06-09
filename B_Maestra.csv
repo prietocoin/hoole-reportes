@@ -19946,11 +19946,15 @@ Banco: BINANCE, Moneda: USDT, Tasa(T200): 1 ",91,91,90.03,-166.69
 Banco: INTERBANK, Moneda: PEN, Tasa(T200): 3.51 ","[P-iUw3o0w] Monto: 143.02, Titular: FUNDDA
 Banco: INTERBANK, Moneda: PEN, Tasa(T200): 1 ",40.74,-143.02,-125.95,0.41
 6784,PENDIENTE,76ef04e7c14211212df77a3c2c930627a24d27645942c8bc413d1afda80765cd,sczHtV9,31-dic,,,EUR,CAIXABANK,JAIRO,200,VICTOR,,,,,https://link.jairokov.com/i/sczHtV9,573105981346@s.whatsapp.net,,,,,,,,,,,
-6785,VALIDAR,0bc3f04d3aebf388946cabb616e44fa85deda98fae57fefe1bd6d7a0cfdb4bc2,2MYvGR2,9-jun,1781010444,T201,USD,BINANCE,JAIRITO,375,OMAR,FUNDDA,,,,https://link.jairokov.com/i/2MYvGR2,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+6785,COMPLETADO,0bc3f04d3aebf388946cabb616e44fa85deda98fae57fefe1bd6d7a0cfdb4bc2,2MYvGR2,9-jun,1781010444,T201,USDT,BINANCE,OMAR,375,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/2MYvGR2,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-2MYvGR2] Monto: 375, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T201): 1 ","[A-2MYvGR2] Monto: 375, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T201): 1 ",375,375,86.47,249.05
 6786,PENDIENTE,8486ee693ef425bea3959f71409ebbcd186a1818095b6110440a4965ea96fc99,vqqvDaI,31-dic,,,PEN,INTERBANK,JAIROKOV,200,FUNDDA,,,,,https://link.jairokov.com/i/vqqvDaI,5491177171331@s.whatsapp.net,,,,,,,,,,,
-6787,VALIDAR,3d3d67b0d92df77c0c1e9f88245720ac546238c9956710adf940568b1e1a4ebe,ewm1jZV,9-jun,1781014049,T201,ARS,MERCADO PAGO,RICARDO SIMON RIGIO GONZAL...,27000,NELSY,SUBERO,,,,https://link.jairokov.com/i/ewm1jZV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6787,COMPLETADO,3d3d67b0d92df77c0c1e9f88245720ac546238c9956710adf940568b1e1a4ebe,ewm1jZV,9-jun,1781014049,T201,ARS,MERCADO PAGO,RICARDO,27000,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/ewm1jZV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1476,-1449,"[P-ewm1jZV] Monto: 27000, Titular: RICARDO
+Banco: MERCADO PAGO, Moneda: ARS, Tasa(T201): 1476 ","[P-ewm1jZV] Monto: 27000, Titular: RICARDO
+Banco: MERCADO PAGO, Moneda: ARS, Tasa(T201): 1449 ",18.29,-18.63,66.67,-55.57
 6788,PENDIENTE,ced3a8499872395c356f9980b58e83ca8e578217f68fcff4951cd1718f81d96a,N2MZ4ae,31-dic,,,USDT,BINANCE,FUNDABLOCK,18.64,SUBERO,,,,,https://link.jairokov.com/i/N2MZ4ae,34627629613@s.whatsapp.net,,,,,,,,,,,
-6789,VALIDAR,a447cb3b9ca467dcf65ba771abc2f96b06c9c90007556c84ec116fbd62d441de,CXgGqk8,9-jun,1781017094,T201,COP,🤷‍♂️,🤷‍♂️,302500,OMAR,IRIS,,,,https://link.jairokov.com/i/CXgGqk8,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6789,COMPLETADO,a447cb3b9ca467dcf65ba771abc2f96b06c9c90007556c84ec116fbd62d441de,CXgGqk8,9-jun,1781017094,T201,COP,NEQUI,MARCOS,302500,IRIS,OMAR,,,,https://link.jairokov.com/i/CXgGqk8,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6790,VALIDAR,5b4867f09156b54d279c649e23c4dab2c74a65ebfed315b335c37ffc9db07263,lE37bGm,9-jun,1781017494,T201,COP,NEQUI,CARLOS LOPEZ,60550,ROSIMAR,OMAR,,,,https://link.jairokov.com/i/lE37bGm,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6791,VALIDAR,5240a058dd3bc5b3aeffcf61bba6d33a53d161381939c2161764052527f9b738,,,1781017474,T201,,,,,,MERLI,,,,,,5491177171331@s.whatsapp.net,,,,,,,,,,
 6792,PENDIENTE,4269304594e47d0fd91c7088036db42b448e195c6d3d5d63bedc75ea6638ea67,fKnzzQa,31-dic,,,COP,NEQUI,🤷‍♂️,169400,IRIS,,,,,https://link.jairokov.com/i/fKnzzQa,573248071414@s.whatsapp.net,,,,,,,,,,,
