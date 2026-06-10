@@ -20094,21 +20094,20 @@ Banco: NEQUI, Moneda: COP, Tasa(T202): 3464 ",24.31,-24.53,24.31,-743.72
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-y2fHOtS] Monto: 818.87, Titular: JOSEM
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",818.87,818.87,75.15,1750.99
 6840,VALIDAR,0381c2f80ff5c8d829899bdcfd4b631bca10408ee244a7b8ace037fe7322c887,,,1781097061,T203,,,,,,FUNDDA,,,,,,5491127574905@s.whatsapp.net,,,,,,,,,,
-6841,PENDIENTE,fe9718fe978d894fc2ff5b1f34e012696b7e6efcffe51c4afed62e69733a94cd,Yn0Psrn,31-dic,,,CLP,BANCO ESTADO,DIANA ORTIZ,144000,MICHEL,,,,,https://link.jairokov.com/i/Yn0Psrn,56931316076@s.whatsapp.net,,,,,,,,,,,
-6842,COMPLETADO,7354375ce965d137c5079b75b11c36a9a9f91627aa6433e8e7f45ffea8ea2d21,rlzUfQJ,10-jun,1781098973,T203,CLP,BANCO ESTADO,DIANA,144000,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/rlzUfQJ,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.985,-885,"[P-rlzUfQJ] Monto: 144000, Titular: DIANA
+6841,COMPLETADO,7354375ce965d137c5079b75b11c36a9a9f91627aa6433e8e7f45ffea8ea2d21,rlzUfQJ,10-jun,1781098973,T203,CLP,BANCO ESTADO,DIANA,144000,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/rlzUfQJ,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.985,-885,"[P-rlzUfQJ] Monto: 144000, Titular: DIANA
 Banco: BANCO ESTADO, Moneda: CLP, Tasa(T203): 0.985 ","[P-rlzUfQJ] Monto: 144000, Titular: DIANA
 Banco: BANCO ESTADO, Moneda: CLP, Tasa(T203): 885 ",146192.89,-162.71,146192.89,-328.92
-6843,COMPLETADO,c519a671da3d52f0951b7bab98414286f4d73daca10e1af330b4179bc51513fe,KJMTGfF,10-jun,1781099457,T203,COP,BANCOLOMBIA,MONICA,116000,ROSIMAR,OMAR,P,,PAGO,https://link.jairokov.com/i/KJMTGfF,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3501,-3469,"[P-KJMTGfF] Monto: 116000, Titular: MONICA
+6842,COMPLETADO,c519a671da3d52f0951b7bab98414286f4d73daca10e1af330b4179bc51513fe,KJMTGfF,10-jun,1781099457,T203,COP,BANCOLOMBIA,MONICA,116000,ROSIMAR,OMAR,P,,PAGO,https://link.jairokov.com/i/KJMTGfF,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3501,-3469,"[P-KJMTGfF] Monto: 116000, Titular: MONICA
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T203): 3501 ","[P-KJMTGfF] Monto: 116000, Titular: MONICA
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T203): 3469 ",33.13,-33.43,33.13,-362.35
-6844,COMPLETADO,ea41bd273583fa332511dd816ff7abf3f6e1176b4f354cb08b551ed3ea24a2cc,Ty4hmhi,10-jun,1781099535,T203,USDT,BINANCE,FUNDDA,-703.83,FUNDDA,YARELIS,A,,ABONO,https://link.jairokov.com/i/Ty4hmhi,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-Ty4hmhi] Monto: -703.83, Titular: FUNDDA
+6843,COMPLETADO,ea41bd273583fa332511dd816ff7abf3f6e1176b4f354cb08b551ed3ea24a2cc,Ty4hmhi,10-jun,1781099535,T203,USDT,BINANCE,FUNDDA,-703.83,FUNDDA,YARELIS,A,,ABONO,https://link.jairokov.com/i/Ty4hmhi,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-Ty4hmhi] Monto: -703.83, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-Ty4hmhi] Monto: -703.83, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",-703.83,-703.83,-703.83,-575.9
-6845,COMPLETADO,ac6c146eb3bbf22b38d50349cd85d5bcde0af7a396fb8bc626b2440bb2c1f9c8,ESY8ejK,10-jun,1781099968,T203,USDT,BINANCE,OMAR,258.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/ESY8ejK,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-ESY8ejK] Monto: 258.85, Titular: OMAR
+6844,COMPLETADO,ac6c146eb3bbf22b38d50349cd85d5bcde0af7a396fb8bc626b2440bb2c1f9c8,ESY8ejK,10-jun,1781099968,T203,USDT,BINANCE,OMAR,258.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/ESY8ejK,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-ESY8ejK] Monto: 258.85, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-ESY8ejK] Monto: 258.85, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",258.85,258.85,-103.5,258.85
-6846,PENDIENTE,4ad8bfa81a435158276b5d3e3b32be52ac553f45295d5307671ce64a38aa5c9f,hKp30G6,31-dic,,,PEN,🤷‍♂️,🤷‍♂️,438,FUNDDA,,,,,https://link.jairokov.com/i/hKp30G6,595991712966@s.whatsapp.net,,,,,,,,,,,
-6847,COMPLETADO,64fe81cd6ca4b2dda9db54c665ebfe1457e591b9fdde2a41ce59a17442fb6ef6,nWPif1h,10-jun,1781101344,T203,USDT,BONANCE,ELIS,158.83,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/nWPif1h,554191581015@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-nWPif1h] Monto: 158.83, Titular: ELIS
+6845,PENDIENTE,4ad8bfa81a435158276b5d3e3b32be52ac553f45295d5307671ce64a38aa5c9f,hKp30G6,31-dic,,,PEN,🤷‍♂️,🤷‍♂️,438,FUNDDA,,,,,https://link.jairokov.com/i/hKp30G6,595991712966@s.whatsapp.net,,,,,,,,,,,
+6846,COMPLETADO,64fe81cd6ca4b2dda9db54c665ebfe1457e591b9fdde2a41ce59a17442fb6ef6,nWPif1h,10-jun,1781101344,T203,USDT,BONANCE,ELIS,158.83,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/nWPif1h,554191581015@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-nWPif1h] Monto: 158.83, Titular: ELIS
 Banco: BONANCE, Moneda: USDT, Tasa(T203): 1 ","[A-nWPif1h] Monto: 158.83, Titular: ELIS
 Banco: BONANCE, Moneda: USDT, Tasa(T203): 1 ",158.83,158.83,-26.88,158.83
-6848,VALIDAR,14886b589eb91a097cd1dc8cae07df9de7d0aa9dede562589bc1408db1f06b34,4RSmizr,10-jun,1781102388,T203,🤷‍♂️,🤷‍♂️,CINDY ROLDAN,105000,CINDY,JAIPY,,,,https://link.jairokov.com/i/4RSmizr,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6847,VALIDAR,14886b589eb91a097cd1dc8cae07df9de7d0aa9dede562589bc1408db1f06b34,4RSmizr,10-jun,1781102388,T203,🤷‍♂️,🤷‍♂️,CINDY ROLDAN,105000,CINDY,JAIPY,,,,https://link.jairokov.com/i/4RSmizr,573227036385@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
