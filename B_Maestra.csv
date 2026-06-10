@@ -19949,7 +19949,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T200): 1 ",40.74,-143.02,-125.95,0.41
 6785,COMPLETADO,0bc3f04d3aebf388946cabb616e44fa85deda98fae57fefe1bd6d7a0cfdb4bc2,2MYvGR2,9-jun,1781010444,T201,USDT,BINANCE,OMAR,375,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/2MYvGR2,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-2MYvGR2] Monto: 375, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T201): 1 ","[A-2MYvGR2] Monto: 375, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T201): 1 ",375,375,86.47,249.05
-6786,PENDIENTE,8486ee693ef425bea3959f71409ebbcd186a1818095b6110440a4965ea96fc99,vqqvDaI,31-dic,,,PEN,INTERBANK,JAIROKOV,200,FUNDDA,,,,,https://link.jairokov.com/i/vqqvDaI,5491177171331@s.whatsapp.net,,,,,,,,,,,
+6786,COMPLETADO,8486ee693ef425bea3959f71409ebbcd186a1818095b6110440a4965ea96fc99,vqqvDaI,9-jun,1781010285,T201,PEN,INTERBANK,JOHILVER,200,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/vqqvDaI,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.49,-3.406,"[P-vqqvDaI] Monto: 200, Titular: JOHILVER
+Banco: INTERBANK, Moneda: PEN, Tasa(T201): 3.49 ","[P-vqqvDaI] Monto: 200, Titular: JOHILVER
+Banco: INTERBANK, Moneda: PEN, Tasa(T201): 3.406 ",57.3,-58.71,306.35,-156.59
 6787,COMPLETADO,3d3d67b0d92df77c0c1e9f88245720ac546238c9956710adf940568b1e1a4ebe,ewm1jZV,9-jun,1781014049,T201,ARS,MERCADO PAGO,RICARDO,27000,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/ewm1jZV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1476,-1449,"[P-ewm1jZV] Monto: 27000, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T201): 1476 ","[P-ewm1jZV] Monto: 27000, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T201): 1449 ",18.29,-18.63,66.67,-55.57
