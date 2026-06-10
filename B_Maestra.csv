@@ -20088,4 +20088,6 @@ Banco: BANCO ESTADO, Moneda: CLP, Tasa(T203): 885 ",146192.89,-162.71,146192.89,
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T203): 3501 ","[P-KJMTGfF] Monto: 116000, Titular: MONICA
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T203): 3469 ",33.13,-33.43,33.13,-362.35
 6844,VALIDAR,ea41bd273583fa332511dd816ff7abf3f6e1176b4f354cb08b551ed3ea24a2cc,Ty4hmhi,10-jun,1781099535,T203,USDT,🤷‍♂️,JOVALE_23,703.83,FUNDDA,YARELIS,,,,https://link.jairokov.com/i/Ty4hmhi,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-6845,VALIDAR,ac6c146eb3bbf22b38d50349cd85d5bcde0af7a396fb8bc626b2440bb2c1f9c8,ESY8ejK,10-jun,1781099968,T203,USD,BINANCE,🤷‍♂️,258.85,OMAR,FUNDDA,,,,https://link.jairokov.com/i/ESY8ejK,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6845,COMPLETADO,ac6c146eb3bbf22b38d50349cd85d5bcde0af7a396fb8bc626b2440bb2c1f9c8,ESY8ejK,10-jun,1781099968,T203,USDT,BINANCE,OMAR,258.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/ESY8ejK,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-ESY8ejK] Monto: 258.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-ESY8ejK] Monto: 258.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",258.85,258.85,-103.5,258.85
