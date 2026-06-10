@@ -20117,4 +20117,6 @@ Banco: BONANCE, Moneda: USDT, Tasa(T203): 1 ",158.83,158.83,-26.88,158.83
 Banco: NEQUI, Moneda: COP, Tasa(T202): 3642 ","[D-NXUlYDk] Monto: 80000, Titular: IRIS
 Banco: NEQUI, Moneda: COP, Tasa(T202): 3621 ",21.96,-22.09,-26.16,11.04
 6849,VALIDAR,1379f5b582cb70c50c3d2ccb4451741f76cb8c66c0f2d02c3932e2404342c782,4CllhN3,10-jun,1781104718,T203,PEN,🤷‍♂️,🤷‍♂️,62.53,MERLI,FUNDDA,,,,https://link.jairokov.com/i/4CllhN3,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6850,VALIDAR,77c8b8f20384f14f4c750ed4d36c166f4ec6b50108997f4ef3b45ca0ea477579,sp4RXgT,10-jun,1781104833,T203,COP,NEQUI,ZORAIDA CABRERA,18000,IRIS,MERLI,,,,https://link.jairokov.com/i/sp4RXgT,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6850,COMPLETADO,77c8b8f20384f14f4c750ed4d36c166f4ec6b50108997f4ef3b45ca0ea477579,sp4RXgT,10-jun,1781104833,T203,COP,NEQUI,ZORAIDA,18000,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/sp4RXgT,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-999,"[P-sp4RXgT] Monto: 18000, Titular: ZORAIDA
+Banco: NEQUI, Moneda: COP, Tasa(T203): 0.99 ","[P-sp4RXgT] Monto: 18000, Titular: ZORAIDA
+Banco: NEQUI, Moneda: COP, Tasa(T203): 999 ",18181.81,-18.01,637994.93,-18.01
