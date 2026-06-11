@@ -20232,8 +20232,10 @@ Banco: NEQUI, Moneda: COP, Tasa(T203): 3469 ",213888.88,-61.04,268231.55,-75.69
 6882,COMPLETADO,51c89fde91312fa78e4801e9b9fa571b466adae29375df150a626eec12c613a7,joolMtx,10-jun,1781096782,T203,USDT,BINANCE,PAGOAVICTOR,213.51,NELSY,FUNDDA,A,,ABONO,https://link.jairokov.com/i/joolMtx,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-joolMtx] Monto: 213.51, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-joolMtx] Monto: 213.51, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",213.51,213.51,279.74,316.83
-6883,PENDIENTE,5f445a3affa4a7f0e77ba03691efeb26803b2d2d56f0c59962fe5802b71cfaef,mACNXnd,31-dic,,,USDT,BINANCE,🤷‍♂️,18.12,EDWIN,,,,,https://link.jairokov.com/i/mACNXnd,554191071791@s.whatsapp.net,,,,,,,,,,,
-6884,PENDIENTE,6dd51efed4c0ae5c3010032d27de3e8faa7e40a73c71b5eef7fde99f76d6a6e2,q2LI0bQ,31-dic,,,USD,BINANCE,JAIRITO,122.08,OMAR,,,,,https://link.jairokov.com/i/q2LI0bQ,559295375590@s.whatsapp.net,,,,,,,,,,,
+6883,VALIDAR,5f445a3affa4a7f0e77ba03691efeb26803b2d2d56f0c59962fe5802b71cfaef,mACNXnd,11-jun,1781206038,T205,USDT,BINANCE,🤷‍♂️,18.12,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/mACNXnd,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6884,COMPLETADO,6dd51efed4c0ae5c3010032d27de3e8faa7e40a73c71b5eef7fde99f76d6a6e2,q2LI0bQ,11-jun,1781206029,T205,USD,BINANCE,OMAR,122.08,OMAR,FUNDDA,P,,PAGO,https://link.jairokov.com/i/q2LI0bQ,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[P-q2LI0bQ] Monto: 122.08, Titular: OMAR
+Banco: BINANCE, Moneda: USD, Tasa(T205): 1 ","[P-q2LI0bQ] Monto: 122.08, Titular: OMAR
+Banco: BINANCE, Moneda: USD, Tasa(T205): 1 ",122.08,122.08,46.39,438.91
 6885,COMPLETADO,18bbb29345eb2c887297ff6fde5c0c26cf5b48c5c45aa409d5da7c460c168ad4,5RD4bNw,11-jun,1781187367,T204,PEN,YAPE,MERLI,468,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/5RD4bNw,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.999,3.43,"[A-5RD4bNw] Monto: 468, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T204): 0.999 ","[A-5RD4bNw] Monto: 468, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T204): 3.43 ",468.46,136.44,0,453.27
