@@ -20232,10 +20232,12 @@ Banco: NEQUI, Moneda: COP, Tasa(T203): 3469 ",213888.88,-61.04,268231.55,-75.69
 6882,COMPLETADO,51c89fde91312fa78e4801e9b9fa571b466adae29375df150a626eec12c613a7,joolMtx,10-jun,1781096782,T203,USDT,BINANCE,PAGOAVICTOR,213.51,NELSY,FUNDDA,A,,ABONO,https://link.jairokov.com/i/joolMtx,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-joolMtx] Monto: 213.51, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ","[A-joolMtx] Monto: 213.51, Titular: PAGOAVICTOR
 Banco: BINANCE, Moneda: USDT, Tasa(T203): 1 ",213.51,213.51,279.74,316.83
-6883,VALIDAR,5f445a3affa4a7f0e77ba03691efeb26803b2d2d56f0c59962fe5802b71cfaef,mACNXnd,11-jun,1781206038,T205,USDT,BINANCE,🤷‍♂️,18.12,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/mACNXnd,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6884,COMPLETADO,6dd51efed4c0ae5c3010032d27de3e8faa7e40a73c71b5eef7fde99f76d6a6e2,q2LI0bQ,11-jun,1781206029,T205,USD,BINANCE,OMAR,122.08,OMAR,FUNDDA,P,,PAGO,https://link.jairokov.com/i/q2LI0bQ,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[P-q2LI0bQ] Monto: 122.08, Titular: OMAR
-Banco: BINANCE, Moneda: USD, Tasa(T205): 1 ","[P-q2LI0bQ] Monto: 122.08, Titular: OMAR
-Banco: BINANCE, Moneda: USD, Tasa(T205): 1 ",122.08,122.08,46.39,438.91
+6883,COMPLETADO,5f445a3affa4a7f0e77ba03691efeb26803b2d2d56f0c59962fe5802b71cfaef,mACNXnd,11-jun,1781206038,T205,USDT,BINANCE,EDWIN,18.12,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/mACNXnd,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-mACNXnd] Monto: 18.12, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T205): 1 ","[A-mACNXnd] Monto: 18.12, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T205): 1 ",18.12,18.12,91.77,334.95
+6884,COMPLETADO,6dd51efed4c0ae5c3010032d27de3e8faa7e40a73c71b5eef7fde99f76d6a6e2,q2LI0bQ,11-jun,1781206029,T205,USDT,BINANCE,OMAR,122.08,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/q2LI0bQ,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-q2LI0bQ] Monto: 122.08, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T205): 1 ","[A-q2LI0bQ] Monto: 122.08, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T205): 1 ",122.08,122.08,46.39,122.08
 6885,COMPLETADO,18bbb29345eb2c887297ff6fde5c0c26cf5b48c5c45aa409d5da7c460c168ad4,5RD4bNw,11-jun,1781187367,T204,PEN,YAPE,MERLI,468,MERLI,FUNDDA,A,,ABONO,https://link.jairokov.com/i/5RD4bNw,51928344275@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.999,3.43,"[A-5RD4bNw] Monto: 468, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T204): 0.999 ","[A-5RD4bNw] Monto: 468, Titular: MERLI
 Banco: YAPE, Moneda: PEN, Tasa(T204): 3.43 ",468.46,136.44,0,453.27
@@ -20258,7 +20260,7 @@ Banco: BNC, Moneda: VES, Tasa(T204): 231.77 ",18.12,61.22,18.12,61.22
 6892,COMPLETADO,ed78fb9c3f8901f832766d704a651b8ecad31f6f68bfa5ef37c618125a7b403f,UjlzOXj,11-jun,1781193674,T204,ARS,BBVA,DUERTO ZOE,100000,NELSY,ELIS,P,,PAGO,https://link.jairokov.com/i/UjlzOXj,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1468,-1441,"[P-UjlzOXj] Monto: 100000, Titular: DUERTO ZOE
 Banco: BBVA, Moneda: ARS, Tasa(T204): 1468 ","[P-UjlzOXj] Monto: 100000, Titular: DUERTO ZOE
 Banco: BBVA, Moneda: ARS, Tasa(T204): 1441 ",68.11,-69.39,86.23,-153.46
-6893,PENDIENTE,ebca83ca95b6bb0fca0e3eab41396c87e46848aba6a3bfa69cd45b3f28045c4b,TUCP6MZ,31-dic,,,ARS,GALICIA,NELSY MAYNAP ALDANA MORILLO,114400,ELIS,,,,,https://link.jairokov.com/i/TUCP6MZ,5491127574905@s.whatsapp.net,,,,,,,,,,,
+6893,VALIDAR,ebca83ca95b6bb0fca0e3eab41396c87e46848aba6a3bfa69cd45b3f28045c4b,TUCP6MZ,11-jun,1781206056,T205,ARS,GALICIA,NELSY MAYNAP ALDANA MORILLO,114400,ELIS,CORREGIR,,,,https://link.jairokov.com/i/TUCP6MZ,5491127574905@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6894,COMPLETADO,35b6e262e9667a6f1e0100716df8a8bc82c6d0c4cf5f7a701970021176276c10,cJIjYMu,11-jun,1781194744,T205,MXN,OXXO,NATALIA,1800,JOSEM,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/cJIjYMu,56990683872@s.whatsapp.net,573248071414@s.whatsapp.net,,,18.55,-18.16,"[D-cJIjYMu] Monto: 1800, Titular: NATALIA
 Banco: OXXO, Moneda: MXN, Tasa(T205): 18.55 ","[D-cJIjYMu] Monto: 1800, Titular: NATALIA
 Banco: OXXO, Moneda: MXN, Tasa(T205): 18.16 ",97.03,-99.11,-1.73,-329.41
