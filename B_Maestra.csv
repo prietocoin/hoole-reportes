@@ -20366,7 +20366,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T207): 3490 ",42264.91,11.97,72598.58,103.74
 6928,COMPLETADO,2c0d653f40f267630bcda4bfb57823bd458370b940ce4a92ec8dd3f677cd25a6,arF3ddy,12-jun,1781276893,T207,USDT,BINANCE,EDWIN,12.27,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/arF3ddy,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-arF3ddy] Monto: 12.27, Titular: EDWIN
 Banco: BINANCE, Moneda: USDT, Tasa(T207): 1 ","[A-arF3ddy] Monto: 12.27, Titular: EDWIN
 Banco: BINANCE, Moneda: USDT, Tasa(T207): 1 ",12.27,12.27,116.01,490.44
-6929,COMPLETADO,53e2353419bf4c48c7cbff368f9cf0478e966fe5741706bd0c0878570ba3ccad,jTgvpzM,12-jun,1781277244,T208,COP,NEQUI,YOFRAN,30000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/jTgvpzM,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3396,"[P-jTgvpzM] Monto: 30000, Titular: YOFRAN
+6929,COMPLETADO,53e2353419bf4c48c7cbff368f9cf0478e966fe5741706bd0c0878570ba3ccad,jTgvpzM,12-jun,1781270144,T207,COP,NEQUI,YOFRAN,30000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/jTgvpzM,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3396,"[P-jTgvpzM] Monto: 30000, Titular: YOFRAN
 Banco: NEQUI, Moneda: COP, Tasa(T208): 0.99 ","[P-jTgvpzM] Monto: 30000, Titular: YOFRAN
 Banco: NEQUI, Moneda: COP, Tasa(T208): 3396 ",30303.03,-8.83,102901.61,63.68
 6930,COMPLETADO,f6171af2145838b0c44847ff6d07589954c0635bf9f9900a5aa447eff10806b1,Wm2QpBD,12-jun,1781278599,T208,USDT,BINANCE,CHASAN,547.88,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/Wm2QpBD,5215647886474@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-Wm2QpBD] Monto: 547.88, Titular: CHASAN
@@ -20397,3 +20397,4 @@ Banco: NEQUI, Moneda: COP, Tasa(T209): 0.99 ","[P-RXa5CdB] Monto: 140000, Titula
 Banco: NEQUI, Moneda: COP, Tasa(T209): 681 ",141414.14,205.58,304921.81,467.49
 6940,VALIDAR,d558fe86657dacbecc5430fdfa32452c6355deff8285e4d8470a31dd00b5ac4c,OAEW9ld,12-jun,1781286286,T209,COP,BANCOLOMBIA,LEA*** YUS*** MON*** PIN***,115700,IRIS,MERLI,,,,https://link.jairokov.com/i/OAEW9ld,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
 6941,VALIDAR,e387a8291e7d970e4d5e0452c61b4f73f2e43d1a02198122352533b9d53911ef,RXawbCD,12-jun,1781286351,T209,COP,🤷‍♂️,🤷‍♂️,1016000,COMPRA,IRIS,,,,https://link.jairokov.com/i/RXawbCD,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6942,PENDIENTE,8eb25ca056a8edc8ff10d704183404204cc84a2a155df4d8cf0034a501871ac0,xPWsvp7,31-dic,,,COP,NEQUI,ANA RANGEL,72000,OMAR,,,,,https://link.jairokov.com/i/xPWsvp7,573248071414@s.whatsapp.net,,,,,,,,,,,
