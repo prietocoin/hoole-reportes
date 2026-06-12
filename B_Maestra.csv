@@ -20363,4 +20363,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T207): 3406 ",30333.67,-8.8,30333.67,72.51
 6927,COMPLETADO,5c136b7ea4ac54a4a3dd7a07a08e5f54b9f9ddff2e68bdf70fd5b67d9d326c87,lPHYOhr,12-jun,1781276835,T207,COP,NEQUI,DANIELA,41800,IRIS,EDWIN,P,,PAGO,https://link.jairokov.com/i/lPHYOhr,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,3490,"[P-lPHYOhr] Monto: 41800, Titular: DANIELA
 Banco: NEQUI, Moneda: COP, Tasa(T207): 0.989 ","[P-lPHYOhr] Monto: 41800, Titular: DANIELA
 Banco: NEQUI, Moneda: COP, Tasa(T207): 3490 ",42264.91,11.97,72598.58,103.74
-6928,VALIDAR,2c0d653f40f267630bcda4bfb57823bd458370b940ce4a92ec8dd3f677cd25a6,arF3ddy,12-jun,1781276893,T207,🤷‍♂️,BINANCE,🤷‍♂️,12.27,EDWIN,FUNDDA,,,,https://link.jairokov.com/i/arF3ddy,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6928,COMPLETADO,2c0d653f40f267630bcda4bfb57823bd458370b940ce4a92ec8dd3f677cd25a6,arF3ddy,12-jun,1781276893,T207,USDT,BINANCE,EDWIN,12.27,EDWIN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/arF3ddy,554191071791@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-arF3ddy] Monto: 12.27, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T207): 1 ","[A-arF3ddy] Monto: 12.27, Titular: EDWIN
+Banco: BINANCE, Moneda: USDT, Tasa(T207): 1 ",12.27,12.27,116.01,490.44
