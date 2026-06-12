@@ -20319,5 +20319,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T206): 1 ",56.02,56.02,444.05,241.06
 6913,COMPLETADO,59da3ee570df192d4dc15273b893b54f16eedb21fabfaa793aee11455aac8a55,lj1l8or,11-jun,1781219843,T206,ARS,BRUBANK,DANIEL ZAMUDIO,24500,NELSY,YARELIS,P,,PAGO,https://link.jairokov.com/i/lj1l8or,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1460,-1433,"[P-lj1l8or] Monto: 24500, Titular: DANIEL ZAMUDIO
 Banco: BRUBANK, Moneda: ARS, Tasa(T206): 1460 ","[P-lj1l8or] Monto: 24500, Titular: DANIEL ZAMUDIO
 Banco: BRUBANK, Moneda: ARS, Tasa(T206): 1433 ",16.78,-17.09,384.72,13.52
-6914,VALIDAR,919d6f565ebad7cfc0981ae4e8f209a7f2baae388f1c1c492ded38adfb255839,ywQxnCt,11-jun,1781222044,T206,USD,ZINLI,IRISMAR KARINA PRIETRO VERA,170000,COMPRA,IRIS,,,,https://link.jairokov.com/i/ywQxnCt,595991712966@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-6915,VALIDAR,358146d6975324a38fa40034270647f0933a54fe2c7d71d43cfb339ab73ee668,cGDruss,11-jun,1781222039,T206,COP,🤷‍♂️,🤷‍♂️,242000,IRIS,OMAR,,,,https://link.jairokov.com/i/cGDruss,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+6914,COMPLETADO,919d6f565ebad7cfc0981ae4e8f209a7f2baae388f1c1c492ded38adfb255839,ywQxnCt,11-jun,1781222044,T206,COP,BANCOLOMBIA,COMPRA,170000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/ywQxnCt,595991712966@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-ywQxnCt] Monto: 170000, Titular: COMPRA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T206): 1 ","[C-ywQxnCt] Monto: 170000, Titular: COMPRA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T206): 1 ",-170000,-170000,-8224289,68483.31
+6915,COMPLETADO,358146d6975324a38fa40034270647f0933a54fe2c7d71d43cfb339ab73ee668,cGDruss,11-jun,1781222039,T206,COP,NEQUI,MARIA,242000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/cGDruss,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.989,-3406,"[P-cGDruss] Monto: 242000, Titular: MARIA
+Banco: NEQUI, Moneda: COP, Tasa(T206): 0.989 ","[P-cGDruss] Monto: 242000, Titular: MARIA
+Banco: NEQUI, Moneda: COP, Tasa(T206): 3406 ",244691.6,-71.05,244691.6,-120.26
