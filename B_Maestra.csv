@@ -20445,7 +20445,9 @@ Banco: BANCO NACIONAL DE CREDITO, Moneda: VES, Tasa(T209): 782 ",5.22,5.14,719.6
 6957,COMPLETADO,4d97f0bb5d798269c729ec0ae218a12cf1c5bc545c6998e7670e6a7b8f643bf7,ioMSzkI,12-jun,1781282457,T209,PEN,BCP,ALDAIR,35.2,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/ioMSzkI,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.42,-3.337,"[P-ioMSzkI] Monto: 35.2, Titular: ALDAIR
 Banco: BCP, Moneda: PEN, Tasa(T209): 3.42 ","[P-ioMSzkI] Monto: 35.2, Titular: ALDAIR
 Banco: BCP, Moneda: PEN, Tasa(T209): 3.337 ",10.29,-10.54,1335.83,-170.45
-6958,VALIDAR,911796a5f7b29aa7d2af6c6f485a81b9da7c8f8ae87104676f386d137261ef4c,yp9XfZu,13-jun,1781354183,T209,USD,BINANCE,JAIRO,140.28,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/yp9XfZu,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+6958,COMPLETADO,911796a5f7b29aa7d2af6c6f485a81b9da7c8f8ae87104676f386d137261ef4c,yp9XfZu,13-jun,1781354183,T209,USDT,BINANCE,JOSEM,140.28,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/yp9XfZu,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-yp9XfZu] Monto: 140.28, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T209): 1 ","[A-yp9XfZu] Monto: 140.28, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T209): 1 ",140.28,140.28,90.25,1476.11
 6959,PENDIENTE,63ad9d851644c12d2aedebf95ecfb0e2988aff8879db3ce9521fe4339adbab55,nDtJz0B,31-dic,,,COP,NEQUI,WESLY VERJEL,60000,IRIS,,,,,https://link.jairokov.com/i/nDtJz0B,573248071414@s.whatsapp.net,,,,,,,,,,,
 6960,COMPLETADO,ccc7da3d8b29843188b26712b45211ea3d241c2b898552d8af572e6d72ff776c,MyHTbJt,13-jun,1781359628,T210,PEN,YAPE,MARIA ELIAS,115.85,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/MyHTbJt,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.42,-3.337,"[P-MyHTbJt] Monto: 115.85, Titular: MARIA ELIAS
 Banco: YAPE, Moneda: PEN, Tasa(T210): 3.42 ","[P-MyHTbJt] Monto: 115.85, Titular: MARIA ELIAS
