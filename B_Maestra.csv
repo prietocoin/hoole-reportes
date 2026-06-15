@@ -20654,7 +20654,9 @@ Banco: PLIN, Moneda: PEN, Tasa(T212): 3.42 ",34.2,35.08,-445.62,35.08
 7028,COMPLETADO,761ac4321c292d9f2294cd33febdca6756c584cadd9955aeee45f3aab18deeae,s0nWgOu,15-jun,1781538688,T212,COP,NEQUI,COMPRA,646000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/s0nWgOu,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-s0nWgOu] Monto: 646000, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T212): 1 ","[C-s0nWgOu] Monto: 646000, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T212): 1 ",-646000,-646000,-14851289,-57111.12
-7029,PENDIENTE,61318ed9d07cdf9886644c31ceb1da20a1bdac3306eac12f200d2fedcd6f4257,n2WWGBU,31-dic,,,COP,🤷‍♂️,🤷‍♂️,30000,IRIS,,,,,https://link.jairokov.com/i/n2WWGBU,573248071414@s.whatsapp.net,,,,,,,,,,,
+7029,COMPLETADO,61318ed9d07cdf9886644c31ceb1da20a1bdac3306eac12f200d2fedcd6f4257,n2WWGBU,15-jun,1781542907,T212,COP,NEQUI,LEIDA,30000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/n2WWGBU,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3381,"[P-n2WWGBU] Monto: 30000, Titular: LEIDA
+Banco: NEQUI, Moneda: COP, Tasa(T212): 0.99 ","[P-n2WWGBU] Monto: 30000, Titular: LEIDA
+Banco: NEQUI, Moneda: COP, Tasa(T212): 3381 ",30303.03,-8.87,-26808.09,220.93
 7030,COMPLETADO,fdcf7fba72f7a6f0d2e474fc8af2dc510096248f67ad4baa23ffb6b31de715ec,Yby7MfT,15-jun,1781542818,T212,USDT,BINANCE,SUBERO,88.63,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/Yby7MfT,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-Yby7MfT] Monto: 88.63, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T212): 1 ","[A-Yby7MfT] Monto: 88.63, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T212): 1 ",88.63,88.63,609.24,123.71
@@ -20662,4 +20664,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T212): 1 ",88.63,88.63,609.24,123.71
 7032,COMPLETADO,2f75e403514f0c4142758b91365eac54a2dbb1d0ff1a1d0f51a767f13d26f26e,bfLIre0,15-jun,1781542512,T212,ARS,MERCADO PAGO,FLETE ANDRES,128250,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/bfLIre0,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1474,-1447,"[P-bfLIre0] Monto: 128250, Titular: FLETE ANDRES
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T212): 1474 ","[P-bfLIre0] Monto: 128250, Titular: FLETE ANDRES
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T212): 1447 ",87,-88.63,-358.62,-88.63
-7033,VALIDAR,86d8425feb44ba0879856bab1f6c0072873edc4b54993f0ce84c30dc656b83d9,vYv9wEn,15-jun,1781542860,T212,USD,🤷‍♂️,CASTRO BRAVO JUANA ALICIA,250,YARELIS,EDWIN,,,,https://link.jairokov.com/i/vYv9wEn,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+7033,COMPLETADO,86d8425feb44ba0879856bab1f6c0072873edc4b54993f0ce84c30dc656b83d9,vYv9wEn,15-jun,1781542860,T212,ECU,PICHINCHA,BRAVO JUANA,250,YARELIS,EDWIN,P,,PAGO,https://link.jairokov.com/i/vYv9wEn,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.98,1,"[P-vYv9wEn] Monto: 250, Titular: BRAVO JUANA
+Banco: PICHINCHA, Moneda: ECU, Tasa(T212): 0.98 ","[P-vYv9wEn] Monto: 250, Titular: BRAVO JUANA
+Banco: PICHINCHA, Moneda: ECU, Tasa(T212): 1 ",255.1,250,347.95,402.74
