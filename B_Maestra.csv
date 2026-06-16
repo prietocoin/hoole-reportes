@@ -20824,7 +20824,7 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T214): 228.73 ",31.37,105.33,17.71,356.72
 7086,COMPLETADO,7a503b5a40568613fdc294ee91fe0a3d46792d9ba8803125482d4da937dd8aa7,t0gr0VZ,16-jun,1781633783,T214,PEN,BCP,NECTALY,93,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/t0gr0VZ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-t0gr0VZ] Monto: 93, Titular: NECTALY
 Banco: BCP, Moneda: PEN, Tasa(T214): 3.41 ","[P-t0gr0VZ] Monto: 93, Titular: NECTALY
 Banco: BCP, Moneda: PEN, Tasa(T214): 3.328 ",27.27,-27.94,102.48,-561.97
-7087,PENDIENTE,c5f9565ce7e1ea248b8f707a62267e30acac26d7ceee27d0381f808481895e9f,KWDnarY,31-dic,,,PEN,INTERBANK,CH*** CO*** RO*** AL***,544.42,ALEJANDRA,,,,,https://link.jairokov.com/i/KWDnarY,5491177171331@s.whatsapp.net,,,,,,,,,,,
+7087,VALIDAR,c5f9565ce7e1ea248b8f707a62267e30acac26d7ceee27d0381f808481895e9f,KWDnarY,16-jun,1781649925,T214,PEN,INTERBANK,CH*** CO*** RO*** AL***,544.42,ALEJANDRA,FUNDDA,,,,https://link.jairokov.com/i/KWDnarY,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 7088,COMPLETADO,4221d96ef765459703500927f642587b8470209dc63fe34ce46252291a673290,fGhyDrP,16-jun,1781635887,T214,PEN,YAPE,ANAHIS,134.4,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/fGhyDrP,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-fGhyDrP] Monto: 134.4, Titular: ANAHIS
 Banco: YAPE, Moneda: PEN, Tasa(T214): 3.41 ","[P-fGhyDrP] Monto: 134.4, Titular: ANAHIS
 Banco: YAPE, Moneda: PEN, Tasa(T214): 3.328 ",39.41,-40.38,141.89,-602.35
