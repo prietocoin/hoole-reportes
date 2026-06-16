@@ -20771,4 +20771,6 @@ Banco: LEMON, Moneda: ARS, Tasa(T213): 1438 ",8.19,-8.34,8.19,-96.97
 7073,COMPLETADO,abbc0483d00f98c12047a41b410a6d4e89f59e2d57493c3fbe1488d1345a039a,EIRevgS,16-jun,1781619831,T213,USDT,BINANCE,SUBERO,8.34,SUBERO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/EIRevgS,34627629613@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-EIRevgS] Monto: 8.34, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T213): 1 ","[A-EIRevgS] Monto: 8.34, Titular: SUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T213): 1 ",8.34,8.34,-88.63,8.34
-7074,VALIDAR,eb8553f285e9d28d8dd1151da0cb21af76827b4179221314bc0cd48dda187c6a,TQEtjFd,16-jun,1781621126,T213,PEN,INTERBANK,🤷‍♂️,305,FUNDDA,ELIS,,,,https://link.jairokov.com/i/TQEtjFd,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+7074,COMPLETADO,eb8553f285e9d28d8dd1151da0cb21af76827b4179221314bc0cd48dda187c6a,TQEtjFd,16-jun,1781621126,T213,PEN,YAPE,ROBERTO,305,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/TQEtjFd,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.42,-3.337,"[P-TQEtjFd] Monto: 305, Titular: ROBERTO
+Banco: YAPE, Moneda: PEN, Tasa(T213): 3.42 ","[P-TQEtjFd] Monto: 305, Titular: ROBERTO
+Banco: YAPE, Moneda: PEN, Tasa(T213): 3.337 ",89.18,-91.39,97.52,51.13
