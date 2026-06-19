@@ -21163,3 +21163,6 @@ Banco: OXXO, Moneda: MXN, Tasa(T217): 18.17 ",215.74,-66.04,394.49,-66.04
 Banco: BCP, Moneda: PEN, Tasa(T217): 3.41 ","[P-s6AlXpO] Monto: 150, Titular: PERCY
 Banco: BCP, Moneda: PEN, Tasa(T217): 3.328 ",43.98,-45.07,43.98,-111.11
 7221,VALIDAR,22d89cd2e215da17d0b10a058e25a684794f1de9cd27f7d4cd4f348f6126c060,,,1781895363,T217,,,,,,FUNDDA,,,,,,5491127574905@s.whatsapp.net,,,,,,,,,,
+7222,COMPLETADO,,8gjkBtP,19-jun,1781895363,T217,MXN,CHILE,JORGE,5000,FUNDDA,MICHE,D,,DEPOSITO,https://link.jairokov.com/i/8gjkBtP,,,,,18.56,17.45,"[D-8gjkBtP] Monto: 5000, Titular: JORGE
+Banco: CHILE, Moneda: MXN, Tasa(T217): 18.56 ","[D-8gjkBtP] Monto: 5000, Titular: JORGE
+Banco: CHILE, Moneda: MXN, Tasa(T217): 17.45 ",269.39,286.53,269.39,286.53
