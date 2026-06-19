@@ -21098,3 +21098,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T216): 1 ",37.03,125.92,66.44,1744.58
 7190,COMPLETADO,7ad6d5b1c9d2535b9eb7d7b83a73a32dfd21ddb978e85e7c11266b5f4befec2f,t7ZI8l2,18-jun,1781834306,T216,PEN,YAPE,YESEYKA,70,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/t7ZI8l2,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.488,3.4,"[D-t7ZI8l2] Monto: 70, Titular: YESEYKA
 Banco: YAPE, Moneda: PEN, Tasa(T216): 3.488 ","[D-t7ZI8l2] Monto: 70, Titular: YESEYKA
 Banco: YAPE, Moneda: PEN, Tasa(T216): 3.4 ",20.06,20.58,20.06,87.02
+7191,COMPLETADO,5b0c304d0cfe894a90cdde86bc96d6b3594ff9bb0df465b4736fa21fab29fcea,lAAHwEb,18-jun,1781835224,T216,PEN,INTERBANK,DELIA,100,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/lAAHwEb,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.4,-3.318,"[P-lAAHwEb] Monto: 100, Titular: DELIA
+Banco: INTERBANK, Moneda: PEN, Tasa(T216): 3.4 ","[P-lAAHwEb] Monto: 100, Titular: DELIA
+Banco: INTERBANK, Moneda: PEN, Tasa(T216): 3.318 ",29.41,-30.13,116.43,-152.5
