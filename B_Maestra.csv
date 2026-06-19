@@ -21052,7 +21052,7 @@ Banco: MERCADO PAGO, Moneda: ARS, Tasa(T215): 1530 ",42.66,-41.83,1302.2,170.43
 7168,COMPLETADO,47128b55d3170004c953d0c6f7c1932dc9cbea465317440a4088faa58d47c209,gQUIpF9,18-jun,1781816022,T216,USDT,BINANCE,ELIS,308,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/gQUIpF9,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-gQUIpF9] Monto: 308, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T216): 1 ","[A-gQUIpF9] Monto: 308, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T216): 1 ",308,308,249.9,308
-7169,PENDIENTE,e5ae8949b1247da8301b822d54ee01bc65cee71fd93a1edb1e1163095a77e73d,SsO14I6,31-dic,,,USDT,🤷‍♂️,🤷‍♂️,14.94,ELIS,,,,,https://link.jairokov.com/i/SsO14I6,554191581015@s.whatsapp.net,,,,,,,,,,,
+7169,VALIDAR,e5ae8949b1247da8301b822d54ee01bc65cee71fd93a1edb1e1163095a77e73d,SsO14I6,18-jun,1781834495,T216,USDT,🤷‍♂️,🤷‍♂️,14.94,ELIS,FUNDDA,,,,https://link.jairokov.com/i/SsO14I6,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 7170,COMPLETADO,8e0af47f19a92f7faef23fb07f67c82d096040bf2c757bcbc85468bf7003dcb7,xGknyS6,18-jun,1781816586,T216,COP,BANCOLOMBIA,YAIR,200000,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/xGknyS6,573025846261@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,-1.01,"[D-xGknyS6] Monto: 200000, Titular: YAIR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T216): 1 ","[D-xGknyS6] Monto: 200000, Titular: YAIR
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T216): 1.01 ",200000,-198019.8,264655.17,-198019.8
@@ -21089,4 +21089,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T216): 3337 ",303030.3,-89.9,303030.3,-89.9
 7189,COMPLETADO,5c2c2f2a472f8b792b137ddf6a7b155a4282d3081fbcf26ca0a0e6d0372186e0,lR89OPU,18-jun,1781833850,T216,PEN,INTERBANK,VI*** AL*** RO*** NA,125.92,FUNDDA,ROSANGEL,P,,PAGO,https://link.jairokov.com/i/lR89OPU,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.4,1,"[P-lR89OPU] Monto: 125.92, Titular: VI*** AL*** RO*** NA
 Banco: INTERBANK, Moneda: PEN, Tasa(T216): 3.4 ","[P-lR89OPU] Monto: 125.92, Titular: VI*** AL*** RO*** NA
 Banco: INTERBANK, Moneda: PEN, Tasa(T216): 1 ",37.03,125.92,66.44,1744.58
-7190,VALIDAR,7ad6d5b1c9d2535b9eb7d7b83a73a32dfd21ddb978e85e7c11266b5f4befec2f,t7ZI8l2,18-jun,1781834306,T216,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,70,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/t7ZI8l2,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+7190,COMPLETADO,7ad6d5b1c9d2535b9eb7d7b83a73a32dfd21ddb978e85e7c11266b5f4befec2f,t7ZI8l2,18-jun,1781834306,T216,PEN,YAPE,YESEYKA,70,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/t7ZI8l2,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.488,3.4,"[D-t7ZI8l2] Monto: 70, Titular: YESEYKA
+Banco: YAPE, Moneda: PEN, Tasa(T216): 3.488 ","[D-t7ZI8l2] Monto: 70, Titular: YESEYKA
+Banco: YAPE, Moneda: PEN, Tasa(T216): 3.4 ",20.06,20.58,20.06,87.02
