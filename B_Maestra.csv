@@ -20935,7 +20935,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T215): 3323 ",202020.2,-60.18,586448.63,-177.04
 7117,COMPLETADO,a296babb76c5202252ad1426b899079d27724bbce7c4d101bd5f716367d616e0,CyoGwwS,17-jun,1781725572,T215,PEN,YAPE,ENZO,291,ENZO,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/CyoGwwS,51917122096@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.4,"[D-CyoGwwS] Monto: 291, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T215): 1 ","[D-CyoGwwS] Monto: 291, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T215): 3.4 ",291,85.58,291,404.65
-7118,COMPLETADO,bb44d97b6deefdf6cbeee0e0d75f54a6ff75e55e9dd32e79a0215d9169c9655f,Ipfpl5u,17-jun,1781725663,T215,COP,NEQUI,HENRY,262200,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/Ipfpl5u,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,1001,"[P-Ipfpl5u] Monto: 262200, Titular: HENRY
+7118,COMPLETADO,bb44d97b6deefdf6cbeee0e0d75f54a6ff75e55e9dd32e79a0215d9169c9655f,Ipfpl5u,17-jun,1781701590,T215,COP,NEQUI,HENRY,262200,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/Ipfpl5u,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,1001,"[P-Ipfpl5u] Monto: 262200, Titular: HENRY
 Banco: NEQUI, Moneda: COP, Tasa(T215): 0.99 ","[P-Ipfpl5u] Monto: 262200, Titular: HENRY
 Banco: NEQUI, Moneda: COP, Tasa(T215): 1001 ",264848.48,261.93,851297.11,552.93
 7119,COMPLETADO,4a53cd13f6258e8198d8efbac8864bf2ce5924f3d526da6f163f4a981cded81d,hCLFk38,17-jun,1781725767,T215,COP,NEQUI,COMPRA,1369494,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/hCLFk38,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-hCLFk38] Monto: 1369494, Titular: COMPRA
@@ -21171,3 +21171,6 @@ Banco: CHILE, Moneda: MXN, Tasa(T217): 1.015 ",269.39,-4926.1,269.39,48281.11
 7225,COMPLETADO,,ErfPnoQ,17-jun,1781701590,T215,COP,NEQUI,DAMARIS,72500,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/ErfPnoQ,,,,,1,-1.01,"[D-ErfPnoQ] Monto: 72500, Titular: DAMARIS
 Banco: NEQUI, Moneda: COP, Tasa(T215): 1 ","[D-ErfPnoQ] Monto: 72500, Titular: DAMARIS
 Banco: NEQUI, Moneda: COP, Tasa(T215): 1.01 ",72500,-71782.17,72500,231248.13
+7226,COMPLETADO,,ktizshO,17-jun,1781701590,T215,COP,BANCOLOMBIA,ALISON,917700,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/,,,,,0.99,1001,"[P-ktizshO] Monto: 917700, Titular: ALISON
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T215): 0.99 ","[P-ktizshO] Monto: 917700, Titular: ALISON
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T215): 1001 ",926969.69,916.78,1158217.82,1207.78
