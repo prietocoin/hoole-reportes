@@ -21167,3 +21167,7 @@ Banco: PLIN, Moneda: PEN, Tasa(T217): 3.41 ",140.93,144.57,504.51,346.03
 7233,COMPLETADO,,lEsocqq,19-jun,1781892188,T217,PEN,PLIN,JOSELIN,200,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/lEsocqq,,,,,3.498,3.41,"[D-lEsocqq] Monto: 200, Titular: JOSELIN
 Banco: PLIN, Moneda: PEN, Tasa(T217): 3.498 ","[D-lEsocqq] Monto: 200, Titular: JOSELIN
 Banco: PLIN, Moneda: PEN, Tasa(T217): 3.41 ",57.17,58.65,77.23,404.68
+7234,COMPLETADO,,pwqdAcl,19-jun,1781892571,T217,USDT,BINANCE,OMAR,457,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/pwqdAcl,,,,,1,1,"[A-pwqdAcl] Monto: 457, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T217): 1 ","[A-pwqdAcl] Monto: 457, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T217): 1 ",457,457,457,861.68
+7235,VALIDAR,ed847c037040cf5e5e095fce3b7764a75d9d5ebe26cf7631ecb988d28f104407,,,1781892666,T217,,,,,,CHASAN,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
