@@ -21216,3 +21216,7 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T217): 3337 ",353535.35,-104.88,1123381.53
 7246,COMPLETADO,,qbcrwx4,19-jun,1781900301,T217,COP,NEQUI,YOSELIN,43750,IRIS,KARLA,P,,PAGO,https://link.jairokov.com/i/qbcrwx4,,,,,0.99,1002,"[P-qbcrwx4] Monto: 43750, Titular: YOSELIN
 Banco: NEQUI, Moneda: COP, Tasa(T217): 0.99 ","[P-qbcrwx4] Monto: 43750, Titular: YOSELIN
 Banco: NEQUI, Moneda: COP, Tasa(T217): 1002 ",44191.91,43.66,44191.91,412.38
+7247,COMPLETADO,,tteKtFH,19-jun,1781900411,T217,COP,NEQUI,JOSELYN,174600,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/tteKtFH,,,,,0.99,-3337,"[P-tteKtFH] Monto: 174600, Titular: JOSELYN
+Banco: NEQUI, Moneda: COP, Tasa(T217): 0.99 ","[P-tteKtFH] Monto: 174600, Titular: JOSELYN
+Banco: NEQUI, Moneda: COP, Tasa(T217): 3337 ",176363.63,-52.32,220555.54,-581.16
+7248,VALIDAR,720413dcbdfa4ca05c514accbccd2f4de5ace571bdafd55b75239fe8661b80bd,,,1781900531,T217,,,,,,FUNDDA,,,,,,5491127574905@s.whatsapp.net,,,,,,,,,,
