@@ -21156,3 +21156,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T217): 1 ",570,570,570,570
 7230,COMPLETADO,,zIy8AkY,19-jun,1781890976,T217,PEN,YAPE,JUAN,35,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/zIy8AkY,,,,,3.41,-3.328,"[P-zIy8AkY] Monto: 35, Titular: JUAN
 Banco: YAPE, Moneda: PEN, Tasa(T217): 3.41 ","[P-zIy8AkY] Monto: 35, Titular: JUAN
 Banco: YAPE, Moneda: PEN, Tasa(T217): 3.328 ",10.26,-10.51,10.26,559.49
+7231,COMPLETADO,,DElkRDH,19-jun,1781891066,T217,PEN,YAPE,MIGUEL,652,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/DElkRDH,,,,,3.41,-3.328,"[P-DElkRDH] Monto: 652, Titular: MIGUEL
+Banco: YAPE, Moneda: PEN, Tasa(T217): 3.41 ","[P-DElkRDH] Monto: 652, Titular: MIGUEL
+Banco: YAPE, Moneda: PEN, Tasa(T217): 3.328 ",191.2,-195.91,201.46,363.58
+7232,COMPLETADO,,GhaVPGR,19-jun,1781891030,T217,PEN,PLIN,CRISTOFER,493,CHASAN,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/GhaVPGR,,,,,3.498,3.41,"[D-GhaVPGR] Monto: 493, Titular: CRISTOFER
+Banco: PLIN, Moneda: PEN, Tasa(T217): 3.498 ","[D-GhaVPGR] Monto: 493, Titular: CRISTOFER
+Banco: PLIN, Moneda: PEN, Tasa(T217): 3.41 ",140.93,144.57,504.51,346.03
