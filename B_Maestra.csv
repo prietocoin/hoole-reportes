@@ -21168,3 +21168,6 @@ Banco: CHILE, Moneda: MXN, Tasa(T217): 18.56 ","[D-8gjkBtP] Monto: 5000, Titular
 Banco: CHILE, Moneda: MXN, Tasa(T217): 1.015 ",269.39,-4926.1,269.39,48281.11
 7223,VALIDAR,9086572abdd63178289cb7fd11d93b2003eeb9fab73cf1cc8509fff7c128696c,,,1781895590,T217,,,,,,MICHEL,,,,,,5491177171331@s.whatsapp.net,,,,,,,,,,
 7224,VALIDAR,7c48b8492463fafeb9000e7e2a5bfcf7991fbaec0fdbb859231731fb6cd81dd2,,,1781895785,T217,,,,,,OMAR,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
+7225,COMPLETADO,,ErfPnoQ,19-jun,1781896097,T217,COP,NEQUI,DAMARIS,72500,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/ErfPnoQ,,,,,1,-1.01,"[D-ErfPnoQ] Monto: 72500, Titular: DAMARIS
+Banco: NEQUI, Moneda: COP, Tasa(T217): 1 ","[D-ErfPnoQ] Monto: 72500, Titular: DAMARIS
+Banco: NEQUI, Moneda: COP, Tasa(T217): 1.01 ",72500,-71782.17,72500,231248.13
