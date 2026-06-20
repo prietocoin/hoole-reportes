@@ -21269,3 +21269,6 @@ Banco: VENEZUELA, Moneda: VES, Tasa(T217): 232.25 ",26.41,88.69,-799.17,88.69
 7271,COMPLETADO,,nBySkoG,19-jun,1781874410,T217,VES,VENEZUELA,9780092,6180,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/nBySkoG,,,,,780,0.231,"[P-nBySkoG] Monto: 6180, Titular: 9780092
 Banco: VENEZUELA, Moneda: VES, Tasa(T217): 780 ","[P-nBySkoG] Monto: 6180, Titular: 9780092
 Banco: VENEZUELA, Moneda: VES, Tasa(T217): 0.231 ",7.92,26753.24,-791.25,26753.24
+7272,COMPLETADO,,dmzYltT,19-jun,1781874410,T217,VES,MERCANTIL,31669299,4120,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/dmzYltT,,,,,780,0.231,"[P-dmzYltT] Monto: 4120, Titular: 31669299
+Banco: MERCANTIL, Moneda: VES, Tasa(T217): 780 ","[P-dmzYltT] Monto: 4120, Titular: 31669299
+Banco: MERCANTIL, Moneda: VES, Tasa(T217): 0.231 ",5.28,17835.49,-785.97,44588.73
