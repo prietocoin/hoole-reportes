@@ -21254,3 +21254,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T217): 3337 ",27.16,-27.41,-34.76,-44.85
 7266,COMPLETADO,,2hlCeCm,19-jun,1781874410,T217,USDT,BINANCE,OMAR,390,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/2hlCeCm,,,,,1,1,"[A-2hlCeCm] Monto: 390, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T217): 1 ","[A-2hlCeCm] Monto: 390, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T217): 1 ",390,390,345.15,390
+7267,COMPLETADO,,fwB0tLb,19-jun,1781874410,T217,ECU,PICHINCHA,CHILA,75.2,YARELIS,CHASAN,P,,PAGO,https://link.jairokov.com/i/fwB0tLb,,,,,0.98,-0.96,"[P-fwB0tLb] Monto: 75.2, Titular: CHILA
+Banco: PICHINCHA, Moneda: ECU, Tasa(T217): 0.98 ","[P-fwB0tLb] Monto: 75.2, Titular: CHILA
+Banco: PICHINCHA, Moneda: ECU, Tasa(T217): 0.96 ",76.73,-78.33,316.49,-189.44
