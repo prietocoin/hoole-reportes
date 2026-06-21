@@ -21341,3 +21341,6 @@ Banco: PLIN, Moneda: PEN, Tasa(T218): 1 ",63.45,-215.74,17.26,-215.74
 7329,COMPLETADO,,PklzqUE,20-jun,1781971195,T218,PEN,YAPE,SEGUNDO,135,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/PklzqUE,,,,,3.4,-3.318,"[P-PklzqUE] Monto: 135, Titular: SEGUNDO
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-PklzqUE] Monto: 135, Titular: SEGUNDO
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",39.7,-40.68,39.7,-40.68
+7330,COMPLETADO,,mZjzvQ3,20-jun,1781978158,T218,PEN,YAPE,LENIXA,45,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/mZjzvQ3,,,,,3.4,-3.318,"[P-mZjzvQ3] Monto: 45, Titular: LENIXA
+Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-mZjzvQ3] Monto: 45, Titular: LENIXA
+Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",13.23,-13.56,52.93,-54.24
