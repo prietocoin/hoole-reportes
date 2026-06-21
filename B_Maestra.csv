@@ -21344,3 +21344,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",39.7,-40.68,39.7,-40.68
 7330,COMPLETADO,,mZjzvQ3,20-jun,1781978158,T218,PEN,YAPE,LENIXA,45,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/mZjzvQ3,,,,,3.4,-3.318,"[P-mZjzvQ3] Monto: 45, Titular: LENIXA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-mZjzvQ3] Monto: 45, Titular: LENIXA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",13.23,-13.56,52.93,-54.24
+7331,COMPLETADO,,SrkS04o,20-jun,1781983940,T218,COP,NEQUI,CLAUDIA,81675,ROSIMAR,ELIS,P,,PAGO,https://link.jairokov.com/i/SrkS04o,,,,,3363,-3333,"[P-SrkS04o] Monto: 81675, Titular: CLAUDIA
+Banco: NEQUI, Moneda: COP, Tasa(T218): 3363 ","[P-SrkS04o] Monto: 81675, Titular: CLAUDIA
+Banco: NEQUI, Moneda: COP, Tasa(T218): 3333 ",24.28,-24.5,24.28,-78.74
