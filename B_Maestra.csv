@@ -21416,4 +21416,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T219): 3478 ",90000,-25.87,90000,304.34
 7350,COMPLETADO,,KxZSLPf,20-jun,1781960828,T218,COP,NEQUI,YAIL,100000,YAIR,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/KxZSLPf,,,,,1,-1.01,"[D-KxZSLPf] Monto: 100000, Titular: YAIL
 Banco: NEQUI, Moneda: COP, Tasa(T218): 1 ","[D-KxZSLPf] Monto: 100000, Titular: YAIL
 Banco: NEQUI, Moneda: COP, Tasa(T218): 1.01 ",100000,-99009.9,100000,-99009.9
-7351,VALIDAR,5e8baae167188b26d6c022ec09bead0525b37cfe0a8d90b36e8564e795f23d9a,mq1cEx4,21-jun,1782091047,T221,COP,NEQUI,🤷‍♂️,17580,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/mq1cEx4,5491127574905@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+7351,COMPLETADO,5e8baae167188b26d6c022ec09bead0525b37cfe0a8d90b36e8564e795f23d9a,mq1cEx4,21-jun,1782091047,T221,COP,NEQUI,YOHANA,17580,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/mq1cEx4,5491127574905@s.whatsapp.net,5491177171331@s.whatsapp.net,,,0.99,-975,"[P-mq1cEx4] Monto: 17580, Titular: YOHANA
+Banco: NEQUI, Moneda: COP, Tasa(T221): 0.99 ","[P-mq1cEx4] Monto: 17580, Titular: YOHANA
+Banco: NEQUI, Moneda: COP, Tasa(T221): 975 ",17757.57,-18.03,-81252.33,-532.96
