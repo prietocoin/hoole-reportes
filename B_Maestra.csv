@@ -21434,3 +21434,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T218): 3333 ",34.61,-34.92,338.95,-141.46
 7354,COMPLETADO,,qxJ1IiG,20-jun,1781986879,T219,COP,NEQUI,DARLENES,29100,ROSIMAR,OMAR,P,,PAGO,https://link.jairokov.com/i/qxJ1IiG,,,,,3358,-3328,"[P-qxJ1IiG] Monto: 29100, Titular: DARLENES
 Banco: NEQUI, Moneda: COP, Tasa(T219): 3358 ","[P-qxJ1IiG] Monto: 29100, Titular: DARLENES
 Banco: NEQUI, Moneda: COP, Tasa(T219): 3328 ",8.66,-8.74,347.61,-150.2
+7355,COMPLETADO,,cxxHHxv,20-jun,1781960828,T218,PEN,YAPE,LINA,110,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/cxxHHxv,,,,,3.4,-3.318,"[P-cxxHHxv] Monto: 110, Titular: LINA
+Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-cxxHHxv] Monto: 110, Titular: LINA
+Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",32.35,-33.15,85.28,-132.92
