@@ -21456,3 +21456,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T220): 3.328 ",44.1,-45.19,168.79,-177.92
 7362,COMPLETADO,,CrKdo5E,20-jun,1781960828,T218,PEN,YAPE,MARIA,102.3,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/CrKdo5E,,,,,3.4,-3.318,"[P-CrKdo5E] Monto: 102.3, Titular: MARIA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-CrKdo5E] Monto: 102.3, Titular: MARIA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",30.08,-30.83,30.08,-30.83
+7363,COMPLETADO,,FAWvGzC,20-jun,1781986879,T219,PEN,YAPE,MARYORI,33,FUNDDA,YARELIS,P,,PAGO,https://link.jairokov.com/i/FAWvGzC,,,,,3.4,-3.318,"[P-FAWvGzC] Monto: 33, Titular: MARYORI
+Banco: YAPE, Moneda: PEN, Tasa(T219): 3.4 ","[P-FAWvGzC] Monto: 33, Titular: MARYORI
+Banco: YAPE, Moneda: PEN, Tasa(T219): 3.318 ",9.7,-9.94,39.78,-40.77
