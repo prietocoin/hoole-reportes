@@ -21492,3 +21492,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",145.58,-149.18,145.58,-149.18
 7384,COMPLETADO,,XNmgEez,20-jun,1781960828,T218,PEN,YAPE,CECILIA,270,FUNDDA,NELSY,P,,PAGO,https://link.jairokov.com/i/XNmgEez,,,,,3.4,-3.318,"[P-XNmgEez] Monto: 270, Titular: CECILIA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.4 ","[P-XNmgEez] Monto: 270, Titular: CECILIA
 Banco: YAPE, Moneda: PEN, Tasa(T218): 3.318 ",79.41,-81.37,224.99,-230.55
+7385,COMPLETADO,,CKJNtQ7,20-jun,1781960828,T218,ARS,BELO,RICARDO,26300,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/,,,,,1489,-1462,"[P-CKJNtQ7] Monto: 26300, Titular: RICARDO
+Banco: BELO, Moneda: ARS, Tasa(T218): 1489 ","[P-CKJNtQ7] Monto: 26300, Titular: RICARDO
+Banco: BELO, Moneda: ARS, Tasa(T218): 1462 ",17.66,-17.98,-212.89,-17.98
