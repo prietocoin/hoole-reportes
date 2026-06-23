@@ -21586,3 +21586,6 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T223): 3313 ",154.28,-158.1,154.28,-239.59
 Banco: INTERBANK, Moneda: PEN, Tasa(T223): 3.39 ","[P-xwjTynE] Monto: 41, Titular: JOJANHY
 Banco: INTERBANK, Moneda: PEN, Tasa(T223): 3.308 ",12.09,-12.39,26.83,-24.08
 7406,VALIDAR,2d6044e46069d21bc7fb5bc3cd1cd029c4b47325306f2e5662cda74197680d66,,,1782211141,T223,,,,,,CHASAN,,,,,,5491177171331@s.whatsapp.net,,,,,,,,,,
+7407,COMPLETADO,b12dd887bf19de61218f0d1b26811720d00ddc335c46cfe00c75caede254210e,G0UbUMr,22-jun,1782155768,T223,BRL,PIX,YINA,60,OMAR,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/G0UbUMr,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,4.99,-1.403,"[P-G0UbUMr] Monto: 60, Titular: YINA
+Banco: PIX, Moneda: BRL, Tasa(T223): 4.99 ","[P-G0UbUMr] Monto: 60, Titular: YINA
+Banco: PIX, Moneda: BRL, Tasa(T223): 1.403 ",12.02,-42.76,-227.57,135.59
