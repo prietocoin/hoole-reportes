@@ -21735,7 +21735,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T225): 1.009 ",100100.1,-99108.02,2175133.48,-54
 Banco: YAPE, Moneda: PEN, Tasa(T226): 3.488 ","[D-Tv30lB5] Monto: 120, Titular: TANIA
 Banco: YAPE, Moneda: PEN, Tasa(T226): 3.4 ",34.4,35.29,-161.14,35.29
 7465,VALIDAR,43afae9a37f04b0615f6d958a66579c349132d2e065745fd6f488c6da51d0b1f,g386ISy,24-jun,1782314681,T226,MXN,SPIN,🤷‍♂️,512,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/g386ISy,584122830430@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-7466,VALIDAR,2cc91f29af792e1a44f575f9d27fe01816d5b3d9b22d13f16448a79b15dd264b,aCrtUzT,24-jun,1782345491,T227,COP,NEQUI,FARI SARMIENTO,264640,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/aCrtUzT,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+7466,COMPLETADO,2cc91f29af792e1a44f575f9d27fe01816d5b3d9b22d13f16448a79b15dd264b,aCrtUzT,24-jun,1782345491,T227,COP,NEQUI,FARI,264640,IRIS,JOSEM,P,,PAGO,https://link.jairokov.com/i/aCrtUzT,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.989,-3313,"[P-aCrtUzT] Monto: 264640, Titular: FARI
+Banco: NEQUI, Moneda: COP, Tasa(T227): 0.989 ","[P-aCrtUzT] Monto: 264640, Titular: FARI
+Banco: NEQUI, Moneda: COP, Tasa(T227): 3313 ",267583.41,-79.87,-275607.08,-65.01
 7467,COMPLETADO,ee710edc435c17201f4eeb59b47ce1f68f7cdd92f187e88942c645e140cad01d,UxATeUg,24-jun,1782318028,T226,PEN,BCP,KARLA,727.5,KARLA,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/UxATeUg,51927348852@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,3.4,"[D-UxATeUg] Monto: 727.5, Titular: KARLA
 Banco: BCP, Moneda: PEN, Tasa(T226): 1 ","[D-UxATeUg] Monto: 727.5, Titular: KARLA
 Banco: BCP, Moneda: PEN, Tasa(T226): 3.4 ",727.5,213.97,771.15,249.26
