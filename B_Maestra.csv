@@ -21882,4 +21882,6 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T229): 0.227 ",26.47,88986.78,-601.02,88986.
 7518,COMPLETADO,92c89f43ecd0e27997ee92e05a1a09463f8fa2b9a40c580648a2cc83ed7e7a8c,yO1QmhM,25-jun,1782435111,T229,VES,BNC,18824946,336330,JAIPY,CINDY,P,,PAGO,https://link.jairokov.com/i/yO1QmhM,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,775,0.227,"[P-yO1QmhM] Monto: 336330, Titular: 18824946
 Banco: BNC, Moneda: VES, Tasa(T229): 775 ","[P-yO1QmhM] Monto: 336330, Titular: 18824946
 Banco: BNC, Moneda: VES, Tasa(T229): 0.227 ",433.97,1481629.95,499.05,1570616.73
-7519,VALIDAR,2e59d5233c536d5d71fccf8ba40c37df38e6a66a150e668b7eb4af0d368ac99a,aZshnO7,25-jun,1782437968,T229,PEN,BCP,ALVARADO PEA PERCY I.,173,JAIPY,CHASAN,,,,https://link.jairokov.com/i/aZshnO7,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+7519,COMPLETADO,2e59d5233c536d5d71fccf8ba40c37df38e6a66a150e668b7eb4af0d368ac99a,aZshnO7,25-jun,1782437968,T229,PEN,BCP,ALVARADO,173,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/aZshnO7,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-aZshnO7] Monto: 173, Titular: ALVARADO
+Banco: BCP, Moneda: PEN, Tasa(T229): 3.41 ","[P-aZshnO7] Monto: 173, Titular: ALVARADO
+Banco: BCP, Moneda: PEN, Tasa(T229): 3.328 ",50.73,-51.98,549.78,363.01
