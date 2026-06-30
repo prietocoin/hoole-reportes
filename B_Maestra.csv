@@ -22206,7 +22206,9 @@ Banco: VENEZUELA, Moneda: VES, Tasa(T234): 0.221 ",52.32,178280.54,371.44,391606
 Banco: ZELLE, Moneda: USD, Tasa(T237): 0.293 ","[D-MTKn6dO] Monto: 50, Titular: LUIS
 Banco: ZELLE, Moneda: USD, Tasa(T237): 1.041 ",170.64,-48.03,170.64,-105.95
 7638,PENDIENTE,221a2f7928c83c5e840acb5d779cecf49acaf6eba059272fe6fd6d94ce403992,85nhE7k,31-dic,,,USD,ADV SAFEBALANCE BANKING,ADA ALDANA MORILLO,100,AIDA,,,,,https://link.jairokov.com/i/85nhE7k,573248071414@s.whatsapp.net,,,,,,,,,,,
-7639,PENDIENTE,7e68ed029b1ed7c54cabf77c56dfe08e398a5ade81ff55fcb138011e2f3d0292,tYuu7Uj,31-dic,,,USDT,BINANCE,FUNDABLOCK,67.88,ELIS,,,,,https://link.jairokov.com/i/tYuu7Uj,554191581015@s.whatsapp.net,,,,,,,,,,,
+7639,COMPLETADO,7e68ed029b1ed7c54cabf77c56dfe08e398a5ade81ff55fcb138011e2f3d0292,tYuu7Uj,30-jun,1782861890,T240,USDT,BINANCE,ELIS,67.88,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/tYuu7Uj,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-tYuu7Uj] Monto: 67.88, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T240): 1 ","[A-tYuu7Uj] Monto: 67.88, Titular: ELIS
+Banco: BINANCE, Moneda: USDT, Tasa(T240): 1 ",67.88,67.88,77.83,161.04
 7640,COMPLETADO,0a1d7940bd794c5566d090ef146b5a58636a8fc560b7d679ce02b88708b72d11,2oIfJvk,29-jun,1782783650,T237,USDT,BINANCE,PAGOASUBERO,43.96,NELSY,SUBERO,A,,ABONO,https://link.jairokov.com/i/2oIfJvk,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-2oIfJvk] Monto: 43.96, Titular: PAGOASUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T237): 1 ","[A-2oIfJvk] Monto: 43.96, Titular: PAGOASUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T237): 1 ",43.96,43.96,415.4,43.96
