@@ -22311,4 +22311,7 @@ Banco: NEQUI, Moneda: COP, Tasa(T240): 1 ",560000,560000,-2325500,997036.98
 Banco: NEQUI, Moneda: COP, Tasa(T240): 1 ","[C-3seP9x9] Monto: 951100, Titular: CUOTAMOTO
 Banco: NEQUI, Moneda: COP, Tasa(T240): 1 ",-951100,-951100,-3836600,551593.54
 7675,VALIDAR,6f17ff9dd17fb4e3a33a7b5b3040342bd0d798dbf2eb65ffaedcc423b18e13c9,,,1782870645,T240,,,,,,IRIS,,,,,,5491177171331@s.whatsapp.net,,,,,,,,,,
-7676,VALIDAR,44457cdb8b1a6b41b4d29d7348219f5f94f29efa2ba1baad9650df614ddbeabd,gbJw1Vt,30-jun,1782870891,T240,USDT,🤷‍♂️,🤷‍♂️,1013.52,FUNDDA,NELSY,,,,https://link.jairokov.com/i/gbJw1Vt,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+7676,COMPLETADO,44457cdb8b1a6b41b4d29d7348219f5f94f29efa2ba1baad9650df614ddbeabd,gbJw1Vt,30-jun,1782870891,T240,USDT,BINANCE,FUNDDA,-1041.78,FUNDDA,NELSY,A,,ABONO,https://link.jairokov.com/i/gbJw1Vt,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-gbJw1Vt] Monto: -1041.78, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T240): 1 ","[A-gbJw1Vt] Monto: -1041.78, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T240): 1 ",-1041.78,-1041.78,-1041.78,-676.33
+7677,VALIDAR,582787d6df6ce0be913868f158903a01a3426ec754b78dd540eebd83be537030,kU3sQlW,30-jun,1782871122,T240,PEN,INTERBANK,AIDA S MARIN B,140,FUNDDA,AIDA,,,,https://link.jairokov.com/i/kU3sQlW,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
