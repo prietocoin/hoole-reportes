@@ -22436,5 +22436,7 @@ Banco: PIX, Moneda: BRL, Tasa(T243): 5.106 ","[P-uQBNt3V] Monto: 220.5, Titular:
 Banco: PIX, Moneda: BRL, Tasa(T243): 5.007 ",43.18,-44.03,112.22,-71.3
 7719,PENDIENTE,26aff17dbac5f99436b73b33f21e5bba17c00188a41621bebe9263773ebe6600,9aME2n5,31-dic,,,USDT,BINANCE,JAIRO,71.7,JOSEM,,,,,https://link.jairokov.com/i/9aME2n5,56990683872@s.whatsapp.net,,,,,,,,,,,
 7720,VALIDAR,9c4851ffd8f613235861cbad24826525bb9b31a07b17b86573ea7f3f95772b9c,B3GjmJJ,2-jul,1782998888,T244,PEN,INTERBANK,SANCHEZ LU*** BR*** LI***,206.5,FUNDDA,ELIS,,,,https://link.jairokov.com/i/B3GjmJJ,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
-7721,VALIDAR,2e0594cf8c80eef73283eaa19dca05068c2b2502a33bcd65e516d4d3e76042fe,aUChXlo,2-jul,1782999301,T244,COP,NEQUI,IRISMAR PRIETRO,500000,HEIDI,IRIS,,,,https://link.jairokov.com/i/aUChXlo,554788832650@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-7722,VALIDAR,02cb78e66c090f6cbb3d21555cf82f7aa9b93bd733084a377b8a2a5fcea824e6,F5yDgNW,2-jul,1782998986,T244,USDT,BINANCE,OMAR PRO,843.24,FUNDDA,OMAR,,,,https://link.jairokov.com/i/F5yDgNW,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+7721,COMPLETADO,2e0594cf8c80eef73283eaa19dca05068c2b2502a33bcd65e516d4d3e76042fe,aUChXlo,2-jul,1782999301,T244,COP,NEQUI,LUIS,500000,HEIDI,IRIS,,,,https://link.jairokov.com/i/aUChXlo,554788832650@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+7722,COMPLETADO,02cb78e66c090f6cbb3d21555cf82f7aa9b93bd733084a377b8a2a5fcea824e6,F5yDgNW,2-jul,1782998986,T244,USDT,BINANCE,FUNDDA,-843.24,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/F5yDgNW,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-F5yDgNW] Monto: -843.24, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ","[A-F5yDgNW] Monto: -843.24, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ",-843.24,-843.24,-843.24,-731.02
