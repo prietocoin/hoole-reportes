@@ -22423,9 +22423,9 @@ Banco: OXXO, Moneda: MXN, Tasa(T243): 18.33 ",10.68,-10.91,41.67,386.17
 7715,COMPLETADO,20fb26a526bd53fe6f3857690a3fe8c6cf5a7f41266942ae161f67e3eec22b0c,7OTfwoX,1-jul,1782945152,T243,MXN,OXXO,NAUPAR,500,NAUPAR,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/7OTfwoX,584122830430@s.whatsapp.net,573248071414@s.whatsapp.net,,,18.72,-18.33,"[D-7OTfwoX] Monto: 500, Titular: NAUPAR
 Banco: OXXO, Moneda: MXN, Tasa(T243): 18.72 ","[D-7OTfwoX] Monto: 500, Titular: NAUPAR
 Banco: OXXO, Moneda: MXN, Tasa(T243): 18.33 ",26.7,-27.27,26.7,-27.27
-7716,COMPLETADO,a6be5684b60c4252976e64b410dce8b178fbefbc964bcf3a8c3d9222c866ae8c,DxtQcce,1-jul,1782946498,T243,USD,GUAYAQUIL,LOPEZ MARIA,50,YARELIS,ELIS,D,,DEPOSITO,https://link.jairokov.com/i/DxtQcce,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1.087,"[D-DxtQcce] Monto: 50, Titular: LOPEZ MARIA
-Banco: GUAYAQUIL, Moneda: USD, Tasa(T243): 1 ","[D-DxtQcce] Monto: 50, Titular: LOPEZ MARIA
-Banco: GUAYAQUIL, Moneda: USD, Tasa(T243): 1.087 ",50,45.99,104.47,21.24
+7716,COMPLETADO,a6be5684b60c4252976e64b410dce8b178fbefbc964bcf3a8c3d9222c866ae8c,DxtQcce,1-jul,1782946498,T243,ECU,GUAYAQUIL,LOPEZ,50,YARELIS,ELIS,P,,PAGO,https://link.jairokov.com/i/DxtQcce,593980339529@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.98,-0.94,"[P-DxtQcce] Monto: 50, Titular: LOPEZ
+Banco: GUAYAQUIL, Moneda: ECU, Tasa(T243): 0.98 ","[P-DxtQcce] Monto: 50, Titular: LOPEZ
+Banco: GUAYAQUIL, Moneda: ECU, Tasa(T243): 0.94 ",51.02,-53.19,105.49,-77.94
 7717,COMPLETADO,150a4c838d7c7eee93e486ad47eab88df1aa92f2307dc665ebee1d750ea23864,4ZkOGHg,1-jul,1782946453,T243,COP,NEQUI,ELICER,60000,NELSY,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/4ZkOGHg,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3475,-1.01,"[D-4ZkOGHg] Monto: 60000, Titular: ELICER
 Banco: NEQUI, Moneda: COP, Tasa(T243): 3475 ","[D-4ZkOGHg] Monto: 60000, Titular: ELICER
 Banco: NEQUI, Moneda: COP, Tasa(T243): 1.01 ",17.26,-59405.94,-416.6,1112197.01
