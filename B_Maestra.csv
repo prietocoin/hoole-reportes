@@ -22533,9 +22533,14 @@ Banco: BBVA, Moneda: PEN, Tasa(T244): 3.41 ",209.62,61.41,-4300.91,61.41
 7753,VALIDAR,aa3e5f339efc1cbb7bef2695592591e92bf806f3b976c8863f237d8660767375,EmWjRKx,2-jul,1783034828,T244,COP,🤷‍♂️,JENIFER SIERRA VEGA,258600,JAIPY,KARLA,,,,https://link.jairokov.com/i/EmWjRKx,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 7754,PENDIENTE,8539989d078b08d94decdcc1deef0c05e7e9698379717fb18cdb3976aa5f14e6,vAGFVyN,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,291,KARLA,,,,,https://link.jairokov.com/i/vAGFVyN,51927348852@s.whatsapp.net,,,,,,,,,,,
 7755,PENDIENTE,4a1e608fd6e90996d903ea086822597e744fe9a5bb4f92ee183327c59a760b5c,hzHrok9,31-dic,,,USD,BINANCE,🤷‍♂️,18,EDWIN,,,,,https://link.jairokov.com/i/hzHrok9,554191071791@s.whatsapp.net,,,,,,,,,,,
-7756,COMPLETADO,0147b33091670e70728bcbac50b87d7a7728989fdb6e6a8a7a0baccaf9365e98,iOPuo7M,2-jul,1783038013,T244,BRL,PIX,TALITA,1500,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/iOPuo7M,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,5.068,-4.969,"[P-iOPuo7M] Monto: 1500, Titular: TALITA
-Banco: PIX, Moneda: BRL, Tasa(T244): 5.068 ","[P-iOPuo7M] Monto: 1500, Titular: TALITA
-Banco: PIX, Moneda: BRL, Tasa(T244): 4.969 ",295.97,-301.87,-419.31,-188.5
-7757,VALIDAR,de3643cf22819d62fcc1f030752abffe833d4bb2de72fb2eb658edfdcda4e3f0,QGZ3qQ8,3-jul,1783080032,T244,USD,BINANCE,JAIRO FUNDABLOCK,420.77,CHASAN,FUNDDA,,,,https://link.jairokov.com/i/QGZ3qQ8,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-7758,VALIDAR,913ded0ae797e4712535eafb5c39d58be2d83addd997a3cb1cd1091f05e7829e,yrmsGTh,3-jul,1783080044,T244,USDT,BINANCE,🤷‍♂️,281.74,JOSEM,FUNDDA,,,,https://link.jairokov.com/i/yrmsGTh,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+7756,COMPLETADO,0147b33091670e70728bcbac50b87d7a7728989fdb6e6a8a7a0baccaf9365e98,iOPuo7M,2-jul,1783038013,T244,BRL,PIX,TALITA,1400,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/iOPuo7M,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,5.068,-4.969,"[P-iOPuo7M] Monto: 1400, Titular: TALITA
+Banco: PIX, Moneda: BRL, Tasa(T244): 5.068 ","[P-iOPuo7M] Monto: 1400, Titular: TALITA
+Banco: PIX, Moneda: BRL, Tasa(T244): 4.969 ",276.24,-281.74,-439.04,-168.37
+7757,COMPLETADO,de3643cf22819d62fcc1f030752abffe833d4bb2de72fb2eb658edfdcda4e3f0,QGZ3qQ8,3-jul,1783080032,T244,USDT,BINANCE,CHASAN,420.77,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/QGZ3qQ8,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-QGZ3qQ8] Monto: 420.77, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ","[A-QGZ3qQ8] Monto: 420.77, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ",420.77,420.77,59.61,482.18
+7758,COMPLETADO,913ded0ae797e4712535eafb5c39d58be2d83addd997a3cb1cd1091f05e7829e,yrmsGTh,3-jul,1783080044,T244,USDT,BINANCE,JOSEM,281.74,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/yrmsGTh,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-yrmsGTh] Monto: 281.74, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ","[A-yrmsGTh] Monto: 281.74, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ",281.74,281.74,113.37,281.74
 7759,VALIDAR,a2c4bc00689b882f22ec14d820f18aa794631d8ac1d3f8b0eed3017217a470ab,CB2uDNW,3-jul,1783078313,T244,BRL,ITAÚ UNIBANCO S.A,TALITA LIBERATO RUBIEL,100,JOSEM,OMAR,,,,https://link.jairokov.com/i/CB2uDNW,56990683872@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+7760,PENDIENTE,f7781794f5f3bb86d2071e00ab1093123767eae40024ce38531980d92d385191,WGjIgYz,31-dic,,,PEN,INTERBANK,CHAVEZ CO*** RO*** AL***,666.2,FUNDDA,,,,,https://link.jairokov.com/i/WGjIgYz,5491177171331@s.whatsapp.net,,,,,,,,,,,
