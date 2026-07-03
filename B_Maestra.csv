@@ -22477,7 +22477,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T244): 1 ",681.78,681.78,610.48,-72.82
 7733,COMPLETADO,cded49c38b2972ccd9014285e25f500f4705a84e9bb3f14218221f428e5e1441,MPyIrlr,2-jul,1783011173,T244,PEN,INTERBANK,MARIO,128,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/MPyIrlr,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.41,-3.328,"[P-MPyIrlr] Monto: 128, Titular: MARIO
 Banco: INTERBANK, Moneda: PEN, Tasa(T244): 3.41 ","[P-MPyIrlr] Monto: 128, Titular: MARIO
 Banco: INTERBANK, Moneda: PEN, Tasa(T244): 3.328 ",37.53,-38.46,-35.29,572.02
-7734,VALIDAR,38828377554c0ea857eefa5634e9038206db78c3ca54974354af13fdb4cc38a9,doOrghJ,2-jul,1783041817,T244,PEN,INTERBANK,DANNY J LUCENA D,70.4,FUNDDA,FUNDDA,,,,https://link.jairokov.com/i/doOrghJ,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+7734,COMPLETADO,38828377554c0ea857eefa5634e9038206db78c3ca54974354af13fdb4cc38a9,doOrghJ,2-jul,1783041817,T244,PEN,INTERBANK,DANNY,70.4,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/doOrghJ,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.41,-3.328,"[P-doOrghJ] Monto: 70.4, Titular: DANNY
+Banco: INTERBANK, Moneda: PEN, Tasa(T244): 3.41 ","[P-doOrghJ] Monto: 70.4, Titular: DANNY
+Banco: INTERBANK, Moneda: PEN, Tasa(T244): 3.328 ",20.64,-21.15,-14.65,550.87
 7735,COMPLETADO,d2138bd6bb2f9a5c347b7dbf8877efbc3b0a1df8022e4f2970937d6994dbb6a0,NOz3Zlg,2-jul,1783014224,T244,PEN,YAPE,RAFAEL,70,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/NOz3Zlg,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.498,3.41,"[D-NOz3Zlg] Monto: 70, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T244): 3.498 ","[D-NOz3Zlg] Monto: 70, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T244): 3.41 ",20.01,20.52,20.01,20.52
