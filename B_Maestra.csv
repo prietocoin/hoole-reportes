@@ -22684,7 +22684,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T250): 3249 ",45.57,-45.99,6.12,183.36
 7808,COMPLETADO,e75a745992fae69e3e456cdac32956d4701a4d6202e03cb530e82eaf360d25a5,SRnGSO3,4-jul,1783192350,T250,PEN,BCP,UTRERA WILFREDO,200,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/SRnGSO3,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.4,-3.318,"[P-SRnGSO3] Monto: 200, Titular: UTRERA WILFREDO
 Banco: BCP, Moneda: PEN, Tasa(T250): 3.4 ","[P-SRnGSO3] Monto: 200, Titular: UTRERA WILFREDO
 Banco: BCP, Moneda: PEN, Tasa(T250): 3.318 ",58.82,-60.27,162.51,-124.86
-7809,PENDIENTE,3cc14eed05d630dc7a52bef1d07cd936f17a6b3928628c1d55500bbfe9661f97,epe9yyB,31-dic,,,COP,NEQUI,ROSA MAGALLANES,87723,JOSEM,,,,,https://link.jairokov.com/i/epe9yyB,573248071414@s.whatsapp.net,,,,,,,,,,,
+7809,COMPLETADO,3cc14eed05d630dc7a52bef1d07cd936f17a6b3928628c1d55500bbfe9661f97,epe9yyB,4-jul,1783215780,T250,COP,NEQUI,ROSA,87723,IRIS,JOSEM,P,,PAGO,https://link.jairokov.com/i/epe9yyB,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,-3249,"[P-epe9yyB] Monto: 87723, Titular: ROSA
+Banco: NEQUI, Moneda: COP, Tasa(T250): 0.99 ","[P-epe9yyB] Monto: 87723, Titular: ROSA
+Banco: NEQUI, Moneda: COP, Tasa(T250): 3249 ",88609.09,-27,1354901.59,-27.01
 7810,COMPLETADO,5aab7f93b80fc7c487b24947111fc12185dae3ac9cdc720e08c03f499ac5e818,lv2q2lE,4-jul,1783192535,T250,PEN,INTERBANK,ALIENDRE,75,FUNDDA,JOSEM,P,,PAGO,https://link.jairokov.com/i/lv2q2lE,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.4,-3.318,"[P-lv2q2lE] Monto: 75, Titular: ALIENDRE
 Banco: INTERBANK, Moneda: PEN, Tasa(T250): 3.4 ","[P-lv2q2lE] Monto: 75, Titular: ALIENDRE
 Banco: INTERBANK, Moneda: PEN, Tasa(T250): 3.318 ",22.05,-22.6,446.92,-22.6
