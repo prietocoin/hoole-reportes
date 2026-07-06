@@ -22923,3 +22923,6 @@ Banco: COPEC PAY, Moneda: CLP, Tasa(T252): 1.015 ",211.86,-60098.52,298.16,16043
 7891,COMPLETADO,,dhj4GBN,6-jul,1783358602,T252,USD,ZELLE,PEDRO,40,NELSY,ADA,D,,DEPOSITO,https://link.jairokov.com/i/dhj4GBN,,,,,1.087,-1.041,"[D-dhj4GBN] Monto: 40, Titular: PEDRO
 Banco: ZELLE, Moneda: USD, Tasa(T252): 1.087 ","[D-dhj4GBN] Monto: 40, Titular: PEDRO
 Banco: ZELLE, Moneda: USD, Tasa(T252): 1.041 ",36.79,-38.42,-812.17,-38.42
+7892,COMPLETADO,b8bdca32da130f0fd70e3d212bf635383cc0776da383efd9e0161b68e57d087f,HO5ryAo,6-jul,1783374599,T252,VES,MERCANTIL,10917640,17140,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/HO5ryAo,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,721,-208.18,"[P-HO5ryAo] Monto: 17140, Titular: 10917640
+Banco: MERCANTIL, Moneda: VES, Tasa(T252): 721 ","[P-HO5ryAo] Monto: 17140, Titular: 10917640
+Banco: MERCANTIL, Moneda: VES, Tasa(T252): 208.18 ",23.77,-82.33,-788.4,-82.33
