@@ -22928,7 +22928,9 @@ Banco: ZELLE, Moneda: USD, Tasa(T252): 1.041 ",36.79,-38.42,-812.17,-38.42
 7892,COMPLETADO,b8bdca32da130f0fd70e3d212bf635383cc0776da383efd9e0161b68e57d087f,HO5ryAo,6-jul,1783374599,T252,VES,MERCANTIL,10917640,17140,NELSY,MERLI,P,,PAGO,https://link.jairokov.com/i/HO5ryAo,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,721,-208.18,"[P-HO5ryAo] Monto: 17140, Titular: 10917640
 Banco: MERCANTIL, Moneda: VES, Tasa(T252): 721 ","[P-HO5ryAo] Monto: 17140, Titular: 10917640
 Banco: MERCANTIL, Moneda: VES, Tasa(T252): 208.18 ",23.77,-82.33,-788.4,-82.33
-7893,VALIDAR,40199ef1b7aad2e62fa46899358c4f1477be173c9c4ce71e391f5b4a3d55f610,fcpchU7,6-jul,1783374635,T252,BRL,ITAÚ UNIBANCO S.A.,INGLID PEREIRA COSTA,2523,OMAR,JOSEM,,,,https://link.jairokov.com/i/fcpchU7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+7893,COMPLETADO,40199ef1b7aad2e62fa46899358c4f1477be173c9c4ce71e391f5b4a3d55f610,fcpchU7,6-jul,1783374635,T252,BRL,PIX,INGLID,2523,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/fcpchU7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.097,-4.997,"[P-fcpchU7] Monto: 2523, Titular: INGLID
+Banco: PIX, Moneda: BRL, Tasa(T252): 5.097 ","[P-fcpchU7] Monto: 2523, Titular: INGLID
+Banco: PIX, Moneda: BRL, Tasa(T252): 4.997 ",494.99,-504.9,411.57,-516.28
 7894,COMPLETADO,4500d11ce7cdab8fb007ce7bd80a16ac4b3aa5e32878e2c0f8611dfefead3b83,gmux3WI,6-jul,1783374788,T252,USDT,BINANCE,PAGOAOMAR,494.99,NELSY,OMAR,A,,ABONO,https://link.jairokov.com/i/gmux3WI,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-gmux3WI] Monto: 494.99, Titular: PAGOAOMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ","[A-gmux3WI] Monto: 494.99, Titular: PAGOAOMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ",494.99,494.99,-293.41,494.99
