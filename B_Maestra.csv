@@ -22931,13 +22931,13 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T252): 208.18 ",23.77,-82.33,-788.4,-82.33
 7893,COMPLETADO,40199ef1b7aad2e62fa46899358c4f1477be173c9c4ce71e391f5b4a3d55f610,fcpchU7,6-jul,1783374635,T252,BRL,PIX,INGLID,2523,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/fcpchU7,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.097,-4.997,"[P-fcpchU7] Monto: 2523, Titular: INGLID
 Banco: PIX, Moneda: BRL, Tasa(T252): 5.097 ","[P-fcpchU7] Monto: 2523, Titular: INGLID
 Banco: PIX, Moneda: BRL, Tasa(T252): 4.997 ",494.99,-504.9,411.57,-516.28
-7894,COMPLETADO,4500d11ce7cdab8fb007ce7bd80a16ac4b3aa5e32878e2c0f8611dfefead3b83,gmux3WI,6-jul,1783374788,T252,USDT,BINANCE,PAGOAOMAR,494.99,NELSY,OMAR,A,,ABONO,https://link.jairokov.com/i/gmux3WI,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-gmux3WI] Monto: 494.99, Titular: PAGOAOMAR
-Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ","[A-gmux3WI] Monto: 494.99, Titular: PAGOAOMAR
-Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ",494.99,494.99,-293.41,494.99
+7894,COMPLETADO,4500d11ce7cdab8fb007ce7bd80a16ac4b3aa5e32878e2c0f8611dfefead3b83,gmux3WI,6-jul,1783374788,T252,USDT,BINANCE,PAGOAOMAR,-494.99,NELSY,OMAR,A,,ABONO,https://link.jairokov.com/i/gmux3WI,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-gmux3WI] Monto: -494.99, Titular: PAGOAOMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ","[A-gmux3WI] Monto: -494.99, Titular: PAGOAOMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ",-494.99,-494.99,-1283.39,-83.42
 7895,COMPLETADO,53af016609ce19df01f4aacab90061b2a645278279d3e5f89c7021cc387dc0ea,jQkbUmj,6-jul,1783374980,T252,CLP,MERCADO PAGO,JOSE,30000,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/jQkbUmj,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.985,-899,"[P-jQkbUmj] Monto: 30000, Titular: JOSE
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T252): 0.985 ","[P-jQkbUmj] Monto: 30000, Titular: JOSE
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T252): 899 ",30456.85,-33.37,46500.46,-33.37
 7896,COMPLETADO,5624903a95d91d4a700d1a744ad0c9a54345df909f5691f206ba26c976bc0085,kqtPYy0,6-jul,1783375200,T252,CLP,MERCADO PAGO,SLEIKER,150000,ALEJANDRA,MICHEL,D,,DEPOSITO,https://link.jairokov.com/i/kqtPYy0,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,287.92,-1.015,"[D-kqtPYy0] Monto: 150000, Titular: SLEIKER
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T252): 287.92 ","[D-kqtPYy0] Monto: 150000, Titular: SLEIKER
 Banco: MERCADO PAGO, Moneda: CLP, Tasa(T252): 1.015 ",520.97,-147783.25,819.13,-101282.79
-7897,PENDIENTE,4217e2ec79e7706cba5ccdb0bca55ce6a7284b4fc3b098d536fa7a42b12cc933,fFI5cO1,31-dic,,,USDT,BINANCE,🤷‍♂️,116.79,FUNDDA,,,,,https://link.jairokov.com/i/fFI5cO1,573248071414@s.whatsapp.net,,,,,,,,,,,
+7897,VALIDAR,4217e2ec79e7706cba5ccdb0bca55ce6a7284b4fc3b098d536fa7a42b12cc933,fFI5cO1,6-jul,1783377218,T252,USDT,BINANCE,🤷‍♂️,116.79,FUNDDA,FUNDDA,,,,https://link.jairokov.com/i/fFI5cO1,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
