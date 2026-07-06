@@ -22897,7 +22897,9 @@ Banco: BCP, Moneda: PEN, Tasa(T252): 3.4 ",172.01,176.47,517.14,176.47
 7883,COMPLETADO,e6378598eebd1f88c824357f0da15dddf6614f0c9ab89b711fe9f27b5c7b37a0,SAFMcqk,6-jul,1783361766,T252,PEN,YAPE,RAFAEL,50,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/SAFMcqk,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.488,3.4,"[D-SAFMcqk] Monto: 50, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T252): 3.488 ","[D-SAFMcqk] Monto: 50, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T252): 3.4 ",14.33,14.7,531.47,191.17
-7884,VALIDAR,1a67883b13a74caf958eff0aa89ea9a0e3afe68ebbbb04a27f67365c3eab1917,6gcrxnx,6-jul,1783369679,T252,USD,BINANCE,FUNDABLOCK,91.92,MAURO,FUNDDA,,,,https://link.jairokov.com/i/6gcrxnx,51948230259@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+7884,COMPLETADO,1a67883b13a74caf958eff0aa89ea9a0e3afe68ebbbb04a27f67365c3eab1917,6gcrxnx,6-jul,1783369679,T252,USDT,BINANCE,MAURO,91.92,MAURO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/6gcrxnx,51948230259@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-6gcrxnx] Monto: 91.92, Titular: MAURO
+Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ","[A-6gcrxnx] Monto: 91.92, Titular: MAURO
+Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ",91.92,91.92,271.66,283.09
 7885,COMPLETADO,3c8d77670a3c9da213658d28d87e4a23ad6b0ff9bf954fd2b0675e756a886d43,emfyS1O,6-jul,1783369850,T252,USDT,BINANCE,OMAR,61.71,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/emfyS1O,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-emfyS1O] Monto: 61.71, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ","[A-emfyS1O] Monto: 61.71, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T252): 1 ",61.71,61.71,13.09,61.71
