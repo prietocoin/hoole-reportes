@@ -22837,9 +22837,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T251): 1.01 ",50000,-49504.95,139237.66,-4
 7859,COMPLETADO,54ce3f7bcc87920393f02de3460ec08d34bb89fd2fcbe0a77cd637155c984605,k6OXXuc,5-jul,1783292764,T251,VES,BANESCO,JEIMY,9950,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/k6OXXuc,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,733,0.223,"[P-k6OXXuc] Monto: 9950, Titular: JEIMY
 Banco: BANESCO, Moneda: VES, Tasa(T251): 733 ","[P-k6OXXuc] Monto: 9950, Titular: JEIMY
 Banco: BANESCO, Moneda: VES, Tasa(T251): 0.223 ",13.57,44618.83,507.54,44618.83
-7860,COMPLETADO,d300702bc14f5615c64c9cd643280d5dd85e291fa507c53639c347cd501379db,O2ayzxR,5-jul,1783258678,T251,USDT,BINANCE,PAGOAOMAR,13.09,NELSY,OMAR,A,,ABONO,https://link.jairokov.com/i/O2ayzxR,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-O2ayzxR] Monto: 13.09, Titular: PAGOAOMAR
-Banco: BINANCE, Moneda: USDT, Tasa(T251): 1 ","[A-O2ayzxR] Monto: 13.09, Titular: PAGOAOMAR
-Banco: BINANCE, Moneda: USDT, Tasa(T251): 1 ",13.09,13.09,13.09,31.81
+7860,COMPLETADO,d300702bc14f5615c64c9cd643280d5dd85e291fa507c53639c347cd501379db,O2ayzxR,5-jul,1783258678,T251,USDT,BINANCE,PAGOAOMAR,-13.09,NELSY,OMAR,A,,ABONO,https://link.jairokov.com/i/O2ayzxR,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-O2ayzxR] Monto: -13.09, Titular: PAGOAOMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T251): 1 ","[A-O2ayzxR] Monto: -13.09, Titular: PAGOAOMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T251): 1 ",-13.09,-13.09,494.45,5.63
 7861,COMPLETADO,a2a56651c68853e5b97c9b0fa95c1d0149cf337636b0ecdb91feae35af3bfc08,CzeV9px,5-jul,1783294058,T251,PEN,BCP,PERCY,150,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/CzeV9px,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.41,-3.328,"[P-CzeV9px] Monto: 150, Titular: PERCY
 Banco: BCP, Moneda: PEN, Tasa(T251): 3.41 ","[P-CzeV9px] Monto: 150, Titular: PERCY
 Banco: BCP, Moneda: PEN, Tasa(T251): 3.328 ",43.98,-45.07,81.28,-203.4
