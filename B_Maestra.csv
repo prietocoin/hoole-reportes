@@ -22979,4 +22979,6 @@ Banco: NEQUI, Moneda: COP, Tasa(T253): 1.01 ",582.07,-1980198.01,1349.47,-198019
 7911,COMPLETADO,0602e139232db46d2f3fef305f2b0f105d43ec0030802916b8cfb5efcf6896ea,1qnrckU,7-jul,1783435530,T253,USDT,BINANCE,FUNDDA,-636.75,FUNDDA,YARELIS,A,,ABONO,https://link.jairokov.com/i/1qnrckU,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-1qnrckU] Monto: -636.75, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T253): 1 ","[A-1qnrckU] Monto: -636.75, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T253): 1 ",-636.75,-636.75,-636.75,-609.55
-7912,VALIDAR,fdd49ef01b2e4b813d74f14ce86ad775b02458ddf61f2ddad957c2be4e62dde9,YbQmuV4,7-jul,1783438024,T254,PEN,INTERBANK,YORMAR E TORRES T,83,FUNDDA,OMAR,,,,https://link.jairokov.com/i/YbQmuV4,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+7912,COMPLETADO,fdd49ef01b2e4b813d74f14ce86ad775b02458ddf61f2ddad957c2be4e62dde9,YbQmuV4,7-jul,1783438024,T254,PEN,YAPE,YORMAR TORRES,83,FUNDDA,OMAR,P,,PAGO,https://link.jairokov.com/i/YbQmuV4,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.4,-3.318,"[P-YbQmuV4] Monto: 83, Titular: YORMAR TORRES
+Banco: YAPE, Moneda: PEN, Tasa(T254): 3.4 ","[P-YbQmuV4] Monto: 83, Titular: YORMAR TORRES
+Banco: YAPE, Moneda: PEN, Tasa(T254): 3.318 ",24.41,-25.01,-612.34,58.41
