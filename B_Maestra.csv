@@ -23374,4 +23374,6 @@ Banco: MERCADO PAGO, Moneda: CLP, Tasa(T262): 895 ",45685.27,-50.27,99732.41,-31
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T262): 1539 ","[P-nURgTbb] Monto: 122400, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T262): 1511 ",79.53,-81,809.28,-81
 8052,PENDIENTE,4a2fada77b78828b71e164e35cc0e57cc5149b3dfb5a9ccc886dc8437c5888c3,hAH2OAT,31-dic,,,MXN,OXXO / SPIN BY OXXO,🤷‍♂️,1300,ALEJANDRA,,,,,https://link.jairokov.com/i/hAH2OAT,51917606346@s.whatsapp.net,,,,,,,,,,,
-8053,VALIDAR,8dea64896bc4bfd3d5f417b60b189e1fa96db624333bdb40d8191872b2cb35a0,xEsr3qB,10-jul,1783718452,T262,MXN,SPIN BY OXXO,NESTOR VESAL PAIS MEXICO,1000,ALEJANDRA,CHASAN,,,,https://link.jairokov.com/i/xEsr3qB,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+8053,COMPLETADO,8dea64896bc4bfd3d5f417b60b189e1fa96db624333bdb40d8191872b2cb35a0,xEsr3qB,10-jul,1783718452,T262,MXN,OXXO,NESTOR,2300,ALEJANDRA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/xEsr3qB,51917606346@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.604,-18.26,"[D-xEsr3qB] Monto: 2300, Titular: NESTOR
+Banco: OXXO, Moneda: MXN, Tasa(T262): 5.604 ","[D-xEsr3qB] Monto: 2300, Titular: NESTOR
+Banco: OXXO, Moneda: MXN, Tasa(T262): 18.26 ",410.42,-125.95,410.42,-125.95
