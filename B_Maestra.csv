@@ -23231,7 +23231,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T258): 3.41 ",19.72,20.23,316.41,-1372.64
 7995,COMPLETADO,7acd0a5c021898ac5d1f9657386b6a7fe4c3a9adb79d876de6dd66f56dddfc51,t7qPW3z,9-jul,1783616151,T258,PEN,INTERBANK,ERICK,145,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/t7qPW3z,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.498,3.41,"[D-t7qPW3z] Monto: 145, Titular: ERICK
 Banco: INTERBANK, Moneda: PEN, Tasa(T258): 3.498 ","[D-t7qPW3z] Monto: 145, Titular: ERICK
 Banco: INTERBANK, Moneda: PEN, Tasa(T258): 3.41 ",41.45,42.52,24.21,42.52
-7996,VALIDAR,5fbb6a45c864326a53ef072e25d0046f24a4f2cf9667fe2107fe71adaf40dcab,mHsKoq7,9-jul,1783641531,T259,COP,NEQUI,WILLER RUIZ,50000,IRIS,FUNDDA,,,,https://link.jairokov.com/i/mHsKoq7,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+7996,COMPLETADO,5fbb6a45c864326a53ef072e25d0046f24a4f2cf9667fe2107fe71adaf40dcab,mHsKoq7,9-jul,1783641531,T259,COP,NEQUI,CARMEN,50000,CARMEN,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/mHsKoq7,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3308,-1.01,"[D-mHsKoq7] Monto: 50000, Titular: CARMEN
+Banco: NEQUI, Moneda: COP, Tasa(T259): 3308 ","[D-mHsKoq7] Monto: 50000, Titular: CARMEN
+Banco: NEQUI, Moneda: COP, Tasa(T259): 1.01 ",15.11,-49504.95,521.35,493800.61
 7997,COMPLETADO,b27b1603dcc15362da807633e09cc062b1024a78ada1893b0ede0f8f111c1842,Gk2Kteh,9-jul,1783620993,T258,VES,BANESCO,15391280,10950,NELSY,IRIS,P,,PAGO,https://link.jairokov.com/i/Gk2Kteh,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,802,-0.237,"[P-Gk2Kteh] Monto: 10950, Titular: 15391280
 Banco: BANESCO, Moneda: VES, Tasa(T258): 802 ","[P-Gk2Kteh] Monto: 10950, Titular: 15391280
 Banco: BANESCO, Moneda: VES, Tasa(T258): 0.237 ",13.65,-46202.53,732.85,-46202.53
