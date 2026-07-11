@@ -23303,9 +23303,9 @@ Banco: MERCANTIL, Moneda: VES, Tasa(T261): 0.251 ",13.69,44023.9,800.57,340324.2
 8021,COMPLETADO,37431e7828382ba2d8806b2a398d17a1c4821979fdb28bf9e97d1ae82f6ece67,d6tbiat,10-jul,1783702432,T262,PEN,YAPE,RAFAEL,61,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/d6tbiat,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,3.488,3.4,"[D-d6tbiat] Monto: 61, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T262): 3.488 ","[D-d6tbiat] Monto: 61, Titular: RAFAEL
 Banco: YAPE, Moneda: PEN, Tasa(T262): 3.4 ",17.48,17.94,-3.61,535.23
-8022,COMPLETADO,e3b9061885bee0a8947565d88c8ef81e9c2371c67c64061148e062190cfebdb3,S00iuX0,10-jul,1783702075,T262,USDT,OMAR,,62.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/S00iuX0,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-S00iuX0] Monto: 62.85, Titular: SIN TITULAR
-Banco: OMAR, Moneda: USDT, Tasa(T262): 1 ","[A-S00iuX0] Monto: 62.85, Titular: SIN TITULAR
-Banco: OMAR, Moneda: USDT, Tasa(T262): 1 ",62.85,62.85,66.08,580.14
+8022,COMPLETADO,e3b9061885bee0a8947565d88c8ef81e9c2371c67c64061148e062190cfebdb3,S00iuX0,10-jul,1783702075,T262,USDT,BINANCE,OMAR,62.85,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/S00iuX0,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-S00iuX0] Monto: 62.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T262): 1 ","[A-S00iuX0] Monto: 62.85, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T262): 1 ",62.85,62.85,66.08,598.08
 8023,COMPLETADO,81499212b097563275b3710142055d0ba2fa8f313e75d31e08b10b8a41d6159c,uENqPFd,10-jul,1783701890,T262,PEN,INTERBANK,JEAN,190.8,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/uENqPFd,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.4,-3.318,"[P-uENqPFd] Monto: 190.8, Titular: JEAN
 Banco: INTERBANK, Moneda: PEN, Tasa(T262): 3.4 ","[P-uENqPFd] Monto: 190.8, Titular: JEAN
 Banco: INTERBANK, Moneda: PEN, Tasa(T262): 3.318 ",56.11,-57.5,636.25,-112.11
