@@ -23526,4 +23526,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T263): 3.4 ",57.33,58.82,335.07,106.53
 Banco: YAPE, Moneda: PEN, Tasa(T263): 3.4 ","[P-LYs0iuJ] Monto: 48.5, Titular: JHONHERRERA
 Banco: YAPE, Moneda: PEN, Tasa(T263): 3.318 ",14.26,-14.61,14.26,13.85
 8100,PENDIENTE,e3bed44dafc4c3bcc5f63b1d3859678f493fe1ea2d0bfe94729862a7d3142241,S0kY801,31-dic,,,CLP,BANCO FALABELLA,ANGEL RIVAS,20700,OMAR,,,,,https://link.jairokov.com/i/S0kY801,573248071414@s.whatsapp.net,,,,,,,,,,,
-8101,VALIDAR,2b1c1be68572075be53f6deb535f57465feede85f76fb978043fb2326ef0d552,adNUtol,11-jul,1783813890,T263,COP,NEQUI,WILLER RUIZ,200000,AIDA,IRIS,,,,https://link.jairokov.com/i/adNUtol,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+8101,COMPLETADO,2b1c1be68572075be53f6deb535f57465feede85f76fb978043fb2326ef0d552,adNUtol,11-jul,1783813890,T263,COP,NEQUI,OSWALDO,200000,AIDA,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/adNUtol,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,951,-1.01,"[D-adNUtol] Monto: 200000, Titular: OSWALDO
+Banco: NEQUI, Moneda: COP, Tasa(T263): 951 ","[D-adNUtol] Monto: 200000, Titular: OSWALDO
+Banco: NEQUI, Moneda: COP, Tasa(T263): 1.01 ",210.3,-198019.8,2001.65,1742556.24
