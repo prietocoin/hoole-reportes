@@ -23336,9 +23336,9 @@ Banco: BCP, Moneda: PEN, Tasa(T262): 3.318 ",51.17,-52.44,700.42,-56.05
 8032,COMPLETADO,30d10df0d5223092dfb0554a5e3e1edc556d856c26c53f742fb221d227aed4f5,bzHQMUo,10-jul,1783711029,T262,COP,NEQUI,SULEYDI RAMIREZ,123200,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/bzHQMUo,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3176,"[P-bzHQMUo] Monto: 123200, Titular: SULEYDI RAMIREZ
 Banco: NEQUI, Moneda: COP, Tasa(T262): 0.99 ","[P-bzHQMUo] Monto: 123200, Titular: SULEYDI RAMIREZ
 Banco: NEQUI, Moneda: COP, Tasa(T262): 3176 ",124444.44,-38.79,1085040.5,-38.79
-8033,COMPLETADO,e04f8f57a9864c40b33a50cccca34a749188434ca474bfd5fdd4bbff6b8b8910,RbQbq8j,10-jul,1783711547,T262,COP,NEQUI,ABONO,750000,IRIS,COMPRA,P,,PAGO,https://link.jairokov.com/i/RbQbq8j,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,3255,"[P-RbQbq8j] Monto: 750000, Titular: ABONO
-Banco: NEQUI, Moneda: COP, Tasa(T262): 0.99 ","[P-RbQbq8j] Monto: 750000, Titular: ABONO
-Banco: NEQUI, Moneda: COP, Tasa(T262): 3255 ",757575.75,230.41,1842616.25,-2135281.68
+8033,COMPLETADO,e04f8f57a9864c40b33a50cccca34a749188434ca474bfd5fdd4bbff6b8b8910,RbQbq8j,10-jul,1783711547,T262,COP,NEQUI,ABONO,-750000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/RbQbq8j,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-RbQbq8j] Monto: -750000, Titular: ABONO
+Banco: NEQUI, Moneda: COP, Tasa(T262): 1 ","[C-RbQbq8j] Monto: -750000, Titular: ABONO
+Banco: NEQUI, Moneda: COP, Tasa(T262): 1 ",750000,750000,-1385512.09,1835040.5
 8034,COMPLETADO,e18d458e86f77e8afae632d27b967596d2bb4040a1d009fb19d118b3eeb2dfbc,Ru5rUbK,10-jul,1783716748,T262,EUR,WISE,MARY PEREZ,20,OMAR,JAIPY,P,,PAGO,https://link.jairokov.com/i/Ru5rUbK,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.856,0.89,"[P-Ru5rUbK] Monto: 20, Titular: MARY PEREZ
 Banco: WISE, Moneda: EUR, Tasa(T262): 0.856 ","[P-Ru5rUbK] Monto: 20, Titular: MARY PEREZ
 Banco: WISE, Moneda: EUR, Tasa(T262): 0.89 ",23.36,22.47,-15.43,329.68
