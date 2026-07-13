@@ -23668,4 +23668,7 @@ Banco: PIX, Moneda: BRL, Tasa(T265): 4.902 ",495,-504.89,495,-504.89
 8160,COMPLETADO,db97a3f6d1783d9fe41f4e25bd59de5a7e9aae86fc3a640b48e885822b632cec,Q4tbtyO,13-jul,1783965425,T265,COP,NEQUI,CARLOS ORTEGA,99960,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/Q4tbtyO,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-922,"[P-Q4tbtyO] Monto: 99960, Titular: CARLOS ORTEGA
 Banco: NEQUI, Moneda: COP, Tasa(T265): 0.99 ","[P-Q4tbtyO] Monto: 99960, Titular: CARLOS ORTEGA
 Banco: NEQUI, Moneda: COP, Tasa(T265): 922 ",100969.69,-108.41,665744.5,-108.41
-8161,VALIDAR,c4ba0c3eafa12905b0a089c2e091f1a5cfcfada79f4aec47741dd62cea5c9788,KEiunqe,13-jul,1783966313,T265,COP,🤷‍♂️,MAYRA MILENA CORONADO TARAZONA,82500,IRIS,OMAR,,,,https://link.jairokov.com/i/KEiunqe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+8161,COMPLETADO,c4ba0c3eafa12905b0a089c2e091f1a5cfcfada79f4aec47741dd62cea5c9788,KEiunqe,13-jul,1783966313,T265,COP,BANCOLOMBIA,MAYRA CORONADO,82500,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/KEiunqe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3167,"[P-KEiunqe] Monto: 82500, Titular: MAYRA CORONADO
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 0.99 ","[P-KEiunqe] Monto: 82500, Titular: MAYRA CORONADO
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 3167 ",83333.33,-26.04,749077.83,-26.04
+8162,PENDIENTE,96ed311d7658a6473826f54ea5e22a570128d0de743efb04761f46128e5e58d2,zMWbb5k,31-dic,,,USDT,BINANCE,FUNDABLOCK,26.05,OMAR,,,,,https://link.jairokov.com/i/zMWbb5k,559295375590@s.whatsapp.net,,,,,,,,,,,
