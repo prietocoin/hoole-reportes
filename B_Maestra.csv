@@ -23668,14 +23668,16 @@ Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ",175.31,175.31,0,190.01
 8158,COMPLETADO,e4e346c778b3cb2d93f2fef8ab520bffceae650565bfa1f5b7af264a4e9d041d,Sh8hafJ,13-jul,1783960997,T265,BRL,PIX,INGRID,2475,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/Sh8hafJ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,5,-4.902,"[P-Sh8hafJ] Monto: 2475, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T265): 5 ","[P-Sh8hafJ] Monto: 2475, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T265): 4.902 ",495,-504.89,495,-504.89
-8159,VALIDAR,7d0900d483d686c264c644caeec7a9fd8e7b6b71b6a73ca8d67448272b244906,tEhpdAh,13-jul,1783972951,T265,USDT,🤷‍♂️,SR_MENESES-3011,495,OMAR,FUNDDA,,,,https://link.jairokov.com/i/tEhpdAh,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8159,COMPLETADO,7d0900d483d686c264c644caeec7a9fd8e7b6b71b6a73ca8d67448272b244906,tEhpdAh,13-jul,1783972951,T265,USDT,BINANCE,FUNDDA,-495,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/tEhpdAh,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-tEhpdAh] Monto: -495, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ","[A-tEhpdAh] Monto: -495, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ",-495,-495,-304.99,0
 8160,COMPLETADO,db97a3f6d1783d9fe41f4e25bd59de5a7e9aae86fc3a640b48e885822b632cec,Q4tbtyO,13-jul,1783965425,T265,COP,NEQUI,CARLOS ORTEGA,99960,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/Q4tbtyO,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-922,"[P-Q4tbtyO] Monto: 99960, Titular: CARLOS ORTEGA
 Banco: NEQUI, Moneda: COP, Tasa(T265): 0.99 ","[P-Q4tbtyO] Monto: 99960, Titular: CARLOS ORTEGA
 Banco: NEQUI, Moneda: COP, Tasa(T265): 922 ",100969.69,-108.41,665744.5,-108.41
 8161,COMPLETADO,c4ba0c3eafa12905b0a089c2e091f1a5cfcfada79f4aec47741dd62cea5c9788,KEiunqe,13-jul,1783966313,T265,COP,BANCOLOMBIA,MAYRA CORONADO,82500,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/KEiunqe,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3167,"[P-KEiunqe] Monto: 82500, Titular: MAYRA CORONADO
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 0.99 ","[P-KEiunqe] Monto: 82500, Titular: MAYRA CORONADO
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 3167 ",83333.33,-26.04,749077.83,-26.04
-8162,PENDIENTE,96ed311d7658a6473826f54ea5e22a570128d0de743efb04761f46128e5e58d2,zMWbb5k,31-dic,,,USDT,BINANCE,FUNDABLOCK,26.05,OMAR,,,,,https://link.jairokov.com/i/zMWbb5k,559295375590@s.whatsapp.net,,,,,,,,,,,
+8162,VALIDAR,96ed311d7658a6473826f54ea5e22a570128d0de743efb04761f46128e5e58d2,zMWbb5k,13-jul,1783973129,T265,USDT,BINANCE,FUNDABLOCK,26.05,OMAR,FUNDDA,,,,https://link.jairokov.com/i/zMWbb5k,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 8163,PENDIENTE,4757716ff8cf550514ea9df97649e7c459419ad8b07e0d2122db3db37241f531,gUS2C8h,31-dic,,,PEN,INTERBANK,LINA M CASTILLO O,103.02,FUNDDA,,,,,https://link.jairokov.com/i/gUS2C8h,5491177171331@s.whatsapp.net,,,,,,,,,,,
 8164,COMPLETADO,90dcdb29ba58cab7a12f6fc38af101d57c7d3695a4669b48d43b420cf1b28a5e,ylMPq6r,13-jul,1783969281,T265,COP,NEQUI,SADAMET ZARAGOZA,165000,IRIS,OMAR,P,,PAGO,https://link.jairokov.com/i/ylMPq6r,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-3167,"[P-ylMPq6r] Monto: 165000, Titular: SADAMET ZARAGOZA
 Banco: NEQUI, Moneda: COP, Tasa(T265): 0.99 ","[P-ylMPq6r] Monto: 165000, Titular: SADAMET ZARAGOZA
