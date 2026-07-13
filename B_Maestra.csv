@@ -23580,7 +23580,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T264): 951 ",67070.7,69.82,67070.7,69.82
 Banco: OXXO, Moneda: MXN, Tasa(T264): 5.149 ","[D-P7CpFMz] Monto: 1500, Titular: HILKAR
 Banco: OXXO, Moneda: MXN, Tasa(T264): 18.29 ",291.31,-82.01,662.66,906.37
 8120,PENDIENTE,0b35ffdb768fbd806f877255ca4a1fe03a50e146387539bdf5d171d88504404a,2EP6ZuK,31-dic,,,PEN,INTERBANK,JAIROKOV,268,ROSANGEL,,,,,https://link.jairokov.com/i/2EP6ZuK,5491177171331@s.whatsapp.net,,,,,,,,,,,
-8121,VALIDAR,c4ec9312ad8282b7df8296fac2faad9f5ad30c600dcb127f1aa062bcfd7a06a3,KHcoIjZ,12-jul,1783882024,T264,BRL,MT IP S.A.,OMAR ANTONIO MENESES SERR,300,MERLI,OMAR,,,,https://link.jairokov.com/i/KHcoIjZ,51928344275@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8121,COMPLETADO,c4ec9312ad8282b7df8296fac2faad9f5ad30c600dcb127f1aa062bcfd7a06a3,KHcoIjZ,12-jul,1783882024,T264,BRL,PIX,JOFFRE,300,MERLI,OMAR,D,,DEPOSITO,https://link.jairokov.com/i/KHcoIjZ,51928344275@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.644,-5.319,"[D-KHcoIjZ] Monto: 300, Titular: JOFFRE
+Banco: PIX, Moneda: BRL, Tasa(T264): 1.644 ","[D-KHcoIjZ] Monto: 300, Titular: JOFFRE
+Banco: PIX, Moneda: BRL, Tasa(T264): 5.319 ",182.48,-56.4,784.66,99.64
 8122,PENDIENTE,86cb30bd8c26127f1d86c0abcfe6646a999dab209b249080038ff8ac7f8a8095,vXKCqac,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,291,ENZO,,,,,https://link.jairokov.com/i/vXKCqac,51917122096@s.whatsapp.net,,,,,,,,,,,
 8123,COMPLETADO,dd29f448ae39e68594ad0896807610fa3a2471a70355bcfb50f7a50fae7af4cb,QrzGO9d,12-jul,1783885869,T264,COP,NEQUI,TAHYRUMA,249000,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/QrzGO9d,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,951,"[P-QrzGO9d] Monto: 249000, Titular: TAHYRUMA
 Banco: NEQUI, Moneda: COP, Tasa(T264): 0.99 ","[P-QrzGO9d] Monto: 249000, Titular: TAHYRUMA
