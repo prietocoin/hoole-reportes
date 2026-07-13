@@ -23598,8 +23598,12 @@ Banco: OXXO, Moneda: MXN, Tasa(T264): 18.29 ",194.21,-54.67,194.21,851.7
 Banco: OXXO, Moneda: MXN, Tasa(T264): 17.22 ","[P-gtcsuXq] Monto: 155, Titular: VERENICE
 Banco: OXXO, Moneda: MXN, Tasa(T264): 16.55 ",9,-9.36,860.7,274.63
 8132,VALIDAR,9a5f157a3db45e92fefc5440e3e00f21e4e069fb5de0d122322697dbf5ffef89,ABAiRRf,12-jul,1783897144,T264,VES,MERCANTIL,V-20.700.565,19000,NELSY,MICHEL,,,,https://link.jairokov.com/i/ABAiRRf,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-8133,VALIDAR,bfec3befb35160ac70f51d2bac8745e23c1f80da81528acfbf09e14943c91773,JvFx1Er,12-jul,1783897496,T264,MXN,SPIN BY OXXO,🤷‍♂️,1000,JAIPY,CHASAN,,,,https://link.jairokov.com/i/JvFx1Er,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
-8134,VALIDAR,527880389ce535102a215a64af84ecbc7c2207286a0dabbf5711378f2a9e3fa6,jyuAunZ,12-jul,1783898012,T264,PEN,BCP,GONZALEZ JIMENEZ Y.,63.6,JAIPY,CHASAN,,,,https://link.jairokov.com/i/jyuAunZ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+8133,COMPLETADO,bfec3befb35160ac70f51d2bac8745e23c1f80da81528acfbf09e14943c91773,JvFx1Er,12-jul,1783897496,T264,MXN,OXXO,ELVIRA,1000,JAIPY,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/JvFx1Er,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,17.55,-18.29,"[D-JvFx1Er] Monto: 1000, Titular: ELVIRA
+Banco: OXXO, Moneda: MXN, Tasa(T264): 17.55 ","[D-JvFx1Er] Monto: 1000, Titular: ELVIRA
+Banco: OXXO, Moneda: MXN, Tasa(T264): 18.29 ",56.98,-54.67,56.98,806.03
+8134,COMPLETADO,527880389ce535102a215a64af84ecbc7c2207286a0dabbf5711378f2a9e3fa6,jyuAunZ,12-jul,1783898012,T264,PEN,BCP,GONZALEZ,63.6,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/jyuAunZ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-jyuAunZ] Monto: 63.6, Titular: GONZALEZ
+Banco: BCP, Moneda: PEN, Tasa(T264): 3.41 ","[P-jyuAunZ] Monto: 63.6, Titular: GONZALEZ
+Banco: BCP, Moneda: PEN, Tasa(T264): 3.328 ",18.65,-19.11,75.63,786.92
 8135,PENDIENTE,f3c70507dd1b2e9a68a7c033b9103c67ac8494fca116ce085970a170a3beb290,VO2CMNU,31-dic,,,VES,MERCANTIL,V-24.952.498,38300,NELSY,,,,,https://link.jairokov.com/i/VO2CMNU,5491127574905@s.whatsapp.net,,,,,,,,,,,
 8136,VALIDAR,db5bc9e05d3a9931cab65f81fc3043de96957d74a1d8609a6822f903a0bf473e,Q124ui6,12-jul,1783899729,T264,MXN,SPIN BY OXXO,🤷‍♂️,700,NAUPAR,CHASAN,,,,https://link.jairokov.com/i/Q124ui6,584122830430@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
 8137,VALIDAR,672ae9287a3e1e1a8fde5070c69955dfc7d33dadb6ca1a42e2c9510123d5c744,osMsGJY,12-jul,1783900218,T264,ARS,PERSONAL PAY,"ALDANA MORILLO, NELSY MAYNAP",10050,NELSY,SUBERO,,,,https://link.jairokov.com/i/osMsGJY,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
