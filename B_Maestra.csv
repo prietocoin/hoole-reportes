@@ -23662,7 +23662,9 @@ Banco: BANESCO, Moneda: VES, Tasa(T265): 0.249 ",27.85,89156.62,199.07,233820.65
 Banco: VENEZUELA, Moneda: VES, Tasa(T265): 797 ","[P-kCzyMAW] Monto: 7770, Titular: 27446403
 Banco: VENEZUELA, Moneda: VES, Tasa(T265): 0.249 ",9.74,31204.81,208.81,406529.05
 8156,VALIDAR,550da6cc86c068d149425d6619837445fd3e6f888f0010fdc58a15e92755c4e2,,,1783959272,T265,,,,,,JOSEM,,,,,,573248071414@s.whatsapp.net,,,,,,,,,,
-8157,PENDIENTE,c9fb1370bf17bdf8438f993c5611f8233e5bd62b575996d207a3f8894ba787e7,LTxGChW,31-dic,,,USD,BINANCE,🤷‍♂️,175.31,OMAR,,,,,https://link.jairokov.com/i/LTxGChW,559295375590@s.whatsapp.net,,,,,,,,,,,
+8157,COMPLETADO,c9fb1370bf17bdf8438f993c5611f8233e5bd62b575996d207a3f8894ba787e7,LTxGChW,13-jul,1783972866,T265,USDT,BINANCE,OMAR,175.31,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/LTxGChW,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-LTxGChW] Monto: 175.31, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ","[A-LTxGChW] Monto: 175.31, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ",175.31,175.31,0,190.01
 8158,COMPLETADO,e4e346c778b3cb2d93f2fef8ab520bffceae650565bfa1f5b7af264a4e9d041d,Sh8hafJ,13-jul,1783960997,T265,BRL,PIX,INGRID,2475,OMAR,JOSEM,P,,PAGO,https://link.jairokov.com/i/Sh8hafJ,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,5,-4.902,"[P-Sh8hafJ] Monto: 2475, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T265): 5 ","[P-Sh8hafJ] Monto: 2475, Titular: INGRID
 Banco: PIX, Moneda: BRL, Tasa(T265): 4.902 ",495,-504.89,495,-504.89
