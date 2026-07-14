@@ -23724,7 +23724,9 @@ Banco: GUAYAQUIL, Moneda: ECU, Tasa(T265): 0.96 ",28.46,-29.06,45.47,459.32
 8178,COMPLETADO,6701c26e26fa61ed2baff93eef2d52f607835333ef27281e43fcabdee27d99c6,oqpW4Kd,13-jul,1783981865,T265,COP,BANCOLOMBIA,JOSE,550000,JAIPY,OMAR,P,,PAGO,https://link.jairokov.com/i/oqpW4Kd,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3245,-3167,"[P-oqpW4Kd] Monto: 550000, Titular: JOSE
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 3245 ","[P-oqpW4Kd] Monto: 550000, Titular: JOSE
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T265): 3167 ",169.49,-173.66,169.49,-191.01
-8179,VALIDAR,ab3a866f370f4cacb062065fcb2c667b165bbd5810398b090aefa134ef60ca3c,EBq9yUn,13-jul,1783982037,T265,PEN,YAPE,ANAHIS TIBISAY BOLIVAR DE LUZARDO,50.87,JAIPY,CHASAN,,,,https://link.jairokov.com/i/EBq9yUn,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+8179,COMPLETADO,ab3a866f370f4cacb062065fcb2c667b165bbd5810398b090aefa134ef60ca3c,EBq9yUn,13-jul,1783982037,T265,PEN,YAPE,ANAHIS,50.87,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/EBq9yUn,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.4,-3.318,"[P-EBq9yUn] Monto: 50.87, Titular: ANAHIS
+Banco: YAPE, Moneda: PEN, Tasa(T265): 3.4 ","[P-EBq9yUn] Monto: 50.87, Titular: ANAHIS
+Banco: YAPE, Moneda: PEN, Tasa(T265): 3.318 ",14.96,-15.33,184.45,443.99
 8180,PENDIENTE,f973bb062f359c0c92b2da37744d4d645ee9be5da2304f4ade86f509e6d09bbc,X9tfef1,31-dic,,,VES,MERCANTIL,V-11.435.376,56940,BEATRIZ,,,,,https://link.jairokov.com/i/X9tfef1,5491127574905@s.whatsapp.net,,,,,,,,,,,
 8181,COMPLETADO,7f722b6a1abd86d1eb0a6e110dc140546030e983e9c4b1ce7803fe6b9ceeae2b,udIVHBz,13-jul,1783986511,T265,PEN,INTERBANK,NESTOR,298,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/udIVHBz,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.4,-3.318,"[P-udIVHBz] Monto: 298, Titular: NESTOR
 Banco: INTERBANK, Moneda: PEN, Tasa(T265): 3.4 ","[P-udIVHBz] Monto: 298, Titular: NESTOR
