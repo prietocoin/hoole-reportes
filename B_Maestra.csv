@@ -23727,4 +23727,6 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T265): 3.4 ","[P-udIVHBz] Monto: 500, Titula
 Banco: INTERBANK, Moneda: PEN, Tasa(T265): 3.318 ",147.05,-150.69,313.66,0.72
 8182,VALIDAR,c59a793eb7403abe041ae9a9f8eff4b907d766b8a8f307182ed32c3288eabde7,KRbAV0y,13-jul,1783987357,T265,CLP,BANCO ESTADO,ANGELICA ARRAIZ,23900,MERLI,FUNDDA,,,,https://link.jairokov.com/i/KRbAV0y,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
 8183,VALIDAR,cc0c69bdd58c514746058fbf2bbcab855cc2b992c1e6b3ac74ccf8fc2a854639,MnWtNEy,13-jul,1783987566,T265,PEN,PLIN,JAIRO ENRIQUE PRIETO RINCON,202,ELIS,FUNDDA,,,,https://link.jairokov.com/i/MnWtNEy,554191581015@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
-8184,VALIDAR,584e4c8aacabf6d74c9609db650e286ebfd212b0d1142a82a45c2f775e9523a0,kWhvoWC,13-jul,1783988657,T265,USDT,BINANCE,🤷‍♂️,234.62,OMAR,FUNDDA,,,,https://link.jairokov.com/i/kWhvoWC,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8184,COMPLETADO,584e4c8aacabf6d74c9609db650e286ebfd212b0d1142a82a45c2f775e9523a0,kWhvoWC,13-jul,1783988657,T265,USDT,BINANCE,OMAR,234.62,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/kWhvoWC,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-kWhvoWC] Monto: 234.62, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ","[A-kWhvoWC] Monto: 234.62, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T265): 1 ",234.62,234.62,43.61,234.62
