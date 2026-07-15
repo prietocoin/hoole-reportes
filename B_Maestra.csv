@@ -23922,7 +23922,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ",693,693,502.24,-251.56
 8241,COMPLETADO,802bd3ef98adea9aebb4e1617ccf7a5924aaf38cb7f294b6109118823dac35f7,uonZSyI,15-jul,1784120297,T266,USDT,BINANCE,OMAR,5.23,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/uonZSyI,559295375590@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-uonZSyI] Monto: 5.23, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ","[A-uonZSyI] Monto: 5.23, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ",5.23,5.23,140.57,-246.33
-8242,PENDIENTE,2dd0b6fd17ef5c004a71c7837344aa27462863ad2ff17469eca18db76ab5009d,aRA34Qu,31-dic,,,USDT,BINANCE,JAIRO,341.13,JOSEM,,,,,https://link.jairokov.com/i/aRA34Qu,56990683872@s.whatsapp.net,,,,,,,,,,,
+8242,COMPLETADO,2dd0b6fd17ef5c004a71c7837344aa27462863ad2ff17469eca18db76ab5009d,aRA34Qu,15-jul,1784159073,T268,USDT,BINANCE,JOSEM,341.13,JOSEM,FUNDDA,A,,ABONO,https://link.jairokov.com/i/aRA34Qu,56990683872@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-aRA34Qu] Monto: 341.13, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T268): 1 ","[A-aRA34Qu] Monto: 341.13, Titular: JOSEM
+Banco: BINANCE, Moneda: USDT, Tasa(T268): 1 ",341.13,341.13,0,94.8
 8243,COMPLETADO,8749c844ae956eedca98c74cdf745de04d299e20d574fc79b4add919f06e3274,w51n1tu,15-jul,1784122560,T267,USDT,BINANCE,PAGOASUBERO,47.15,NELSY,SUBERO,A,,ABONO,https://link.jairokov.com/i/w51n1tu,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-w51n1tu] Monto: 47.15, Titular: PAGOASUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T267): 1 ","[A-w51n1tu] Monto: 47.15, Titular: PAGOASUBERO
 Banco: BINANCE, Moneda: USDT, Tasa(T267): 1 ",47.15,47.15,872.35,-47.99
@@ -24002,4 +24004,7 @@ Banco: YAPE, Moneda: PEN, Tasa(T268): 3.308 ",44.32,-45.42,44.32,-177.57
 Banco: YAPE, Moneda: PEN, Tasa(T268): 1 ","[D-viWAaLu] Monto: 126.1, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T268): 3.39 ",126.1,37.19,387.92,81.51
 8273,VALIDAR,539cdd9fb620a82939b2e12e5c42304be647711e7ba1bce987e7c9d2295a3439,jPhBlXu,15-jul,1784157742,T268,COP,NEQUI,VIRGINIA VILLALOBOS,65400,IRIS,CHASAN,,,,https://link.jairokov.com/i/jPhBlXu,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
-8274,VALIDAR,78ed8c485d77a8b38cbe5e69a3ce45f7c5a89e14b2003886a7128f20aca466b3,sFTwwib,15-jul,1784157968,T268,ARS,BANCO GALICIA,NELSY MAYNAP ALDANA MORILLO,131200,NELSY,SUBERO,,,,https://link.jairokov.com/i/sFTwwib,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8274,COMPLETADO,78ed8c485d77a8b38cbe5e69a3ce45f7c5a89e14b2003886a7128f20aca466b3,sFTwwib,15-jul,1784157968,T268,ARS,GALICIA,ANDRES,131200,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/sFTwwib,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1527,-1499,"[P-sFTwwib] Monto: 131200, Titular: ANDRES
+Banco: GALICIA, Moneda: ARS, Tasa(T268): 1527 ","[P-sFTwwib] Monto: 131200, Titular: ANDRES
+Banco: GALICIA, Moneda: ARS, Tasa(T268): 1499 ",85.92,-87.52,301.52,-135.51
+8275,PENDIENTE,ec36084714caff65d8c8d0f8fc2a82b732271875502383844edb9c1f8cd52ad1,U0NEP91,31-dic,,,USD,BINANCE,FUNDABLOCK,87.52,SUBERO,,,,,https://link.jairokov.com/i/U0NEP91,34627629613@s.whatsapp.net,,,,,,,,,,,
