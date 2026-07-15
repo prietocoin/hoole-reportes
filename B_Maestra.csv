@@ -23888,7 +23888,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T266): 3142 ",5.2,-5.25,80.63,-5.25
 Banco: NEQUI, Moneda: COP, Tasa(T266): 3171 ","[P-sgH8FcZ] Monto: 571844, Titular: YIOVANA
 Banco: NEQUI, Moneda: COP, Tasa(T266): 3142 ",180.33,-182,260.96,-341.13
 8229,VALIDAR,9836e777d5f63da2326e44fe43c6dc91e81bf87a493800f101ada9986354d496,,,1784072877,T266,,,,,,CORREGIR,,,,,,5491127574905@s.whatsapp.net,,,,,,,,,,
-8230,VALIDAR,75b8054935704fe04db6b4fba314f61b6c1ade7f449e9b95197f5399f4c7bccb,rUIl1Es,15-jul,1784119237,T266,PEN,BANCO DE CRÉDITO DEL PERÚ,ELIMAR DEL VALLE RODRIGUEZ RAMOS,111.3,CHASAN,CORREGIR,,,,https://link.jairokov.com/i/rUIl1Es,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8230,COMPLETADO,75b8054935704fe04db6b4fba314f61b6c1ade7f449e9b95197f5399f4c7bccb,rUIl1Es,14-jul,1784039280,T266,PEN,BCP,ELIMAR,111.3,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/rUIl1Es,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.41,-3.328,"[P-rUIl1Es] Monto: 111.3, Titular: ELIMAR
+Banco: BCP, Moneda: PEN, Tasa(T266): 3.41 ","[P-rUIl1Es] Monto: 111.3, Titular: ELIMAR
+Banco: BCP, Moneda: PEN, Tasa(T266): 3.328 ",32.63,-33.44,843.68,-190.76
 8231,COMPLETADO,,A5SaV0K,14-jul,1784072877,T266,USDT,BINANCE,FUNDDA,-362.1,FUNDDA,ROSIMAR,A,,ABONO,https://link.jairokov.com/i/A5SaV0K,,,,,1,1,"[A-A5SaV0K] Monto: -362.1, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ","[A-A5SaV0K] Monto: -362.1, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ",-362.1,-362.1,-362.1,-101.14
@@ -23914,5 +23916,7 @@ Banco: MERCADO PAGO, Moneda: ARS, Tasa(T266): 1503 ",93.4,-95.14,825.2,-95.14
 8239,COMPLETADO,9aa23031b178fac1d00970ff3c2ec8b588b7e2c9d2b57815a3c8c87716a8ecd6,AFreUZ8,14-jul,1784039280,T266,USDT,BINANCE,OMAR,149.34,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/AFreUZ8,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-AFreUZ8] Monto: 149.34, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ","[A-AFreUZ8] Monto: 149.34, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ",149.34,149.34,135.34,-944.56
-8240,VALIDAR,ee738de06259ed7f6b4a1a9f870ca5a0b2f30b74cfa08d75deb0c634735faabc,UxJMijt,15-jul,1784116616,T266,USD,BINANCE,JAIRO FUNDABLOCK,693,FUNDDA,CORREGIR,,,,https://link.jairokov.com/i/UxJMijt,5491127574905@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+8240,COMPLETADO,ee738de06259ed7f6b4a1a9f870ca5a0b2f30b74cfa08d75deb0c634735faabc,UxJMijt,14-jul,1784039280,T266,USDT,BINANCE,CHASAN,693,CHASAN,FUNDDA,A,,ABONO,https://link.jairokov.com/i/UxJMijt,5491127574905@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1,1,"[A-UxJMijt] Monto: 693, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ","[A-UxJMijt] Monto: 693, Titular: CHASAN
+Banco: BINANCE, Moneda: USDT, Tasa(T266): 1 ",693,693,502.24,-251.56
 8241,PENDIENTE,802bd3ef98adea9aebb4e1617ccf7a5924aaf38cb7f294b6109118823dac35f7,uonZSyI,31-dic,,,USDT,BINANCE,🤷‍♂️,5.23,OMAR,,,,,https://link.jairokov.com/i/uonZSyI,559295375590@s.whatsapp.net,,,,,,,,,,,
