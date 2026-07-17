@@ -24182,5 +24182,7 @@ Banco: NARANJA, Moneda: ARS, Tasa(T271): 1500 ",63.8,-65,-529.38,-65
 8335,COMPLETADO,cfe0fa532b854647bbd96ee9059657b42ec839ba67d6961a1b3bf08ce9ce5932,NifWCnq,17-jul,1784301863,T271,COP,NEQUI,COMPRA,860000,COMPRA,IRIS,C,,COMPRA,https://link.jairokov.com/i/NifWCnq,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,-1,-1,"[C-NifWCnq] Monto: 860000, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T271): 1 ","[C-NifWCnq] Monto: 860000, Titular: COMPRA
 Banco: NEQUI, Moneda: COP, Tasa(T271): 1 ",-860000,-860000,-4719815.09,-597373.74
-8336,VALIDAR,32824a97c4fde3805686f2d390a892f2771759950b888a2ef9e784fdb69b6119,bYAsLib,17-jul,1784302698,T271,USDT,BINANCE,🤷‍♂️,133.78,OMAR,FUNDDA,,,,https://link.jairokov.com/i/bYAsLib,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+8336,COMPLETADO,32824a97c4fde3805686f2d390a892f2771759950b888a2ef9e784fdb69b6119,bYAsLib,17-jul,1784302698,T271,USDT,BINANCE,OMAR,133.78,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bYAsLib,559295375590@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-bYAsLib] Monto: 133.78, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T271): 1 ","[A-bYAsLib] Monto: 133.78, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T271): 1 ",133.78,133.78,191.39,133.78
 8337,PENDIENTE,b777c32d19e836b8bb47f8aada014cbb7e3133be73d87c20b37c93024074f5a2,HvmziqZ,31-dic,,,USDT,BINANCE,FUNDABLOCK,65,CARLA,,,,,https://link.jairokov.com/i/HvmziqZ,573202296772@s.whatsapp.net,,,,,,,,,,,
