@@ -24156,4 +24156,6 @@ Banco: OXXO, Moneda: MXN, Tasa(T270): 18.21 ",53.79,-54.91,53.79,-316.28
 8325,COMPLETADO,9080aa8748db5473e164613a12201a8edf2d7ad58d340046b04ac602b0d7c397,yguzr0m,16-jul,1784248561,T270,COP,NEQUI,YOSEILYN,41100,IRIS,KARLA,P,,PAGO,https://link.jairokov.com/i/yguzr0m,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,942,"[P-yguzr0m] Monto: 41100, Titular: YOSEILYN
 Banco: NEQUI, Moneda: COP, Tasa(T270): 0.99 ","[P-yguzr0m] Monto: 41100, Titular: YOSEILYN
 Banco: NEQUI, Moneda: COP, Tasa(T270): 942 ",41515.15,43.63,66767.67,43.63
-8326,VALIDAR,b6f3bb8d24fd502cd26378b8ffde4658b45f1872c468d0ac54368a5eaea12ed4,HnMsdLr,17-jul,1784286679,T270,USDT,BINANCE,MILACRITA,53.79,NELSY,VICTOR,,,,https://link.jairokov.com/i/HnMsdLr,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8326,COMPLETADO,b6f3bb8d24fd502cd26378b8ffde4658b45f1872c468d0ac54368a5eaea12ed4,HnMsdLr,17-jul,1784286679,T270,USDT,BINANCE,PAGOAVICTOR,53.79,NELSY,VICTOR,A,,ABONO,https://link.jairokov.com/i/HnMsdLr,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-HnMsdLr] Monto: 53.79, Titular: PAGOAVICTOR
+Banco: BINANCE, Moneda: USDT, Tasa(T270): 1 ","[A-HnMsdLr] Monto: 53.79, Titular: PAGOAVICTOR
+Banco: BINANCE, Moneda: USDT, Tasa(T270): 1 ",53.79,53.79,-593.18,107.58
