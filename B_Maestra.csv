@@ -24418,6 +24418,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T273): 3.347 ",17.78,-18.22,270.74,-416.36
 8413,COMPLETADO,cf9fcab4759a0f6de854dc0fddb322d08b27de82f974c4b6379b5a89ec129fe7,NevQ430,18-jul,1784415296,T273,PEN,YAPE,JORGE,132,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/NevQ430,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.43,-3.347,"[P-NevQ430] Monto: 132, Titular: JORGE
 Banco: YAPE, Moneda: PEN, Tasa(T273): 3.43 ","[P-NevQ430] Monto: 132, Titular: JORGE
 Banco: YAPE, Moneda: PEN, Tasa(T273): 3.347 ",38.48,-39.43,65.8,-39.43
-8414,VALIDAR,3ad363a263bfc841d2d1e3d7edf8161abaaf0874fe1efb631b5c64a736d17b0a,dWRtiGM,18-jul,1784416534,T273,BRL,GOWD IP LTDA,OMAR ANTONIO MENESES SERRA LTDA,264.6,OMAR,YARELIS,,,,https://link.jairokov.com/i/dWRtiGM,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+8414,COMPLETADO,3ad363a263bfc841d2d1e3d7edf8161abaaf0874fe1efb631b5c64a736d17b0a,dWRtiGM,18-jul,1784416534,T273,BRL,PIX,MICHELLE,264.6,OMAR,YARELIS,P,,PAGO,https://link.jairokov.com/i/dWRtiGM,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,5,-4.902,"[P-dWRtiGM] Monto: 264.6, Titular: MICHELLE
+Banco: PIX, Moneda: BRL, Tasa(T273): 5 ","[P-dWRtiGM] Monto: 264.6, Titular: MICHELLE
+Banco: PIX, Moneda: BRL, Tasa(T273): 4.902 ",52.92,-53.97,166.22,7.24
 8415,VALIDAR,260143939182bc0aa6eb1166ea7c89113a06caada5e7c896019723c8c81f51fe,90KFAjA,18-jul,1784416611,T273,USDT,BINANCE,SR_MENESES-3011,52.92,FUNDDA,OMAR,,,,https://link.jairokov.com/i/90KFAjA,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
 8416,PENDIENTE,2bb012f494fce572795d9e0ee761e9fa0ce411033c2b9216caad0a62b3c7f32a,amiLrpK,31-dic,,,USDT,BINANCE,🤷‍♂️,99.8,OMAR,,,,,https://link.jairokov.com/i/amiLrpK,559295375590@s.whatsapp.net,,,,,,,,,,,
+8417,VALIDAR,dc794e5bb0759b53dc56c7b13841ab2332b9f2903afdce16f8d4ce6e3288d3cb,QhqHIOD,18-jul,1784418906,T273,USDT,BINANCE,SR_MENESES-3011,190.4,FUNDDA,OMAR,,,,https://link.jairokov.com/i/QhqHIOD,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
