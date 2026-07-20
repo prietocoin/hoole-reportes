@@ -24517,9 +24517,9 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T273): 3289 ",212.76,-60.8,4266.91,-76
 8448,COMPLETADO,bd2c3d40e0187d600f8c5f705bd9c8a9ab6d4aa1347efd9af52b1618f3b0919e,IReQa3b,20-jul,1784558270,T276,COP,NEQUI,YANIRI,190750,FUNDDA,OMAR,P,,PAGO,https://link.jairokov.com/i/IReQa3b,595991712966@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3240,-3162,"[P-IReQa3b] Monto: 190750, Titular: YANIRI
 Banco: NEQUI, Moneda: COP, Tasa(T276): 3240 ","[P-IReQa3b] Monto: 190750, Titular: YANIRI
 Banco: NEQUI, Moneda: COP, Tasa(T276): 3162 ",58.87,-60.32,25.45,-250.72
-8449,COMPLETADO,0e0cb315cc102f153aad365b6a9b04263f71b1f15e52ed5a8c372e280a78e497,3kyEiy4,20-jul,1784563673,T277,PEN,YAPE,GLORIA QUISPE,60,HEIDI,JAIPY,D,,DEPOSITO,https://link.jairokov.com/i/3kyEiy4,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.519,3.43,"[D-3kyEiy4] Monto: 60, Titular: GLORIA QUISPE
-Banco: YAPE, Moneda: PEN, Tasa(T273): 3.519 ","[D-3kyEiy4] Monto: 60, Titular: GLORIA QUISPE
-Banco: YAPE, Moneda: PEN, Tasa(T273): 3.43 ",17.05,17.49,2341.7,91.35
+8449,COMPLETADO,0e0cb315cc102f153aad365b6a9b04263f71b1f15e52ed5a8c372e280a78e497,3kyEiy4,19-jul,1784472973,T275,PEN,YAPE,GLORIA,60,JAIPY,HEIDI,P,,PAGO,https://link.jairokov.com/i/3kyEiy4,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.43,-3.347,"[P-3kyEiy4] Monto: 60, Titular: GLORIA
+Banco: YAPE, Moneda: PEN, Tasa(T275): 3.43 ","[P-3kyEiy4] Monto: 60, Titular: GLORIA
+Banco: YAPE, Moneda: PEN, Tasa(T275): 3.347 ",17.49,-17.92,91.65,2306.73
 8450,COMPLETADO,dc9a97571ae874c943092c0d774aead1f2d7453ecc746122a818a476c6de5683,QjldMBl,20-jul,1784558270,T276,COP,NEQUI,YOHANA,109000,ROSIMAR,OMAR,P,,PAGO,https://link.jairokov.com/i/QjldMBl,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3191,-3162,"[P-QjldMBl] Monto: 109000, Titular: YOHANA
 Banco: NEQUI, Moneda: COP, Tasa(T276): 3191 ","[P-QjldMBl] Monto: 109000, Titular: YOHANA
 Banco: NEQUI, Moneda: COP, Tasa(T276): 3162 ",34.15,-34.47,-41.85,-285.19
