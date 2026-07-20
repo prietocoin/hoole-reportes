@@ -24569,6 +24569,6 @@ Banco: SANTANDER, Moneda: CLP, Tasa(T277): 955 ",244.02,-73.29,175.41,-117.06
 Banco: YAPE, Moneda: PEN, Tasa(T277): 0.999 ","[D-2NIq9hy] Monto: 582, Titular: ENZO
 Banco: YAPE, Moneda: PEN, Tasa(T277): 3.42 ",582.58,170.17,1083.5,235.67
 8466,PENDIENTE,afc93d4baa412ff63152a0081d1560c2cba27f216981efe35c8c3978d2d6d90b,FGqr0eh,31-dic,,,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,82,ENZO,,,,,https://link.jairokov.com/i/FGqr0eh,51917122096@s.whatsapp.net,,,,,,,,,,,
-8467,COMPLETADO,f453566908c5a8d5f8861b46e44358b074ea91f7215f9f102d5b295cd1abec29,VW6fysi,20-jul,1784589274,T277,COP,NEQUI,PAOLA GOITIA,494400,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/VW6fysi,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,945,"[P-VW6fysi] Monto: 494400, Titular: PAOLA GOITIA
-Banco: NEQUI, Moneda: COP, Tasa(T277): 0.99 ","[P-VW6fysi] Monto: 494400, Titular: PAOLA GOITIA
+8467,COMPLETADO,f453566908c5a8d5f8861b46e44358b074ea91f7215f9f102d5b295cd1abec29,VW6fysi,20-jul,1784589274,T277,COP,NEQUI,PAOLA,494400,IRIS,ENZO,P,,PAGO,https://link.jairokov.com/i/VW6fysi,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,945,"[P-VW6fysi] Monto: 494400, Titular: PAOLA
+Banco: NEQUI, Moneda: COP, Tasa(T277): 0.99 ","[P-VW6fysi] Monto: 494400, Titular: PAOLA
 Banco: NEQUI, Moneda: COP, Tasa(T277): 945 ",499393.93,523.17,526919.18,523.17
