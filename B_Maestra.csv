@@ -24764,7 +24764,9 @@ Banco: PIX, Moneda: BRL, Tasa(T279): 4.826 ",24.38,-24.86,180.02,71.42
 8533,COMPLETADO,81df3b0c0bc49b3508f8736a51180924be1d97b95782d52e7e6d7fca3303fc81,uNojZs3,22-jul,1784765855,T279,USDT,BINANCE,FUNDDA,-24.38,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/uNojZs3,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-uNojZs3] Monto: -24.38, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T279): 1 ","[A-uNojZs3] Monto: -24.38, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T279): 1 ",-24.38,-24.38,356.75,155.64
-8534,VALIDAR,0a23f2a80a399bcbdd87e9837f6281898ae9bc62bd182e0d7815aafedcf65c73,2p5iZEh,22-jul,1784768392,T279,PEN,BCP,MALLELVIS DAMELYS REBOLLEDO ORTEGA,95,JAIPY,CHASAN,,,,https://link.jairokov.com/i/2p5iZEh,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,,,,,,,,
+8534,COMPLETADO,0a23f2a80a399bcbdd87e9837f6281898ae9bc62bd182e0d7815aafedcf65c73,2p5iZEh,22-jul,1784768392,T279,PEN,BCP,MALLELVIS,95,JAIPY,CHASAN,P,,PAGO,https://link.jairokov.com/i/2p5iZEh,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,3.41,-3.328,"[P-2p5iZEh] Monto: 95, Titular: MALLELVIS
+Banco: BCP, Moneda: PEN, Tasa(T279): 3.41 ","[P-2p5iZEh] Monto: 95, Titular: MALLELVIS
+Banco: BCP, Moneda: PEN, Tasa(T279): 3.328 ",27.85,-28.54,315.45,-300.8
 8535,COMPLETADO,31abcfa09f09b97bc67d861da03e7ca93ca8fbe0eac61e99b0e2518282e976ad,bMgLN5w,22-jul,1784769465,T279,USD,ZELLE,ADAN,30,NELSY,ADA,D,,DEPOSITO,https://link.jairokov.com/i/bMgLN5w,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1.087,-1.041,"[D-bMgLN5w] Monto: 30, Titular: ADAN
 Banco: ZELLE, Moneda: USD, Tasa(T279): 1.087 ","[D-bMgLN5w] Monto: 30, Titular: ADAN
 Banco: ZELLE, Moneda: USD, Tasa(T279): 1.041 ",27.59,-28.81,99.01,-89.45
