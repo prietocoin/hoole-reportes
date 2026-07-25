@@ -24961,4 +24961,9 @@ Banco: GUAYAQUIL, Moneda: ECU, Tasa(T282): 0.96 ",27.55,-28.12,87.34,-55.21
 8604,COMPLETADO,349946926103a480fc65ce2ded8a4bb2713cb83f10332a64dc75c4a8a1eb5b0b,ctjmCKC,25-jul,1785012193,T282,COP,BANCOLOMBIA,FRAY,100000,ROSIMAR,HEIDI,P,,PAGO,https://link.jairokov.com/i/ctjmCKC,584125868185@s.whatsapp.net,573248071414@s.whatsapp.net,,,3137,-3108,"[P-ctjmCKC] Monto: 100000, Titular: FRAY
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T282): 3137 ","[P-ctjmCKC] Monto: 100000, Titular: FRAY
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T282): 3108 ",31.87,-32.17,90.17,-32.17
-8605,VALIDAR,4a86a575ccd232d16ae101536a8513d7da8e5f03fca3935ad1a070153b988fe9,hFGHZi5,25-jul,1785013851,T283,MXN,OXXO SPIN,🤷‍♂️,1112,AIDA,CHASAN,,,,https://link.jairokov.com/i/hFGHZi5,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,,,,,,,,
+8605,COMPLETADO,4a86a575ccd232d16ae101536a8513d7da8e5f03fca3935ad1a070153b988fe9,hFGHZi5,25-jul,1785013851,T283,MXN,OXXO,Monto: 1100,1100,AIDA,CHASAN,D,,DEPOSITO,https://link.jairokov.com/i/hFGHZi5,51929501071@s.whatsapp.net,573248071414@s.whatsapp.net,,,5.143,-18.27,"[D-hFGHZi5] Monto: 1100, Titular: Monto: 1100
+Banco: OXXO, Moneda: MXN, Tasa(T283): 5.143 ","[D-hFGHZi5] Monto: 1100, Titular: Monto: 1100
+Banco: OXXO, Moneda: MXN, Tasa(T283): 18.27 ",213.88,-60.2,1472.82,-115.41
+8606,COMPLETADO,c2f5bb7a333ae289baba07d66ddb880170e2fb084a1163e7994d1b6d4195ed0f,KejWAFr,25-jul,1785014153,T283,USDT,BINANCE,FUNDDA,-143.52,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/KejWAFr,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-KejWAFr] Monto: -143.52, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T283): 1 ","[A-KejWAFr] Monto: -143.52, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T283): 1 ",-143.52,-143.52,97.92,-135.1
