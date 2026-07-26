@@ -24994,3 +24994,6 @@ Banco: YAPE, Moneda: PEN, Tasa(T283): 3.41 ",28.58,29.32,-1.46,365.34
 8615,COMPLETADO,978da8d000637cd0faa41c31e3da5d311cbcf118830e5925bd232bba5e2eee61,zW9ydw3,25-jul,1785025666,T283,PEN,INTERBANK,LINA,100,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/zW9ydw3,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.41,-3.328,"[P-zW9ydw3] Monto: 100, Titular: LINA
 Banco: INTERBANK, Moneda: PEN, Tasa(T283): 3.41 ","[P-zW9ydw3] Monto: 100, Titular: LINA
 Banco: INTERBANK, Moneda: PEN, Tasa(T283): 3.328 ",29.32,-30.04,29.32,-30.04
+8616,COMPLETADO,9dbf3b39e6f7a7e5fe735e478d645dc7161f23162fda94f517fe295bd81fb36e,BpdfeRN,26-jul,1785073781,T284,VES,BANCAMIGA,V-16220952,4150,NELSY,JOSEM,P,,PAGO,https://link.jairokov.com/i/BpdfeRN,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,842,-834,"[P-BpdfeRN] Monto: 4150, Titular: V-16220952
+Banco: BANCAMIGA, Moneda: VES, Tasa(T284): 842 ","[P-BpdfeRN] Monto: 4150, Titular: V-16220952
+Banco: BANCAMIGA, Moneda: VES, Tasa(T284): 834 ",4.92,-4.97,296.27,-235.18
