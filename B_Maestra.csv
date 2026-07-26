@@ -24988,7 +24988,9 @@ Banco: YAPE, Moneda: PEN, Tasa(T283): 3.328 ",29.32,-30.04,425.03,-30.04
 8613,COMPLETADO,8f6e5bafc94903cc1f179debd7a02d71b106a4a4310c3632c92cf4ea3c7ae8fb,y0JQPCN,25-jul,1785022661,T283,PEN,YAPE,TANIA,100,ELIS,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/y0JQPCN,554191581015@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.498,3.41,"[D-y0JQPCN] Monto: 100, Titular: TANIA
 Banco: YAPE, Moneda: PEN, Tasa(T283): 3.498 ","[D-y0JQPCN] Monto: 100, Titular: TANIA
 Banco: YAPE, Moneda: PEN, Tasa(T283): 3.41 ",28.58,29.32,-243.22,336.02
-8614,VALIDAR,866da5a649fd2f29af7689d414b1b3930157c2666c723d6fa56db2648cf66ca4,vSnxFyx,25-jul,1785023670,T283,PEN,YAPE,JAIRO ENRIQUE PRIETO RINCON,100,CHASAN,FUNDDA,,,,https://link.jairokov.com/i/vSnxFyx,5215647886474@s.whatsapp.net,5491177171331@s.whatsapp.net,,,,,,,,,,
+8614,COMPLETADO,866da5a649fd2f29af7689d414b1b3930157c2666c723d6fa56db2648cf66ca4,vSnxFyx,25-jul,1785026686,T283,PEN,YAPE,VANESA,100,CHASAN,FUNDDA,D,,DEPOSITO,https://link.jairokov.com/i/vSnxFyx,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3.498,3.41,"[D-vSnxFyx] Monto: 100, Titular: VANESA
+Banco: YAPE, Moneda: PEN, Tasa(T283): 3.498 ","[D-vSnxFyx] Monto: 100, Titular: VANESA
+Banco: YAPE, Moneda: PEN, Tasa(T283): 3.41 ",28.58,29.32,-1.46,365.34
 8615,COMPLETADO,978da8d000637cd0faa41c31e3da5d311cbcf118830e5925bd232bba5e2eee61,zW9ydw3,25-jul,1785025666,T283,PEN,INTERBANK,LINA,100,FUNDDA,CHASAN,P,,PAGO,https://link.jairokov.com/i/zW9ydw3,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.41,-3.328,"[P-zW9ydw3] Monto: 100, Titular: LINA
 Banco: INTERBANK, Moneda: PEN, Tasa(T283): 3.41 ","[P-zW9ydw3] Monto: 100, Titular: LINA
 Banco: INTERBANK, Moneda: PEN, Tasa(T283): 3.328 ",29.32,-30.04,29.32,-30.04
