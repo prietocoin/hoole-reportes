@@ -25045,7 +25045,9 @@ Banco: OXXO, Moneda: MXN, Tasa(T284): 18.28 ",85.47,-82.05,510.5,-194.14
 8634,COMPLETADO,6ab3be69f52960a10b5787d61ed7da397aaa9ea6ef497b10301888dc1465ad60,piKgRx5,26-jul,1785109493,T284,COP,NEQUI,CARMEN,50000,CARMEN,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/piKgRx5,5491177171331@s.whatsapp.net,5491127574905@s.whatsapp.net,,,3185,-1.01,"[D-piKgRx5] Monto: 50000, Titular: CARMEN
 Banco: NEQUI, Moneda: COP, Tasa(T284): 3185 ","[D-piKgRx5] Monto: 50000, Titular: CARMEN
 Banco: NEQUI, Moneda: COP, Tasa(T284): 1.01 ",15.69,-49504.95,625.93,-207759.56
-8635,VALIDAR,0b93558eea2ea47b805dfcf12fde274f4def03171bb4ee1bc85ea503b4cbaaec,2KbrHzV,26-jul,1785111494,T284,VES,MERCANTIL,V-15.391.280,11900,NELSY,FUNDDA,,,,https://link.jairokov.com/i/2KbrHzV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8635,COMPLETADO,0b93558eea2ea47b805dfcf12fde274f4def03171bb4ee1bc85ea503b4cbaaec,2KbrHzV,26-jul,1785111494,T284,VES,MERCANTIL,V-15.391.280,11900,NELSY,CARMEN,P,,PAGO,https://link.jairokov.com/i/2KbrHzV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,842,855,"[P-2KbrHzV] Monto: 11900, Titular: V-15.391.280
+Banco: MERCANTIL, Moneda: VES, Tasa(T284): 842 ","[P-2KbrHzV] Monto: 11900, Titular: V-15.391.280
+Banco: MERCANTIL, Moneda: VES, Tasa(T284): 855 ",14.13,13.91,46.5,639.84
 8636,COMPLETADO,1a161b8972e644abff60e15bb2a388408fbffd603d00dd01d1ea1386accc750b,6bww8qa,26-jul,1785100485,T284,ARS,MERCADO PAGO,MARYURI,21450,SOLANO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/6bww8qa,51920740949@s.whatsapp.net,5491177171331@s.whatsapp.net,,,1594,-1625,"[D-6bww8qa] Monto: 21450, Titular: MARYURI
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T284): 1594 ","[D-6bww8qa] Monto: 21450, Titular: MARYURI
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T284): 1625 ",13.45,-13.2,1890.37,-13.2
