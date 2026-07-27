@@ -25059,6 +25059,6 @@ Banco: BINANCE, Moneda: USDT, Tasa(T284): 1 ",153.44,153.44,18.34,412.97
 Banco: BANESCO, Moneda: VES, Tasa(T284): 842 ","[P-8jQFq7r] Monto: 60000, Titular: V-24952498
 Banco: BANESCO, Moneda: VES, Tasa(T284): 855 ",71.25,70.17,70.97,580.67
 8640,VALIDAR,48e9eba18c37060839ace681c21aa407c1b91e297ed5996173196f343682e870,,,1785110204,T284,,,,,,CORREGIR,,,,,,5491127574905@s.whatsapp.net,,,,,,,,,,
-8641,COMPLETADO,,hhZ83x8,26-jul,1785110204,T284,CLP,MP,MICHEL,90000,FUNDDA,MICHEL,P,,PAGO,https://link.jairokov.com/i/hhZ83x8,,,,,0.985,954,"[P-hhZ83x8] Monto: 90000, Titular: MICHEL
-Banco: MP, Moneda: CLP, Tasa(T284): 0.985 ","[P-hhZ83x8] Monto: 90000, Titular: MICHEL
-Banco: MP, Moneda: CLP, Tasa(T284): 954 ",91370.55,94.33,128375.62,507.3
+8641,COMPLETADO,,hhZ83x8,26-jul,1785110204,T284,CLP,MP,MICHEL,92000,MICHEL,FUNDDA,P,,PAGO,https://link.jairokov.com/i/hhZ83x8,,,,,0.985,954,"[P-hhZ83x8] Monto: 92000, Titular: MICHEL
+Banco: MP, Moneda: CLP, Tasa(T284): 0.985 ","[P-hhZ83x8] Monto: 92000, Titular: MICHEL
+Banco: MP, Moneda: CLP, Tasa(T284): 954 ",93401.01,96.43,130406.08,509.4
