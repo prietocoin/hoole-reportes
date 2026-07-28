@@ -25261,5 +25261,7 @@ Banco: YAPE, Moneda: PEN, Tasa(T289): 3.347 ",21.64,-22.18,843.56,246.39
 8710,COMPLETADO,54be4b85f6b2a640a9f737c62fea3e73c1eaf62de5cb439953d208fc87954d38,k5Ua9Vk,28-jul,1785277230,T289,BRL,PIX,DAVID OROZCO,130,OMAR,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/k5Ua9Vk,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,4.98,-1.384,"[P-k5Ua9Vk] Monto: 130, Titular: DAVID OROZCO
 Banco: PIX, Moneda: BRL, Tasa(T289): 4.98 ","[P-k5Ua9Vk] Monto: 130, Titular: DAVID OROZCO
 Banco: PIX, Moneda: BRL, Tasa(T289): 1.384 ",26.1,-93.93,25.53,-114.17
-8711,VALIDAR,1f724f7d2a8bca64ecf9ed9f9218663851355bea6c952a98813de7df7e9dd2e9,7sktwKd,28-jul,1785278729,T289,CLP,MERCADO PAGO,JESUS MIGUEL RAMIREZ PEREZ,7500,MICHEL,OMAR,,,,https://link.jairokov.com/i/7sktwKd,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
-8712,PENDIENTE,adcfacf6ff0067b83896dbae6fee1aeb0f2637ab4ee50be55f221986414d2b0a,Fdoi3bt,31-dic,,,USDT,BINANCE,FUNDABLOCK,18.91,OMAR,,,,,https://link.jairokov.com/i/Fdoi3bt,559295375590@s.whatsapp.net,,,,,,,,,,,
+8711,COMPLETADO,1f724f7d2a8bca64ecf9ed9f9218663851355bea6c952a98813de7df7e9dd2e9,7sktwKd,28-jul,1785278729,T289,CLP,MERCADO PAGO,MONSERRAT,7500,MICHEL,OMAR,P,,PAGO,https://link.jairokov.com/i/7sktwKd,56931316076@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.985,-909,"[P-7sktwKd] Monto: 7500, Titular: MONSERRAT
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T289): 0.985 ","[P-7sktwKd] Monto: 7500, Titular: MONSERRAT
+Banco: MERCADO PAGO, Moneda: CLP, Tasa(T289): 909 ",7614.21,-8.25,134619.28,17.28
+8712,COMPLETADO,adcfacf6ff0067b83896dbae6fee1aeb0f2637ab4ee50be55f221986414d2b0a,Fdoi3bt,28-jul,1785279433,T289,USDT,BINANCE,OMAR,18.91,OMAR,FUNDDA,,,,https://link.jairokov.com/i/Fdoi3bt,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
