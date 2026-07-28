@@ -25267,6 +25267,6 @@ Banco: MERCADO PAGO, Moneda: CLP, Tasa(T289): 909 ",7614.21,-8.25,134619.28,17.2
 8712,COMPLETADO,adcfacf6ff0067b83896dbae6fee1aeb0f2637ab4ee50be55f221986414d2b0a,Fdoi3bt,28-jul,1785279433,T289,USDT,BINANCE,OMAR,18.91,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/Fdoi3bt,559295375590@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-Fdoi3bt] Monto: 18.91, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ","[A-Fdoi3bt] Monto: 18.91, Titular: OMAR
 Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ",18.91,18.91,36.19,640.31
-8713,COMPLETADO,aa2074429656f69c0883c621093eeef9bec437d6dad7f911b2e95cf8a1d544c2,EldNbw5,28-jul,1785279453,T289,USDT,BINANCE,FUNDDA,26.1,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/EldNbw5,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-EldNbw5] Monto: 26.1, Titular: FUNDDA
-Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ","[A-EldNbw5] Monto: 26.1, Titular: FUNDDA
-Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ",26.1,26.1,666.41,62.29
+8713,COMPLETADO,aa2074429656f69c0883c621093eeef9bec437d6dad7f911b2e95cf8a1d544c2,EldNbw5,28-jul,1785279453,T289,USDT,BINANCE,FUNDDA,-26.1,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/EldNbw5,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-EldNbw5] Monto: -26.1, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ","[A-EldNbw5] Monto: -26.1, Titular: FUNDDA
+Banco: BINANCE, Moneda: USDT, Tasa(T289): 1 ",-26.1,-26.1,614.21,10.09
