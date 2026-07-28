@@ -25196,8 +25196,8 @@ Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 1.01 ",60000,-59405.94,104736.84,-4
 8685,COMPLETADO,4f2fa20a8feb1837996182da1e7fe5010d19e1f0e515f5e4519832f47410ea16,iMcxlyo,28-jul,1785237510,T288,USDT,BINANCE,ELIS,16.22,ELIS,FUNDDA,A,,ABONO,https://link.jairokov.com/i/iMcxlyo,554191581015@s.whatsapp.net,573248071414@s.whatsapp.net,,,1,1,"[A-iMcxlyo] Monto: 16.22, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T288): 1 ","[A-iMcxlyo] Monto: 16.22, Titular: ELIS
 Banco: BINANCE, Moneda: USDT, Tasa(T288): 1 ",16.22,16.22,0.94,384.7
-8686,COMPLETADO,7de397dc4ad8d4076ac6226b36ec11e77a0bb526b515e6d730f03c12f1d9a2d3,tQPJr7l,27-jul,1785199783,T288,COP,BANCOLOMBIA,MARIA,32600,MERLI,IRIS,D,,DEPOSITO,https://link.jairokov.com/i/tQPJr7l,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,977,-1.01,"[D-tQPJr7l] Monto: 32600, Titular: MARIA
-Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 977 ","[D-tQPJr7l] Monto: 32600, Titular: MARIA
-Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 1.01 ",33.36,-32277.22,652.39,-380098.91
+8686,COMPLETADO,7de397dc4ad8d4076ac6226b36ec11e77a0bb526b515e6d730f03c12f1d9a2d3,tQPJr7l,27-jul,1785199783,T288,COP,BANCOLOMBIA,MARIA,32600,IRIS,MERLI,P,,PAGO,https://link.jairokov.com/i/tQPJr7l,573248071414@s.whatsapp.net,573248071414@s.whatsapp.net,,,0.99,-903,"[P-tQPJr7l] Monto: 32600, Titular: MARIA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 0.99 ","[P-tQPJr7l] Monto: 32600, Titular: MARIA
+Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 903 ",32929.29,-36.1,-374298.34,582.93
 8687,PENDIENTE,53c9e56dfd82fe858ff3c6fb9a2b3973b7df3e0a48faf8c9aaf54a6b0caa4905,jRRWlvn,31-dic,,,COP,BANCOLOMBIA,YAIR MATIAS,50000,MERLI,,,,,https://link.jairokov.com/i/jRRWlvn,573248071414@s.whatsapp.net,,,,,,,,,,,
 8688,PENDIENTE,f170cc09df6727d5d0d5c955c09214310c7a1f5637b0acb56ffb097e58c0d6f2,VfGylly,31-dic,,,COP,NEQUI,IRISMAR PRIETRO,70000,IRIS,,,,,https://link.jairokov.com/i/VfGylly,573248071414@s.whatsapp.net,,,,,,,,,,,
