@@ -25200,7 +25200,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T288): 1 ",16.22,16.22,0.94,384.7
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 0.99 ","[P-tQPJr7l] Monto: 32600, Titular: MARIA
 Banco: BANCOLOMBIA, Moneda: COP, Tasa(T288): 903 ",32929.29,-36.1,-374298.34,582.93
 8687,PENDIENTE,53c9e56dfd82fe858ff3c6fb9a2b3973b7df3e0a48faf8c9aaf54a6b0caa4905,jRRWlvn,31-dic,,,COP,BANCOLOMBIA,YAIR MATIAS,50000,MERLI,,,,,https://link.jairokov.com/i/jRRWlvn,573248071414@s.whatsapp.net,,,,,,,,,,,
-8688,VALIDAR,f170cc09df6727d5d0d5c955c09214310c7a1f5637b0acb56ffb097e58c0d6f2,VfGylly,30-jul,1785419009,T292,COP,NEQUI,IRISMAR PRIETRO,70000,IRIS,FUNDDA,,,,https://link.jairokov.com/i/VfGylly,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8688,COMPLETADO,f170cc09df6727d5d0d5c955c09214310c7a1f5637b0acb56ffb097e58c0d6f2,VfGylly,27-jul,1785169880,T288,COP,NEQUI,DAMARIS,70000,IRIS,YAIR,P,,PAGO,https://link.jairokov.com/i/VfGylly,573248071414@s.whatsapp.net,5491127574905@s.whatsapp.net,,,0.99,1,"[P-VfGylly] Monto: 70000, Titular: DAMARIS
+Banco: NEQUI, Moneda: COP, Tasa(T288): 0.99 ","[P-VfGylly] Monto: 70000, Titular: DAMARIS
+Banco: NEQUI, Moneda: COP, Tasa(T288): 1 ",70707.07,70000,-303591.27,174736.84
 8689,COMPLETADO,68fd2fbb426fcb04ddbd4acc7ba11b394cd14d95646108670034a2b9d30e3669,oTyIlk2,28-jul,1785245854,T289,VES,BANESCO,28115465,7140,NELSY,YAIR,P,,PAGO,https://link.jairokov.com/i/oTyIlk2,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,822,0.262,"[P-oTyIlk2] Monto: 7140, Titular: 28115465
 Banco: BANESCO, Moneda: VES, Tasa(T289): 822 ","[P-oTyIlk2] Monto: 7140, Titular: 28115465
 Banco: BANESCO, Moneda: VES, Tasa(T289): 0.262 ",8.68,27251.9,592.56,131988.74
