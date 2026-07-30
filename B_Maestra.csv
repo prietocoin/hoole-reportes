@@ -25356,7 +25356,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T291): 3.357 ",14.21,-14.56,-94.53,-614.92
 8745,COMPLETADO,647bb4d45caf58c520685ce82037004a3d3baf147d70c6533a04dc5b3e117d8b,nPjyvpV,29-jul,1785362903,T291,ARS,NARANJA,RICARDO,44600,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/nPjyvpV,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1560,-1531,"[P-nPjyvpV] Monto: 44600, Titular: RICARDO
 Banco: NARANJA, Moneda: ARS, Tasa(T291): 1560 ","[P-nPjyvpV] Monto: 44600, Titular: RICARDO
 Banco: NARANJA, Moneda: ARS, Tasa(T291): 1531 ",28.58,-29.13,28.58,-66.38
-8746,VALIDAR,6af5e6eaf61ab417d6d0778215fa0e0459e58fb2cabdb4f05ac596ba182d6ab7,pmxQ2Bq,29-jul,1785363873,T291,BRL,PICPAY,JHONNY ALBERTO RIVERA AMARISTA,250,OMAR,ALEJANDRA,,,,https://link.jairokov.com/i/pmxQ2Bq,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8746,COMPLETADO,6af5e6eaf61ab417d6d0778215fa0e0459e58fb2cabdb4f05ac596ba182d6ab7,pmxQ2Bq,29-jul,1785363873,T291,BRL,PIX,JHONNY,250,OMAR,ALEJANDRA,P,,PAGO,https://link.jairokov.com/i/pmxQ2Bq,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,4.961,-1.375,"[P-pmxQ2Bq] Monto: 250, Titular: JHONNY
+Banco: PIX, Moneda: BRL, Tasa(T291): 4.961 ","[P-pmxQ2Bq] Monto: 250, Titular: JHONNY
+Banco: PIX, Moneda: BRL, Tasa(T291): 1.375 ",50.39,-181.81,104.53,-295.98
 8747,VALIDAR,b2cdd97fb8a1bd825f2ae3be72ba51f46e93fed2afb782e215a89338a017e3f3,GoNrtFL,29-jul,1785365170,T291,USD,BINANCE,FUNDABLOCK,29.13,SUBERO,SUBERO,,,,https://link.jairokov.com/i/GoNrtFL,34627629613@s.whatsapp.net,34627629613@s.whatsapp.net,,,,,,,,,,
 8748,COMPLETADO,50538c878e20dd70703e50a58847ffdf0fd10dcd224495b0bb352a4af6167c3f,j2XX79l,29-jul,1785367489,T291,USDT,BINANCE,FUNDDA,-50.39,FUNDDA,OMAR,A,,ABONO,https://link.jairokov.com/i/j2XX79l,595991712966@s.whatsapp.net,595991712966@s.whatsapp.net,,,1,1,"[A-j2XX79l] Monto: -50.39, Titular: FUNDDA
 Banco: BINANCE, Moneda: USDT, Tasa(T291): 1 ","[A-j2XX79l] Monto: -50.39, Titular: FUNDDA
