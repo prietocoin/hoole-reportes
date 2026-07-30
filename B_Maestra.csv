@@ -25373,4 +25373,6 @@ Banco: LEMON, Moneda: ARS, Tasa(T291): 1531 ",28.46,-29,57.04,245.14
 8752,COMPLETADO,7cd556e65a067b8c21272f672e8460b9037eb08684aee27a547b017ddb66564f,tBjrQIv,29-jul,1785375033,T291,ARS,MERCADO PAGO,MARYURI,26000,MAURO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/tBjrQIv,51920740949@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1658,-1623,"[D-tBjrQIv] Monto: 26000, Titular: MARYURI
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T291): 1658 ","[D-tBjrQIv] Monto: 26000, Titular: MARYURI
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T291): 1623 ",15.68,-16.01,287.34,-16.01
-8753,COMPLETADO,3c778332ee7b84554bd6d8351524d4ba163fbfcba2c8c218a0cf21597628d5af,ekZoiet,29-jul,1785334099,T290,USDT,BINANCE,OMAR,8.25,OMAR,FUNDDA,,,,https://link.jairokov.com/i/ekZoiet,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,,,,,,,,
+8753,COMPLETADO,3c778332ee7b84554bd6d8351524d4ba163fbfcba2c8c218a0cf21597628d5af,ekZoiet,29-jul,1785334099,T290,USDT,BINANCE,OMAR,8.25,OMAR,FUNDDA,A,,ABONO,https://link.jairokov.com/i/ekZoiet,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-ekZoiet] Monto: 8.25, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T290): 1 ","[A-ekZoiet] Monto: 8.25, Titular: OMAR
+Banco: BINANCE, Moneda: USDT, Tasa(T290): 1 ",8.25,8.25,-35.8,96.04
