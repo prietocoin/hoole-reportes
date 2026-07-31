@@ -25392,9 +25392,9 @@ Banco: INTERBANK, Moneda: PEN, Tasa(T291): 1 ",26.36,-90.68,122.4,-386.66
 Banco: BINANCE, Moneda: USDT, Tasa(T292): 1 ","[A-lKrgULL] Monto: 15.68, Titular: PAGUEASOLANO
 Banco: BINANCE, Moneda: USDT, Tasa(T292): 1 ",15.68,15.68,-0.33,2325.63
 8757,PENDIENTE,1bb98251fe5bd6defcf384e50994a4207d31dea705affcc98f25591e40d05fdd,6zBRMw6,31-dic,,,PEN,INTERBANK,MARUJA VALVERDE,500,FUNDDA,,,,,https://link.jairokov.com/i/6zBRMw6,5491177171331@s.whatsapp.net,,,,,,,,,,,
-8758,COMPLETADO,dc232457504c0b35dcaa5fdbc4673e510aac9247dd3fa09d11bf584ca9008434,QctU0KF,30-jul,1785422559,T292,PEN,YAPE,MARUJA VALVERDE,100,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/QctU0KF,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.42,-3.337,"[P-QctU0KF] Monto: 100, Titular: MARUJA VALVERDE
-Banco: YAPE, Moneda: PEN, Tasa(T292): 3.42 ","[P-QctU0KF] Monto: 100, Titular: MARUJA VALVERDE
-Banco: YAPE, Moneda: PEN, Tasa(T292): 3.337 ",29.23,-29.96,29.23,253.93
+8758,COMPLETADO,dc232457504c0b35dcaa5fdbc4673e510aac9247dd3fa09d11bf584ca9008434,QctU0KF,30-jul,1785422559,T292,PEN,YAPE,MARUJA,600,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/QctU0KF,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.42,-3.337,"[P-QctU0KF] Monto: 600, Titular: MARUJA
+Banco: YAPE, Moneda: PEN, Tasa(T292): 3.42 ","[P-QctU0KF] Monto: 600, Titular: MARUJA
+Banco: YAPE, Moneda: PEN, Tasa(T292): 3.337 ",175.43,-179.8,175.43,104.09
 8759,COMPLETADO,949c719b9205449e99ecc1d6fee67d8ec56a8bddef17671f8bf0130ddbbce120,zeTBiUz,30-jul,1785422604,T292,PEN,YAPE,ERICK ZAMBRANO,123,FUNDDA,ELIS,P,,PAGO,https://link.jairokov.com/i/zeTBiUz,5491177171331@s.whatsapp.net,5491177171331@s.whatsapp.net,,,3.42,-3.337,"[P-zeTBiUz] Monto: 123, Titular: ERICK ZAMBRANO
 Banco: YAPE, Moneda: PEN, Tasa(T292): 3.42 ","[P-zeTBiUz] Monto: 123, Titular: ERICK ZAMBRANO
 Banco: YAPE, Moneda: PEN, Tasa(T292): 3.337 ",35.96,-36.85,65.19,217.08
