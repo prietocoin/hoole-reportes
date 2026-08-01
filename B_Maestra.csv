@@ -25586,9 +25586,9 @@ Banco: BINANCE, Moneda: USDT, Tasa(T296): 1 ",-495.04,-495.04,231.61,-495.04
 8827,COMPLETADO,17c661e69d514ac4f34e51b80251b497fc2c3e7e4cfa7b4b236844f8da1510ce,5DxA5mL,31-jul,1785549474,T296,BRL,PIX,ANGELA,140,OMAR,ENZO,P,,PAGO,https://link.jairokov.com/i/5DxA5mL,5491127574905@s.whatsapp.net,5491177171331@s.whatsapp.net,,,4.941,1.497,"[P-5DxA5mL] Monto: 140, Titular: ANGELA
 Banco: PIX, Moneda: BRL, Tasa(T296): 4.941 ","[P-5DxA5mL] Monto: 140, Titular: ANGELA
 Banco: PIX, Moneda: BRL, Tasa(T296): 1.497 ",28.33,93.52,-466.71,171.19
-8828,COMPLETADO,1b208ba2099a01515d4b28b10a1ece5f49e5cc080e0b3ec1d0b04ace84ceab90,6qPdk7O,31-jul,1785549845,T296,USDT,BINANCE,SOLANO,-33.22,SOLANO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/6qPdk7O,51920740949@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[D-6qPdk7O] Monto: 33.22, Titular: SOLANO
-Banco: BINANCE, Moneda: USDT, Tasa(T296): 1 ","[D-6qPdk7O] Monto: 33.22, Titular: SOLANO
-Banco: BINANCE, Moneda: USDT, Tasa(T296): 1 ",33.22,33.22,2390.79,65.83
+8828,COMPLETADO,1b208ba2099a01515d4b28b10a1ece5f49e5cc080e0b3ec1d0b04ace84ceab90,6qPdk7O,31-jul,1785549845,T296,USDT,BINANCE,SOLANO,-33.22,SOLANO,NELSY,D,,DEPOSITO,https://link.jairokov.com/i/6qPdk7O,51920740949@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[D-6qPdk7O] Monto: -33.22, Titular: SOLANO
+Banco: BINANCE, Moneda: USDT, Tasa(T296): 1 ","[D-6qPdk7O] Monto: -33.22, Titular: SOLANO
+Banco: BINANCE, Moneda: USDT, Tasa(T296): 1 ",-33.22,-33.22,2324.35,-0.61
 8829,COMPLETADO,b92f7f08401686805dcc2e72abb66ba88e416ddb7e96f4e0e0be5504c294ae1a,HUCjx5r,31-jul,1785551871,T296,ARS,MERCADO PAGO,AYDA,65000,NELSY,ZAMBRANO,P,,PAGO,https://link.jairokov.com/i/HUCjx5r,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1533,1565,"[P-HUCjx5r] Monto: 65000, Titular: AYDA
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T296): 1533 ","[P-HUCjx5r] Monto: 65000, Titular: AYDA
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T296): 1565 ",42.4,41.53,108.23,509.35
