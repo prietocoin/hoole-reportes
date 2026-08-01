@@ -25646,7 +25646,9 @@ Banco: NEQUI, Moneda: COP, Tasa(T297): 3074 ",32.23,-32.53,32.23,562.93
 8845,COMPLETADO,453954ac2634e3ad46c13d7a15798a187ceff494b5196cd3f2837017725a0f66,gpJL9jL,1-ago,1785599701,T297,MXN,BANORTE,OMAR,3500,CHASAN,MAURO,P,,PAGO,https://link.jairokov.com/i/gpJL9jL,5215647886474@s.whatsapp.net,5491127574905@s.whatsapp.net,,,16.92,-16.45,"[P-gpJL9jL] Monto: 3500, Titular: OMAR
 Banco: BANORTE, Moneda: MXN, Tasa(T297): 16.92 ","[P-gpJL9jL] Monto: 3500, Titular: OMAR
 Banco: BANORTE, Moneda: MXN, Tasa(T297): 16.45 ",206.85,-212.76,1316.16,74.58
-8846,PENDIENTE,00c45a7de3a209e986338a60bc01ab6ea0ad257b1c50b21303271cf12f07e01d,bh9gimW,31-dic,,,USD,FUNDABLOCK,PRIETOCOIN@GMAIL.COM,212.76,MAURO,,,,,https://link.jairokov.com/i/bh9gimW,51948230259@s.whatsapp.net,,,,,,,,,,,
+8846,COMPLETADO,00c45a7de3a209e986338a60bc01ab6ea0ad257b1c50b21303271cf12f07e01d,bh9gimW,1-ago,1785603152,T297,USDT,BINANCE,MAURO,212.76,MAURO,FUNDDA,A,,ABONO,https://link.jairokov.com/i/bh9gimW,51948230259@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1,1,"[A-bh9gimW] Monto: 212.76, Titular: MAURO
+Banco: BINANCE, Moneda: USDT, Tasa(T297): 1 ","[A-bh9gimW] Monto: 212.76, Titular: MAURO
+Banco: BINANCE, Moneda: USDT, Tasa(T297): 1 ",212.76,212.76,287.34,323.07
 8847,COMPLETADO,373097e5bc94748facc5e0bb20ac97ed91502e971bcbe9da0db9ed0a443da699,d5pdxvE,1-ago,1785601791,T297,ARS,MERCADO PAGO,RICARDO,202810,NELSY,SUBERO,P,,PAGO,https://link.jairokov.com/i/d5pdxvE,5491127574905@s.whatsapp.net,5491127574905@s.whatsapp.net,,,1545,-1517,"[P-d5pdxvE] Monto: 202810, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T297): 1545 ","[P-d5pdxvE] Monto: 202810, Titular: RICARDO
 Banco: MERCADO PAGO, Moneda: ARS, Tasa(T297): 1517 ",131.26,-133.69,64.18,-203.66
